@@ -21,6 +21,12 @@ class User
     /**
      * @Column(type="string",length=60,nullable=false)
      * @var string
+     *
+     */
+    protected $username;
+    /**
+     * @Column(type="string",length=60,nullable=false)
+     * @var string
      * 
      */
     protected $fname;
@@ -89,6 +95,17 @@ class User
         return $this->id;
     }
 
+    public function setUsername($text)
+    {
+        $this->username = (string) $text;
+        return $this;
+    }
+
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
     public function setFname($text)
     {
         $this->fname = (string) $text;
@@ -113,13 +130,13 @@ class User
 
     public function setEmail($email)
     {
-        $this->_email = (string) $email;
+        $this->email = (string) $email;
         return $this;
     }
 
     public function getEmail()
     {
-        return $this->_email;
+        return $this->email;
     }
 
 

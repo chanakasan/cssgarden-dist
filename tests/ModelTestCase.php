@@ -30,7 +30,6 @@ class ModelTestCase
 
     public function tearDown()
     {
-
         $this->doctrineContainer->getConnection()->close();
         $em = $this->doctrineContainer->getEntityManager();
         $tool = new \Doctrine\ORM\Tools\SchemaTool($em);

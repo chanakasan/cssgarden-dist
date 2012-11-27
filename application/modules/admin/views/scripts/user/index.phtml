@@ -6,18 +6,19 @@ $this->headTitle($this->title);
         'action'=>'add'));?>">Add new user</a></p>
 <table>
 <tr>
-    <th>Username</th>
-    <th>Privileges</th>
+    <th>User Name</th>
+    <th>First Name</th>
+    <th>Last Name</th>
     <th>Email</th>    
-    <th>Status</th>
+
     <th>&nbsp;</th>
 </tr>
 <?php foreach($this->users as $user) : ?>
 <tr>
     <td><?php echo $this->escape($user->username);?></td>
-    <td><?php echo $this->escape($user->role);?></td>
+    <td><?php echo $this->escape($user->fname);?></td>
+    <td><?php echo $this->escape($user->lname);?></td>
     <td><?php echo $this->escape($user->email);?></td>    
-    <td><?php echo $this->escape($user->active);?></td>
     <td>
         <a href="<?php echo $this->url(array('controller'=>'user',
             'action'=>'edit', 'id'=>$user->id));?>">Change</a>
