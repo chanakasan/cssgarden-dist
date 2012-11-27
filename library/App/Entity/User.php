@@ -2,10 +2,10 @@
 
 namespace App\Entity;
 /**
- * 
+ *
  * @Table(name="users")
  * @Entity
- * @author jon
+ * @author CS
  */
 class User
 {
@@ -16,28 +16,112 @@ class User
      * @Id
      * @GeneratedValue(strategy="IDENTITY")
      */
-    private $id;
+    protected $id;
 
     /**
-     * @Column(type="string",length=60,nullable=true)
+     * @Column(type="string",length=60,nullable=false)
      * @var string
+     * 
      */
-    private $firstname;
-    
-    /**
-     * @Column(type="string",length=60,nullable=true)
-     * @var string
-     */
-    private $lastname;
+    protected $fname;
 
-    public function __get($property)
+    /**
+     * @Column(type="string",length=60,nullable=false)
+     * @var string
+     */
+    protected $lname;
+
+    /**
+     * @Column(type="string",length=60,nullable=false)
+     * @var string
+     */
+    protected $email;
+
+    public function  __construct(array $options = null)
     {
-        return $this->$property;
+        if(is_array($options)) {
+            $this->setOptions($oprions);
+        }
     }
-    public function __set($property,$value)
+
+    private function setOptions(array $options)
     {
-        $this->$property = $value;
+        $methods = get_class_methods($this);
+        foreach($options as $key => $val)
+        {
+            $method = 'set'.ucfirst($key);
+            if(in_array($method, $methods))
+            {
+                $this->$method($val);
+            }
+        }
+        return $this;
     }
+
+    public function  __set($name,  $value)
+    {
+        $method = 'set'.$name;
+        if('mapper' == $name || !method_exists($this, $method))
+        {
+            throw new Exception('Invalid '. get_class($this) .' property.');
+        }
+        return $this->$method($value);
+    }
+
+    public function  __get($name)
+    {
+        $method = 'get'.$name;
+        if('mapper' == $name || !method_exists($this, $method))
+        {
+            throw new Exception('Invalid '. get_class($this) .' property.');
+        }
+        return $this->$method();
+    }
+
+    public function setId($id)
+    {
+        $this->id = (int) $id;
+        return $this;
+    }
+
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function setFname($text)
+    {
+        $this->fname = (string) $text;
+        return $this;
+    }
+
+    public function getFname()
+    {
+        return $this->fname;
+    }
+
+    public function setLname($text)
+    {
+        $this->lname = (string) $text;
+        return $this;
+    }
+
+    public function getLname()
+    {
+        return $this->lname;
+    }
+
+    public function setEmail($email)
+    {
+        $this->_email = (string) $email;
+        return $this;
+    }
+
+    public function getEmail()
+    {
+        return $this->_email;
+    }
+
 
 }
 

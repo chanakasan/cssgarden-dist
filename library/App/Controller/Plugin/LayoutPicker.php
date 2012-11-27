@@ -16,10 +16,6 @@ class App_Controller_Plugin_LayoutPicker
         {
             if('auth' == $controllerName)
                 Zend_Layout::getMvcInstance()->setLayout('login');
-            else if('test' == $controllerName)
-                Zend_Layout::getMvcInstance()->setLayout('test');
-            else if('error' == $controllerName)
-                Zend_Layout::getMvcInstance()->setLayout('error');
             else
                 Zend_Layout::getMvcInstance()->setLayout($request->getModuleName());
 

@@ -13,12 +13,12 @@ class App_Controller_Plugin_Auth
     {
 	if ($request->getModuleName() != 'admin')
 	    return;            
-
+/*
 	if (Model_Users::isLoggedIn() && Model_Users::isAdmin()) {
             //user is logged in and allowed to access admin functions
             return;
         }
-        
+*/
         if ($request->getControllerName() != 'auth')
         {
             $request->setModuleName('admin')

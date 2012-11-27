@@ -1,0 +1,46 @@
+ <?php
+$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+$this->headTitle()->setSeparator(' - ');
+$this->headTitle('DCR website');
+echo $this->doctype(); 
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <?php echo $this->headMeta(); ?>
+    <?php echo $this->headTitle(); ?>
+
+    <?php $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/main.css'); ?>
+    <?php $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/login.css'); ?>
+        
+    <?php echo $this->headLink(); ?>
+</head>
+    <body class="login">               
+        <!-- Container -->
+        <div id="container">
+
+            <!-- Header -->
+            <div id="header">
+                <div id="branding">
+                    <h1 id="site-name">Administrator Login</h1>
+                </div>
+            </div>
+            <!-- END Header -->
+
+            <!-- Content -->
+            <div id="content" class="colM">
+                <div id="content-main">
+                    <?php echo $this->layout()->content; ?>    
+
+                    <script type="text/javascript">
+                        document.getElementById('id_username').focus()
+                        </script>
+                </div>
+                <br class="clear" />
+            </div>
+            <!-- END Content -->
+            <div id="footer"></div>
+        </div>
+        <!-- END Container -->       
+    </body>
+</html>
+

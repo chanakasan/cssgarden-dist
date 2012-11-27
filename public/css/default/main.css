@@ -1,0 +1,73 @@
+body{background:#eee url(/images/back.jpg);background-repeat:repeat-x;}
+
+/* site navigation */
+.topnav
+{
+	
+	left:60%;
+	display: inline;
+	position:relative;
+	padding:0px 10px ;
+}
+
+.topnav ul , .topnav ul li
+{	
+	display: inline;
+	list-style:none;
+}
+.topnav ul.navigation li ul li
+{
+	margin: 0 0;
+	padding: 0 0;
+}		
+.topnav ul li a
+{		
+	color: #00E;
+	text-decoration: none;
+	border-width: 1px 1px 0px 1px;
+	border-color: #000;
+	border-style: solid;
+	padding: 0px 8px;
+}
+.topnav ul li a:hover
+{
+	background: #CCC;
+}
+/* Banner */
+div#banner
+{
+	background:url(/images/banner.jpg);
+	background-repeat:no-repeat;
+	border: solid 1px #999;
+	margin: 0 0 0 10%;	
+	position: relative;
+	width: 370px;
+	height: 125px;	
+}
+/* page container */
+div.container
+{
+	background: url(/images/ctback.jpg);
+	background-repeat:repeat-x;
+	background-position: 50% 0%;
+	position: relative; 
+	height: 700px; width: 1000px;	
+	border: solid 1px #999;	
+	padding: 0 0;
+}
+/* Back navigation buttons */
+a.navi_btn
+{	
+	padding: 0.4em 0.6em;
+	border: solid 1px #666;
+	text-decoration:none;		
+}
+/* Table for List of Sections */
+#sectionList tr a {text-decoration:none;}
+/* Forms */
+label { display: block; float: left; clear:none; text-align: left;
+margin: 0.6em 5px 0 0; width: 50%; }
+input, select, textarea { margin: 1em 0 0 0; width: 57%; }
+input { border: 1px solid #666; }
+input[type=radio], input[type=checkbox], input[type=submit],
+input[type=reset], input[type=button], input[type=image] { width: auto; }

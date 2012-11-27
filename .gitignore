@@ -3,3 +3,5 @@ nbproject/
 library/Doctrine/
 library/Bisna/
 library/Symfony/
+tests/log/
+tests/data/
