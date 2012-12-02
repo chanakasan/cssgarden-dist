@@ -40,6 +40,22 @@ class Form_Login extends Zend_Form
                 array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
         ));
 
+        $password = new Zend_Form_Element_Password('password');
+        $password->setLabel('Password:')
+                 ->setRequired()
+                 ->setAttrib('size', '30')
+                 ->addFilter('StringTrim', 'StringToLower')
+                 ->addValidator('StringLength', false, array(4, 10));
+
+        $password->class = "text";
+        $password->setDecorators(array(
+                'ViewHelper',
+                'Description',
+                'Errors',
+                array('Label'),
+                array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
+        ));
+        
         $submit = new Zend_Form_Element_Submit('Login');
         $submit->class = "novisible1";
         $submit->setDecorators(array(

@@ -1,8 +1,8 @@
 <?php
 
-class Admin_AuthController extends Zend_Controller_Action
+class AuthController extends Zend_Controller_Action
 {
-    protected $_username = 'testadmin';
+    protected $_username = 'testuser';
     protected $_password = 'dcrpass123';
 
     public function indexAction()

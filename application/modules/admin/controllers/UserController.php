@@ -26,13 +26,64 @@ class Admin_UserController extends Zend_Controller_Action
 
     public function addAction()
     {
+        $form = new Form_User();
+        $form->submit->setLabel('Add');
+        $this->view->form = $form;
 
+        if($this->getRequest()->isPost())
+        {
+            $formData = $this->getRequest()->getPost();
+            if($form->isValid($formData))
+            {
+                $u = new \App\Entity\User();
+                $u->username = $formData['username'];
+                $u->fname = $formData['firstname'];
+                $u->lname = $formData['lastname'];
+                $u->email = $formData['email'];
+
+                $em = $this->_doctrineContainer->getEntityManager();
+                $em->persist($u);
+                $em->flush();
+                
+                $this->_helper->redirector('index');
+            }
+            else $form->populate($formData);
+        }
     }
 
 
     public function editAction()
     {
+        $form = new Form_User();
+        $form->submit->setLabel('Save');
+        $this->view->form = $form;
 
+        if($this->getRequest()->isPost())
+        {
+            $formData = $this->getRequest()->getPost();
+            if($form->isValid($formData))
+            {
+                $u = new \App\Entity\User();
+                $u->username = $formData['username'];
+                $u->fname = $formData['firstname'];
+                $u->lname = $formData['lastname'];
+                $u->email = $formData['email'];
+
+                $em = $this->_doctrineContainer->getEntityManager();
+                $em->persist($u);
+                $em->flush();
+
+                $this->_helper->redirector('index');
+            }
+            else $form->populate($formData);
+        }
+        else {
+            $id = $this->_getParam('id',0);
+            if($id > 0)
+            {
+             
+            }
+        }
     }
 
 

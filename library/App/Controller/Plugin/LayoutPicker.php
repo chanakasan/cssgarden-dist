@@ -11,11 +11,13 @@ class App_Controller_Plugin_LayoutPicker
     {
         $moduleName = $request->getModuleName();
         $controllerName = $request->getControllerName();
-
+        $actionName = $request->getActionName();
         if ('default' == $moduleName)
         {
             if('auth' == $controllerName)
                 Zend_Layout::getMvcInstance()->setLayout('login');
+            elseif('entry' == $controllerName && 'index' != $actionName)
+                Zend_Layout::getMvcInstance()->setLayout($controllerName.'-'.'form');
             else
                 Zend_Layout::getMvcInstance()->setLayout($request->getModuleName());
 
@@ -23,6 +25,8 @@ class App_Controller_Plugin_LayoutPicker
         else {
             if('auth' == $controllerName)
                 Zend_Layout::getMvcInstance()->setLayout($moduleName.'-'.'login');
+            elseif('user' == $controllerName && 'index' != $actionName)
+                Zend_Layout::getMvcInstance()->setLayout($controllerName.'-'.'form');            
             else
                 Zend_Layout::getMvcInstance()->setLayout($request->getModuleName());
         }

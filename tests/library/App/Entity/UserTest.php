@@ -9,12 +9,13 @@ namespace App\Entity;
 class UserTest
     extends \ModelTestCase
 {
+    
     public function testCanCreateUser()
     {
         $this->assertInstanceOf('App\Entity\User',new User());
     }
 
-    public function testCanSaveFirstAndLastNameAndRetrieveThem()
+    public function testCanSaveUserData()
     {
         $u = new User();        
         $u->username = "testuser1";
@@ -39,10 +40,7 @@ class UserTest
         $this->assertEquals('testuser1',$users[0]->username);
         $this->assertEquals('John',$users[0]->fname);
         $this->assertEquals('Smith',$users[0]->lname);
-        $this->assertEquals("noemail@test.com", $users[0]->email);
-
-        var_dump($users);
+        $this->assertEquals("noemail@test.com", $users[0]->email);        
     }
-
 }
 

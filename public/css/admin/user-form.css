@@ -1,0 +1,62 @@
+/* ADMIN myform FORM */
+
+body.myform {
+    background: #eee;
+}
+
+.myform #container {
+    background: white;
+    border: 1px solid #ccc;
+    width: 28em;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.myform #content-main {
+    width: 100%;
+}
+
+.myform form {
+    margin-top: 1em;
+}
+
+.myform .form-row {
+    padding: 4px 0;
+    float: left;
+    width: 100%;
+}
+
+.myform .form-row label {
+    float: left;
+    width: 9em;
+    padding-right: 0.5em;
+    line-height: 2em;
+    text-align: right;
+    font-size: 1em;
+    color: #333;
+}
+
+.myform .form-row #firstname,
+.myform .form-row #lastname,
+.myform .form-row #username,
+.myform .form-row #password,
+.myform .form-row #email,
+.myform .form-row #mobile {
+    width: 14em;
+}
+
+.myform span.help {
+    font-size: 10px;
+    display: block;
+}
+
+.myform .submit-row {
+    clear: both;
+    padding: 1em 0 0 9.4em;
+}
+
+.myform .password-reset-link {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+    <nav>
+    	<home>
+	   <label>Dashboard</label>
+	   <uri>/admin</uri>
+        </home>
+        <users>
+	   <label>Manage Users</label>
+	   <uri>/admin/users</uri>             
+    	</users>    		
+   </nav>
+</configdata>
