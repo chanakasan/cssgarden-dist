@@ -1,0 +1,8160 @@
+%YAML 1.1
+---
+# dog_lovers.city
+-
+  cid: 1
+  did: 1
+  cname: "Akarawita"
+-
+  cid: 2
+  did: 1
+  cname: "Akuregoda"
+-
+  cid: 3
+  did: 1
+  cname: "Angoda"
+-
+  cid: 4
+  did: 1
+  cname: "Athurugiriya"
+-
+  cid: 5
+  did: 1
+  cname: "Avissawella"
+-
+  cid: 6
+  did: 1
+  cname: "Batawala"
+-
+  cid: 7
+  did: 1
+  cname: "Battaramulla"
+-
+  cid: 8
+  did: 1
+  cname: "Batugampola"
+-
+  cid: 9
+  did: 1
+  cname: "Bellanwila"
+-
+  cid: 10
+  did: 1
+  cname: "Bope"
+-
+  cid: 11
+  did: 1
+  cname: "Boralesgamuwa"
+-
+  cid: 12
+  did: 1
+  cname: "Colombo 1"
+-
+  cid: 13
+  did: 1
+  cname: "Colombo 10"
+-
+  cid: 14
+  did: 1
+  cname: "Colombo 11"
+-
+  cid: 15
+  did: 1
+  cname: "Colombo 12"
+-
+  cid: 16
+  did: 1
+  cname: "Colombo 13"
+-
+  cid: 17
+  did: 1
+  cname: "Colombo 14"
+-
+  cid: 18
+  did: 1
+  cname: "Colombo 15"
+-
+  cid: 19
+  did: 1
+  cname: "Colombo 2"
+-
+  cid: 20
+  did: 1
+  cname: "Colombo 3"
+-
+  cid: 21
+  did: 1
+  cname: "Colombo 4"
+-
+  cid: 22
+  did: 1
+  cname: "Colombo 5"
+-
+  cid: 23
+  did: 1
+  cname: "Colombo 6"
+-
+  cid: 24
+  did: 1
+  cname: "Colombo 7"
+-
+  cid: 25
+  did: 1
+  cname: "Colombo 8"
+-
+  cid: 26
+  did: 1
+  cname: "Colombo 9"
+-
+  cid: 27
+  did: 1
+  cname: "Dedigamuwa"
+-
+  cid: 28
+  did: 1
+  cname: "Dehiwala"
+-
+  cid: 29
+  did: 1
+  cname: "Deltara"
+-
+  cid: 30
+  did: 1
+  cname: "Ethul Kotte"
+-
+  cid: 31
+  did: 1
+  cname: "Godagama"
+-
+  cid: 32
+  did: 1
+  cname: "Gothatuwa"
+-
+  cid: 33
+  did: 1
+  cname: "Habarakada"
+-
+  cid: 34
+  did: 1
+  cname: "Handapangoda"
+-
+  cid: 35
+  did: 1
+  cname: "Hanwella"
+-
+  cid: 36
+  did: 1
+  cname: "Hewainna"
+-
+  cid: 37
+  did: 1
+  cname: "Hiripitya"
+-
+  cid: 38
+  did: 1
+  cname: "Hokandara"
+-
+  cid: 39
+  did: 1
+  cname: "Homagama"
+-
+  cid: 40
+  did: 1
+  cname: "Horagala"
+-
+  cid: 41
+  did: 1
+  cname: "Ingiriya"
+-
+  cid: 42
+  did: 1
+  cname: "Kaduwela"
+-
+  cid: 43
+  did: 1
+  cname: "Kahathuduwa"
+-
+  cid: 44
+  did: 1
+  cname: "Kahawala"
+-
+  cid: 45
+  did: 1
+  cname: "Kalatuwawa"
+-
+  cid: 46
+  did: 1
+  cname: "Kaluaggala"
+-
+  cid: 47
+  did: 1
+  cname: "Kalubowila"
+-
+  cid: 48
+  did: 1
+  cname: "Kesbewa"
+-
+  cid: 49
+  did: 1
+  cname: "Kiriwattuduwa"
+-
+  cid: 50
+  did: 1
+  cname: "Kohuwala"
+-
+  cid: 51
+  did: 1
+  cname: "Kolonnawa"
+-
+  cid: 52
+  did: 1
+  cname: "Kosgama"
+-
+  cid: 53
+  did: 1
+  cname: "Kotikawatta"
+-
+  cid: 54
+  did: 1
+  cname: "Kottawa"
+-
+  cid: 55
+  did: 1
+  cname: "Kotte"
+-
+  cid: 56
+  did: 1
+  cname: "Madapatha"
+-
+  cid: 57
+  did: 1
+  cname: "Madiwela"
+-
+  cid: 58
+  did: 1
+  cname: "Maharagama"
+-
+  cid: 59
+  did: 1
+  cname: "Malabe"
+-
+  cid: 60
+  did: 1
+  cname: "Mattegoda"
+-
+  cid: 61
+  did: 1
+  cname: "Meegoda"
+-
+  cid: 62
+  did: 1
+  cname: "Meepe"
+-
+  cid: 63
+  did: 1
+  cname: "Moragahahena"
+-
+  cid: 64
+  did: 1
+  cname: "Moratuwa"
+-
+  cid: 65
+  did: 1
+  cname: "Mount Lavinia"
+-
+  cid: 66
+  did: 1
+  cname: "Mullegama"
+-
+  cid: 67
+  did: 1
+  cname: "Mulleriyawa New Town"
+-
+  cid: 68
+  did: 1
+  cname: "Napawela"
+-
+  cid: 69
+  did: 1
+  cname: "Navagamuwa"
+-
+  cid: 70
+  did: 1
+  cname: "Nawala"
+-
+  cid: 71
+  did: 1
+  cname: "Nugegoda"
+-
+  cid: 72
+  did: 1
+  cname: "Padukka"
+-
+  cid: 73
+  did: 1
+  cname: "Pannipitiya"
+-
+  cid: 74
+  did: 1
+  cname: "Pelawatta"
+-
+  cid: 75
+  did: 1
+  cname: "Peliyagoda"
+-
+  cid: 76
+  did: 1
+  cname: "Pepiliyana"
+-
+  cid: 77
+  did: 1
+  cname: "Piliyandala"
+-
+  cid: 78
+  did: 1
+  cname: "Pita Kotte"
+-
+  cid: 79
+  did: 1
+  cname: "Pitipana Homagama"
+-
+  cid: 80
+  did: 1
+  cname: "Polgasowita"
+-
+  cid: 81
+  did: 1
+  cname: "Puwakpitiya"
+-
+  cid: 82
+  did: 1
+  cname: "Rajagiriya"
+-
+  cid: 83
+  did: 1
+  cname: "Ranala"
+-
+  cid: 84
+  did: 1
+  cname: "Ratmalana"
+-
+  cid: 85
+  did: 1
+  cname: "Siddamulla"
+-
+  cid: 86
+  did: 1
+  cname: "Sri Jayawardenepura Kotte"
+-
+  cid: 87
+  did: 1
+  cname: "Talawatugoda"
+-
+  cid: 88
+  did: 1
+  cname: "Thalapathpitiya"
+-
+  cid: 89
+  did: 1
+  cname: "Tummodara"
+-
+  cid: 90
+  did: 1
+  cname: "Waga"
+-
+  cid: 91
+  did: 1
+  cname: "Watareka"
+-
+  cid: 92
+  did: 1
+  cname: "Wellampitiya"
+-
+  cid: 93
+  did: 2
+  cname: "Akaragama"
+-
+  cid: 94
+  did: 2
+  cname: "Alawala"
+-
+  cid: 95
+  did: 2
+  cname: "Ambagaspitiya"
+-
+  cid: 96
+  did: 2
+  cname: "Ambepussa"
+-
+  cid: 97
+  did: 2
+  cname: "Andiambalama"
+-
+  cid: 98
+  did: 2
+  cname: "Attanagalla"
+-
+  cid: 99
+  did: 2
+  cname: "Badalgama"
+-
+  cid: 100
+  did: 2
+  cname: "Balabowa"
+-
+  cid: 101
+  did: 2
+  cname: "Banduragoda"
+-
+  cid: 102
+  did: 2
+  cname: "Batuwatta"
+-
+  cid: 103
+  did: 2
+  cname: "Bemmulla"
+-
+  cid: 104
+  did: 2
+  cname: "Biyagama"
+-
+  cid: 105
+  did: 2
+  cname: "Biyagama IPZ"
+-
+  cid: 106
+  did: 2
+  cname: "Bokalagama"
+-
+  cid: 107
+  did: 2
+  cname: "Bollete (WP)"
+-
+  cid: 108
+  did: 2
+  cname: "Bopagama"
+-
+  cid: 109
+  did: 2
+  cname: "Buthpitiya"
+-
+  cid: 110
+  did: 2
+  cname: "Dagonna"
+-
+  cid: 111
+  did: 2
+  cname: "Dalugama"
+-
+  cid: 112
+  did: 2
+  cname: "Danowita"
+-
+  cid: 113
+  did: 2
+  cname: "Debahera"
+-
+  cid: 114
+  did: 2
+  cname: "Dekatana"
+-
+  cid: 115
+  did: 2
+  cname: "Delgoda"
+-
+  cid: 116
+  did: 2
+  cname: "Delwagura"
+-
+  cid: 117
+  did: 2
+  cname: "Demalagama"
+-
+  cid: 118
+  did: 2
+  cname: "Demanhandiya"
+-
+  cid: 119
+  did: 2
+  cname: "Dewalapola"
+-
+  cid: 120
+  did: 2
+  cname: "Divulapitiya"
+-
+  cid: 121
+  did: 2
+  cname: "Divuldeniya"
+-
+  cid: 122
+  did: 2
+  cname: "Dompe"
+-
+  cid: 123
+  did: 2
+  cname: "Dunagaha"
+-
+  cid: 124
+  did: 2
+  cname: "Ekala"
+-
+  cid: 125
+  did: 2
+  cname: "Ellakkala"
+-
+  cid: 126
+  did: 2
+  cname: "Essella"
+-
+  cid: 127
+  did: 2
+  cname: "Gampaha"
+-
+  cid: 128
+  did: 2
+  cname: "Ganemulla"
+-
+  cid: 129
+  did: 2
+  cname: "GonawalaWP"
+-
+  cid: 130
+  did: 2
+  cname: "Heiyanthuduwa"
+-
+  cid: 131
+  did: 2
+  cname: "Hendala"
+-
+  cid: 132
+  did: 2
+  cname: "Henegama"
+-
+  cid: 133
+  did: 2
+  cname: "Hinatiyana Madawala"
+-
+  cid: 134
+  did: 2
+  cname: "Hiswella"
+-
+  cid: 135
+  did: 2
+  cname: "Horampella"
+-
+  cid: 136
+  did: 2
+  cname: "Hunumulla"
+-
+  cid: 137
+  did: 2
+  cname: "Ihala Madampella"
+-
+  cid: 138
+  did: 2
+  cname: "Imbulgoda"
+-
+  cid: 139
+  did: 2
+  cname: "Ja-Ela"
+-
+  cid: 140
+  did: 2
+  cname: "Kadawatha"
+-
+  cid: 141
+  did: 2
+  cname: "Kadirana"
+-
+  cid: 142
+  did: 2
+  cname: "Kahatowita"
+-
+  cid: 143
+  did: 2
+  cname: "Kalagedihena"
+-
+  cid: 144
+  did: 2
+  cname: "Kaleliya"
+-
+  cid: 145
+  did: 2
+  cname: "Kandana"
+-
+  cid: 146
+  did: 2
+  cname: "Kapugoda"
+-
+  cid: 147
+  did: 2
+  cname: "Katana"
+-
+  cid: 148
+  did: 2
+  cname: "Kattuwa"
+-
+  cid: 149
+  did: 2
+  cname: "Katunayake"
+-
+  cid: 150
+  did: 2
+  cname: "Katunayake Air Force Camp"
+-
+  cid: 151
+  did: 2
+  cname: "Katunayake(FTZ)"
+-
+  cid: 152
+  did: 2
+  cname: "Katuwellegama"
+-
+  cid: 153
+  did: 2
+  cname: "Kelaniya"
+-
+  cid: 154
+  did: 2
+  cname: "Kimbulapitiya"
+-
+  cid: 155
+  did: 2
+  cname: "Kiribathgoda"
+-
+  cid: 156
+  did: 2
+  cname: "Kirillawala"
+-
+  cid: 157
+  did: 2
+  cname: "Kirindiwela"
+-
+  cid: 158
+  did: 2
+  cname: "Kitalawalana"
+-
+  cid: 159
+  did: 2
+  cname: "Kitulwala"
+-
+  cid: 160
+  did: 2
+  cname: "Kochchikade"
+-
+  cid: 161
+  did: 2
+  cname: "Kotadeniyawa"
+-
+  cid: 162
+  did: 2
+  cname: "Kotugoda"
+-
+  cid: 163
+  did: 2
+  cname: "Kumbaloluwa"
+-
+  cid: 164
+  did: 2
+  cname: "Loluwagoda"
+-
+  cid: 165
+  did: 2
+  cname: "Lunugama"
+-
+  cid: 166
+  did: 2
+  cname: "Mabodale"
+-
+  cid: 167
+  did: 2
+  cname: "Madelgamuwa"
+-
+  cid: 168
+  did: 2
+  cname: "Mahabage"
+-
+  cid: 169
+  did: 2
+  cname: "Makewita"
+-
+  cid: 170
+  did: 2
+  cname: "Makola"
+-
+  cid: 171
+  did: 2
+  cname: "Malwana"
+-
+  cid: 172
+  did: 2
+  cname: "Mandawala"
+-
+  cid: 173
+  did: 2
+  cname: "Marandagahamula"
+-
+  cid: 174
+  did: 2
+  cname: "Mellawagedara"
+-
+  cid: 175
+  did: 2
+  cname: "Minuwangoda"
+-
+  cid: 176
+  did: 2
+  cname: "Mirigama"
+-
+  cid: 177
+  did: 2
+  cname: "Mithirigala"
+-
+  cid: 178
+  did: 2
+  cname: "Muddaragama"
+-
+  cid: 179
+  did: 2
+  cname: "Mudungoda"
+-
+  cid: 180
+  did: 2
+  cname: "Naranwala"
+-
+  cid: 181
+  did: 2
+  cname: "Nawana"
+-
+  cid: 182
+  did: 2
+  cname: "Nedungamuwa"
+-
+  cid: 183
+  did: 2
+  cname: "Negombo"
+-
+  cid: 184
+  did: 2
+  cname: "Nikahetikanda"
+-
+  cid: 185
+  did: 2
+  cname: "Nittambuwa"
+-
+  cid: 186
+  did: 2
+  cname: "Niwandama"
+-
+  cid: 187
+  did: 2
+  cname: "Pallewela"
+-
+  cid: 188
+  did: 2
+  cname: "Pamunugama"
+-
+  cid: 189
+  did: 2
+  cname: "Pamunuwatta"
+-
+  cid: 190
+  did: 2
+  cname: "Pasyala"
+-
+  cid: 191
+  did: 2
+  cname: "Peliyagoda"
+-
+  cid: 192
+  did: 2
+  cname: "Pepiliyawala"
+-
+  cid: 193
+  did: 2
+  cname: "Pethiyagoda"
+-
+  cid: 194
+  did: 2
+  cname: "Polpithimukulana"
+-
+  cid: 195
+  did: 2
+  cname: "Pugoda"
+-
+  cid: 196
+  did: 2
+  cname: "Radawadunna"
+-
+  cid: 197
+  did: 2
+  cname: "Radawana"
+-
+  cid: 198
+  did: 2
+  cname: "Raddolugama"
+-
+  cid: 199
+  did: 2
+  cname: "Ragama"
+-
+  cid: 200
+  did: 2
+  cname: "Ruggahawila"
+-
+  cid: 201
+  did: 2
+  cname: "Rukmale"
+-
+  cid: 202
+  did: 2
+  cname: "Seeduwa"
+-
+  cid: 203
+  did: 2
+  cname: "Siyambalape"
+-
+  cid: 204
+  did: 2
+  cname: "Talahena"
+-
+  cid: 205
+  did: 2
+  cname: "Thihariya"
+-
+  cid: 206
+  did: 2
+  cname: "Thimbirigaskatuwa"
+-
+  cid: 207
+  did: 2
+  cname: "Tittapattara"
+-
+  cid: 208
+  did: 2
+  cname: "Udathuthiripitiya"
+-
+  cid: 209
+  did: 2
+  cname: "Udugampola"
+-
+  cid: 210
+  did: 2
+  cname: "Uggalboda"
+-
+  cid: 211
+  did: 2
+  cname: "Urapola"
+-
+  cid: 212
+  did: 2
+  cname: "Uswetakeiyawa"
+-
+  cid: 213
+  did: 2
+  cname: "Veyangoda"
+-
+  cid: 214
+  did: 2
+  cname: "Walgammulla"
+-
+  cid: 215
+  did: 2
+  cname: "Walpita"
+-
+  cid: 216
+  did: 2
+  cname: "Walpola (WP)"
+-
+  cid: 217
+  did: 2
+  cname: "Wanaluwewa"
+-
+  cid: 218
+  did: 2
+  cname: "Wathurugama"
+-
+  cid: 219
+  did: 2
+  cname: "Watinapaha"
+-
+  cid: 220
+  did: 2
+  cname: "Wattala"
+-
+  cid: 221
+  did: 2
+  cname: "Weboda"
+-
+  cid: 222
+  did: 2
+  cname: "Wegowwa"
+-
+  cid: 223
+  did: 2
+  cname: "Welisara"
+-
+  cid: 224
+  did: 2
+  cname: "Weliveriya"
+-
+  cid: 225
+  did: 2
+  cname: "Weweldeniya"
+-
+  cid: 226
+  did: 2
+  cname: "Yakkala"
+-
+  cid: 227
+  did: 2
+  cname: "Yatiyana(WP)"
+-
+  cid: 228
+  did: 3
+  cname: "Agalawatta"
+-
+  cid: 229
+  did: 3
+  cname: "Alubomulla"
+-
+  cid: 230
+  did: 3
+  cname: "Alutgama"
+-
+  cid: 231
+  did: 3
+  cname: "Anguruwatota"
+-
+  cid: 232
+  did: 3
+  cname: "Baduraliya"
+-
+  cid: 233
+  did: 3
+  cname: "Bandaragama"
+-
+  cid: 234
+  did: 3
+  cname: "Bellana"
+-
+  cid: 235
+  did: 3
+  cname: "Benthara"
+-
+  cid: 236
+  did: 3
+  cname: "Beruwala"
+-
+  cid: 237
+  did: 3
+  cname: "Bolossagama"
+-
+  cid: 238
+  did: 3
+  cname: "Bombuwala"
+-
+  cid: 239
+  did: 3
+  cname: "Boralugoda"
+-
+  cid: 240
+  did: 3
+  cname: "Bulathsinhala"
+-
+  cid: 241
+  did: 3
+  cname: "Danawala Thiniyawala"
+-
+  cid: 242
+  did: 3
+  cname: "Delmella"
+-
+  cid: 243
+  did: 3
+  cname: "Dharga Town"
+-
+  cid: 244
+  did: 3
+  cname: "Diwalakada"
+-
+  cid: 245
+  did: 3
+  cname: "Dodangoda"
+-
+  cid: 246
+  did: 3
+  cname: "Dombagoda"
+-
+  cid: 247
+  did: 3
+  cname: "Galpatha"
+-
+  cid: 248
+  did: 3
+  cname: "Gamagoda"
+-
+  cid: 249
+  did: 3
+  cname: "Gonapola Junction"
+-
+  cid: 250
+  did: 3
+  cname: "Govinna"
+-
+  cid: 251
+  did: 3
+  cname: "Gurulubadda"
+-
+  cid: 252
+  did: 3
+  cname: "Halkandawila"
+-
+  cid: 253
+  did: 3
+  cname: "Haltota"
+-
+  cid: 254
+  did: 3
+  cname: "Halwala"
+-
+  cid: 255
+  did: 3
+  cname: "Halwatura"
+-
+  cid: 256
+  did: 3
+  cname: "Hedigalla Colony"
+-
+  cid: 257
+  did: 3
+  cname: "Horana"
+-
+  cid: 258
+  did: 3
+  cname: "Ittapana"
+-
+  cid: 259
+  did: 3
+  cname: "Kalawila Kiranthidiya"
+-
+  cid: 260
+  did: 3
+  cname: "Kalutara"
+-
+  cid: 261
+  did: 3
+  cname: "Kananwila"
+-
+  cid: 262
+  did: 3
+  cname: "Kandanagama"
+-
+  cid: 263
+  did: 3
+  cname: "Kehelwatta"
+-
+  cid: 264
+  did: 3
+  cname: "Kelinkanda"
+-
+  cid: 265
+  did: 3
+  cname: "Kitulgoda"
+-
+  cid: 266
+  did: 3
+  cname: "Koholana"
+-
+  cid: 267
+  did: 3
+  cname: "Kuda Uduwa"
+-
+  cid: 268
+  did: 3
+  cname: "Kumbuka"
+-
+  cid: 269
+  did: 3
+  cname: "lngiriya"
+-
+  cid: 270
+  did: 3
+  cname: "Maggona"
+-
+  cid: 271
+  did: 3
+  cname: "Mahagama"
+-
+  cid: 272
+  did: 3
+  cname: "Mahakalupahana"
+-
+  cid: 273
+  did: 3
+  cname: "Matugama"
+-
+  cid: 274
+  did: 3
+  cname: "Meegahatenna"
+-
+  cid: 275
+  did: 3
+  cname: "Meegama"
+-
+  cid: 276
+  did: 3
+  cname: "Millaniya"
+-
+  cid: 277
+  did: 3
+  cname: "Millewa"
+-
+  cid: 278
+  did: 3
+  cname: "Miwanapalana"
+-
+  cid: 279
+  did: 3
+  cname: "Molkawa"
+-
+  cid: 280
+  did: 3
+  cname: "Morapitiya"
+-
+  cid: 281
+  did: 3
+  cname: "Morontuduwa"
+-
+  cid: 282
+  did: 3
+  cname: "Nawattuduwa"
+-
+  cid: 283
+  did: 3
+  cname: "Neboda"
+-
+  cid: 284
+  did: 3
+  cname: "Padagoda"
+-
+  cid: 285
+  did: 3
+  cname: "Pahalahewessa"
+-
+  cid: 286
+  did: 3
+  cname: "Paiyagala"
+-
+  cid: 287
+  did: 3
+  cname: "Panadura"
+-
+  cid: 288
+  did: 3
+  cname: "Pannila"
+-
+  cid: 289
+  did: 3
+  cname: "Paragastota"
+-
+  cid: 290
+  did: 3
+  cname: "Paragoda"
+-
+  cid: 291
+  did: 3
+  cname: "Paraigama"
+-
+  cid: 292
+  did: 3
+  cname: "Pelanda"
+-
+  cid: 293
+  did: 3
+  cname: "Pelawatta"
+-
+  cid: 294
+  did: 3
+  cname: "Pokunuwita"
+-
+  cid: 295
+  did: 3
+  cname: "Polgampola"
+-
+  cid: 296
+  did: 3
+  cname: "Poruwedanda"
+-
+  cid: 297
+  did: 3
+  cname: "Remunagoda"
+-
+  cid: 298
+  did: 3
+  cname: "Tebuwana"
+-
+  cid: 299
+  did: 3
+  cname: "Uduwara"
+-
+  cid: 300
+  did: 3
+  cname: "Utumgama"
+-
+  cid: 301
+  did: 3
+  cname: "Veyangalla"
+-
+  cid: 302
+  did: 3
+  cname: "Wadduwa"
+-
+  cid: 303
+  did: 3
+  cname: "Walagedara"
+-
+  cid: 304
+  did: 3
+  cname: "Walallawita"
+-
+  cid: 305
+  did: 3
+  cname: "Waskaduwa"
+-
+  cid: 306
+  did: 3
+  cname: "Welipenna"
+-
+  cid: 307
+  did: 3
+  cname: "Welmilla Junction"
+-
+  cid: 308
+  did: 3
+  cname: "Yagirala"
+-
+  cid: 309
+  did: 3
+  cname: "Yatadolawatta"
+-
+  cid: 310
+  did: 3
+  cname: "Yatawara Junction"
+-
+  cid: 311
+  did: 4
+  cname: "Akurana"
+-
+  cid: 312
+  did: 4
+  cname: "Alawatugoda"
+-
+  cid: 313
+  did: 4
+  cname: "Aludeniya"
+-
+  cid: 314
+  did: 4
+  cname: "Ambagahapelessa"
+-
+  cid: 315
+  did: 4
+  cname: "Ambatenna"
+-
+  cid: 316
+  did: 4
+  cname: "Ampitiya"
+-
+  cid: 317
+  did: 4
+  cname: "Aniwatta"
+-
+  cid: 318
+  did: 4
+  cname: "Ankumbura"
+-
+  cid: 319
+  did: 4
+  cname: "Asgiriya"
+-
+  cid: 320
+  did: 4
+  cname: "Atabage"
+-
+  cid: 321
+  did: 4
+  cname: "Balagolla"
+-
+  cid: 322
+  did: 4
+  cname: "Balana"
+-
+  cid: 323
+  did: 4
+  cname: "Bambaragahaela"
+-
+  cid: 324
+  did: 4
+  cname: "Barawardhana Oya"
+-
+  cid: 325
+  did: 4
+  cname: "Batagolladeniya"
+-
+  cid: 326
+  did: 4
+  cname: "Batugoda"
+-
+  cid: 327
+  did: 4
+  cname: "Batumulla"
+-
+  cid: 328
+  did: 4
+  cname: "Bawlana"
+-
+  cid: 329
+  did: 4
+  cname: "Bopana"
+-
+  cid: 330
+  did: 4
+  cname: "Dangolla"
+-
+  cid: 331
+  did: 4
+  cname: "Danture"
+-
+  cid: 332
+  did: 4
+  cname: "Dedunupitiya"
+-
+  cid: 333
+  did: 4
+  cname: "Dekinda"
+-
+  cid: 334
+  did: 4
+  cname: "Deltota"
+-
+  cid: 335
+  did: 4
+  cname: "Digana"
+-
+  cid: 336
+  did: 4
+  cname: "Dolapihilla"
+-
+  cid: 337
+  did: 4
+  cname: "Dolosbage"
+-
+  cid: 338
+  did: 4
+  cname: "Doluwa"
+-
+  cid: 339
+  did: 4
+  cname: "Doragamuwa"
+-
+  cid: 340
+  did: 4
+  cname: "Dunuwila"
+-
+  cid: 341
+  did: 4
+  cname: "Ekiriya"
+-
+  cid: 342
+  did: 4
+  cname: "Elamulla"
+-
+  cid: 343
+  did: 4
+  cname: "Elkaduwa"
+-
+  cid: 344
+  did: 4
+  cname: "Etulgama"
+-
+  cid: 345
+  did: 4
+  cname: "Galaboda"
+-
+  cid: 346
+  did: 4
+  cname: "Galagedara"
+-
+  cid: 347
+  did: 4
+  cname: "Galaha"
+-
+  cid: 348
+  did: 4
+  cname: "Galhinna"
+-
+  cid: 349
+  did: 4
+  cname: "Gallellagama"
+-
+  cid: 350
+  did: 4
+  cname: "Gampola"
+-
+  cid: 351
+  did: 4
+  cname: "Gelioya"
+-
+  cid: 352
+  did: 4
+  cname: "Godamunna"
+-
+  cid: 353
+  did: 4
+  cname: "Gomagoda"
+-
+  cid: 354
+  did: 4
+  cname: "Gonagantenna"
+-
+  cid: 355
+  did: 4
+  cname: "Gonawalapatana"
+-
+  cid: 356
+  did: 4
+  cname: "Gunnepana"
+-
+  cid: 357
+  did: 4
+  cname: "Gurudeniya"
+-
+  cid: 358
+  did: 4
+  cname: "Halloluwa"
+-
+  cid: 359
+  did: 4
+  cname: "Handaganawa"
+-
+  cid: 360
+  did: 4
+  cname: "Handawalapitiya"
+-
+  cid: 361
+  did: 4
+  cname: "Handessa"
+-
+  cid: 362
+  did: 4
+  cname: "Hanguranketha"
+-
+  cid: 363
+  did: 4
+  cname: "Hantane"
+-
+  cid: 364
+  did: 4
+  cname: "Haragama"
+-
+  cid: 365
+  did: 4
+  cname: "Harankahawa"
+-
+  cid: 366
+  did: 4
+  cname: "Hasalaka"
+-
+  cid: 367
+  did: 4
+  cname: "Hataraliyadda"
+-
+  cid: 368
+  did: 4
+  cname: "Heerassagala"
+-
+  cid: 369
+  did: 4
+  cname: "Hewaheta"
+-
+  cid: 370
+  did: 4
+  cname: "Hindagala"
+-
+  cid: 371
+  did: 4
+  cname: "Hondiyadeniya"
+-
+  cid: 372
+  did: 4
+  cname: "Hunnasgiriya"
+-
+  cid: 373
+  did: 4
+  cname: "Jambugahapitiya"
+-
+  cid: 374
+  did: 4
+  cname: "Kadugannawa"
+-
+  cid: 375
+  did: 4
+  cname: "Kahataliyadda"
+-
+  cid: 376
+  did: 4
+  cname: "Kalugala"
+-
+  cid: 377
+  did: 4
+  cname: "Kandy"
+-
+  cid: 378
+  did: 4
+  cname: "Kapuliyadde"
+-
+  cid: 379
+  did: 4
+  cname: "Karandagolla"
+-
+  cid: 380
+  did: 4
+  cname: "Katugastota"
+-
+  cid: 381
+  did: 4
+  cname: "Kengalla"
+-
+  cid: 382
+  did: 4
+  cname: "Ketakumbura"
+-
+  cid: 383
+  did: 4
+  cname: "Ketawala Leula"
+-
+  cid: 384
+  did: 4
+  cname: "Kiribathkumbura"
+-
+  cid: 385
+  did: 4
+  cname: "Kobonila"
+-
+  cid: 386
+  did: 4
+  cname: "Kolabissa"
+-
+  cid: 387
+  did: 4
+  cname: "Kolongoda"
+-
+  cid: 388
+  did: 4
+  cname: "Kulugammana"
+-
+  cid: 389
+  did: 4
+  cname: "Kumbukkandura"
+-
+  cid: 390
+  did: 4
+  cname: "Kumburegama"
+-
+  cid: 391
+  did: 4
+  cname: "Kundasale"
+-
+  cid: 392
+  did: 4
+  cname: "Leemagahakotuwa"
+-
+  cid: 393
+  did: 4
+  cname: "Lewella"
+-
+  cid: 394
+  did: 4
+  cname: "lhala Kobbekaduwa"
+-
+  cid: 395
+  did: 4
+  cname: "lllagolla"
+-
+  cid: 396
+  did: 4
+  cname: "Lunuketiya Maditta"
+-
+  cid: 397
+  did: 4
+  cname: "Madawala Bazaar"
+-
+  cid: 398
+  did: 4
+  cname: "Madugalla"
+-
+  cid: 399
+  did: 4
+  cname: "Madulkele"
+-
+  cid: 400
+  did: 4
+  cname: "Mahadoraliyadda"
+-
+  cid: 401
+  did: 4
+  cname: "Mahamedagama"
+-
+  cid: 402
+  did: 4
+  cname: "Mailapitiya"
+-
+  cid: 403
+  did: 4
+  cname: "Makkanigama"
+-
+  cid: 404
+  did: 4
+  cname: "Makuldeniya"
+-
+  cid: 405
+  did: 4
+  cname: "Mandaram Nuwara"
+-
+  cid: 406
+  did: 4
+  cname: "Mapakanda"
+-
+  cid: 407
+  did: 4
+  cname: "Marassana"
+-
+  cid: 408
+  did: 4
+  cname: "Marymount Colony"
+-
+  cid: 409
+  did: 4
+  cname: "Maturata"
+-
+  cid: 410
+  did: 4
+  cname: "Mawatura"
+-
+  cid: 411
+  did: 4
+  cname: "Mawilmada"
+-
+  cid: 412
+  did: 4
+  cname: "Medamahanuwara"
+-
+  cid: 413
+  did: 4
+  cname: "Medawala Harispattuwa"
+-
+  cid: 414
+  did: 4
+  cname: "Meetalawa"
+-
+  cid: 415
+  did: 4
+  cname: "Megoda Kalugamuwa"
+-
+  cid: 416
+  did: 4
+  cname: "Menikdiwela"
+-
+  cid: 417
+  did: 4
+  cname: "Menikhinna"
+-
+  cid: 418
+  did: 4
+  cname: "Mimure"
+-
+  cid: 419
+  did: 4
+  cname: "Minigamuwa"
+-
+  cid: 420
+  did: 4
+  cname: "Minipe"
+-
+  cid: 421
+  did: 4
+  cname: "Murutalawa"
+-
+  cid: 422
+  did: 4
+  cname: "Muruthagahamulla"
+-
+  cid: 423
+  did: 4
+  cname: "Naranpanawa"
+-
+  cid: 424
+  did: 4
+  cname: "Nattarampotha"
+-
+  cid: 425
+  did: 4
+  cname: "Nawalapitiya"
+-
+  cid: 426
+  did: 4
+  cname: "Nillambe"
+-
+  cid: 427
+  did: 4
+  cname: "Nugaliyadda"
+-
+  cid: 428
+  did: 4
+  cname: "Nugawela"
+-
+  cid: 429
+  did: 4
+  cname: "Pallebowala"
+-
+  cid: 430
+  did: 4
+  cname: "Pallekelle"
+-
+  cid: 431
+  did: 4
+  cname: "Pallekotuwa"
+-
+  cid: 432
+  did: 4
+  cname: "Panvila"
+-
+  cid: 433
+  did: 4
+  cname: "Panwilatenna"
+-
+  cid: 434
+  did: 4
+  cname: "Paradeka"
+-
+  cid: 435
+  did: 4
+  cname: "Pasbage"
+-
+  cid: 436
+  did: 4
+  cname: "Pattitalawa"
+-
+  cid: 437
+  did: 4
+  cname: "Pattiya Watta"
+-
+  cid: 438
+  did: 4
+  cname: "Peradeniya"
+-
+  cid: 439
+  did: 4
+  cname: "Pilawala"
+-
+  cid: 440
+  did: 4
+  cname: "Pilimatalawa"
+-
+  cid: 441
+  did: 4
+  cname: "Poholiyadda"
+-
+  cid: 442
+  did: 4
+  cname: "Polgolla"
+-
+  cid: 443
+  did: 4
+  cname: "Pujapitiya"
+-
+  cid: 444
+  did: 4
+  cname: "Pupuressa"
+-
+  cid: 445
+  did: 4
+  cname: "Pussellawa"
+-
+  cid: 446
+  did: 4
+  cname: "Putuhapuwa"
+-
+  cid: 447
+  did: 4
+  cname: "Rajawella"
+-
+  cid: 448
+  did: 4
+  cname: "Rambukpitiya"
+-
+  cid: 449
+  did: 4
+  cname: "Rambukwella"
+-
+  cid: 450
+  did: 4
+  cname: "Rangala"
+-
+  cid: 451
+  did: 4
+  cname: "Rantembe"
+-
+  cid: 452
+  did: 4
+  cname: "Rathukohodigala"
+-
+  cid: 453
+  did: 4
+  cname: "Rikillagaskada"
+-
+  cid: 454
+  did: 4
+  cname: "Sangarajapura"
+-
+  cid: 455
+  did: 4
+  cname: "Senarathwela"
+-
+  cid: 456
+  did: 4
+  cname: "Talatuoya"
+-
+  cid: 457
+  did: 4
+  cname: "Tawalantenna"
+-
+  cid: 458
+  did: 4
+  cname: "Teldeniya"
+-
+  cid: 459
+  did: 4
+  cname: "Tennekumbura"
+-
+  cid: 460
+  did: 4
+  cname: "Uda Peradeniya"
+-
+  cid: 461
+  did: 4
+  cname: "Udahentenna"
+-
+  cid: 462
+  did: 4
+  cname: "Udahingulwala"
+-
+  cid: 463
+  did: 4
+  cname: "Udatalawinna"
+-
+  cid: 464
+  did: 4
+  cname: "Udawatta"
+-
+  cid: 465
+  did: 4
+  cname: "Udispattuwa"
+-
+  cid: 466
+  did: 4
+  cname: "Ududumbara"
+-
+  cid: 467
+  did: 4
+  cname: "Uduwa"
+-
+  cid: 468
+  did: 4
+  cname: "Uduwahinna"
+-
+  cid: 469
+  did: 4
+  cname: "Uduwela"
+-
+  cid: 470
+  did: 4
+  cname: "Ulapane"
+-
+  cid: 471
+  did: 4
+  cname: "Ulpothagama"
+-
+  cid: 472
+  did: 4
+  cname: "Unuwinna"
+-
+  cid: 473
+  did: 4
+  cname: "Velamboda"
+-
+  cid: 474
+  did: 4
+  cname: "Watagoda Harispattuwa"
+-
+  cid: 475
+  did: 4
+  cname: "Watapuluwa"
+-
+  cid: 476
+  did: 4
+  cname: "Wattappola"
+-
+  cid: 477
+  did: 4
+  cname: "Wattegama"
+-
+  cid: 478
+  did: 4
+  cname: "Weligalla"
+-
+  cid: 479
+  did: 4
+  cname: "Weligampola"
+-
+  cid: 480
+  did: 4
+  cname: "Wendaruwa"
+-
+  cid: 481
+  did: 4
+  cname: "Weragantota"
+-
+  cid: 482
+  did: 4
+  cname: "Werapitya"
+-
+  cid: 483
+  did: 4
+  cname: "Werellagama"
+-
+  cid: 484
+  did: 4
+  cname: "Wettawa"
+-
+  cid: 485
+  did: 4
+  cname: "Wilanagama"
+-
+  cid: 486
+  did: 4
+  cname: "Yahalatenna"
+-
+  cid: 487
+  did: 4
+  cname: "Yatihalagala"
+-
+  cid: 488
+  did: 5
+  cname: "Akuramboda"
+-
+  cid: 489
+  did: 5
+  cname: "Alwatta"
+-
+  cid: 490
+  did: 5
+  cname: "Ambana"
+-
+  cid: 491
+  did: 5
+  cname: "Ataragallewa"
+-
+  cid: 492
+  did: 5
+  cname: "Bambaragaswewa"
+-
+  cid: 493
+  did: 5
+  cname: "Beligamuwa"
+-
+  cid: 494
+  did: 5
+  cname: "Dambulla"
+-
+  cid: 495
+  did: 5
+  cname: "Dankanda"
+-
+  cid: 496
+  did: 5
+  cname: "Devagiriya"
+-
+  cid: 497
+  did: 5
+  cname: "Dewahuwa"
+-
+  cid: 498
+  did: 5
+  cname: "Dullewa"
+-
+  cid: 499
+  did: 5
+  cname: "Dunkolawatta"
+-
+  cid: 500
+  did: 5
+  cname: "Dunuwilapitiya"
+-
+  cid: 501
+  did: 5
+  cname: "Elkaduwa"
+-
+  cid: 502
+  did: 5
+  cname: "Erawula Junction"
+-
+  cid: 503
+  did: 5
+  cname: "Etanawala"
+-
+  cid: 504
+  did: 5
+  cname: "Galewela"
+-
+  cid: 505
+  did: 5
+  cname: "Gammaduwa"
+-
+  cid: 506
+  did: 5
+  cname: "Gangala Puwakpitiya"
+-
+  cid: 507
+  did: 5
+  cname: "Handungamuwa"
+-
+  cid: 508
+  did: 5
+  cname: "Hattota Amuna"
+-
+  cid: 509
+  did: 5
+  cname: "Imbulgolla"
+-
+  cid: 510
+  did: 5
+  cname: "Inamaluwa"
+-
+  cid: 511
+  did: 5
+  cname: "Kaikawala"
+-
+  cid: 512
+  did: 5
+  cname: "Kalundawa"
+-
+  cid: 513
+  did: 5
+  cname: "Kandalama"
+-
+  cid: 514
+  did: 5
+  cname: "Karagahinna"
+-
+  cid: 515
+  did: 5
+  cname: "Katudeniya"
+-
+  cid: 516
+  did: 5
+  cname: "Kavudupelella"
+-
+  cid: 517
+  did: 5
+  cname: "Kibissa"
+-
+  cid: 518
+  did: 5
+  cname: "Kiwula"
+-
+  cid: 519
+  did: 5
+  cname: "Kongahawela"
+-
+  cid: 520
+  did: 5
+  cname: "Laggala Pallegama"
+-
+  cid: 521
+  did: 5
+  cname: "Leliambe"
+-
+  cid: 522
+  did: 5
+  cname: "Lenadora"
+-
+  cid: 523
+  did: 5
+  cname: "lllukkumbura"
+-
+  cid: 524
+  did: 5
+  cname: "Madawala Ulpotha"
+-
+  cid: 525
+  did: 5
+  cname: "Madipola"
+-
+  cid: 526
+  did: 5
+  cname: "Mahawela"
+-
+  cid: 527
+  did: 5
+  cname: "Mananwatta"
+-
+  cid: 528
+  did: 5
+  cname: "Maraka"
+-
+  cid: 529
+  did: 5
+  cname: "Matale"
+-
+  cid: 530
+  did: 5
+  cname: "Melipitiya"
+-
+  cid: 531
+  did: 5
+  cname: "Metihakka"
+-
+  cid: 532
+  did: 5
+  cname: "Millawana"
+-
+  cid: 533
+  did: 5
+  cname: "Muwandeniya"
+-
+  cid: 534
+  did: 5
+  cname: "Nalanda"
+-
+  cid: 535
+  did: 5
+  cname: "Naula"
+-
+  cid: 536
+  did: 5
+  cname: "Nugagolla"
+-
+  cid: 537
+  did: 5
+  cname: "Opalgala"
+-
+  cid: 538
+  did: 5
+  cname: "Ovilikanda"
+-
+  cid: 539
+  did: 5
+  cname: "Palapathwela"
+-
+  cid: 540
+  did: 5
+  cname: "Pallepola"
+-
+  cid: 541
+  did: 5
+  cname: "Perakanatta"
+-
+  cid: 542
+  did: 5
+  cname: "Pubbiliya"
+-
+  cid: 543
+  did: 5
+  cname: "Ranamuregama"
+-
+  cid: 544
+  did: 5
+  cname: "Rattota"
+-
+  cid: 545
+  did: 5
+  cname: "Selagama"
+-
+  cid: 546
+  did: 5
+  cname: "Sigiriya"
+-
+  cid: 547
+  did: 5
+  cname: "Talagoda Junction"
+-
+  cid: 548
+  did: 5
+  cname: "Talakiriyagama"
+-
+  cid: 549
+  did: 5
+  cname: "Udasgiriya"
+-
+  cid: 550
+  did: 5
+  cname: "Udatenna"
+-
+  cid: 551
+  did: 5
+  cname: "Ukuwela"
+-
+  cid: 552
+  did: 5
+  cname: "Wahacotte"
+-
+  cid: 553
+  did: 5
+  cname: "Walawela"
+-
+  cid: 554
+  did: 5
+  cname: "Wehigala"
+-
+  cid: 555
+  did: 5
+  cname: "Welangahawatte"
+-
+  cid: 556
+  did: 5
+  cname: "Wewalawewa"
+-
+  cid: 557
+  did: 5
+  cname: "Wilgamuwa"
+-
+  cid: 558
+  did: 5
+  cname: "Yatawatta"
+-
+  cid: 559
+  did: 6
+  cname: "Agarapathana"
+-
+  cid: 560
+  did: 6
+  cname: "Ambagamuwa Udabulathgama"
+-
+  cid: 561
+  did: 6
+  cname: "Ambatalawa"
+-
+  cid: 562
+  did: 6
+  cname: "Ambewela"
+-
+  cid: 563
+  did: 6
+  cname: "Bogawantalawa"
+-
+  cid: 564
+  did: 6
+  cname: "Bopattalawa"
+-
+  cid: 565
+  did: 6
+  cname: "Dagampitiya"
+-
+  cid: 566
+  did: 6
+  cname: "Dayagama Bazaar"
+-
+  cid: 567
+  did: 6
+  cname: "Dikoya"
+-
+  cid: 568
+  did: 6
+  cname: "Doragala"
+-
+  cid: 569
+  did: 6
+  cname: "Dunukedeniya"
+-
+  cid: 570
+  did: 6
+  cname: "Ginigathena"
+-
+  cid: 571
+  did: 6
+  cname: "Gonakele"
+-
+  cid: 572
+  did: 6
+  cname: "Haggala"
+-
+  cid: 573
+  did: 6
+  cname: "Halgranoya"
+-
+  cid: 574
+  did: 6
+  cname: "Hangarapitiya"
+-
+  cid: 575
+  did: 6
+  cname: "Hapugastalawa"
+-
+  cid: 576
+  did: 6
+  cname: "Harangalagama"
+-
+  cid: 577
+  did: 6
+  cname: "Harasbedda"
+-
+  cid: 578
+  did: 6
+  cname: "Hatton"
+-
+  cid: 579
+  did: 6
+  cname: "Hedunuwewa"
+-
+  cid: 580
+  did: 6
+  cname: "Hitigegama"
+-
+  cid: 581
+  did: 6
+  cname: "Kalaganwatta"
+-
+  cid: 582
+  did: 6
+  cname: "Kandapola"
+-
+  cid: 583
+  did: 6
+  cname: "Katukitula"
+-
+  cid: 584
+  did: 6
+  cname: "Keerthi Bandarapura"
+-
+  cid: 585
+  did: 6
+  cname: "Kelanigama"
+-
+  cid: 586
+  did: 6
+  cname: "Ketaboola"
+-
+  cid: 587
+  did: 6
+  cname: "Kotagala"
+-
+  cid: 588
+  did: 6
+  cname: "Kotmale"
+-
+  cid: 589
+  did: 6
+  cname: "Kottellena"
+-
+  cid: 590
+  did: 6
+  cname: "Kumbalgamuwa"
+-
+  cid: 591
+  did: 6
+  cname: "Kumbukwela"
+-
+  cid: 592
+  did: 6
+  cname: "Kurupanawela"
+-
+  cid: 593
+  did: 6
+  cname: "Labukele"
+-
+  cid: 594
+  did: 6
+  cname: "Laxapana"
+-
+  cid: 595
+  did: 6
+  cname: "Lindula"
+-
+  cid: 596
+  did: 6
+  cname: "Madulla"
+-
+  cid: 597
+  did: 6
+  cname: "Maldeniya"
+-
+  cid: 598
+  did: 6
+  cname: "Maskeliya"
+-
+  cid: 599
+  did: 6
+  cname: "Maswela"
+-
+  cid: 600
+  did: 6
+  cname: "Mipanawa"
+-
+  cid: 601
+  did: 6
+  cname: "Mipilimana"
+-
+  cid: 602
+  did: 6
+  cname: "Morahenagama"
+-
+  cid: 603
+  did: 6
+  cname: "Munwatta"
+-
+  cid: 604
+  did: 6
+  cname: "Nanuoya"
+-
+  cid: 605
+  did: 6
+  cname: "Nawathispane"
+-
+  cid: 606
+  did: 6
+  cname: "Nayapana Janapadaya"
+-
+  cid: 607
+  did: 6
+  cname: "Nildandahinna"
+-
+  cid: 608
+  did: 6
+  cname: "Nissanka Uyana"
+-
+  cid: 609
+  did: 6
+  cname: "Norwood"
+-
+  cid: 610
+  did: 6
+  cname: "Nuwara Eliya"
+-
+  cid: 611
+  did: 6
+  cname: "Padiyapelella"
+-
+  cid: 612
+  did: 6
+  cname: "Patana"
+-
+  cid: 613
+  did: 6
+  cname: "Pattipola"
+-
+  cid: 614
+  did: 6
+  cname: "Pitawala"
+-
+  cid: 615
+  did: 6
+  cname: "Pundaluoya"
+-
+  cid: 616
+  did: 6
+  cname: "Ramboda"
+-
+  cid: 617
+  did: 6
+  cname: "Rozella"
+-
+  cid: 618
+  did: 6
+  cname: "Rupaha"
+-
+  cid: 619
+  did: 6
+  cname: "Ruwaneliya"
+-
+  cid: 620
+  did: 6
+  cname: "Santhipura"
+-
+  cid: 621
+  did: 6
+  cname: "Talawakele"
+-
+  cid: 622
+  did: 6
+  cname: "Teripeha"
+-
+  cid: 623
+  did: 6
+  cname: "Udamadura"
+-
+  cid: 624
+  did: 6
+  cname: "Udapussallawa"
+-
+  cid: 625
+  did: 6
+  cname: "Walapane"
+-
+  cid: 626
+  did: 6
+  cname: "Watagoda"
+-
+  cid: 627
+  did: 6
+  cname: "Watawala"
+-
+  cid: 628
+  did: 6
+  cname: "Widulipura"
+-
+  cid: 629
+  did: 6
+  cname: "Wijebahukanda"
+-
+  cid: 630
+  did: 7
+  cname: "Ampilanthurai"
+-
+  cid: 631
+  did: 7
+  cname: "Araipattai"
+-
+  cid: 632
+  did: 7
+  cname: "Ayithiyamalai"
+-
+  cid: 633
+  did: 7
+  cname: "Bakiella"
+-
+  cid: 634
+  did: 7
+  cname: "Batticaloa"
+-
+  cid: 635
+  did: 7
+  cname: "Cheddipalayam"
+-
+  cid: 636
+  did: 7
+  cname: "Chenkaladi"
+-
+  cid: 637
+  did: 7
+  cname: "Eravur"
+-
+  cid: 638
+  did: 7
+  cname: "Kalkudah"
+-
+  cid: 639
+  did: 7
+  cname: "Kallar"
+-
+  cid: 640
+  did: 7
+  cname: "Kaluwanchikudi"
+-
+  cid: 641
+  did: 7
+  cname: "Kaluwankemy"
+-
+  cid: 642
+  did: 7
+  cname: "Kannankudah"
+-
+  cid: 643
+  did: 7
+  cname: "Karadiyanaru"
+-
+  cid: 644
+  did: 7
+  cname: "Kathiraveli"
+-
+  cid: 645
+  did: 7
+  cname: "Kattankudi"
+-
+  cid: 646
+  did: 7
+  cname: "Kiran"
+-
+  cid: 647
+  did: 7
+  cname: "Kirankulam"
+-
+  cid: 648
+  did: 7
+  cname: "Koddaikallar"
+-
+  cid: 649
+  did: 7
+  cname: "Kokkaddichcholai"
+-
+  cid: 650
+  did: 7
+  cname: "Kurukkalmadam"
+-
+  cid: 651
+  did: 7
+  cname: "Mandur"
+-
+  cid: 652
+  did: 7
+  cname: "Mankemi"
+-
+  cid: 653
+  did: 7
+  cname: "Miravodai"
+-
+  cid: 654
+  did: 7
+  cname: "Murakottanchanai"
+-
+  cid: 655
+  did: 7
+  cname: "Navagirinagar"
+-
+  cid: 656
+  did: 7
+  cname: "Navatkadu"
+-
+  cid: 657
+  did: 7
+  cname: "Oddamavadi"
+-
+  cid: 658
+  did: 7
+  cname: "Panichankemi"
+-
+  cid: 659
+  did: 7
+  cname: "Pankudavely"
+-
+  cid: 660
+  did: 7
+  cname: "Periyaporativu"
+-
+  cid: 661
+  did: 7
+  cname: "Periyapullumalai"
+-
+  cid: 662
+  did: 7
+  cname: "Pillaiyaradi"
+-
+  cid: 663
+  did: 7
+  cname: "Punanai"
+-
+  cid: 664
+  did: 7
+  cname: "Puthukudiyiruppu"
+-
+  cid: 665
+  did: 7
+  cname: "Thannamunai"
+-
+  cid: 666
+  did: 7
+  cname: "Thettativu"
+-
+  cid: 667
+  did: 7
+  cname: "Thikkodai"
+-
+  cid: 668
+  did: 7
+  cname: "Thirupalugamam"
+-
+  cid: 669
+  did: 7
+  cname: "Thuraineelavanai"
+-
+  cid: 670
+  did: 7
+  cname: "Unnichchai"
+-
+  cid: 671
+  did: 7
+  cname: "Vakaneri"
+-
+  cid: 672
+  did: 7
+  cname: "Vakarai"
+-
+  cid: 673
+  did: 7
+  cname: "Valaichenai"
+-
+  cid: 674
+  did: 7
+  cname: "Vantharumoolai"
+-
+  cid: 675
+  did: 7
+  cname: "Vellavely"
+-
+  cid: 676
+  did: 8
+  cname: "Agbopura"
+-
+  cid: 677
+  did: 8
+  cname: "Buckmigama"
+-
+  cid: 678
+  did: 8
+  cname: "Chinabay"
+-
+  cid: 679
+  did: 8
+  cname: "Dehiwatte"
+-
+  cid: 680
+  did: 8
+  cname: "Echchilampattai"
+-
+  cid: 681
+  did: 8
+  cname: "Galmetiyawa"
+-
+  cid: 682
+  did: 8
+  cname: "Gomarankadawala"
+-
+  cid: 683
+  did: 8
+  cname: "Kaddaiparichchan"
+-
+  cid: 684
+  did: 8
+  cname: "Kanniya"
+-
+  cid: 685
+  did: 8
+  cname: "Kantalai"
+-
+  cid: 686
+  did: 8
+  cname: "Kantalai Sugar Factory"
+-
+  cid: 687
+  did: 8
+  cname: "Kiliveddy"
+-
+  cid: 688
+  did: 8
+  cname: "Kinniya"
+-
+  cid: 689
+  did: 8
+  cname: "Kuchchaveli"
+-
+  cid: 690
+  did: 8
+  cname: "Kumburupiddy"
+-
+  cid: 691
+  did: 8
+  cname: "Kurinchakemy"
+-
+  cid: 692
+  did: 8
+  cname: "Lankapatuna"
+-
+  cid: 693
+  did: 8
+  cname: "Mahadivulwewa"
+-
+  cid: 694
+  did: 8
+  cname: "Maharugiramam"
+-
+  cid: 695
+  did: 8
+  cname: "Mallikativu"
+-
+  cid: 696
+  did: 8
+  cname: "Mawadichenai"
+-
+  cid: 697
+  did: 8
+  cname: "Mullipothana"
+-
+  cid: 698
+  did: 8
+  cname: "Mutur"
+-
+  cid: 699
+  did: 8
+  cname: "Neelapola"
+-
+  cid: 700
+  did: 8
+  cname: "Nilaveli"
+-
+  cid: 701
+  did: 8
+  cname: "Pankulam"
+-
+  cid: 702
+  did: 8
+  cname: "Rottawewa"
+-
+  cid: 703
+  did: 8
+  cname: "Sampaltivu"
+-
+  cid: 704
+  did: 8
+  cname: "Sampur"
+-
+  cid: 705
+  did: 8
+  cname: "Serunuwara"
+-
+  cid: 706
+  did: 8
+  cname: "Seruwila"
+-
+  cid: 707
+  did: 8
+  cname: "Sirajnagar"
+-
+  cid: 708
+  did: 8
+  cname: "Somapura"
+-
+  cid: 709
+  did: 8
+  cname: "Tampalakamam"
+-
+  cid: 710
+  did: 8
+  cname: "Tiriyayi"
+-
+  cid: 711
+  did: 8
+  cname: "Toppur"
+-
+  cid: 712
+  did: 8
+  cname: "Trincomalee"
+-
+  cid: 713
+  did: 8
+  cname: "Vellamanal"
+-
+  cid: 714
+  did: 8
+  cname: "Wanela"
+-
+  cid: 715
+  did: 9
+  cname: "Addalaichenai"
+-
+  cid: 716
+  did: 9
+  cname: "Akkaraipattu"
+-
+  cid: 717
+  did: 9
+  cname: "Ampara"
+-
+  cid: 718
+  did: 9
+  cname: "Bakmitiyawa"
+-
+  cid: 719
+  did: 9
+  cname: "Central Camp"
+-
+  cid: 720
+  did: 9
+  cname: "Dadayamtalawa"
+-
+  cid: 721
+  did: 9
+  cname: "Damana"
+-
+  cid: 722
+  did: 9
+  cname: "Damanewela"
+-
+  cid: 723
+  did: 9
+  cname: "Deegawapiya"
+-
+  cid: 724
+  did: 9
+  cname: "Dehiattakandiya"
+-
+  cid: 725
+  did: 9
+  cname: "Devalahinda"
+-
+  cid: 726
+  did: 9
+  cname: "Digamadulla Weeragoda"
+-
+  cid: 727
+  did: 9
+  cname: "Dorakumbura"
+-
+  cid: 728
+  did: 9
+  cname: "Galapitagala"
+-
+  cid: 729
+  did: 9
+  cname: "Gonagolla"
+-
+  cid: 730
+  did: 9
+  cname: "Hingurana"
+-
+  cid: 731
+  did: 9
+  cname: "Hulannuge"
+-
+  cid: 732
+  did: 9
+  cname: "Kalmunai"
+-
+  cid: 733
+  did: 9
+  cname: "Kannakipuram"
+-
+  cid: 734
+  did: 9
+  cname: "Karativu"
+-
+  cid: 735
+  did: 9
+  cname: "Kekirihena"
+-
+  cid: 736
+  did: 9
+  cname: "Koknahara"
+-
+  cid: 737
+  did: 9
+  cname: "Kolamanthalawa"
+-
+  cid: 738
+  did: 9
+  cname: "Komari"
+-
+  cid: 739
+  did: 9
+  cname: "Lahugala"
+-
+  cid: 740
+  did: 9
+  cname: "lmkkamam"
+-
+  cid: 741
+  did: 9
+  cname: "Madawalalanda"
+-
+  cid: 742
+  did: 9
+  cname: "Mahanagapura"
+-
+  cid: 743
+  did: 9
+  cname: "Mahaoya"
+-
+  cid: 744
+  did: 9
+  cname: "Malwatta"
+-
+  cid: 745
+  did: 9
+  cname: "Mangalagama"
+-
+  cid: 746
+  did: 9
+  cname: "Marathamune"
+-
+  cid: 747
+  did: 9
+  cname: "Mawanagama"
+-
+  cid: 748
+  did: 9
+  cname: "Moragahapallama"
+-
+  cid: 749
+  did: 9
+  cname: "Namaloya"
+-
+  cid: 750
+  did: 9
+  cname: "Navithanveli"
+-
+  cid: 751
+  did: 9
+  cname: "Nawamedagama"
+-
+  cid: 752
+  did: 9
+  cname: "Nintavur"
+-
+  cid: 753
+  did: 9
+  cname: "Oluvil"
+-
+  cid: 754
+  did: 9
+  cname: "Padiyatalawa"
+-
+  cid: 755
+  did: 9
+  cname: "Pahalalanda"
+-
+  cid: 756
+  did: 9
+  cname: "Palamunai"
+-
+  cid: 757
+  did: 9
+  cname: "Panama"
+-
+  cid: 758
+  did: 9
+  cname: "Pannalagama"
+-
+  cid: 759
+  did: 9
+  cname: "Paragahakele"
+-
+  cid: 760
+  did: 9
+  cname: "Periyaneelavanai"
+-
+  cid: 761
+  did: 9
+  cname: "Polwaga Janapadaya"
+-
+  cid: 762
+  did: 9
+  cname: "Pottuvil"
+-
+  cid: 763
+  did: 9
+  cname: "Rajagalatenna"
+-
+  cid: 764
+  did: 9
+  cname: "Sainthamaruthu"
+-
+  cid: 765
+  did: 9
+  cname: "Samanthurai"
+-
+  cid: 766
+  did: 9
+  cname: "Serankada"
+-
+  cid: 767
+  did: 9
+  cname: "Siripura"
+-
+  cid: 768
+  did: 9
+  cname: "Siyambalawewa"
+-
+  cid: 769
+  did: 9
+  cname: "Tempitiya"
+-
+  cid: 770
+  did: 9
+  cname: "Thambiluvil"
+-
+  cid: 771
+  did: 9
+  cname: "Tirukovil"
+-
+  cid: 772
+  did: 9
+  cname: "Uhana"
+-
+  cid: 773
+  did: 9
+  cname: "Wadinagala"
+-
+  cid: 774
+  did: 9
+  cname: "Wanagamuwa"
+-
+  cid: 775
+  did: 9
+  cname: "Werunketagoda"
+-
+  cid: 776
+  did: 10
+  cname: "Allaipiddi"
+-
+  cid: 777
+  did: 10
+  cname: "Allaveddi"
+-
+  cid: 778
+  did: 10
+  cname: "Alvai"
+-
+  cid: 779
+  did: 10
+  cname: "Anaicoddai"
+-
+  cid: 780
+  did: 10
+  cname: "Analaitivu"
+-
+  cid: 781
+  did: 10
+  cname: "Atchuveli"
+-
+  cid: 782
+  did: 10
+  cname: "Chankanai"
+-
+  cid: 783
+  did: 10
+  cname: "Chavakachcheri"
+-
+  cid: 784
+  did: 10
+  cname: "Chullipuram"
+-
+  cid: 785
+  did: 10
+  cname: "Chundikuli"
+-
+  cid: 786
+  did: 10
+  cname: "Chunnakam"
+-
+  cid: 787
+  did: 10
+  cname: "Delft"
+-
+  cid: 788
+  did: 10
+  cname: "DelftWest"
+-
+  cid: 789
+  did: 10
+  cname: "Eluvaitivu"
+-
+  cid: 790
+  did: 10
+  cname: "Erlalai"
+-
+  cid: 791
+  did: 10
+  cname: "Jaffna"
+-
+  cid: 792
+  did: 10
+  cname: "Kaitadi"
+-
+  cid: 793
+  did: 10
+  cname: "Kankesanthurai"
+-
+  cid: 794
+  did: 10
+  cname: "Karainagar"
+-
+  cid: 795
+  did: 10
+  cname: "Karaveddi"
+-
+  cid: 796
+  did: 10
+  cname: "Kayts"
+-
+  cid: 797
+  did: 10
+  cname: "Kodikamam"
+-
+  cid: 798
+  did: 10
+  cname: "Kokuvil"
+-
+  cid: 799
+  did: 10
+  cname: "Kondavil"
+-
+  cid: 800
+  did: 10
+  cname: "Kopay"
+-
+  cid: 801
+  did: 10
+  cname: "Kudatanai"
+-
+  cid: 802
+  did: 10
+  cname: "llavalai"
+-
+  cid: 803
+  did: 10
+  cname: "Mallakam"
+-
+  cid: 804
+  did: 10
+  cname: "Manipay"
+-
+  cid: 805
+  did: 10
+  cname: "Mathagal"
+-
+  cid: 806
+  did: 10
+  cname: "Meesalai"
+-
+  cid: 807
+  did: 10
+  cname: "Mirusuvil"
+-
+  cid: 808
+  did: 10
+  cname: "Nagar Kovil"
+-
+  cid: 809
+  did: 10
+  cname: "Nainathivu"
+-
+  cid: 810
+  did: 10
+  cname: "Neervely"
+-
+  cid: 811
+  did: 10
+  cname: "Pandaterippu"
+-
+  cid: 812
+  did: 10
+  cname: "Point Pedro"
+-
+  cid: 813
+  did: 10
+  cname: "Pungudutivu"
+-
+  cid: 814
+  did: 10
+  cname: "Putur"
+-
+  cid: 815
+  did: 10
+  cname: "Sandilipay"
+-
+  cid: 816
+  did: 10
+  cname: "Sithankemy"
+-
+  cid: 817
+  did: 10
+  cname: "Tellippallai"
+-
+  cid: 818
+  did: 10
+  cname: "Thondamanaru"
+-
+  cid: 819
+  did: 10
+  cname: "Urumpirai"
+-
+  cid: 820
+  did: 10
+  cname: "Vaddukoddai"
+-
+  cid: 821
+  did: 10
+  cname: "Valvettithurai"
+-
+  cid: 822
+  did: 10
+  cname: "Vannarponnai"
+-
+  cid: 823
+  did: 10
+  cname: "Varany"
+-
+  cid: 824
+  did: 10
+  cname: "Vasavilan"
+-
+  cid: 825
+  did: 10
+  cname: "Velanai"
+-
+  cid: 827
+  did: 11
+  cname: "Adampan"
+-
+  cid: 828
+  did: 11
+  cname: "Arippu"
+-
+  cid: 829
+  did: 11
+  cname: "Athimottai"
+-
+  cid: 830
+  did: 11
+  cname: "Chilavathurai"
+-
+  cid: 831
+  did: 11
+  cname: "Erukkalampiddy"
+-
+  cid: 832
+  did: 11
+  cname: "llluppaikadavai"
+-
+  cid: 833
+  did: 11
+  cname: "Madhu Church"
+-
+  cid: 834
+  did: 11
+  cname: "Madhu Road"
+-
+  cid: 835
+  did: 11
+  cname: "Mannar"
+-
+  cid: 836
+  did: 11
+  cname: "Marichchi Kaddi"
+-
+  cid: 837
+  did: 11
+  cname: "Murunkan"
+-
+  cid: 838
+  did: 11
+  cname: "Nanattan"
+-
+  cid: 839
+  did: 11
+  cname: "P.P.Potkemy"
+-
+  cid: 840
+  did: 11
+  cname: "Palampiddy"
+-
+  cid: 841
+  did: 11
+  cname: "Periyakunchikulam"
+-
+  cid: 842
+  did: 11
+  cname: "Periyamadhu"
+-
+  cid: 843
+  did: 11
+  cname: "Pesalai"
+-
+  cid: 844
+  did: 11
+  cname: "Talaimannar"
+-
+  cid: 845
+  did: 11
+  cname: "Temple"
+-
+  cid: 846
+  did: 11
+  cname: "Tharapuram"
+-
+  cid: 847
+  did: 11
+  cname: "Thiruketheeswaram Temple"
+-
+  cid: 848
+  did: 11
+  cname: "Uyilankulam"
+-
+  cid: 849
+  did: 11
+  cname: "Vaddakandal"
+-
+  cid: 850
+  did: 11
+  cname: "Vankalai"
+-
+  cid: 851
+  did: 11
+  cname: "Vellan Kulam"
+-
+  cid: 852
+  did: 11
+  cname: "Vidataltivu"
+-
+  cid: 853
+  did: 12
+  cname: "Alampil"
+-
+  cid: 854
+  did: 12
+  cname: "Karuppaddamurippu"
+-
+  cid: 855
+  did: 12
+  cname: "Kokkilai"
+-
+  cid: 856
+  did: 12
+  cname: "Kokkuthuoduvai"
+-
+  cid: 857
+  did: 12
+  cname: "Mankulam"
+-
+  cid: 858
+  did: 12
+  cname: "Mullativu"
+-
+  cid: 859
+  did: 12
+  cname: "Mullivaikkal"
+-
+  cid: 860
+  did: 12
+  cname: "Mulliyawalai"
+-
+  cid: 861
+  did: 12
+  cname: "Muthauyan Kaddakulam"
+-
+  cid: 862
+  did: 12
+  cname: "Naddan Kandal"
+-
+  cid: 863
+  did: 12
+  cname: "Odduchudan"
+-
+  cid: 864
+  did: 12
+  cname: "Puthuvedduvan"
+-
+  cid: 865
+  did: 12
+  cname: "Thunukkai"
+-
+  cid: 866
+  did: 12
+  cname: "Udayarkaddu"
+-
+  cid: 867
+  did: 12
+  cname: "Vavunakkulam"
+-
+  cid: 868
+  did: 12
+  cname: "Visvamadukulam"
+-
+  cid: 869
+  did: 12
+  cname: "Yogapuram"
+-
+  cid: 870
+  did: 13
+  cname: "Akkarayankulam"
+-
+  cid: 871
+  did: 13
+  cname: "Cheddikulam"
+-
+  cid: 872
+  did: 13
+  cname: "Chemamadukkulam"
+-
+  cid: 873
+  did: 13
+  cname: "Elephant Pass"
+-
+  cid: 874
+  did: 13
+  cname: "Eluthumadduval"
+-
+  cid: 875
+  did: 13
+  cname: "Iranai lluppaikulam"
+-
+  cid: 876
+  did: 13
+  cname: "Iranaitiv"
+-
+  cid: 877
+  did: 13
+  cname: "Kanagarayankulam"
+-
+  cid: 878
+  did: 13
+  cname: "Kanavil"
+-
+  cid: 879
+  did: 13
+  cname: "Kandavalai"
+-
+  cid: 880
+  did: 13
+  cname: "Kavutharimunai"
+-
+  cid: 881
+  did: 13
+  cname: "Kilinochchi"
+-
+  cid: 882
+  did: 13
+  cname: "lyakachchi"
+-
+  cid: 883
+  did: 13
+  cname: "Mahakachchakodiya"
+-
+  cid: 884
+  did: 13
+  cname: "Mamaduwa"
+-
+  cid: 885
+  did: 13
+  cname: "Maraiyadithakulam"
+-
+  cid: 886
+  did: 13
+  cname: "Mulliyan"
+-
+  cid: 887
+  did: 13
+  cname: "Murasumoddai"
+-
+  cid: 888
+  did: 13
+  cname: "Nedunkemy"
+-
+  cid: 889
+  did: 13
+  cname: "Neriyakulam"
+-
+  cid: 890
+  did: 13
+  cname: "Omanthai"
+-
+  cid: 891
+  did: 13
+  cname: "Palamoddai"
+-
+  cid: 892
+  did: 13
+  cname: "Pallai"
+-
+  cid: 893
+  did: 13
+  cname: "Pallavarayankaddu"
+-
+  cid: 894
+  did: 13
+  cname: "Pampaimadu"
+-
+  cid: 895
+  did: 13
+  cname: "Paranthan"
+-
+  cid: 896
+  did: 13
+  cname: "Pavaikulam"
+-
+  cid: 897
+  did: 13
+  cname: "Periyathambanai"
+-
+  cid: 898
+  did: 13
+  cname: "Periyaulukkulam"
+-
+  cid: 899
+  did: 13
+  cname: "Purakari Nallur"
+-
+  cid: 900
+  did: 13
+  cname: "Ramanathapuram"
+-
+  cid: 901
+  did: 13
+  cname: "Sasthrikulankulam"
+-
+  cid: 902
+  did: 13
+  cname: "Sivapuram"
+-
+  cid: 903
+  did: 13
+  cname: "Skanthapuram"
+-
+  cid: 904
+  did: 13
+  cname: "Thalayadi"
+-
+  cid: 905
+  did: 13
+  cname: "Tharmapuram"
+-
+  cid: 906
+  did: 13
+  cname: "Uruthirapuram"
+-
+  cid: 907
+  did: 13
+  cname: "Vaddakachchi"
+-
+  cid: 908
+  did: 13
+  cname: "Vannerikkulam"
+-
+  cid: 909
+  did: 13
+  cname: "Varikkuttiyoor"
+-
+  cid: 910
+  did: 13
+  cname: "Vavuniya"
+-
+  cid: 911
+  did: 13
+  cname: "Veravil"
+-
+  cid: 912
+  did: 13
+  cname: "Vinayagapuram"
+-
+  cid: 956
+  did: 14
+  cname: "Andiyagala"
+-
+  cid: 957
+  did: 14
+  cname: "Angamuwa"
+-
+  cid: 958
+  did: 14
+  cname: "Anuradhapura"
+-
+  cid: 959
+  did: 14
+  cname: "Awukana"
+-
+  cid: 960
+  did: 14
+  cname: "Bogahawewa"
+-
+  cid: 961
+  did: 14
+  cname: "Dematawewa"
+-
+  cid: 962
+  did: 14
+  cname: "Dunumadalawa"
+-
+  cid: 963
+  did: 14
+  cname: "Dutuwewa"
+-
+  cid: 964
+  did: 14
+  cname: "Elayapattuwa"
+-
+  cid: 965
+  did: 14
+  cname: "Eppawala"
+-
+  cid: 966
+  did: 14
+  cname: "Etawatunuwewa"
+-
+  cid: 967
+  did: 14
+  cname: "Etaweeragollewa"
+-
+  cid: 968
+  did: 14
+  cname: "Galadivulwewa"
+-
+  cid: 969
+  did: 14
+  cname: "Galenbindunuwewa"
+-
+  cid: 970
+  did: 14
+  cname: "Galkadawala"
+-
+  cid: 971
+  did: 14
+  cname: "Galkiriyagama"
+-
+  cid: 972
+  did: 14
+  cname: "Galkulama"
+-
+  cid: 973
+  did: 14
+  cname: "Galnewa"
+-
+  cid: 974
+  did: 14
+  cname: "Gambirigaswewa"
+-
+  cid: 975
+  did: 14
+  cname: "Ganewalpola"
+-
+  cid: 976
+  did: 14
+  cname: "Gemunupura"
+-
+  cid: 977
+  did: 14
+  cname: "Getalawa"
+-
+  cid: 978
+  did: 14
+  cname: "Gnanikulama"
+-
+  cid: 979
+  did: 14
+  cname: "Gonahaddenawa"
+-
+  cid: 980
+  did: 14
+  cname: "Habarana"
+-
+  cid: 981
+  did: 14
+  cname: "Halmillawa Dambulla"
+-
+  cid: 982
+  did: 14
+  cname: "Halmillawetiya"
+-
+  cid: 983
+  did: 14
+  cname: "Hidogama"
+-
+  cid: 984
+  did: 14
+  cname: "Horawpatana"
+-
+  cid: 985
+  did: 14
+  cname: "Horiwila"
+-
+  cid: 986
+  did: 14
+  cname: "Hurigaswewa"
+-
+  cid: 987
+  did: 14
+  cname: "Hurulunikawewa"
+-
+  cid: 988
+  did: 14
+  cname: "Kagama"
+-
+  cid: 989
+  did: 14
+  cname: "Kahatagasdigiliya"
+-
+  cid: 990
+  did: 14
+  cname: "Kahatagollewa"
+-
+  cid: 991
+  did: 14
+  cname: "Kalakarambewa"
+-
+  cid: 992
+  did: 14
+  cname: "Kalankuttiya"
+-
+  cid: 993
+  did: 14
+  cname: "Kalaoya"
+-
+  cid: 994
+  did: 14
+  cname: "Kalawedi Ulpotha"
+-
+  cid: 995
+  did: 14
+  cname: "Kallanchiya"
+-
+  cid: 996
+  did: 14
+  cname: "Kapugallawa"
+-
+  cid: 997
+  did: 14
+  cname: "Karagahawewa"
+-
+  cid: 998
+  did: 14
+  cname: "Katiyawa"
+-
+  cid: 999
+  did: 14
+  cname: "Kebithigollewa"
+-
+  cid: 1000
+  did: 14
+  cname: "Kekirawa"
+-
+  cid: 1001
+  did: 14
+  cname: "Kendewa"
+-
+  cid: 1002
+  did: 14
+  cname: "Kiralogama"
+-
+  cid: 1003
+  did: 14
+  cname: "Kirigalwewa"
+-
+  cid: 1004
+  did: 14
+  cname: "Kitulhitiyawa"
+-
+  cid: 1005
+  did: 14
+  cname: "Kurundankulama"
+-
+  cid: 1006
+  did: 14
+  cname: "Labunoruwa"
+-
+  cid: 1007
+  did: 14
+  cname: "lhala Halmillewa"
+-
+  cid: 1008
+  did: 14
+  cname: "lhalagama"
+-
+  cid: 1009
+  did: 14
+  cname: "lpologama"
+-
+  cid: 1010
+  did: 14
+  cname: "Madatugama"
+-
+  cid: 1011
+  did: 14
+  cname: "Maha Elagamuwa"
+-
+  cid: 1012
+  did: 14
+  cname: "Mahabulankulama"
+-
+  cid: 1013
+  did: 14
+  cname: "Mahailluppallama"
+-
+  cid: 1014
+  did: 14
+  cname: "Mahakanadarawa"
+-
+  cid: 1015
+  did: 14
+  cname: "Mahapothana"
+-
+  cid: 1016
+  did: 14
+  cname: "Mahasenpura"
+-
+  cid: 1017
+  did: 14
+  cname: "Mahawilachchiya"
+-
+  cid: 1018
+  did: 14
+  cname: "Mailagaswewa"
+-
+  cid: 1019
+  did: 14
+  cname: "Malwanagama"
+-
+  cid: 1020
+  did: 14
+  cname: "Maneruwa"
+-
+  cid: 1021
+  did: 14
+  cname: "Maradankadawala"
+-
+  cid: 1022
+  did: 14
+  cname: "Maradankalla"
+-
+  cid: 1023
+  did: 14
+  cname: "Medawachchiya"
+-
+  cid: 1024
+  did: 14
+  cname: "Megodawewa"
+-
+  cid: 1025
+  did: 14
+  cname: "Mihintale"
+-
+  cid: 1026
+  did: 14
+  cname: "Morakewa"
+-
+  cid: 1027
+  did: 14
+  cname: "Mulkiriyawa"
+-
+  cid: 1028
+  did: 14
+  cname: "Muriyakadawala"
+-
+  cid: 1029
+  did: 14
+  cname: "Nachchaduwa"
+-
+  cid: 1030
+  did: 14
+  cname: "Namalpura"
+-
+  cid: 1031
+  did: 14
+  cname: "Negampaha"
+-
+  cid: 1032
+  did: 14
+  cname: "Nochchiyagama"
+-
+  cid: 1033
+  did: 14
+  cname: "Padavi Maithripura"
+-
+  cid: 1034
+  did: 14
+  cname: "Padavi Parakramapura"
+-
+  cid: 1035
+  did: 14
+  cname: "Padavi Sripura"
+-
+  cid: 1036
+  did: 14
+  cname: "Padavi Sritissapura"
+-
+  cid: 1037
+  did: 14
+  cname: "Padaviya"
+-
+  cid: 1038
+  did: 14
+  cname: "Padikaramaduwa"
+-
+  cid: 1039
+  did: 14
+  cname: "Pahala Halmillewa"
+-
+  cid: 1040
+  did: 14
+  cname: "Pahala Maragahawe"
+-
+  cid: 1041
+  did: 14
+  cname: "Pahalagama"
+-
+  cid: 1042
+  did: 14
+  cname: "Palagala"
+-
+  cid: 1043
+  did: 14
+  cname: "Palugaswewa"
+-
+  cid: 1044
+  did: 14
+  cname: "Pandukabayapura"
+-
+  cid: 1045
+  did: 14
+  cname: "Pandulagama"
+-
+  cid: 1046
+  did: 14
+  cname: "Parakumpura"
+-
+  cid: 1047
+  did: 14
+  cname: "Parangiyawadiya"
+-
+  cid: 1048
+  did: 14
+  cname: "Parasangahawewa"
+-
+  cid: 1049
+  did: 14
+  cname: "Pemaduwa"
+-
+  cid: 1050
+  did: 14
+  cname: "Perimiyankulama"
+-
+  cid: 1051
+  did: 14
+  cname: "Pihimbiyagolewa"
+-
+  cid: 1052
+  did: 14
+  cname: "Pubbogama"
+-
+  cid: 1053
+  did: 14
+  cname: "Puliyankulama"
+-
+  cid: 1054
+  did: 14
+  cname: "Pulmoddai"
+-
+  cid: 1055
+  did: 14
+  cname: "Punewa"
+-
+  cid: 1056
+  did: 14
+  cname: "Rajanganaya"
+-
+  cid: 1057
+  did: 14
+  cname: "Rambewa"
+-
+  cid: 1058
+  did: 14
+  cname: "Rampathwila"
+-
+  cid: 1059
+  did: 14
+  cname: "Ranorawa"
+-
+  cid: 1060
+  did: 14
+  cname: "Rathmalgahawewa"
+-
+  cid: 1061
+  did: 14
+  cname: "Saliyapura"
+-
+  cid: 1062
+  did: 14
+  cname: "Seeppukulama"
+-
+  cid: 1063
+  did: 14
+  cname: "Senapura"
+-
+  cid: 1064
+  did: 14
+  cname: "Sivalakulama"
+-
+  cid: 1065
+  did: 14
+  cname: "Siyambalewa"
+-
+  cid: 1066
+  did: 14
+  cname: "Sravasthipura"
+-
+  cid: 1067
+  did: 14
+  cname: "Talawa"
+-
+  cid: 1068
+  did: 14
+  cname: "Tambuttegama"
+-
+  cid: 1069
+  did: 14
+  cname: "Tammennawa"
+-
+  cid: 1070
+  did: 14
+  cname: "Tantirimale"
+-
+  cid: 1071
+  did: 14
+  cname: "Telhiriyawa"
+-
+  cid: 1072
+  did: 14
+  cname: "Tennamarawadiya"
+-
+  cid: 1073
+  did: 14
+  cname: "Tirappane"
+-
+  cid: 1074
+  did: 14
+  cname: "Tittagonewa"
+-
+  cid: 1075
+  did: 14
+  cname: "Udunuwara Colony"
+-
+  cid: 1076
+  did: 14
+  cname: "Upuldeniya"
+-
+  cid: 1077
+  did: 14
+  cname: "Uttimaduwa"
+-
+  cid: 1078
+  did: 14
+  cname: "Viharapalugama"
+-
+  cid: 1079
+  did: 14
+  cname: "Vijithapura"
+-
+  cid: 1080
+  did: 14
+  cname: "Wahalkada"
+-
+  cid: 1081
+  did: 14
+  cname: "Wahamalgollewa"
+-
+  cid: 1082
+  did: 14
+  cname: "Walagambahuwa"
+-
+  cid: 1083
+  did: 14
+  cname: "Walahaviddawewa"
+-
+  cid: 1084
+  did: 14
+  cname: "Welimuwapotana"
+-
+  cid: 1085
+  did: 14
+  cname: "Welioya Project"
+-
+  cid: 1086
+  did: 15
+  cname: "Alutwewa"
+-
+  cid: 1087
+  did: 15
+  cname: "Aralaganwila"
+-
+  cid: 1088
+  did: 15
+  cname: "Aselapura"
+-
+  cid: 1089
+  did: 15
+  cname: "Attanakadawala"
+-
+  cid: 1090
+  did: 15
+  cname: "Bakamuna"
+-
+  cid: 1091
+  did: 15
+  cname: "Dalukana"
+-
+  cid: 1092
+  did: 15
+  cname: "Damminna"
+-
+  cid: 1093
+  did: 15
+  cname: "Dewagala"
+-
+  cid: 1094
+  did: 15
+  cname: "Dimbulagala"
+-
+  cid: 1095
+  did: 15
+  cname: "Divulankadawala"
+-
+  cid: 1096
+  did: 15
+  cname: "Divuldamana"
+-
+  cid: 1097
+  did: 15
+  cname: "Diyabeduma"
+-
+  cid: 1098
+  did: 15
+  cname: "Diyasenpura"
+-
+  cid: 1099
+  did: 15
+  cname: "Elahera"
+-
+  cid: 1100
+  did: 15
+  cname: "Ellewewa"
+-
+  cid: 1101
+  did: 15
+  cname: "Galamuna"
+-
+  cid: 1102
+  did: 15
+  cname: "Galoya Junction"
+-
+  cid: 1103
+  did: 15
+  cname: "Giritale"
+-
+  cid: 1104
+  did: 15
+  cname: "Hansayapalama"
+-
+  cid: 1105
+  did: 15
+  cname: "Hingurakdamana"
+-
+  cid: 1106
+  did: 15
+  cname: "Hingurakgoda"
+-
+  cid: 1107
+  did: 15
+  cname: "Jayanthipura"
+-
+  cid: 1108
+  did: 15
+  cname: "Jayasiripura"
+-
+  cid: 1109
+  did: 15
+  cname: "Kaduruwela"
+-
+  cid: 1110
+  did: 15
+  cname: "Kalingaela"
+-
+  cid: 1111
+  did: 15
+  cname: "Kalukele Badanagala"
+-
+  cid: 1112
+  did: 15
+  cname: "Kashyapapura"
+-
+  cid: 1113
+  did: 15
+  cname: "Kawudulla"
+-
+  cid: 1114
+  did: 15
+  cname: "Kawuduluwewa Stagell"
+-
+  cid: 1115
+  did: 15
+  cname: "Kottapitiya"
+-
+  cid: 1116
+  did: 15
+  cname: "Kumaragama"
+-
+  cid: 1117
+  did: 15
+  cname: "Lakshauyana"
+-
+  cid: 1118
+  did: 15
+  cname: "Maduruoya"
+-
+  cid: 1119
+  did: 15
+  cname: "Maha Ambagaswewa"
+-
+  cid: 1120
+  did: 15
+  cname: "Mahatalakolawewa"
+-
+  cid: 1121
+  did: 15
+  cname: "Mahawela Sinhapura"
+-
+  cid: 1122
+  did: 15
+  cname: "Mampitiya"
+-
+  cid: 1123
+  did: 15
+  cname: "Medirigiriya"
+-
+  cid: 1124
+  did: 15
+  cname: "Meegaswewa"
+-
+  cid: 1125
+  did: 15
+  cname: "Minneriya"
+-
+  cid: 1126
+  did: 15
+  cname: "Mutugala"
+-
+  cid: 1127
+  did: 15
+  cname: "Nawasenapura"
+-
+  cid: 1128
+  did: 15
+  cname: "Nelumwewa"
+-
+  cid: 1129
+  did: 15
+  cname: "Nuwaragala"
+-
+  cid: 1130
+  did: 15
+  cname: "Onegama"
+-
+  cid: 1131
+  did: 15
+  cname: "Orubendi Siyambalawa"
+-
+  cid: 1132
+  did: 15
+  cname: "Palugasdamana"
+-
+  cid: 1133
+  did: 15
+  cname: "Parakramasamudraya"
+-
+  cid: 1134
+  did: 15
+  cname: "Pelatiyawa"
+-
+  cid: 1135
+  did: 15
+  cname: "Pimburattewa"
+-
+  cid: 1136
+  did: 15
+  cname: "Polonnaruwa"
+-
+  cid: 1137
+  did: 15
+  cname: "Pulastigama"
+-
+  cid: 1138
+  did: 15
+  cname: "Sevanapitiya"
+-
+  cid: 1139
+  did: 15
+  cname: "Sinhagama"
+-
+  cid: 1140
+  did: 15
+  cname: "Sungavila"
+-
+  cid: 1141
+  did: 15
+  cname: "Talpotha"
+-
+  cid: 1142
+  did: 15
+  cname: "Tamankaduwa"
+-
+  cid: 1143
+  did: 15
+  cname: "Tambala"
+-
+  cid: 1144
+  did: 15
+  cname: "Unagalavehera"
+-
+  cid: 1145
+  did: 15
+  cname: "Welikanda"
+-
+  cid: 1146
+  did: 15
+  cname: "Wijayabapura"
+-
+  cid: 1147
+  did: 15
+  cname: "Yodaela"
+-
+  cid: 1148
+  did: 16
+  cname: "Alahengama"
+-
+  cid: 1149
+  did: 16
+  cname: "Alahitiyawa"
+-
+  cid: 1150
+  did: 16
+  cname: "Alawatuwala"
+-
+  cid: 1151
+  did: 16
+  cname: "Alawwa"
+-
+  cid: 1152
+  did: 16
+  cname: "Ambakote"
+-
+  cid: 1153
+  did: 16
+  cname: "Ambanpola"
+-
+  cid: 1154
+  did: 16
+  cname: "Anhandiya"
+-
+  cid: 1155
+  did: 16
+  cname: "Anukkane"
+-
+  cid: 1156
+  did: 16
+  cname: "Aragoda"
+-
+  cid: 1157
+  did: 16
+  cname: "Ataragalla"
+-
+  cid: 1158
+  did: 16
+  cname: "Awulegama"
+-
+  cid: 1159
+  did: 16
+  cname: "Balalla"
+-
+  cid: 1160
+  did: 16
+  cname: "Bamunukotuwa"
+-
+  cid: 1161
+  did: 16
+  cname: "Bandara Koswatta"
+-
+  cid: 1162
+  did: 16
+  cname: "Bingiriya"
+-
+  cid: 1163
+  did: 16
+  cname: "Bogamulla"
+-
+  cid: 1164
+  did: 16
+  cname: "Bopitiya"
+-
+  cid: 1165
+  did: 16
+  cname: "Boraluwewa"
+-
+  cid: 1166
+  did: 16
+  cname: "Boyagane"
+-
+  cid: 1167
+  did: 16
+  cname: "Bujjomuwa"
+-
+  cid: 1168
+  did: 16
+  cname: "Buluwala"
+-
+  cid: 1169
+  did: 16
+  cname: "Dambadeniya"
+-
+  cid: 1170
+  did: 16
+  cname: "Daraluwa"
+-
+  cid: 1171
+  did: 16
+  cname: "Deegalla"
+-
+  cid: 1172
+  did: 16
+  cname: "Delwite"
+-
+  cid: 1173
+  did: 16
+  cname: "Demataluwa"
+-
+  cid: 1174
+  did: 16
+  cname: "Diddeniya"
+-
+  cid: 1175
+  did: 16
+  cname: "Digannewa"
+-
+  cid: 1176
+  did: 16
+  cname: "Divullegoda"
+-
+  cid: 1177
+  did: 16
+  cname: "Dodangaslanda"
+-
+  cid: 1178
+  did: 16
+  cname: "Doratiyawa"
+-
+  cid: 1179
+  did: 16
+  cname: "Dummalasuriya"
+-
+  cid: 1180
+  did: 16
+  cname: "Ehetuwewa"
+-
+  cid: 1181
+  did: 16
+  cname: "Elibichchiya"
+-
+  cid: 1182
+  did: 16
+  cname: "Embogama"
+-
+  cid: 1183
+  did: 16
+  cname: "Etungahakotuwa"
+-
+  cid: 1184
+  did: 16
+  cname: "Galgamuwa"
+-
+  cid: 1185
+  did: 16
+  cname: "Gallewa"
+-
+  cid: 1186
+  did: 16
+  cname: "Girathalana"
+-
+  cid: 1187
+  did: 16
+  cname: "Giriulla"
+-
+  cid: 1188
+  did: 16
+  cname: "Gokaralla"
+-
+  cid: 1189
+  did: 16
+  cname: "Gonawila"
+-
+  cid: 1190
+  did: 16
+  cname: "Halmillawewa"
+-
+  cid: 1191
+  did: 16
+  cname: "Hengamuwa"
+-
+  cid: 1192
+  did: 16
+  cname: "Hettipola"
+-
+  cid: 1193
+  did: 16
+  cname: "Hilogama"
+-
+  cid: 1194
+  did: 16
+  cname: "Hindagolla"
+-
+  cid: 1195
+  did: 16
+  cname: "Hiriyala Lenawa"
+-
+  cid: 1196
+  did: 16
+  cname: "Hiruwalpola"
+-
+  cid: 1197
+  did: 16
+  cname: "Horambawa"
+-
+  cid: 1198
+  did: 16
+  cname: "Hulogedara"
+-
+  cid: 1199
+  did: 16
+  cname: "Hulugalla"
+-
+  cid: 1200
+  did: 16
+  cname: "Hunupola"
+-
+  cid: 1201
+  did: 16
+  cname: "Ihala Gomugomuwa"
+-
+  cid: 1202
+  did: 16
+  cname: "Ihala Katugampala"
+-
+  cid: 1203
+  did: 16
+  cname: "Indulgodakanda"
+-
+  cid: 1204
+  did: 16
+  cname: "Inguruwatta"
+-
+  cid: 1205
+  did: 16
+  cname: "Iriyagolla"
+-
+  cid: 1206
+  did: 16
+  cname: "Ithanawatta"
+-
+  cid: 1207
+  did: 16
+  cname: "Kadigawa"
+-
+  cid: 1208
+  did: 16
+  cname: "Kahapathwala"
+-
+  cid: 1209
+  did: 16
+  cname: "Kalugamuwa"
+-
+  cid: 1210
+  did: 16
+  cname: "Kanadeniyawala"
+-
+  cid: 1211
+  did: 16
+  cname: "Kanattewewa"
+-
+  cid: 1212
+  did: 16
+  cname: "Karagahagedara"
+-
+  cid: 1213
+  did: 16
+  cname: "Karambe"
+-
+  cid: 1214
+  did: 16
+  cname: "Katupota"
+-
+  cid: 1215
+  did: 16
+  cname: "Kekunagolla"
+-
+  cid: 1216
+  did: 16
+  cname: "Keppitiwalana"
+-
+  cid: 1217
+  did: 16
+  cname: "Kimbulwanaoya"
+-
+  cid: 1218
+  did: 16
+  cname: "Kirimetiyawa"
+-
+  cid: 1219
+  did: 16
+  cname: "Kirindawa"
+-
+  cid: 1220
+  did: 16
+  cname: "Kirindigalla"
+-
+  cid: 1221
+  did: 16
+  cname: "Kithalawa"
+-
+  cid: 1222
+  did: 16
+  cname: "Kobeigane"
+-
+  cid: 1223
+  did: 16
+  cname: "Kohilagedara"
+-
+  cid: 1224
+  did: 16
+  cname: "Konwewa"
+-
+  cid: 1225
+  did: 16
+  cname: "Kosdeniya"
+-
+  cid: 1226
+  did: 16
+  cname: "Kosgolla"
+-
+  cid: 1227
+  did: 16
+  cname: "Kotawehera"
+-
+  cid: 1228
+  did: 16
+  cname: "Kudagalgamuwa"
+-
+  cid: 1229
+  did: 16
+  cname: "Kudakatnoruwa"
+-
+  cid: 1230
+  did: 16
+  cname: "Kuliyapitiya"
+-
+  cid: 1231
+  did: 16
+  cname: "Kumbukgeta"
+-
+  cid: 1232
+  did: 16
+  cname: "Kumbukwewa"
+-
+  cid: 1233
+  did: 16
+  cname: "Kuratihena"
+-
+  cid: 1234
+  did: 16
+  cname: "Kurunegala"
+-
+  cid: 1235
+  did: 16
+  cname: "Labbala"
+-
+  cid: 1236
+  did: 16
+  cname: "lbbagamuwa"
+-
+  cid: 1237
+  did: 16
+  cname: "lhala Kadigamuwa"
+-
+  cid: 1238
+  did: 16
+  cname: "llukhena"
+-
+  cid: 1239
+  did: 16
+  cname: "Lonahettiya"
+-
+  cid: 1240
+  did: 16
+  cname: "Madahapola"
+-
+  cid: 1241
+  did: 16
+  cname: "Madakumburumulla"
+-
+  cid: 1242
+  did: 16
+  cname: "Maduragoda"
+-
+  cid: 1243
+  did: 16
+  cname: "Maeliya"
+-
+  cid: 1244
+  did: 16
+  cname: "Magulagama"
+-
+  cid: 1245
+  did: 16
+  cname: "Mahagalkadawala"
+-
+  cid: 1246
+  did: 16
+  cname: "Mahagirilla"
+-
+  cid: 1247
+  did: 16
+  cname: "Mahamukalanyaya"
+-
+  cid: 1248
+  did: 16
+  cname: "Mahananneriya"
+-
+  cid: 1249
+  did: 16
+  cname: "Maharachchimulla"
+-
+  cid: 1250
+  did: 16
+  cname: "Maho"
+-
+  cid: 1251
+  did: 16
+  cname: "Makulewa"
+-
+  cid: 1252
+  did: 16
+  cname: "Makulpotha"
+-
+  cid: 1253
+  did: 16
+  cname: "Makulwewa"
+-
+  cid: 1254
+  did: 16
+  cname: "Malagane"
+-
+  cid: 1255
+  did: 16
+  cname: "Mandapola"
+-
+  cid: 1256
+  did: 16
+  cname: "Maspotha"
+-
+  cid: 1257
+  did: 16
+  cname: "Mawathagama"
+-
+  cid: 1258
+  did: 16
+  cname: "Medivawa"
+-
+  cid: 1259
+  did: 16
+  cname: "Meegalawa"
+-
+  cid: 1260
+  did: 16
+  cname: "Meetanwala"
+-
+  cid: 1261
+  did: 16
+  cname: "Meewellawa"
+-
+  cid: 1262
+  did: 16
+  cname: "Melsiripura"
+-
+  cid: 1263
+  did: 16
+  cname: "Metikumbura"
+-
+  cid: 1264
+  did: 16
+  cname: "Metiyagane"
+-
+  cid: 1265
+  did: 16
+  cname: "Minhettiya"
+-
+  cid: 1266
+  did: 16
+  cname: "Minuwangete"
+-
+  cid: 1267
+  did: 16
+  cname: "Mirihanagama"
+-
+  cid: 1268
+  did: 16
+  cname: "Monnekulama"
+-
+  cid: 1269
+  did: 16
+  cname: "Moragane"
+-
+  cid: 1270
+  did: 16
+  cname: "Moragollagama"
+-
+  cid: 1271
+  did: 16
+  cname: "Morathiha"
+-
+  cid: 1272
+  did: 16
+  cname: "Munamaldeniya"
+-
+  cid: 1273
+  did: 16
+  cname: "Muruthenge"
+-
+  cid: 1274
+  did: 16
+  cname: "Nabadewa"
+-
+  cid: 1275
+  did: 16
+  cname: "Nagollagama"
+-
+  cid: 1276
+  did: 16
+  cname: "Nagollagoda"
+-
+  cid: 1277
+  did: 16
+  cname: "Nakkawatta"
+-
+  cid: 1278
+  did: 16
+  cname: "Narammala"
+-
+  cid: 1279
+  did: 16
+  cname: "Narangoda"
+-
+  cid: 1280
+  did: 16
+  cname: "Nawatalwatta"
+-
+  cid: 1281
+  did: 16
+  cname: "Nelliya"
+-
+  cid: 1282
+  did: 16
+  cname: "Nikadalupotha"
+-
+  cid: 1283
+  did: 16
+  cname: "Nikaweratiya"
+-
+  cid: 1284
+  did: 16
+  cname: "Padeniya"
+-
+  cid: 1285
+  did: 16
+  cname: "Padiwela"
+-
+  cid: 1286
+  did: 16
+  cname: "Pahalagiribawa"
+-
+  cid: 1287
+  did: 16
+  cname: "Pahamune"
+-
+  cid: 1288
+  did: 16
+  cname: "Palukadawala"
+-
+  cid: 1289
+  did: 16
+  cname: "Panadaragama"
+-
+  cid: 1290
+  did: 16
+  cname: "Panagamuwa"
+-
+  cid: 1291
+  did: 16
+  cname: "Panaliya"
+-
+  cid: 1292
+  did: 16
+  cname: "Panliyadda"
+-
+  cid: 1293
+  did: 16
+  cname: "Pannala"
+-
+  cid: 1294
+  did: 16
+  cname: "Pansiyagama"
+-
+  cid: 1295
+  did: 16
+  cname: "Periyakadneluwa"
+-
+  cid: 1296
+  did: 16
+  cname: "Pihimbiya Ratmale"
+-
+  cid: 1297
+  did: 16
+  cname: "Pihimbuwa"
+-
+  cid: 1298
+  did: 16
+  cname: "Pilessa"
+-
+  cid: 1299
+  did: 16
+  cname: "Polgahawela"
+-
+  cid: 1300
+  did: 16
+  cname: "Polpitigama"
+-
+  cid: 1301
+  did: 16
+  cname: "Pothuhera"
+-
+  cid: 1302
+  did: 16
+  cname: "Puswelitenna"
+-
+  cid: 1303
+  did: 16
+  cname: "Ridibendiella"
+-
+  cid: 1304
+  did: 16
+  cname: "Ridigama"
+-
+  cid: 1305
+  did: 16
+  cname: "Saliya Asokapura"
+-
+  cid: 1306
+  did: 16
+  cname: "Sandalankawa"
+-
+  cid: 1307
+  did: 16
+  cname: "Sirisetagama"
+-
+  cid: 1308
+  did: 16
+  cname: "Siyambalangamuwa"
+-
+  cid: 1309
+  did: 16
+  cname: "Solepura"
+-
+  cid: 1310
+  did: 16
+  cname: "Solewewa"
+-
+  cid: 1311
+  did: 16
+  cname: "Sunandapura"
+-
+  cid: 1312
+  did: 16
+  cname: "Talawattegedara"
+-
+  cid: 1313
+  did: 16
+  cname: "Tambutta"
+-
+  cid: 1314
+  did: 16
+  cname: "Thalahitimulla"
+-
+  cid: 1315
+  did: 16
+  cname: "Thalakolawewa"
+-
+  cid: 1316
+  did: 16
+  cname: "Thalwita"
+-
+  cid: 1317
+  did: 16
+  cname: "Thambagalla"
+-
+  cid: 1318
+  did: 16
+  cname: "Tharana Udawela"
+-
+  cid: 1319
+  did: 16
+  cname: "Thimbiriyawa"
+-
+  cid: 1320
+  did: 16
+  cname: "Tisogama"
+-
+  cid: 1321
+  did: 16
+  cname: "Torayaya"
+-
+  cid: 1322
+  did: 16
+  cname: "Tuttiripitigama"
+-
+  cid: 1323
+  did: 16
+  cname: "Udubaddawa"
+-
+  cid: 1324
+  did: 16
+  cname: "Uhumiya"
+-
+  cid: 1325
+  did: 16
+  cname: "Ulpotha Pallekele"
+-
+  cid: 1326
+  did: 16
+  cname: "Usgala Siyabmalangamuwa"
+-
+  cid: 1327
+  did: 16
+  cname: "Wadakada"
+-
+  cid: 1328
+  did: 16
+  cname: "Wadumunnegedara"
+-
+  cid: 1329
+  did: 16
+  cname: "Walakumburumulla"
+-
+  cid: 1330
+  did: 16
+  cname: "Wannigama"
+-
+  cid: 1331
+  did: 16
+  cname: "Wannikudawewa"
+-
+  cid: 1332
+  did: 16
+  cname: "Wannilhalagama"
+-
+  cid: 1333
+  did: 16
+  cname: "Wannirasnayakapura"
+-
+  cid: 1334
+  did: 16
+  cname: "Warawewa"
+-
+  cid: 1335
+  did: 16
+  cname: "Wariyapola"
+-
+  cid: 1336
+  did: 16
+  cname: "Watuwatta"
+-
+  cid: 1337
+  did: 16
+  cname: "Weerapokuna"
+-
+  cid: 1338
+  did: 16
+  cname: "Welawa Juncton"
+-
+  cid: 1339
+  did: 16
+  cname: "Welipennagahamulla"
+-
+  cid: 1340
+  did: 16
+  cname: "Wellagala"
+-
+  cid: 1341
+  did: 16
+  cname: "Wellarawa"
+-
+  cid: 1342
+  did: 16
+  cname: "Wellawa"
+-
+  cid: 1343
+  did: 16
+  cname: "Welpalla"
+-
+  cid: 1344
+  did: 16
+  cname: "Wennoruwa"
+-
+  cid: 1345
+  did: 16
+  cname: "Weuda"
+-
+  cid: 1346
+  did: 16
+  cname: "Wewagama"
+-
+  cid: 1347
+  did: 16
+  cname: "Yakwila"
+-
+  cid: 1348
+  did: 16
+  cname: "Yatigaloluwa"
+-
+  cid: 1349
+  did: 17
+  cname: "Adippala"
+-
+  cid: 1350
+  did: 17
+  cname: "Ambakandawila"
+-
+  cid: 1351
+  did: 17
+  cname: "Anamaduwa"
+-
+  cid: 1352
+  did: 17
+  cname: "Andigama"
+-
+  cid: 1353
+  did: 17
+  cname: "Angunawila"
+-
+  cid: 1354
+  did: 17
+  cname: "Arachchikattuwa"
+-
+  cid: 1355
+  did: 17
+  cname: "Attawilluwa"
+-
+  cid: 1356
+  did: 17
+  cname: "Bangadeniya"
+-
+  cid: 1357
+  did: 17
+  cname: "Baranankattuwa"
+-
+  cid: 1358
+  did: 17
+  cname: "Battuluoya"
+-
+  cid: 1359
+  did: 17
+  cname: "Bujjampola"
+-
+  cid: 1360
+  did: 17
+  cname: "Chilaw"
+-
+  cid: 1361
+  did: 17
+  cname: "Dankotuwa"
+-
+  cid: 1362
+  did: 17
+  cname: "Dunkannawa"
+-
+  cid: 1363
+  did: 17
+  cname: "Eluwankulama"
+-
+  cid: 1364
+  did: 17
+  cname: "Ettale"
+-
+  cid: 1365
+  did: 17
+  cname: "Galmuruwa"
+-
+  cid: 1366
+  did: 17
+  cname: "Ihala Kottaramulla"
+-
+  cid: 1367
+  did: 17
+  cname: "Ihala Puliyankulama"
+-
+  cid: 1368
+  did: 17
+  cname: "Ilippadeniya"
+-
+  cid: 1369
+  did: 17
+  cname: "Inginimitiya"
+-
+  cid: 1370
+  did: 17
+  cname: "Ismailpuram"
+-
+  cid: 1371
+  did: 17
+  cname: "Kakkapalliya"
+-
+  cid: 1372
+  did: 17
+  cname: "Kalladiya"
+-
+  cid: 1373
+  did: 17
+  cname: "Kalpitiya"
+-
+  cid: 1374
+  did: 17
+  cname: "Kandakuliya"
+-
+  cid: 1375
+  did: 17
+  cname: "Karativponparappi"
+-
+  cid: 1376
+  did: 17
+  cname: "Karawitagara"
+-
+  cid: 1377
+  did: 17
+  cname: "Karuwalagaswewa"
+-
+  cid: 1378
+  did: 17
+  cname: "Katuneriya"
+-
+  cid: 1379
+  did: 17
+  cname: "Kirimundalama"
+-
+  cid: 1380
+  did: 17
+  cname: "Koswatta"
+-
+  cid: 1381
+  did: 17
+  cname: "Kottantivu"
+-
+  cid: 1382
+  did: 17
+  cname: "Kottukachchiya"
+-
+  cid: 1383
+  did: 17
+  cname: "Kudawewa"
+-
+  cid: 1384
+  did: 17
+  cname: "Kumarakattuwa"
+-
+  cid: 1385
+  did: 17
+  cname: "Kurinjanpitiya"
+-
+  cid: 1386
+  did: 17
+  cname: "Kuruketiyawa"
+-
+  cid: 1387
+  did: 17
+  cname: "Lihiriyagama"
+-
+  cid: 1388
+  did: 17
+  cname: "Lunuwila"
+-
+  cid: 1389
+  did: 17
+  cname: "Madampe"
+-
+  cid: 1390
+  did: 17
+  cname: "Madurankuliya"
+-
+  cid: 1391
+  did: 17
+  cname: "Mahakumbukkadawala"
+-
+  cid: 1392
+  did: 17
+  cname: "Mahauswewa"
+-
+  cid: 1393
+  did: 17
+  cname: "Mahawewa"
+-
+  cid: 1394
+  did: 17
+  cname: "Mampuri"
+-
+  cid: 1395
+  did: 17
+  cname: "Mangalaeliya"
+-
+  cid: 1396
+  did: 17
+  cname: "Marawila"
+-
+  cid: 1397
+  did: 17
+  cname: "Mudalakkuliya"
+-
+  cid: 1398
+  did: 17
+  cname: "Mugunuwatawana"
+-
+  cid: 1399
+  did: 17
+  cname: "Mukkutoduwawa"
+-
+  cid: 1400
+  did: 17
+  cname: "Mundel"
+-
+  cid: 1401
+  did: 17
+  cname: "Muttibendiwila"
+-
+  cid: 1402
+  did: 17
+  cname: "Nainamadama"
+-
+  cid: 1403
+  did: 17
+  cname: "Nalladarankattuwa"
+-
+  cid: 1404
+  did: 17
+  cname: "Nattandiya"
+-
+  cid: 1405
+  did: 17
+  cname: "Nawagattegama"
+-
+  cid: 1406
+  did: 17
+  cname: "Norachcholai"
+-
+  cid: 1407
+  did: 17
+  cname: "Palaviya"
+-
+  cid: 1408
+  did: 17
+  cname: "Pallama"
+-
+  cid: 1409
+  did: 17
+  cname: "Palliwasalturai"
+-
+  cid: 1410
+  did: 17
+  cname: "Panirendawa"
+-
+  cid: 1411
+  did: 17
+  cname: "Pothuwatawana"
+-
+  cid: 1412
+  did: 17
+  cname: "Puttalam"
+-
+  cid: 1413
+  did: 17
+  cname: "Puttalam Cement Factory"
+-
+  cid: 1414
+  did: 17
+  cname: "Rajakadaluwa"
+-
+  cid: 1415
+  did: 17
+  cname: "Saliyawewa Junction"
+-
+  cid: 1416
+  did: 17
+  cname: "Serukele"
+-
+  cid: 1417
+  did: 17
+  cname: "Sirambiadiya"
+-
+  cid: 1418
+  did: 17
+  cname: "Siyambalagashene"
+-
+  cid: 1419
+  did: 17
+  cname: "Tabbowa"
+-
+  cid: 1420
+  did: 17
+  cname: "Talawila Church"
+-
+  cid: 1421
+  did: 17
+  cname: "Toduwawa"
+-
+  cid: 1422
+  did: 17
+  cname: "Udappuwa"
+-
+  cid: 1423
+  did: 17
+  cname: "Uridyawa"
+-
+  cid: 1424
+  did: 17
+  cname: "Vanathawilluwa"
+-
+  cid: 1425
+  did: 17
+  cname: "Waikkal"
+-
+  cid: 1426
+  did: 17
+  cname: "Watugahamulla"
+-
+  cid: 1427
+  did: 17
+  cname: "Wennappuwa"
+-
+  cid: 1428
+  did: 17
+  cname: "Wijeyakatupotha"
+-
+  cid: 1429
+  did: 17
+  cname: "Wilpotha"
+-
+  cid: 1430
+  did: 17
+  cname: "Yogiyana"
+-
+  cid: 1431
+  did: 18
+  cname: "Akarella"
+-
+  cid: 1432
+  did: 18
+  cname: "Atakalanpanna"
+-
+  cid: 1433
+  did: 18
+  cname: "Ayagama"
+-
+  cid: 1434
+  did: 18
+  cname: "Balangoda"
+-
+  cid: 1435
+  did: 18
+  cname: "Batatota"
+-
+  cid: 1436
+  did: 18
+  cname: "Belihuloya"
+-
+  cid: 1437
+  did: 18
+  cname: "Bolthumbe"
+-
+  cid: 1438
+  did: 18
+  cname: "Bomluwageaina"
+-
+  cid: 1439
+  did: 18
+  cname: "Bulutota"
+-
+  cid: 1440
+  did: 18
+  cname: "Dambuluwana"
+-
+  cid: 1441
+  did: 18
+  cname: "Daugala"
+-
+  cid: 1442
+  did: 18
+  cname: "Dela"
+-
+  cid: 1443
+  did: 18
+  cname: "Delwala"
+-
+  cid: 1444
+  did: 18
+  cname: "Demuwatha"
+-
+  cid: 1445
+  did: 18
+  cname: "Dodampe"
+-
+  cid: 1446
+  did: 18
+  cname: "Doloswalakanda"
+-
+  cid: 1447
+  did: 18
+  cname: "Dumbara Manana"
+-
+  cid: 1448
+  did: 18
+  cname: "Eheliyagoda"
+-
+  cid: 1449
+  did: 18
+  cname: "Elapatha"
+-
+  cid: 1450
+  did: 18
+  cname: "Ellagawa"
+-
+  cid: 1451
+  did: 18
+  cname: "Ellaulla"
+-
+  cid: 1452
+  did: 18
+  cname: "Ellawala"
+-
+  cid: 1453
+  did: 18
+  cname: "Embilipitiya"
+-
+  cid: 1454
+  did: 18
+  cname: "Eratna"
+-
+  cid: 1455
+  did: 18
+  cname: "Erepola"
+-
+  cid: 1456
+  did: 18
+  cname: "Gabbela"
+-
+  cid: 1457
+  did: 18
+  cname: "Gallella"
+-
+  cid: 1458
+  did: 18
+  cname: "Gangeyaya"
+-
+  cid: 1459
+  did: 18
+  cname: "Gawaragiriya"
+-
+  cid: 1460
+  did: 18
+  cname: "Getahetta"
+-
+  cid: 1461
+  did: 18
+  cname: "Gillimale"
+-
+  cid: 1462
+  did: 18
+  cname: "Godagampola"
+-
+  cid: 1463
+  did: 18
+  cname: "Godakawela"
+-
+  cid: 1464
+  did: 18
+  cname: "Gurubewilagama"
+-
+  cid: 1465
+  did: 18
+  cname: "Halpe"
+-
+  cid: 1466
+  did: 18
+  cname: "Halwinna"
+-
+  cid: 1467
+  did: 18
+  cname: "Handagiriya"
+-
+  cid: 1468
+  did: 18
+  cname: "Hapugastenna"
+-
+  cid: 1469
+  did: 18
+  cname: "Hatangala"
+-
+  cid: 1470
+  did: 18
+  cname: "Hatarabage"
+-
+  cid: 1471
+  did: 18
+  cname: "Hidellana"
+-
+  cid: 1472
+  did: 18
+  cname: "Hiramadagama"
+-
+  cid: 1473
+  did: 18
+  cname: "Ihalagama"
+-
+  cid: 1474
+  did: 18
+  cname: "Ittakanda"
+-
+  cid: 1475
+  did: 18
+  cname: "Kahangama"
+-
+  cid: 1476
+  did: 18
+  cname: "Kahawatta"
+-
+  cid: 1477
+  did: 18
+  cname: "Kalawana"
+-
+  cid: 1478
+  did: 18
+  cname: "Kaltota"
+-
+  cid: 1479
+  did: 18
+  cname: "Karandana"
+-
+  cid: 1480
+  did: 18
+  cname: "Karangoda"
+-
+  cid: 1481
+  did: 18
+  cname: "Kella Junction"
+-
+  cid: 1482
+  did: 18
+  cname: "Kiriella"
+-
+  cid: 1483
+  did: 18
+  cname: "Kolambageara"
+-
+  cid: 1484
+  did: 18
+  cname: "Kolombugama"
+-
+  cid: 1485
+  did: 18
+  cname: "Kolonna"
+-
+  cid: 1486
+  did: 18
+  cname: "Kudawa"
+-
+  cid: 1487
+  did: 18
+  cname: "Kuruwita"
+-
+  cid: 1488
+  did: 18
+  cname: "Lellopitiya"
+-
+  cid: 1489
+  did: 18
+  cname: "lmbulpe"
+-
+  cid: 1490
+  did: 18
+  cname: "Madalagama"
+-
+  cid: 1491
+  did: 18
+  cname: "Mahawalatenna"
+-
+  cid: 1492
+  did: 18
+  cname: "Makandura Sabara"
+-
+  cid: 1493
+  did: 18
+  cname: "Malwala Junction"
+-
+  cid: 1494
+  did: 18
+  cname: "Marapana"
+-
+  cid: 1495
+  did: 18
+  cname: "Matuwagalagama"
+-
+  cid: 1496
+  did: 18
+  cname: "Medagalatur"
+-
+  cid: 1497
+  did: 18
+  cname: "Meddekanda"
+-
+  cid: 1498
+  did: 18
+  cname: "Minipura Dumbara"
+-
+  cid: 1499
+  did: 18
+  cname: "Mitipola"
+-
+  cid: 1500
+  did: 18
+  cname: "Morahela"
+-
+  cid: 1501
+  did: 18
+  cname: "Mulendiyawala"
+-
+  cid: 1502
+  did: 18
+  cname: "Mulgama"
+-
+  cid: 1503
+  did: 18
+  cname: "Nawalakanda"
+-
+  cid: 1504
+  did: 18
+  cname: "NawinnaPinnakanda"
+-
+  cid: 1505
+  did: 18
+  cname: "Niralagama"
+-
+  cid: 1506
+  did: 18
+  cname: "Nivitigala"
+-
+  cid: 1507
+  did: 18
+  cname: "Omalpe"
+-
+  cid: 1508
+  did: 18
+  cname: "Opanayaka"
+-
+  cid: 1509
+  did: 18
+  cname: "Padalangala"
+-
+  cid: 1510
+  did: 18
+  cname: "Pallebedda"
+-
+  cid: 1511
+  did: 18
+  cname: "Pambagolla"
+-
+  cid: 1512
+  did: 18
+  cname: "Panamura"
+-
+  cid: 1513
+  did: 18
+  cname: "Panapitiya"
+-
+  cid: 1514
+  did: 18
+  cname: "Panapola"
+-
+  cid: 1515
+  did: 18
+  cname: "Panawala"
+-
+  cid: 1516
+  did: 18
+  cname: "Parakaduwa"
+-
+  cid: 1517
+  did: 18
+  cname: "Pebotuwa"
+-
+  cid: 1518
+  did: 18
+  cname: "Pelmadulla"
+-
+  cid: 1519
+  did: 18
+  cname: "Pimbura"
+-
+  cid: 1520
+  did: 18
+  cname: "Pinnawala"
+-
+  cid: 1521
+  did: 18
+  cname: "Pothupitiya"
+-
+  cid: 1522
+  did: 18
+  cname: "Rajawaka"
+-
+  cid: 1523
+  did: 18
+  cname: "Rakwana"
+-
+  cid: 1524
+  did: 18
+  cname: "Ranwala"
+-
+  cid: 1525
+  did: 18
+  cname: "Rassagala"
+-
+  cid: 1526
+  did: 18
+  cname: "Ratna Hangamuwa"
+-
+  cid: 1527
+  did: 18
+  cname: "Ratnapura"
+-
+  cid: 1528
+  did: 18
+  cname: "Samanalawewa"
+-
+  cid: 1529
+  did: 18
+  cname: "Sri Palabaddala"
+-
+  cid: 1530
+  did: 18
+  cname: "Sudagala"
+-
+  cid: 1531
+  did: 18
+  cname: "Talakolahinna"
+-
+  cid: 1532
+  did: 18
+  cname: "Tanjantenna"
+-
+  cid: 1533
+  did: 18
+  cname: "Teppanawa"
+-
+  cid: 1534
+  did: 18
+  cname: "Tunkama"
+-
+  cid: 1535
+  did: 18
+  cname: "Udaha Hawupe"
+-
+  cid: 1536
+  did: 18
+  cname: "Udakarawita"
+-
+  cid: 1537
+  did: 18
+  cname: "Udaniriella"
+-
+  cid: 1538
+  did: 18
+  cname: "Udawalawe"
+-
+  cid: 1539
+  did: 18
+  cname: "Ullinduwawa"
+-
+  cid: 1540
+  did: 18
+  cname: "Veddagala"
+-
+  cid: 1541
+  did: 18
+  cname: "Vijeriya"
+-
+  cid: 1542
+  did: 18
+  cname: "Waleboda"
+-
+  cid: 1543
+  did: 18
+  cname: "Watapotha"
+-
+  cid: 1544
+  did: 18
+  cname: "Waturawa"
+-
+  cid: 1545
+  did: 18
+  cname: "Weligepola"
+-
+  cid: 1546
+  did: 18
+  cname: "Welipathayaya"
+-
+  cid: 1547
+  did: 18
+  cname: "Wewelwatta"
+-
+  cid: 1548
+  did: 18
+  cname: "Wikiliya"
+-
+  cid: 1549
+  did: 19
+  cname: "Alawatura"
+-
+  cid: 1550
+  did: 19
+  cname: "Algama"
+-
+  cid: 1551
+  did: 19
+  cname: "Alutnuwara"
+-
+  cid: 1552
+  did: 19
+  cname: "Ambalakanda"
+-
+  cid: 1553
+  did: 19
+  cname: "Ambulugala"
+-
+  cid: 1554
+  did: 19
+  cname: "Amitirigala"
+-
+  cid: 1555
+  did: 19
+  cname: "Ampagala"
+-
+  cid: 1556
+  did: 19
+  cname: "Anhettigama"
+-
+  cid: 1557
+  did: 19
+  cname: "Aranayaka"
+-
+  cid: 1558
+  did: 19
+  cname: "Aruggammana"
+-
+  cid: 1559
+  did: 19
+  cname: "Atale"
+-
+  cid: 1560
+  did: 19
+  cname: "Batuwita"
+-
+  cid: 1561
+  did: 19
+  cname: "Beligala(Sab)"
+-
+  cid: 1562
+  did: 19
+  cname: "Berannawa"
+-
+  cid: 1563
+  did: 19
+  cname: "Bopitiya (SAB)"
+-
+  cid: 1564
+  did: 19
+  cname: "Boralankada"
+-
+  cid: 1565
+  did: 19
+  cname: "Bossella"
+-
+  cid: 1566
+  did: 19
+  cname: "Bulathkohupitiya"
+-
+  cid: 1567
+  did: 19
+  cname: "Damunupola"
+-
+  cid: 1568
+  did: 19
+  cname: "Debathgama"
+-
+  cid: 1569
+  did: 19
+  cname: "Dedugala"
+-
+  cid: 1570
+  did: 19
+  cname: "Deewala Pallegama"
+-
+  cid: 1571
+  did: 19
+  cname: "Dehiowita"
+-
+  cid: 1572
+  did: 19
+  cname: "Deldeniya"
+-
+  cid: 1573
+  did: 19
+  cname: "Deloluwa"
+-
+  cid: 1574
+  did: 19
+  cname: "Deraniyagala"
+-
+  cid: 1575
+  did: 19
+  cname: "Dewalegama"
+-
+  cid: 1576
+  did: 19
+  cname: "Dewanagala"
+-
+  cid: 1577
+  did: 19
+  cname: "Dombemada"
+-
+  cid: 1578
+  did: 19
+  cname: "Dorawaka"
+-
+  cid: 1579
+  did: 19
+  cname: "Dunumala"
+-
+  cid: 1580
+  did: 19
+  cname: "Galapitamada"
+-
+  cid: 1581
+  did: 19
+  cname: "Galatara"
+-
+  cid: 1582
+  did: 19
+  cname: "Galigamuwa Town"
+-
+  cid: 1583
+  did: 19
+  cname: "Galpatha(Sab)"
+-
+  cid: 1584
+  did: 19
+  cname: "Gantuna"
+-
+  cid: 1585
+  did: 19
+  cname: "Gonagala"
+-
+  cid: 1586
+  did: 19
+  cname: "Hakahinna"
+-
+  cid: 1587
+  did: 19
+  cname: "Hakbellawaka"
+-
+  cid: 1588
+  did: 19
+  cname: "Helamada"
+-
+  cid: 1589
+  did: 19
+  cname: "Hemmatagama"
+-
+  cid: 1590
+  did: 19
+  cname: "Hettimulla"
+-
+  cid: 1591
+  did: 19
+  cname: "Hewadiwela"
+-
+  cid: 1592
+  did: 19
+  cname: "Hingula"
+-
+  cid: 1593
+  did: 19
+  cname: "Hinguralakanda"
+-
+  cid: 1594
+  did: 19
+  cname: "Hiriwadunna"
+-
+  cid: 1595
+  did: 19
+  cname: "Imbulana"
+-
+  cid: 1596
+  did: 19
+  cname: "Imbulgasdeniya"
+-
+  cid: 1597
+  did: 19
+  cname: "Kabagamuwa"
+-
+  cid: 1598
+  did: 19
+  cname: "Kannattota"
+-
+  cid: 1599
+  did: 19
+  cname: "Kegalle"
+-
+  cid: 1600
+  did: 19
+  cname: "Kehelpannala"
+-
+  cid: 1601
+  did: 19
+  cname: "Kitulgala"
+-
+  cid: 1602
+  did: 19
+  cname: "Kondeniya"
+-
+  cid: 1603
+  did: 19
+  cname: "Kotiyakumbura"
+-
+  cid: 1604
+  did: 19
+  cname: "Lewangama"
+-
+  cid: 1605
+  did: 19
+  cname: "Mahabage"
+-
+  cid: 1606
+  did: 19
+  cname: "Mahapallegama"
+-
+  cid: 1607
+  did: 19
+  cname: "Maharangalla"
+-
+  cid: 1608
+  did: 19
+  cname: "Makehelwala"
+-
+  cid: 1609
+  did: 19
+  cname: "Malalpola"
+-
+  cid: 1610
+  did: 19
+  cname: "Maliboda"
+-
+  cid: 1611
+  did: 19
+  cname: "Malmaduwa"
+-
+  cid: 1612
+  did: 19
+  cname: "Mawanella"
+-
+  cid: 1613
+  did: 19
+  cname: "Migastenna Sabara"
+-
+  cid: 1614
+  did: 19
+  cname: "Miyanawita"
+-
+  cid: 1615
+  did: 19
+  cname: "Molagoda"
+-
+  cid: 1616
+  did: 19
+  cname: "Morontota"
+-
+  cid: 1617
+  did: 19
+  cname: "Nelundeniya"
+-
+  cid: 1618
+  did: 19
+  cname: "Niyadurupola"
+-
+  cid: 1619
+  did: 19
+  cname: "Noori"
+-
+  cid: 1620
+  did: 19
+  cname: "Parape"
+-
+  cid: 1621
+  did: 19
+  cname: "Pattampitiya"
+-
+  cid: 1622
+  did: 19
+  cname: "Pinnawala"
+-
+  cid: 1623
+  did: 19
+  cname: "Pitagaldeniya"
+-
+  cid: 1624
+  did: 19
+  cname: "Pothukoladeniya"
+-
+  cid: 1625
+  did: 19
+  cname: "Rambukkana"
+-
+  cid: 1626
+  did: 19
+  cname: "Ruwanwella"
+-
+  cid: 1627
+  did: 19
+  cname: "Seaforth Colony"
+-
+  cid: 1628
+  did: 19
+  cname: "Talgaspitiya"
+-
+  cid: 1629
+  did: 19
+  cname: "Teligama"
+-
+  cid: 1630
+  did: 19
+  cname: "Tholangamuwa"
+-
+  cid: 1631
+  did: 19
+  cname: "Thotawella"
+-
+  cid: 1632
+  did: 19
+  cname: "Tulhiriya"
+-
+  cid: 1633
+  did: 19
+  cname: "Tuntota"
+-
+  cid: 1634
+  did: 19
+  cname: "Udagaldeniya"
+-
+  cid: 1635
+  did: 19
+  cname: "Udapotha"
+-
+  cid: 1636
+  did: 19
+  cname: "Udumulla"
+-
+  cid: 1637
+  did: 19
+  cname: "Undugoda"
+-
+  cid: 1638
+  did: 19
+  cname: "Ussapitiya"
+-
+  cid: 1639
+  did: 19
+  cname: "Wahakula"
+-
+  cid: 1640
+  did: 19
+  cname: "Waharaka"
+-
+  cid: 1641
+  did: 19
+  cname: "Warakapola"
+-
+  cid: 1642
+  did: 19
+  cname: "Watura"
+-
+  cid: 1643
+  did: 19
+  cname: "Weeoya"
+-
+  cid: 1644
+  did: 19
+  cname: "Wegalla"
+-
+  cid: 1645
+  did: 19
+  cname: "Welihelatenna"
+-
+  cid: 1646
+  did: 19
+  cname: "Weragala"
+-
+  cid: 1647
+  did: 19
+  cname: "Yatagama"
+-
+  cid: 1648
+  did: 19
+  cname: "Yatapana"
+-
+  cid: 1649
+  did: 19
+  cname: "Yatiyantota"
+-
+  cid: 1650
+  did: 19
+  cname: "Yattogoda"
+-
+  cid: 1651
+  did: 20
+  cname: "Agaliya"
+-
+  cid: 1652
+  did: 20
+  cname: "Ahangama"
+-
+  cid: 1653
+  did: 20
+  cname: "Ahungalla"
+-
+  cid: 1654
+  did: 20
+  cname: "Akmeemana"
+-
+  cid: 1655
+  did: 20
+  cname: "Aluthwala"
+-
+  cid: 1656
+  did: 20
+  cname: "Ambalangoda"
+-
+  cid: 1657
+  did: 20
+  cname: "Ampegama"
+-
+  cid: 1658
+  did: 20
+  cname: "Amugoda"
+-
+  cid: 1659
+  did: 20
+  cname: "Anangoda"
+-
+  cid: 1660
+  did: 20
+  cname: "Angulugaha"
+-
+  cid: 1661
+  did: 20
+  cname: "Ankokkawala"
+-
+  cid: 1662
+  did: 20
+  cname: "Baddegama"
+-
+  cid: 1663
+  did: 20
+  cname: "Balapitiya"
+-
+  cid: 1664
+  did: 20
+  cname: "Banagala"
+-
+  cid: 1665
+  did: 20
+  cname: "Batapola"
+-
+  cid: 1666
+  did: 20
+  cname: "Bentota"
+-
+  cid: 1667
+  did: 20
+  cname: "Boossa"
+-
+  cid: 1668
+  did: 20
+  cname: "Dikkumbura"
+-
+  cid: 1669
+  did: 20
+  cname: "Dodanduwa"
+-
+  cid: 1670
+  did: 20
+  cname: "Ella Tanabaddegama"
+-
+  cid: 1671
+  did: 20
+  cname: "Elpitiya"
+-
+  cid: 1672
+  did: 20
+  cname: "Ethkandura"
+-
+  cid: 1673
+  did: 20
+  cname: "Galle"
+-
+  cid: 1674
+  did: 20
+  cname: "Ganegoda"
+-
+  cid: 1675
+  did: 20
+  cname: "Ginimellagaha"
+-
+  cid: 1676
+  did: 20
+  cname: "Gintota"
+-
+  cid: 1677
+  did: 20
+  cname: "Godahena"
+-
+  cid: 1678
+  did: 20
+  cname: "Gonagalpura"
+-
+  cid: 1679
+  did: 20
+  cname: "Gonamulla Junction"
+-
+  cid: 1680
+  did: 20
+  cname: "Gonapinuwala"
+-
+  cid: 1681
+  did: 20
+  cname: "Habaraduwa"
+-
+  cid: 1682
+  did: 20
+  cname: "Haburugala"
+-
+  cid: 1683
+  did: 20
+  cname: "Halvitigala Colony"
+-
+  cid: 1684
+  did: 20
+  cname: "Hapugala"
+-
+  cid: 1685
+  did: 20
+  cname: "Hawpe"
+-
+  cid: 1686
+  did: 20
+  cname: "Hikkaduwa"
+-
+  cid: 1687
+  did: 20
+  cname: "Hinatigala"
+-
+  cid: 1688
+  did: 20
+  cname: "Hiniduma"
+-
+  cid: 1689
+  did: 20
+  cname: "Hiyare"
+-
+  cid: 1690
+  did: 20
+  cname: "Ihala Walpola"
+-
+  cid: 1691
+  did: 20
+  cname: "Induruwa"
+-
+  cid: 1692
+  did: 20
+  cname: "Kahaduwa"
+-
+  cid: 1693
+  did: 20
+  cname: "Kahawa"
+-
+  cid: 1694
+  did: 20
+  cname: "Kananke Bazaar"
+-
+  cid: 1695
+  did: 20
+  cname: "Karagoda"
+-
+  cid: 1696
+  did: 20
+  cname: "Karandeniya"
+-
+  cid: 1697
+  did: 20
+  cname: "Karapitiya"
+-
+  cid: 1698
+  did: 20
+  cname: "Koggala"
+-
+  cid: 1699
+  did: 20
+  cname: "Kosgoda"
+-
+  cid: 1700
+  did: 20
+  cname: "Kottawagama"
+-
+  cid: 1701
+  did: 20
+  cname: "Kuleegoda"
+-
+  cid: 1702
+  did: 20
+  cname: "lhalahewessa"
+-
+  cid: 1703
+  did: 20
+  cname: "lmaduwa"
+-
+  cid: 1704
+  did: 20
+  cname: "lnduruwa"
+-
+  cid: 1705
+  did: 20
+  cname: "Magedara"
+-
+  cid: 1706
+  did: 20
+  cname: "Malgalla Talangalla"
+-
+  cid: 1707
+  did: 20
+  cname: "Mapalagama"
+-
+  cid: 1708
+  did: 20
+  cname: "Mapalagama Central"
+-
+  cid: 1709
+  did: 20
+  cname: "Mattaka"
+-
+  cid: 1710
+  did: 20
+  cname: "Meda-Keembiya"
+-
+  cid: 1711
+  did: 20
+  cname: "Meetiyagoda"
+-
+  cid: 1712
+  did: 20
+  cname: "Miriswatta"
+-
+  cid: 1713
+  did: 20
+  cname: "Nagoda"
+-
+  cid: 1714
+  did: 20
+  cname: "Nakiyadeniya"
+-
+  cid: 1715
+  did: 20
+  cname: "Nawadagala"
+-
+  cid: 1716
+  did: 20
+  cname: "Neluwa"
+-
+  cid: 1717
+  did: 20
+  cname: "Nindana"
+-
+  cid: 1718
+  did: 20
+  cname: "Opatha"
+-
+  cid: 1719
+  did: 20
+  cname: "Panangala"
+-
+  cid: 1720
+  did: 20
+  cname: "Pannimulla Panagoda"
+-
+  cid: 1721
+  did: 20
+  cname: "Parana ThanaYamgoda"
+-
+  cid: 1722
+  did: 20
+  cname: "Pitigala"
+-
+  cid: 1723
+  did: 20
+  cname: "Poddala"
+-
+  cid: 1724
+  did: 20
+  cname: "Porawagama"
+-
+  cid: 1725
+  did: 20
+  cname: "Rantotuwila"
+-
+  cid: 1726
+  did: 20
+  cname: "Ratgama"
+-
+  cid: 1727
+  did: 20
+  cname: "Talagampola"
+-
+  cid: 1728
+  did: 20
+  cname: "Talgaspe"
+-
+  cid: 1729
+  did: 20
+  cname: "Talgaswela"
+-
+  cid: 1730
+  did: 20
+  cname: "Talpe"
+-
+  cid: 1731
+  did: 20
+  cname: "Tawalama"
+-
+  cid: 1732
+  did: 20
+  cname: "Tiranagama"
+-
+  cid: 1733
+  did: 20
+  cname: "Udalamatta"
+-
+  cid: 1734
+  did: 20
+  cname: "Udugama"
+-
+  cid: 1735
+  did: 20
+  cname: "Uluvitike"
+-
+  cid: 1736
+  did: 20
+  cname: "Unawatuna"
+-
+  cid: 1737
+  did: 20
+  cname: "Unenwitiya"
+-
+  cid: 1738
+  did: 20
+  cname: "Uragaha"
+-
+  cid: 1739
+  did: 20
+  cname: "Uragasmanhandiya"
+-
+  cid: 1740
+  did: 20
+  cname: "Wakwella"
+-
+  cid: 1741
+  did: 20
+  cname: "Walahanduwa"
+-
+  cid: 1742
+  did: 20
+  cname: "Wanchawela"
+-
+  cid: 1743
+  did: 20
+  cname: "Wanduramba"
+-
+  cid: 1744
+  did: 20
+  cname: "Warukandeniya"
+-
+  cid: 1745
+  did: 20
+  cname: "Watugedara"
+-
+  cid: 1746
+  did: 20
+  cname: "Weihena"
+-
+  cid: 1747
+  did: 20
+  cname: "Yakkalamulla"
+-
+  cid: 1748
+  did: 20
+  cname: "Yatalamatta"
+-
+  cid: 1749
+  did: 21
+  cname: "Akuressa"
+-
+  cid: 1750
+  did: 21
+  cname: "Alapaladeniya"
+-
+  cid: 1751
+  did: 21
+  cname: "Aparekka"
+-
+  cid: 1752
+  did: 21
+  cname: "Athuraliya"
+-
+  cid: 1753
+  did: 21
+  cname: "Bengamuwa"
+-
+  cid: 1754
+  did: 21
+  cname: "Beralapanathara"
+-
+  cid: 1755
+  did: 21
+  cname: "Bopagoda"
+-
+  cid: 1756
+  did: 21
+  cname: "Dampahala"
+-
+  cid: 1757
+  did: 21
+  cname: "Deegala Lenama"
+-
+  cid: 1758
+  did: 21
+  cname: "Deiyandara"
+-
+  cid: 1759
+  did: 21
+  cname: "Dellawa"
+-
+  cid: 1760
+  did: 21
+  cname: "Denagama"
+-
+  cid: 1761
+  did: 21
+  cname: "Denipitiya"
+-
+  cid: 1762
+  did: 21
+  cname: "Deniyaya"
+-
+  cid: 1763
+  did: 21
+  cname: "Derangala"
+-
+  cid: 1764
+  did: 21
+  cname: "Devinuwara (Dondra)"
+-
+  cid: 1765
+  did: 21
+  cname: "Dikwella"
+-
+  cid: 1766
+  did: 21
+  cname: "Diyagaha"
+-
+  cid: 1767
+  did: 21
+  cname: "Diyalape"
+-
+  cid: 1768
+  did: 21
+  cname: "Gandara"
+-
+  cid: 1769
+  did: 21
+  cname: "Godapitiya"
+-
+  cid: 1770
+  did: 21
+  cname: "Gomilamawarala"
+-
+  cid: 1771
+  did: 21
+  cname: "Hakmana"
+-
+  cid: 1772
+  did: 21
+  cname: "Handugala"
+-
+  cid: 1773
+  did: 21
+  cname: "Horapawita"
+-
+  cid: 1774
+  did: 21
+  cname: "Kalubowitiyana"
+-
+  cid: 1775
+  did: 21
+  cname: "Kamburugamuwa"
+-
+  cid: 1776
+  did: 21
+  cname: "Kamburupitiya"
+-
+  cid: 1777
+  did: 21
+  cname: "Karagoda Uyangoda"
+-
+  cid: 1778
+  did: 21
+  cname: "Karaputugala"
+-
+  cid: 1779
+  did: 21
+  cname: "Karatota"
+-
+  cid: 1780
+  did: 21
+  cname: "Kekanadurra"
+-
+  cid: 1781
+  did: 21
+  cname: "Kiriweldola"
+-
+  cid: 1782
+  did: 21
+  cname: "Kiriwelkele"
+-
+  cid: 1783
+  did: 21
+  cname: "Kolawenigama"
+-
+  cid: 1784
+  did: 21
+  cname: "Kotapola"
+-
+  cid: 1785
+  did: 21
+  cname: "Kottegoda"
+-
+  cid: 1786
+  did: 21
+  cname: "Lankagama"
+-
+  cid: 1787
+  did: 21
+  cname: "Makandura"
+-
+  cid: 1788
+  did: 21
+  cname: "Maliduwa"
+-
+  cid: 1789
+  did: 21
+  cname: "Maramba"
+-
+  cid: 1790
+  did: 21
+  cname: "Matara"
+-
+  cid: 1791
+  did: 21
+  cname: "Mediripitiya"
+-
+  cid: 1792
+  did: 21
+  cname: "Miella"
+-
+  cid: 1793
+  did: 21
+  cname: "Mirissa"
+-
+  cid: 1794
+  did: 21
+  cname: "Moragala Kirillapone"
+-
+  cid: 1795
+  did: 21
+  cname: "Morawaka"
+-
+  cid: 1796
+  did: 21
+  cname: "Mulatiyana Junction"
+-
+  cid: 1797
+  did: 21
+  cname: "Nadugala"
+-
+  cid: 1798
+  did: 21
+  cname: "Naimana"
+-
+  cid: 1799
+  did: 21
+  cname: "Narawelpita"
+-
+  cid: 1800
+  did: 21
+  cname: "Pahala Millawa"
+-
+  cid: 1801
+  did: 21
+  cname: "Palatuwa"
+-
+  cid: 1802
+  did: 21
+  cname: "Paragala"
+-
+  cid: 1803
+  did: 21
+  cname: "Parapamulla"
+-
+  cid: 1804
+  did: 21
+  cname: "Pasgoda"
+-
+  cid: 1805
+  did: 21
+  cname: "Penetiyana"
+-
+  cid: 1806
+  did: 21
+  cname: "Pitabeddara"
+-
+  cid: 1807
+  did: 21
+  cname: "Polhena"
+-
+  cid: 1808
+  did: 21
+  cname: "Pothdeniya"
+-
+  cid: 1809
+  did: 21
+  cname: "Puhulwella"
+-
+  cid: 1810
+  did: 21
+  cname: "Radawela"
+-
+  cid: 1811
+  did: 21
+  cname: "Ransegoda"
+-
+  cid: 1812
+  did: 21
+  cname: "Ratmale"
+-
+  cid: 1813
+  did: 21
+  cname: "Rotumba"
+-
+  cid: 1814
+  did: 21
+  cname: "Siyambalagoda"
+-
+  cid: 1815
+  did: 21
+  cname: "Sultanagoda"
+-
+  cid: 1816
+  did: 21
+  cname: "Telijjawila"
+-
+  cid: 1817
+  did: 21
+  cname: "Thihagoda"
+-
+  cid: 1818
+  did: 21
+  cname: "Urubokka"
+-
+  cid: 1819
+  did: 21
+  cname: "Urugamuwa"
+-
+  cid: 1820
+  did: 21
+  cname: "Urumutta"
+-
+  cid: 1821
+  did: 21
+  cname: "Viharahena"
+-
+  cid: 1822
+  did: 21
+  cname: "Walakanda"
+-
+  cid: 1823
+  did: 21
+  cname: "Walasgala"
+-
+  cid: 1824
+  did: 21
+  cname: "Walpola"
+-
+  cid: 1825
+  did: 21
+  cname: "Waralla"
+-
+  cid: 1826
+  did: 21
+  cname: "Weligama"
+-
+  cid: 1827
+  did: 21
+  cname: "Wilpita"
+-
+  cid: 1828
+  did: 21
+  cname: "Yatiyana"
+-
+  cid: 1829
+  did: 22
+  cname: "Ambalantota"
+-
+  cid: 1830
+  did: 22
+  cname: "Angunakolapelessa"
+-
+  cid: 1831
+  did: 22
+  cname: "Bandagiriya Colony"
+-
+  cid: 1832
+  did: 22
+  cname: "Barawakumbuka"
+-
+  cid: 1833
+  did: 22
+  cname: "Beliatta"
+-
+  cid: 1834
+  did: 22
+  cname: "Beragama"
+-
+  cid: 1835
+  did: 22
+  cname: "Beralihela"
+-
+  cid: 1836
+  did: 22
+  cname: "Bowalagama"
+-
+  cid: 1837
+  did: 22
+  cname: "Bundala"
+-
+  cid: 1838
+  did: 22
+  cname: "Ellagala"
+-
+  cid: 1839
+  did: 22
+  cname: "Gangulandeniya"
+-
+  cid: 1840
+  did: 22
+  cname: "Getamanna"
+-
+  cid: 1841
+  did: 22
+  cname: "Goda Koggalla"
+-
+  cid: 1842
+  did: 22
+  cname: "Gonagamuwa Uduwila"
+-
+  cid: 1843
+  did: 22
+  cname: "Gonnoruwa"
+-
+  cid: 1844
+  did: 22
+  cname: "Hakuruwela"
+-
+  cid: 1845
+  did: 22
+  cname: "Hambantota"
+-
+  cid: 1846
+  did: 22
+  cname: "Horewelagoda"
+-
+  cid: 1847
+  did: 22
+  cname: "Hungama"
+-
+  cid: 1848
+  did: 22
+  cname: "Ihala Beligalla"
+-
+  cid: 1849
+  did: 22
+  cname: "Ittademaliya"
+-
+  cid: 1850
+  did: 22
+  cname: "Julampitiya"
+-
+  cid: 1851
+  did: 22
+  cname: "Kahandamodara"
+-
+  cid: 1852
+  did: 22
+  cname: "Kariyamaditta"
+-
+  cid: 1853
+  did: 22
+  cname: "Katuwana"
+-
+  cid: 1854
+  did: 22
+  cname: "Kawantissapura"
+-
+  cid: 1855
+  did: 22
+  cname: "Kirama"
+-
+  cid: 1856
+  did: 22
+  cname: "Kirinda"
+-
+  cid: 1857
+  did: 22
+  cname: "Lunama"
+-
+  cid: 1858
+  did: 22
+  cname: "Lunugamwehera"
+-
+  cid: 1859
+  did: 22
+  cname: "Magama"
+-
+  cid: 1860
+  did: 22
+  cname: "Mahagalwewa"
+-
+  cid: 1861
+  did: 22
+  cname: "Mamadala"
+-
+  cid: 1862
+  did: 22
+  cname: "Medamulana"
+-
+  cid: 1863
+  did: 22
+  cname: "Middeniya"
+-
+  cid: 1864
+  did: 22
+  cname: "Migahajandur"
+-
+  cid: 1865
+  did: 22
+  cname: "Modarawana"
+-
+  cid: 1866
+  did: 22
+  cname: "Mulkirigala"
+-
+  cid: 1867
+  did: 22
+  cname: "Nakulugamuwa"
+-
+  cid: 1868
+  did: 22
+  cname: "Netolpitiya"
+-
+  cid: 1869
+  did: 22
+  cname: "Nihiluwa"
+-
+  cid: 1870
+  did: 22
+  cname: "Padawkema"
+-
+  cid: 1871
+  did: 22
+  cname: "Pahala Andarawewa"
+-
+  cid: 1872
+  did: 22
+  cname: "Pallekanda"
+-
+  cid: 1873
+  did: 22
+  cname: "Rammalawarapitiya"
+-
+  cid: 1874
+  did: 22
+  cname: "Ranakeliya"
+-
+  cid: 1875
+  did: 22
+  cname: "Ranmuduwewa"
+-
+  cid: 1876
+  did: 22
+  cname: "Ranna"
+-
+  cid: 1877
+  did: 22
+  cname: "Ratmalwala"
+-
+  cid: 1878
+  did: 22
+  cname: "RU/Ridiyagama"
+-
+  cid: 1879
+  did: 22
+  cname: "Sooriyawewa Town"
+-
+  cid: 1880
+  did: 22
+  cname: "Tangalla"
+-
+  cid: 1881
+  did: 22
+  cname: "Tissamaharama"
+-
+  cid: 1882
+  did: 22
+  cname: "Uda Gomadiya"
+-
+  cid: 1883
+  did: 22
+  cname: "Udamattala"
+-
+  cid: 1884
+  did: 22
+  cname: "Uswewa"
+-
+  cid: 1885
+  did: 22
+  cname: "Vitharandeniya"
+-
+  cid: 1886
+  did: 22
+  cname: "Walasmulla"
+-
+  cid: 1887
+  did: 22
+  cname: "Weeraketiya"
+-
+  cid: 1888
+  did: 22
+  cname: "Weerawila"
+-
+  cid: 1889
+  did: 22
+  cname: "Weerawila NewTown"
+-
+  cid: 1890
+  did: 22
+  cname: "Wekandawela"
+-
+  cid: 1891
+  did: 22
+  cname: "Weligatta"
+-
+  cid: 1892
+  did: 22
+  cname: "Yala"
+-
+  cid: 1893
+  did: 22
+  cname: "Yatigala"
+-
+  cid: 1894
+  did: 23
+  cname: "Akkarasiyaya"
+-
+  cid: 1895
+  did: 23
+  cname: "Aluketiyawa"
+-
+  cid: 1896
+  did: 23
+  cname: "Aluttaramma"
+-
+  cid: 1897
+  did: 23
+  cname: "Ambadandegama"
+-
+  cid: 1898
+  did: 23
+  cname: "Ambagahawatta"
+-
+  cid: 1899
+  did: 23
+  cname: "Ambagasdowa"
+-
+  cid: 1900
+  did: 23
+  cname: "Amunumulla"
+-
+  cid: 1901
+  did: 23
+  cname: "Arawa"
+-
+  cid: 1902
+  did: 23
+  cname: "Arawakumbura"
+-
+  cid: 1903
+  did: 23
+  cname: "Arawatta"
+-
+  cid: 1904
+  did: 23
+  cname: "Atakiriya"
+-
+  cid: 1905
+  did: 23
+  cname: "Badulla"
+-
+  cid: 1906
+  did: 23
+  cname: "Baduluoya"
+-
+  cid: 1907
+  did: 23
+  cname: "Ballaketuwa"
+-
+  cid: 1908
+  did: 23
+  cname: "Bambarapana"
+-
+  cid: 1909
+  did: 23
+  cname: "Bandarawela"
+-
+  cid: 1910
+  did: 23
+  cname: "Beramada"
+-
+  cid: 1911
+  did: 23
+  cname: "Bibilegama"
+-
+  cid: 1912
+  did: 23
+  cname: "Bogahakumbura"
+-
+  cid: 1913
+  did: 23
+  cname: "Boralanda"
+-
+  cid: 1914
+  did: 23
+  cname: "Bowela"
+-
+  cid: 1915
+  did: 23
+  cname: "Dambana"
+-
+  cid: 1916
+  did: 23
+  cname: "Demodara"
+-
+  cid: 1917
+  did: 23
+  cname: "Diganatenna"
+-
+  cid: 1918
+  did: 23
+  cname: "Dikkapitiya"
+-
+  cid: 1919
+  did: 23
+  cname: "Dimbulana"
+-
+  cid: 1920
+  did: 23
+  cname: "Divulapelessa"
+-
+  cid: 1921
+  did: 23
+  cname: "Diyatalawa"
+-
+  cid: 1922
+  did: 23
+  cname: "Dulgolla"
+-
+  cid: 1923
+  did: 23
+  cname: "Egodawela"
+-
+  cid: 1924
+  did: 23
+  cname: "Ella"
+-
+  cid: 1925
+  did: 23
+  cname: "Ettampitiya"
+-
+  cid: 1926
+  did: 23
+  cname: "Galauda"
+-
+  cid: 1927
+  did: 23
+  cname: "Galedanda"
+-
+  cid: 1928
+  did: 23
+  cname: "Galporuyaya"
+-
+  cid: 1929
+  did: 23
+  cname: "Gamewela"
+-
+  cid: 1930
+  did: 23
+  cname: "Gawarawela"
+-
+  cid: 1931
+  did: 23
+  cname: "Girandurukotte"
+-
+  cid: 1932
+  did: 23
+  cname: "Godunna"
+-
+  cid: 1933
+  did: 23
+  cname: "Gurutalawa"
+-
+  cid: 1934
+  did: 23
+  cname: "Haldummulla"
+-
+  cid: 1935
+  did: 23
+  cname: "Hali Ela"
+-
+  cid: 1936
+  did: 23
+  cname: "Hangunnawa"
+-
+  cid: 1937
+  did: 23
+  cname: "Haputale"
+-
+  cid: 1938
+  did: 23
+  cname: "Hebarawa"
+-
+  cid: 1939
+  did: 23
+  cname: "Heeloya"
+-
+  cid: 1940
+  did: 23
+  cname: "Helahalpe"
+-
+  cid: 1941
+  did: 23
+  cname: "Helapupula"
+-
+  cid: 1942
+  did: 23
+  cname: "Hewanakumbura"
+-
+  cid: 1943
+  did: 23
+  cname: "Hingurukaduwa"
+-
+  cid: 1944
+  did: 23
+  cname: "Hopton"
+-
+  cid: 1945
+  did: 23
+  cname: "Idalgashinna"
+-
+  cid: 1946
+  did: 23
+  cname: "Jangulla"
+-
+  cid: 1947
+  did: 23
+  cname: "Kahataruppa"
+-
+  cid: 1948
+  did: 23
+  cname: "Kalubululanda"
+-
+  cid: 1949
+  did: 23
+  cname: "Kalugahakandura"
+-
+  cid: 1950
+  did: 23
+  cname: "Kalupahana"
+-
+  cid: 1951
+  did: 23
+  cname: "Kandaketya"
+-
+  cid: 1952
+  did: 23
+  cname: "Kandegedara"
+-
+  cid: 1953
+  did: 23
+  cname: "Kandepuhulpola"
+-
+  cid: 1954
+  did: 23
+  cname: "Kebillawela"
+-
+  cid: 1955
+  did: 23
+  cname: "Kendagolla"
+-
+  cid: 1956
+  did: 23
+  cname: "Keppetipola"
+-
+  cid: 1957
+  did: 23
+  cname: "Keselpotha"
+-
+  cid: 1958
+  did: 23
+  cname: "Ketawatta"
+-
+  cid: 1959
+  did: 23
+  cname: "Kiriwanagama"
+-
+  cid: 1960
+  did: 23
+  cname: "Koslanda"
+-
+  cid: 1961
+  did: 23
+  cname: "Kotamuduna"
+-
+  cid: 1962
+  did: 23
+  cname: "Kuruwitenna"
+-
+  cid: 1963
+  did: 23
+  cname: "Kuttiyagolla"
+-
+  cid: 1964
+  did: 23
+  cname: "Landewela"
+-
+  cid: 1965
+  did: 23
+  cname: "Liyangahawela"
+-
+  cid: 1966
+  did: 23
+  cname: "Lunugala"
+-
+  cid: 1967
+  did: 23
+  cname: "Lunuwatta"
+-
+  cid: 1968
+  did: 23
+  cname: "Madulsima"
+-
+  cid: 1969
+  did: 23
+  cname: "Mahiyanganaya"
+-
+  cid: 1970
+  did: 23
+  cname: "Makulella"
+-
+  cid: 1971
+  did: 23
+  cname: "Malgoda"
+-
+  cid: 1972
+  did: 23
+  cname: "Maliyadda"
+-
+  cid: 1973
+  did: 23
+  cname: "Mapakadawewa"
+-
+  cid: 1974
+  did: 23
+  cname: "Maspanna"
+-
+  cid: 1975
+  did: 23
+  cname: "Maussagolla"
+-
+  cid: 1976
+  did: 23
+  cname: "Medawela Udukinda"
+-
+  cid: 1977
+  did: 23
+  cname: "Medawelagama"
+-
+  cid: 1978
+  did: 23
+  cname: "Meegahakiula"
+-
+  cid: 1979
+  did: 23
+  cname: "Metigahatenna"
+-
+  cid: 1980
+  did: 23
+  cname: "Mirahawatta"
+-
+  cid: 1981
+  did: 23
+  cname: "Miriyabedda"
+-
+  cid: 1982
+  did: 23
+  cname: "Miyanakandura"
+-
+  cid: 1983
+  did: 23
+  cname: "Namunukula"
+-
+  cid: 1984
+  did: 23
+  cname: "Narangala"
+-
+  cid: 1985
+  did: 23
+  cname: "Nelumgama"
+-
+  cid: 1986
+  did: 23
+  cname: "Nikapotha"
+-
+  cid: 1987
+  did: 23
+  cname: "Nugatalawa"
+-
+  cid: 1988
+  did: 23
+  cname: "Ohiya"
+-
+  cid: 1989
+  did: 23
+  cname: "Pahalarathkinda"
+-
+  cid: 1990
+  did: 23
+  cname: "Pallekiruwa"
+-
+  cid: 1991
+  did: 23
+  cname: "Passara"
+-
+  cid: 1992
+  did: 23
+  cname: "Pathanewatta"
+-
+  cid: 1993
+  did: 23
+  cname: "Pattiyagedara"
+-
+  cid: 1994
+  did: 23
+  cname: "Pelagahatenna"
+-
+  cid: 1995
+  did: 23
+  cname: "Perawella"
+-
+  cid: 1996
+  did: 23
+  cname: "Pitamaruwa"
+-
+  cid: 1997
+  did: 23
+  cname: "Pitapola"
+-
+  cid: 1998
+  did: 23
+  cname: "Puhulpola"
+-
+  cid: 1999
+  did: 23
+  cname: "Ratkarawwa"
+-
+  cid: 2000
+  did: 23
+  cname: "Ridimaliyadda"
+-
+  cid: 2001
+  did: 23
+  cname: "Rilpola"
+-
+  cid: 2002
+  did: 23
+  cname: "Silmiyapura"
+-
+  cid: 2003
+  did: 23
+  cname: "Sirimalgoda"
+-
+  cid: 2004
+  did: 23
+  cname: "Sorabora Colony"
+-
+  cid: 2005
+  did: 23
+  cname: "Soragune"
+-
+  cid: 2006
+  did: 23
+  cname: "Soranatota"
+-
+  cid: 2007
+  did: 23
+  cname: "Spring Valley"
+-
+  cid: 2008
+  did: 23
+  cname: "Taldena"
+-
+  cid: 2009
+  did: 23
+  cname: "Tennepanguwa"
+-
+  cid: 2010
+  did: 23
+  cname: "Timbirigaspitiya"
+-
+  cid: 2011
+  did: 23
+  cname: "Uduhawara"
+-
+  cid: 2012
+  did: 23
+  cname: "Uraniya"
+-
+  cid: 2013
+  did: 23
+  cname: "Uva Deegalla"
+-
+  cid: 2014
+  did: 23
+  cname: "Uva Karandagolla"
+-
+  cid: 2015
+  did: 23
+  cname: "Uva Mawelagama"
+-
+  cid: 2016
+  did: 23
+  cname: "Uva Tenna"
+-
+  cid: 2017
+  did: 23
+  cname: "Uva Tissapura"
+-
+  cid: 2018
+  did: 23
+  cname: "Uva Uduwara"
+-
+  cid: 2019
+  did: 23
+  cname: "Uvaparanagama"
+-
+  cid: 2020
+  did: 23
+  cname: "Welimada"
+-
+  cid: 2021
+  did: 23
+  cname: "Wewatta"
+-
+  cid: 2022
+  did: 23
+  cname: "Wineethagama"
+-
+  cid: 2023
+  did: 23
+  cname: "Yalagamuwa"
+-
+  cid: 2024
+  did: 23
+  cname: "Yalwela"
+-
+  cid: 2025
+  did: 24
+  cname: "Angunakolawewa"
+-
+  cid: 2026
+  did: 24
+  cname: "Ayiwela"
+-
+  cid: 2027
+  did: 24
+  cname: "Badalkumbura"
+-
+  cid: 2028
+  did: 24
+  cname: "Baduluwela"
+-
+  cid: 2029
+  did: 24
+  cname: "Bakinigahawela"
+-
+  cid: 2030
+  did: 24
+  cname: "Balaharuwa"
+-
+  cid: 2031
+  did: 24
+  cname: "Bibile"
+-
+  cid: 2032
+  did: 24
+  cname: "Boragas"
+-
+  cid: 2033
+  did: 24
+  cname: "Buddama"
+-
+  cid: 2034
+  did: 24
+  cname: "Buttala"
+-
+  cid: 2035
+  did: 24
+  cname: "Dambagalla"
+-
+  cid: 2036
+  did: 24
+  cname: "Diyakobala"
+-
+  cid: 2037
+  did: 24
+  cname: "Dombagahawela"
+-
+  cid: 2038
+  did: 24
+  cname: "Ekamutugama"
+-
+  cid: 2039
+  did: 24
+  cname: "Ekiriyankumbura"
+-
+  cid: 2040
+  did: 24
+  cname: "Ethimalewewa"
+-
+  cid: 2041
+  did: 24
+  cname: "Ettiliwewa"
+-
+  cid: 2042
+  did: 24
+  cname: "Galabedda"
+-
+  cid: 2043
+  did: 24
+  cname: "Hambegamuwa"
+-
+  cid: 2044
+  did: 24
+  cname: "Hulandawa"
+-
+  cid: 2045
+  did: 24
+  cname: "Inginiyagala"
+-
+  cid: 2046
+  did: 24
+  cname: "Kandaudapanguwa"
+-
+  cid: 2047
+  did: 24
+  cname: "Kandawinna"
+-
+  cid: 2048
+  did: 24
+  cname: "Kataragama"
+-
+  cid: 2049
+  did: 24
+  cname: "Kiriibbanwewa"
+-
+  cid: 2050
+  did: 24
+  cname: "Kotagama"
+-
+  cid: 2051
+  did: 24
+  cname: "Kotawehera Mankada"
+-
+  cid: 2052
+  did: 24
+  cname: "Kotiyagala"
+-
+  cid: 2053
+  did: 24
+  cname: "Kumbukkana"
+-
+  cid: 2054
+  did: 24
+  cname: "Mahagama Colony"
+-
+  cid: 2055
+  did: 24
+  cname: "Marawa"
+-
+  cid: 2056
+  did: 24
+  cname: "Mariarawa"
+-
+  cid: 2057
+  did: 24
+  cname: "Medagana"
+-
+  cid: 2058
+  did: 24
+  cname: "Monaragala"
+-
+  cid: 2059
+  did: 24
+  cname: "Moretuwegama"
+-
+  cid: 2060
+  did: 24
+  cname: "Nakkala"
+-
+  cid: 2061
+  did: 24
+  cname: "Nannapurawa"
+-
+  cid: 2062
+  did: 24
+  cname: "Nelliyadda"
+-
+  cid: 2063
+  did: 24
+  cname: "Nilgala"
+-
+  cid: 2064
+  did: 24
+  cname: "Obbegoda"
+-
+  cid: 2065
+  did: 24
+  cname: "Okkampitiya"
+-
+  cid: 2066
+  did: 24
+  cname: "Pangura"
+-
+  cid: 2067
+  did: 24
+  cname: "Pitakumbura"
+-
+  cid: 2068
+  did: 24
+  cname: "Randeniya"
+-
+  cid: 2069
+  did: 24
+  cname: "Ruwalwela"
+-
+  cid: 2070
+  did: 24
+  cname: "Sella Kataragama"
+-
+  cid: 2071
+  did: 24
+  cname: "Sewanagala"
+-
+  cid: 2072
+  did: 24
+  cname: "Siyambalagune"
+-
+  cid: 2073
+  did: 24
+  cname: "Siyambalanduwa"
+-
+  cid: 2074
+  did: 24
+  cname: "Suriara"
+-
+  cid: 2075
+  did: 24
+  cname: "Tanamalwila"
+-
+  cid: 2076
+  did: 24
+  cname: "Uva Gangodagama"
+-
+  cid: 2077
+  did: 24
+  cname: "Uva Kudaoya"
+-
+  cid: 2078
+  did: 24
+  cname: "Uva Pelwatta"
+-
+  cid: 2079
+  did: 24
+  cname: "Warunagama"
+-
+  cid: 2080
+  did: 24
+  cname: "Wedikumbura"
+-
+  cid: 2081
+  did: 24
+  cname: "Weherayaya Handapanagala"
+-
+  cid: 2082
+  did: 24
+  cname: "Wellawaya"
+-
+  cid: 2083
+  did: 24
+  cname: "Wilaoya"
+...

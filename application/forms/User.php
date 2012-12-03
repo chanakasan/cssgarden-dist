@@ -73,7 +73,7 @@ class Form_User extends Zend_Form
                 array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
         ));
 
-        $email = new Zend_Form_Element_Password('email');
+        $email = new Zend_Form_Element_Text('email');
         $email->setLabel('E-mail:')                 
                  ->setAttrib('size', '30')
                  ->addFilter('StringTrim', 'StringToLower')
@@ -88,7 +88,7 @@ class Form_User extends Zend_Form
                 array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
         ));
 
-        $mobile = new Zend_Form_Element_Password('mobile');
+        $mobile = new Zend_Form_Element_Text('mobile');
         $mobile->setLabel('Mobile No.:')                 
                  ->setAttrib('size', '30')
                  ->addFilter('StringTrim', 'StringToLower')

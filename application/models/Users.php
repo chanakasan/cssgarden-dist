@@ -14,7 +14,6 @@ class Model_Users
         if(!$name) {
             return false;
         }
-
         //load user auth details
         $user = Zend_Auth::getInstance()->getIdentity();
 
@@ -22,7 +21,7 @@ class Model_Users
         if($user && isset($user->$name)) {
             return $user->$name;
         }
-        return false;
+        return false;        
     }
 
 
@@ -34,7 +33,16 @@ class Model_Users
      */
     public static function isAdmin()
     {
-        return 'admin' == self::getLoggedInUserField('role');
+        $name = 'isadmin'; // table column to check
+
+        //load user auth details
+        $user = Zend_Auth::getInstance()->getIdentity();
+
+        //if field is defined in auth identity
+        if($user && isset($user->$name)) {
+            return $user->$name;
+        }
+        return false;
     }
 
     /**

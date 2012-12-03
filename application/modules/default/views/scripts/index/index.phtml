@@ -2,38 +2,45 @@
     a:link,
     a:visited
     {
-        color: #0398CA;
+        color: #91BE3F;
     }
 
-    span#zf-name
+    div#display-date
+    {
+        margin:0 2em;
+        color:#000;
+    }
+    
+    span#site-name
     {
         color: #91BE3F;
     }
 
     div#welcome
     {
+        margin:0 2em;
         color: #91BE3F;
-        background-image: url(http://framework.zend.com/images/bkg_header.jpg);
-        width:  600px;
-        height: 400px;
+        background: url(http://framework.zend.com/images/bkg_header.jpg);
+        height: 550px;
+        width:800px;
         border: 2px solid #444444;
         overflow: hidden;
         text-align: center;
     }
 
-    div#more-information
+    div#task-list
     {
         background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
         height: 100%;
     }
 </style>
-<div id="display-date">Date: [Show date]</div><br/>
+<div id="display-date"><p><b>Date: <?php echo $this->date; ?></b></p></div>
 <div id="welcome">
-    <h1>Welcome to the <span id="zf-name">DCR Home Page</span></h1>
+    <h1>Welcome to the <span id="site-name">DCR Home Page</span></h1>
 
-    <h3>Please select a link below.</h3>
-
-    <div id="more-information">        
+    <h3>Please select your task below.</h3><br/>
+    <div id="task-list">
+        <br/>        
         <p>           
             <a href="/entry/add">Add New Customer Entry</a> |
             <a href="/entry">View All Entries</a>

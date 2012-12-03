@@ -2,8 +2,6 @@
 
 class Admin_AuthController extends Zend_Controller_Action
 {
-    protected $_username = 'testadmin';
-    protected $_password = 'dcrpass123';
 
     public function indexAction()
     {
@@ -13,9 +11,7 @@ class Admin_AuthController extends Zend_Controller_Action
         if ($request->isPost()) {
             if ($form->isValid($request->getPost())) {
                 if ($this->_process($form->getValues())) {
-                    // We're authenticated! Redirect to the home page
-                    $session = new Zend_Session_Namespace('default');
-                    $session->authenticated = true;
+                    // We're authenticated! Redirect to the home page                    
                     $this->_helper->redirector('index', 'index');
                 }
             }
@@ -23,16 +19,32 @@ class Admin_AuthController extends Zend_Controller_Action
     }
 
     protected function _process($values)
-    {
-        if ($this->_username == $values['username'] && $this->_password == $values['password'])
+    {        
+        $adapter = $this->_getAuthAdapter();
+        $adapter->setIdentity($values['username'])
+                ->setCredential($values['password']);
+        var_dump($adapter);
+        //$result = $adapter->authenticate();
+        if ($result->isValid())
         {
+      //      $auth->getStorage()->write($contents);
             return true;
-        }
-        else
-            return false;
+        }        
+        return false;
     }
 
-    
+    protected function _getAuthAdapter()
+    {
+        $doctrineContainer = Zend_Registry::get('doctrine');
+        $authAdapter = new App_Auth_Doctrine_Adapter($doctrineContainer->getEntityManager());
+        
+        $authAdapter->setEntityName('users')
+                ->setIdentityColumn('username')
+                ->setCredentialColumn('password');
+
+        return $authAdapter;
+    }
+
     public function logoutAction()
     {       
         //clear auth and user sessions

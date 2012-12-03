@@ -9,10 +9,11 @@ namespace App\Entity;
  */
 class Entry
 {
+    
     /**
      *
      * @var integer $id
-     * @Column(name="id", type="integer",nullable=false)
+     * @Column(name="id", type="integer", length=11)
      * @Id
      * @GeneratedValue(strategy="IDENTITY")
      */
@@ -21,49 +22,74 @@ class Entry
     /**
      *
      * @var integer
-     * @Column(type="integer",nullable=false)
+     * @Column(type="integer", length=11)
      */
     protected $dwpno;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
-     * @var string
+     *
+     * @var datetime
+     * @Column(type="string", length=30)
      */
     protected $date;
+
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=30)
      * @var string
      */
     protected $customer;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=60)
+     * @var string
+     */
+    protected $customerInfo;
+
+    /**
+     * @Column(type="string",length=30)
+     * @var string
+     */
+    protected $visitTime;
+
+    /**
+     * @Column(type="string",length=30)
      * @var string
      */
     protected $area;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=30)
      * @var string
      */
     protected $city;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=100)
      * @var string
      */
     protected $activity;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=100)
      * @var string
      */
     protected $result;
 
-    
+    /**
+     *
+     * @var User
+     * @ManyToOne(targetEntity="User")
+     * @JoinColumns({
+     *  @JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    protected $user;
+
     
     public function  __construct(array $options = null)
     {
+        $this->date = date("Y-m-d H:i:s");
+        
         if(is_array($options)) {
             $this->setOptions($oprions);
         }
@@ -191,6 +217,26 @@ class Entry
         return $this;
     }
 
+    public function getCustomerInfo()
+    {
+        return $this->customerInfo;
+    }
 
+    public function setCustomerInfo($info)
+    {
+        $this->customerInfo = $info;
+        return $this;
+    }
+
+    public function getVisitTime()
+    {
+        return $this->visitTime;
+    }
+
+    public function setVisitTime($visitTime)
+    {
+        $this->visitTime = $visitTime;
+        return $this;
+    }
 }
 

@@ -9,40 +9,64 @@ namespace App\Entity;
  */
 class User
 {
+    
     /**
      *
      * @var integer $id
-     * @Column(name="id", type="integer",nullable=false)
+     * @Column(name="id", type="integer")
      * @Id
      * @GeneratedValue(strategy="IDENTITY")
      */
     protected $id;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=30)
      * @var string
      *
      */
     protected $username;
+
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=30)
      * @var string
      * 
+     */
+    protected $password;
+
+    /**
+     * @Column(type="string",length=30)
+     * @var string
+     *
      */
     protected $fname;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=30)
      * @var string
      */
     protected $lname;
 
     /**
-     * @Column(type="string",length=60,nullable=false)
+     * @Column(type="string",length=60)
      * @var string
      */
     protected $email;
 
+    /**
+     * @Column(type="boolean")
+     * @var boolean
+     */
+    protected $isadmin;
+
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Entry",mappedBy="user", cascade={"persist","remove"})
+     */
+    protected $entries;
+
+    
     public function  __construct(array $options = null)
     {
         if(is_array($options)) {
@@ -139,6 +163,26 @@ class User
         return $this->email;
     }
 
+    public function getPassword()
+    {
+        return $this->password;
+    }
 
+    public function setPassword($password)
+    {
+        $this->password = $password;
+        return $this;
+    }
+
+    public function getIsadmin()
+    {
+        return $this->isadmin;
+    }
+
+    public function setIsadmin($isadmin)
+    {
+        $this->isadmin = $isadmin;
+        return $this;
+    }
 }
 

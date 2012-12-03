@@ -13,13 +13,24 @@ class Admin_UserController extends Zend_Controller_Action
     {
         $u = new \App\Entity\User();
         $u->username = "testuser1";
+        $u->password = "pass123";
+        $u->isadmin = false;
         $u->fname = "John";
-        $u->lname = "Smith";
+        $u->lname = "Smith";        
         $u->email = "noemail@test.com";
 
+        $u2 = new \App\Entity\User();
+        $u2->username = "testadmin1";
+        $u2->password = "pass123";
+        $u2->isadmin = true;
+        $u2->fname = "Bob";
+        $u2->lname = "Smith";
+        $u2->email = "noemail@test.com";
+
         $em = $this->_doctrineContainer->getEntityManager();
-        $em->persist($u);
-        $em->flush();
+        //$em->persist($u);
+        //$em->persist($u2);
+        //$em->flush();
         $users = $em->createQuery('select u from App\Entity\User u')->execute();
         $this->view->users = $users;
     }

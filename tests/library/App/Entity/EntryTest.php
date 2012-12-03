@@ -30,7 +30,7 @@ class EntryTest
         $em->persist($entry);
         $em->flush();
         $entries = $em->createQuery('select entry from App\Entity\Entry entry')->execute();
-        var_dump($entries);
+        //var_dump($entries);
 
     }
 
