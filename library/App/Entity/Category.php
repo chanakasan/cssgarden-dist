@@ -13,20 +13,20 @@ class Category
     /**
      *
      * @var integer $id
-     * @Column(name="id", type="integer", length=11)
+     * @Column(name="id", type="integer")
      * @Id
      * @GeneratedValue(strategy="IDENTITY")
      */
     protected $id;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $name;
 
     /**
-     * @Column(type="string",length=60)
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $desc;
@@ -34,7 +34,7 @@ class Category
     /**
      *
      * @var string
-     * @Column(type="string", length=30)
+     * @Column(type="string", length=32)
      */
     protected $created;
 

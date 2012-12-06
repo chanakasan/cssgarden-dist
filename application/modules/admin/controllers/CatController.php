@@ -16,24 +16,31 @@ class Admin_CatController extends Zend_Controller_Action
 
 
     public function indexAction()
-    {
-        $cat = new \App\Entity\Category();
-        $cat->name = "Doctor";        
+    {      
         $em = $this->_doctrineContainer->getEntityManager();
-        $em->persist($cat);
-        $em->flush();
-
         $categories = $em->createQuery("select u from App\Entity\Category u")->execute();
         $this->view->cats = $categories;
     }
 
     public function addAction()
     {
-
+        $this->_perform();
     }
 
     public function deleteAction()
     {
+        $this->_perform();
+    }
+
+    private function _perform()
+    {
+        $actionName = $this->getRequest()->getActionName();
+        
+        $result = $this->_helper->entities->$actionName("Category");
+        if($result === true)
+        {
+            $this->_helper->redirector("index");
+        }
 
     }
 }

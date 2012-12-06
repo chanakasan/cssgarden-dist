@@ -20,40 +20,40 @@ class User
     protected $id;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32, unique=true)
      * @var string
      *
      */
     protected $username;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      * 
      */
     protected $password;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      *
      */
     protected $fname;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $lname;
 
     /**
-     * @Column(type="string",length=60)
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $email;
 
     /**
-     * @Column(type="integer",length=10)
+     * @Column(type="integer")
      * @var integer
      */
     protected $mobile;

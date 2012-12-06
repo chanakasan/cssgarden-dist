@@ -22,6 +22,11 @@ class Form_Category extends Zend_Form
                 ->setAttrib("cols", "30")
                 ->setAttrib("rows", "5")
                 ->addFilters(array("StringTrim","StringToLower"));
+
+        $isactive = new Zend_Form_Element_Checkbox('isactive');
+        $isactive->class = "text";
+        $isactive->setLabel("Active")
+                ->setValue(true);
                 
         $submit = new Zend_Form_Element_Submit("submit");
         $submit->class = "novisible1";
@@ -34,7 +39,8 @@ class Form_Category extends Zend_Form
 
         $elements = array(
             $catName,
-            $desc
+            $desc,
+            $isactive
         );
 
         foreach($elements as $element)

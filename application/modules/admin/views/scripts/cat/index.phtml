@@ -19,7 +19,7 @@ $this->headTitle($this->title);
     <td><?php echo $this->escape($cat->isactive);?></td>
     <td>
         <a href="<?php echo $this->url(array('controller'=>'user',
-            'action'=>'edit', 'id'=>$cat->id));?>">Change</a>
+            'action'=>'edit', 'id'=>$cat->id));?>"><?php $this->status ? "Disable" : "Enable"; ?></a>
         <a href="<?php echo $this->url(array('controller'=>'user',
             'action'=>'delete', 'id'=>$cat->id));?>">Remove</a>
     </td>

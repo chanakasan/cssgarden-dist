@@ -12,6 +12,7 @@ class App_Controller_Plugin_LayoutPicker
         $moduleName = $request->getModuleName();
         $controllerName = $request->getControllerName();
         $actionName = $request->getActionName();
+        
         if ('default' == $moduleName)
         {
             if('auth' == $controllerName)

@@ -13,7 +13,7 @@ class Entry
     /**
      *
      * @var integer $id
-     * @Column(name="id", type="integer", length=11)
+     * @Column(name="id", type="integer")
      * @Id
      * @GeneratedValue(strategy="IDENTITY")
      */
@@ -22,55 +22,55 @@ class Entry
     /**
      *
      * @var integer
-     * @Column(type="integer", length=11)
+     * @Column(type="integer")
      */
     protected $dwpno;
 
     /**
      *
      * @var datetime
-     * @Column(type="string", length=30)
+     * @Column(type="string", length=32)
      */
     protected $date;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $customer;
 
     /**
-     * @Column(type="string",length=60)
+     * @Column(type="string",length=128)
      * @var string
      */
     protected $customerInfo;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $visitTime;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $area;
 
     /**
-     * @Column(type="string",length=30)
+     * @Column(type="string",length=32)
      * @var string
      */
     protected $city;
 
     /**
-     * @Column(type="string",length=100)
+     * @Column(type="string",length=128)
      * @var string
      */
     protected $activity;
 
     /**
-     * @Column(type="string",length=100)
+     * @Column(type="string",length=128)
      * @var string
      */
     protected $result;
