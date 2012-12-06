@@ -30,7 +30,7 @@ body.myform {
 
 .myform .form-row label {
     float: left;
-    width: 9em;
+    width: 12em;
     padding-right: 0.5em;
     line-height: 2em;
     text-align: right;
@@ -42,6 +42,7 @@ body.myform {
 .myform .form-row #lastname,
 .myform .form-row #username,
 .myform .form-row #password,
+.myform .form-row #password2,
 .myform .form-row #email,
 .myform .form-row #mobile {
     width: 14em;

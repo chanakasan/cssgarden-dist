@@ -88,7 +88,8 @@ class Entry
     
     public function  __construct(array $options = null)
     {
-        $this->date = date("Y-m-d H:i:s");
+        $this->date = \date("Y-m-d H:i:s");
+        $this->result = "---";
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -114,7 +115,7 @@ class Entry
         $method = 'set'.$name;
         if('mapper' == $name || !method_exists($this, $method))
         {            
-            throw new Exception('Invalid '. get_class($this) .' property.');
+            throw new \Exception('Invalid '. \get_class($this) .' property.');
         }
         return $this->$method($value);
     }
@@ -124,7 +125,7 @@ class Entry
         $method = 'get'.$name;
         if('mapper' == $name || !method_exists($this, $method))
         {
-            throw new Exception('Invalid '. get_class($this) .' property.');
+            throw new \Exception('Invalid '. \get_class($this) .' property.');
         }
         return $this->$method();
     }

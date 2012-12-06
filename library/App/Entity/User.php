@@ -53,6 +53,18 @@ class User
     protected $email;
 
     /**
+     * @Column(type="integer",length=10)
+     * @var integer
+     */
+    protected $mobile;
+
+    /**
+     * @Column(type="boolean")
+     * @var boolean
+     */
+    protected $isactive;
+
+    /**
      * @Column(type="boolean")
      * @var boolean
      */
@@ -69,6 +81,9 @@ class User
     
     public function  __construct(array $options = null)
     {
+        $this->isactive = true;
+        $this->isadmin = false;
+        
         if(is_array($options)) {
             $this->setOptions($oprions);
         }
@@ -93,7 +108,7 @@ class User
         $method = 'set'.$name;
         if('mapper' == $name || !method_exists($this, $method))
         {
-            throw new Exception('Invalid '. get_class($this) .' property.');
+            throw new \Exception('Invalid '. \get_class($this) .' property.');
         }
         return $this->$method($value);
     }
@@ -103,7 +118,7 @@ class User
         $method = 'get'.$name;
         if('mapper' == $name || !method_exists($this, $method))
         {
-            throw new Exception('Invalid '. get_class($this) .' property.');
+            throw new \Exception('Invalid '. \get_class($this) .' property.');
         }
         return $this->$method();
     }
@@ -128,6 +143,17 @@ class User
     public function getUsername()
     {
         return $this->username;
+    }
+
+    public function getPassword()
+    {
+        return $this->password;
+    }
+
+    public function setPassword($password)
+    {
+        $this->password = $password;
+        return $this;
     }
 
     public function setFname($text)
@@ -163,14 +189,14 @@ class User
         return $this->email;
     }
 
-    public function getPassword()
+    public function getIsactive()
     {
-        return $this->password;
+        return $this->isactive;
     }
 
-    public function setPassword($password)
+    public function setIsactive($state)
     {
-        $this->password = $password;
+        $this->isactive = $state;
         return $this;
     }
 
@@ -179,9 +205,20 @@ class User
         return $this->isadmin;
     }
 
-    public function setIsadmin($isadmin)
+    public function setIsadmin($state)
     {
-        $this->isadmin = $isadmin;
+        $this->isadmin = $state;
+        return $this;
+    }
+
+    public function getMobile()
+    {
+        return $this->mobile;
+    }
+
+    public function setMobile($mobile_no)
+    {
+        $this->mobile = $mobile_no;
         return $this;
     }
 }

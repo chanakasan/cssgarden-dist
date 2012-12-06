@@ -3,6 +3,43 @@ body
     background:#eee;
 }
 
+/* Zend Layout */
+
+a:link,
+a:visited
+{
+    color: #91BE3F;
+}
+
+div#display-date
+{
+    margin:0 2em;
+    color:#000;
+}
+
+span#site-name
+{
+    color: #91BE3F;
+}
+
+div#welcome
+{
+    margin:0 2em;
+    color: #91BE3F;
+    background: url(http://framework.zend.com/images/bkg_header.jpg);
+    height: 550px;
+    width:800px;
+    border: 2px solid #444444;
+    overflow: hidden;
+    text-align: center;
+}
+
+div#task-list
+{
+    background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
+    height: 100%;
+}
+
 /* site navigation */
 
 .topnavi

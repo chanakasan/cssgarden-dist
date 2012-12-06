@@ -1,0 +1,32 @@
+<?php
+$this->title = "Delete user";
+$this->headTitle($this->title);
+?>
+<!-- Header -->
+<div id="header">
+    <div id="branding">
+        <h1 id="site-name">Warning! Delete Permanently ?</h1>
+    </div>
+</div>
+<!-- END Header -->
+
+<!-- Content -->
+<div id="content" class="colM">
+    <div id="content-main">        
+        <p>Are you sure that you want to delete the user
+          '<?php echo $this->escape($this->user['username']); ?>' ?
+        </p>
+        <p style="color:red;">Warning! this action cannot be undone.</p>
+
+        <form action="<?php echo $this->url(array('action'=>'delete')); ?>" method="post">
+            <div>
+              <input type="hidden" name="id" value="<?php echo $this->user['id']; ?>" />
+              <input type="submit" name="del" value="Yes" />
+              <input type="submit" name="del" value="No" />
+            </div>
+        </form>
+
+    </div>
+    
+</div>
+<!-- END Content -->

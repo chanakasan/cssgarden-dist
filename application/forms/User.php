@@ -13,33 +13,18 @@ class Form_User extends Zend_Form
                 ->setRequired()
                 ->setAttrib('size', '20')
                 ->addFilters(array('StringTrim','StringToLower'))
-                ->addValidator("StringLength", false, array(4, 10));
-
+                ->addValidator("StringLength", false, array(2, 20));
         $firstname->class = "text";
 
-        $firstname->setDecorators(array(
-                "ViewHelper",
-                "Description",
-                "Errors",
-                array("Label"),
-                array("HtmlTag", array("tag" => "div", "class" => "form-row"))
-        ));
 
         $lastname = new Zend_Form_Element_Text('lastname');
         $lastname->setLabel('Last Name:')
                 ->setRequired()
                 ->setAttrib('size', '20')
                 ->addFilters(array('StringTrim','StringToLower'))
-                ->addValidator("StringLength", false, array(4, 10));
-
+                ->addValidator("StringLength", false, array(2, 20));
         $lastname->class = "text";
-        $lastname->setDecorators(array(
-                "ViewHelper",
-                "Description",
-                "Errors",
-                array("Label"),
-                array("HtmlTag", array("tag" => "div", "class" => "form-row"))
-        ));
+
 
         $username = new Zend_Form_Element_Text('username');
         $username->setLabel('User Name:')
@@ -47,61 +32,51 @@ class Form_User extends Zend_Form
                 ->setAttrib('size', '20')
                 ->addFilters(array('StringTrim','StringToLower'))
                 ->addValidator("StringLength", false, array(4, 10));
-
         $username->class = "text";
-        $username->setDecorators(array(
-                "ViewHelper",
-                "Description",
-                "Errors",
-                array("Label"),
-                array("HtmlTag", array("tag" => "div", "class" => "form-row"))
-        ));
+
 
         $password = new Zend_Form_Element_Password('password');
         $password->setLabel('Password:')
                  ->setRequired()
                  ->setAttrib('size', '30')
                  ->addFilter('StringTrim', 'StringToLower')
-                 ->addValidator('StringLength', false, array(4, 10));
-
+                 ->addValidator('StringLength', false, array(6, 10));
         $password->class = "text";
-        $password->setDecorators(array(
-                'ViewHelper',
-                'Description',
-                'Errors',
-                array('Label'),
-                array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
-        ));
+
+        $password2 = new Zend_Form_Element_Password('password2');
+        $password2->setLabel('Confirm Password:')
+                 ->setRequired()
+                 ->setAttrib('size', '30')
+                 ->addFilter('StringTrim', 'StringToLower')
+                 ->addValidator('StringLength', false, array(6, 10));
+        $password2->class = "text";
+
+
+        $isactive = new Zend_Form_Element_Checkbox('isactive');
+        $isactive->setLabel('Active:')
+                ->setValue(true);
+
+        $isadmin = new Zend_Form_Element_Checkbox('isadmin');
+        $isadmin->setLabel('Admin Rights:')
+                ->setValue(false);
+
 
         $email = new Zend_Form_Element_Text('email');
-        $email->setLabel('E-mail:')                 
+        $email->setLabel('E-mail:')
+                 ->setRequired()
                  ->setAttrib('size', '30')
-                 ->addFilter('StringTrim', 'StringToLower')
-                 ->addValidator('StringLength', false, array(4, 10));
-
+                 ->addFilter('StringTrim', 'StringToLower');
         $email->class = "text";
-        $email->setDecorators(array(
-                'ViewHelper',
-                'Description',
-                'Errors',
-                array('Label'),
-                array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
-        ));
+
 
         $mobile = new Zend_Form_Element_Text('mobile');
-        $mobile->setLabel('Mobile No.:')                 
+        $mobile->setLabel('Mobile No.:')
+                 ->setRequired()
                  ->setAttrib('size', '30')
                  ->addFilter('StringTrim', 'StringToLower')
-                 ->addValidator('StringLength', false, array(4, 10));
-
+                 ->addValidator('StringLength', false, array(9, 10));
         $mobile->class = "text";
-        $mobile->setDecorators(array(
-                'ViewHelper',
-                'Description',
-                'Errors',
-                array('Label'),
-                array('HtmlTag', array('tag' => 'div', 'class' => 'form-row'))
-        ));
+
 
         $submit = new Zend_Form_Element_Submit('submit');
         $submit->class = "novisible1";
@@ -112,16 +87,32 @@ class Form_User extends Zend_Form
                 array('HtmlTag', array('tag' => 'div', 'class' => 'submit-row'))
         ));
 
-
-        $this->addElements(array(
+        $elements = array(
             $firstname,
             $lastname,
             $username,
             $password,
+            $password2,
+            $isactive,
+            $isadmin,
             $email,
-            $mobile,
-            $submit
-        ));
+            $mobile         
+        );
+        foreach($elements as $element)
+        {
+            $element->setDecorators(array(
+                "ViewHelper",
+                "Description",
+                "Errors",
+                array("Label"),
+                array("HtmlTag", array("tag" => "div", "class" => "form-row"))
+            ));
+        }
+
+        // add data elements
+        $this->addElements($elements);
+        // add submit buttons
+        $this->addElement($submit);
 
         $this->setDecorators(array(
             'FormElements',

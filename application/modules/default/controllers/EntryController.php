@@ -15,11 +15,10 @@ class EntryController extends Zend_Controller_Action
         $entry->dwpno = date("dmY");
         $entry->customer = "example-customer";
         $entry->customerInfo = "contact no: 0777 123 456";
-        $entry->visitTIme = "10 p.m.";
+        $entry->visitTIme = "10 am";
         $entry->area = "Colombo";
         $entry->city = "Colombo 10";
-        $entry->activity = "interview";
-        $entry->result = "";
+        $entry->activity = "meeting";        
 
         $em = $this->_doctrineContainer->getEntityManager();
         $em->persist($entry);
@@ -47,8 +46,7 @@ class EntryController extends Zend_Controller_Action
                 $entry->visitTime = $formData["visitTime"];
                 $entry->area = $formData["area"];
                 $entry->city = $formData["city"];
-                $entry->activity = $formData["activity"];
-                $entry->result = $formData["result"];
+                $entry->activity = $formData["activity"];                
 
                 $em = $this->_doctrineContainer->getEntityManager();
                 $em->persist($entry);

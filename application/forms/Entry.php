@@ -21,23 +21,22 @@ class Form_Entry extends Zend_Form
                 ->setRequired()
                 ->setAttrib("cols", "30")
                 ->setAttrib("rows", "5")
-                ->addFilters(array("StringTrim","StringToLower"))
-                ->addValidator("StringLength", false, array(4, 10));
+                ->addFilters(array("StringTrim","StringToLower"));
+                
 
 
         $visitTime = new Zend_Form_Element_Text("visitTime");
         $visitTime->class = "text";
         $visitTime->setLabel("Visiting TIme:")
                 ->setRequired()
-                ->addFilters(array("StringTrim","StringToLower"))
-                ->addValidator("StringLength", false, array(4, 10));
+                ->addFilters(array("StringTrim","StringToLower"));                
 
 
         $area = new Zend_Form_Element_Select("area");
         $area->addMultiOptions(array(
-            "1" => "colombo",
-            "2" => "gampaha",
-            "3" => "kaluthara",
+            "Colombo" => "Colombo",
+            "Gampaha" => "Gampaha",
+            "Kaluthara" => "Kaluthara",
         ));
         $area->setValue("colombo");
         $area->class = "text";
@@ -47,15 +46,16 @@ class Form_Entry extends Zend_Form
 
         $city = new Zend_Form_Element_Select("city");
         $city->addMultiOptions(array(
-            "1" => "colombo 10",
-            "2" => "colombo 11",
-            "3" => "colombo 12",
+            "Colombo 10" => "Colombo 10",
+            "Colombo 11" => "Colombo 11",
+            "Colombo 12" => "Colombo 12",
         ));
         $city->setValue("colombo 10");
         $city->class = "text";
         $city->setLabel("City:")
                 ->setRequired();
-                
+
+        
         $activity = new Zend_Form_Element_Textarea("activity");
         $activity->class = "text";
         $activity->setLabel("Activity:")
@@ -63,17 +63,17 @@ class Form_Entry extends Zend_Form
                  ->setAttrib("cols", "30")
                  ->setAttrib("rows", "5")
                  ->addFilter("StringTrim", "StringToLower");
-               
-        $result = new Zend_Form_Element_Textarea("result");
-        $result->setAttrib("disabled", "disabled")
-                ->setValue("---");
 
+        
+        $result = new Zend_Form_Element_Textarea("result");        
         $result->class = "text";
         $result->setLabel("Result:")
                ->setAttrib("cols", "30")
                ->setAttrib("rows", "5")
+               ->setAttrib("disabled", "disabled")
                ->addFilter("StringTrim", "StringToLower");
- 
+
+        
         $submit = new Zend_Form_Element_Submit("submit");
         $submit->class = "novisible1";
         $submit->setDecorators(array(
