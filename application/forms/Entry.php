@@ -64,10 +64,21 @@ class Form_Entry extends Zend_Form
                  ->setAttrib("rows", "5")
                  ->addFilter("StringTrim", "StringToLower");
 
-        
-        $result = new Zend_Form_Element_Textarea("result");        
+
+        $result = new Zend_Form_Element_Select("result");
+        $result->addMultiOptions(array(
+            "incomplete" => "incomplete",
+            "success" => "success",
+            "fail" => "fail",
+        ));
+        $result->setValue("incomplete");
         $result->class = "text";
         $result->setLabel("Result:")
+                ->setAttrib("disabled", "disabled");
+
+        $remarks = new Zend_Form_Element_Textarea("remarks");
+        $remarks->class = "text";
+        $remarks->setLabel("Result:")
                ->setAttrib("cols", "30")
                ->setAttrib("rows", "5")
                ->setAttrib("disabled", "disabled")
@@ -90,7 +101,8 @@ class Form_Entry extends Zend_Form
             $area,
             $city,
             $activity,
-            $result
+            $result,
+            $remarks
         );
 
         foreach($elements as $element)

@@ -70,10 +70,16 @@ class Entry
     protected $activity;
 
     /**
-     * @Column(type="string",length=128)
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $result;
+
+    /**
+     * @Column(type="string",length=128)
+     * @var string
+     */
+    protected $remarks;
 
     /**
      *
@@ -89,7 +95,8 @@ class Entry
     public function  __construct(array $options = null)
     {
         $this->date = \date("Y-m-d H:i:s");
-        $this->result = "---";
+        $this->result = "incomplete";
+        $this->remarks = "---";
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -237,6 +244,17 @@ class Entry
     public function setVisitTime($visitTime)
     {
         $this->visitTime = $visitTime;
+        return $this;
+    }
+
+    public function getRemarks()
+    {
+        return $this->remarks;
+    }
+
+    public function setRemarks($info)
+    {
+        $this->remarks = $info;
         return $this;
     }
 }

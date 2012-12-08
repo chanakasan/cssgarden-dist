@@ -8,7 +8,7 @@ class Form_User extends Zend_Form
         $this->setName("user-form")
              ->setMethod("post");
 
-        $firstname = new Zend_Form_Element_Text('firstname');
+        $firstname = new Zend_Form_Element_Text('fname');
         $firstname->setLabel('First Name:')
                 ->setRequired()
                 ->setAttrib('size', '20')
@@ -17,7 +17,7 @@ class Form_User extends Zend_Form
         $firstname->class = "text";
 
 
-        $lastname = new Zend_Form_Element_Text('lastname');
+        $lastname = new Zend_Form_Element_Text('lname');
         $lastname->setLabel('Last Name:')
                 ->setRequired()
                 ->setAttrib('size', '20')

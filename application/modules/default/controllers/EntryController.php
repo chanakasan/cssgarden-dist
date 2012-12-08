@@ -7,6 +7,7 @@ class EntryController extends Zend_Controller_Action
     public function init()
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
+       $this->view->entityName = ucfirst('entry');
     }
 
     public function indexAction()
@@ -21,8 +22,8 @@ class EntryController extends Zend_Controller_Action
         $entry->activity = "meeting";        
 
         $em = $this->_doctrineContainer->getEntityManager();
-        $em->persist($entry);
-        $em->flush();
+//        $em->persist($entry);
+//        $em->flush();
 
         $entries = $em->createQuery("select u from App\Entity\Entry u")->execute();
         $this->view->entries = $entries;                
@@ -83,9 +84,22 @@ class EntryController extends Zend_Controller_Action
         }
     }
 
-
     public function deleteAction()
     {
+        $this->_perform();
+    }
+
+    private function _perform()
+    {
+        $actionName = $this->getRequest()->getActionName();
+
+        $controllerName = $this->getRequest()->getControllerName();
+        $result = $this->_helper->entities->$actionName($controllerName);
+        if($result === true)
+        {
+            $this->_helper->redirector("index");
+        }
 
     }
+
 }

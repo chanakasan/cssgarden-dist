@@ -7,7 +7,7 @@ class Admin_UserController extends Zend_Controller_Action
     public function init()
     {
        $this->_doctrineContainer = Zend_Registry::get('doctrine');
-       $this->view->entityName = ucfirst('category');
+       $this->view->entityName = ucfirst('user');
     }
 
     public function indexAction()
@@ -33,8 +33,8 @@ class Admin_UserController extends Zend_Controller_Action
                 $u = new \App\Entity\User();
                 $u->username = $formData['username'];
                 $u->password = $formData['password'];
-                $u->fname = $formData['firstname'];
-                $u->lname = $formData['lastname'];
+                $u->fname = $formData['fname'];
+                $u->lname = $formData['lname'];
                 $u->isactive = $formData['isactive'];
                 $u->isadmin = $formData['isadmin'];
                 $u->email = $formData['email'];
@@ -67,8 +67,8 @@ class Admin_UserController extends Zend_Controller_Action
                 $u = new \App\Entity\User();
                 $u->username = $formData['username'];
                 $u->password = $formData['password'];
-                $u->fname = $formData['firstname'];
-                $u->lname = $formData['lastname'];
+                $u->fname = $formData['fname'];
+                $u->lname = $formData['lname'];
                 $u->isactive = $formData['isactive'];
                 $u->isadmin = $formData['isadmin'];
                 $u->email = $formData['email'];

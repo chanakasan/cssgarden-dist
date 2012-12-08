@@ -1,5 +1,8 @@
 # IDE metadata
+data/
+library/App/Entity/Proxy/
 nbproject/
 tests/log/
 tests/log/report
 tests/data/
+
