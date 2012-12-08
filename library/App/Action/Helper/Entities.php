@@ -68,7 +68,7 @@ class App_Action_Helper_Entities
             }
         }
     }
-
+/*
     public function edit($entityName)
     {
         $form = new Form_User();
@@ -78,10 +78,8 @@ class App_Action_Helper_Entities
 
         if($this->getRequest()->isPost())
         {
-            $formData = $this->getRequest()->getPost();
-            $password = $formData['password'];
-            $password2 = $formData['password2'];
-            if($form->isValid($formData) && ($password === $password2))
+            $formData = $this->getRequest()->getPost();            
+            if($form->isValid($formData))
             {
                 $u = new \App\Entity\User();
                 $u->username = $formData['username'];
@@ -125,9 +123,7 @@ class App_Action_Helper_Entities
         if($this->getRequest()->isPost())
         {
             $formData = $this->getRequest()->getPost();
-            $password = $formData['password'];
-            $password2 = $formData['password2'];
-            if($form->isValid($formData) && ($password === $password2))
+            if($form->isValid($formData))
             {
                 $u = new \App\Entity\User();
                 $u->username = $formData['username'];
@@ -148,6 +144,6 @@ class App_Action_Helper_Entities
             else $form->populate($formData);
         }
     }
-
+*/
     
 }

@@ -38,11 +38,8 @@ body.myform {
     color: #333;
 }
 
-.myform .form-row #firstname,
-.myform .form-row #lastname,
-.myform .form-row #username,
-.myform .form-row #password,
-.myform .form-row #password2,
+.myform .form-row #cat_name,
+.myform .form-row #cat_desc,
 .myform .form-row #email,
 .myform .form-row #mobile {
     width: 14em;

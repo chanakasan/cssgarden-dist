@@ -12,19 +12,41 @@ class Admin_CatController extends Zend_Controller_Action
     public function init()
     {
         $this->_doctrineContainer = Zend_Registry::get('doctrine');
+        $this->view->entityName = ucfirst('category');
     }
 
 
     public function indexAction()
     {      
         $em = $this->_doctrineContainer->getEntityManager();
-        $categories = $em->createQuery("select u from App\Entity\Category u")->execute();
+        $categories = $em->createQuery("SELECT u FROM App\Entity\Category u")->execute();
         $this->view->cats = $categories;
     }
 
     public function addAction()
     {
-        $this->_perform();
+        $form = new Form_Category();
+        $form->submit->setLabel('Add');        
+        $this->view->form = $form;
+
+        if($this->getRequest()->isPost())
+        {
+            $formData = $this->getRequest()->getPost();
+            if($form->isValid($formData))
+            {
+                $cat = new \App\Entity\Category();
+                $cat->name = $formData['cat_name'];
+                $cat->desc = $formData['cat_desc'];
+                $cat->isactive = $formData['isactive'];
+
+                $em = $this->_doctrineContainer->getEntityManager();
+                $em->persist($cat);
+                $em->flush();
+
+                return true;
+            }
+            else $form->populate($formData);
+        }
     }
 
     public function deleteAction()

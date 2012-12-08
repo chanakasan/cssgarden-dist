@@ -8,16 +8,16 @@ class Form_Category extends Zend_Form
         $this->setName("cat-form")
              ->setMethod("post");
 
-        $catName = new Zend_Form_Element_Text("cat-name");
+        $catName = new Zend_Form_Element_Text("cat_name");
         $catName->class = "text";
-        $catName->setLabel("Customer Name:")
+        $catName->setLabel("Category Name:")
                 ->setRequired()                
                 ->addFilters(array("StringTrim","StringToLower"));
                 
         
-        $desc = new Zend_Form_Element_Textarea("cat-desc");
+        $desc = new Zend_Form_Element_Textarea("cat_desc");
         $desc->class = "text";
-        $desc->setLabel("Customer Info:")
+        $desc->setLabel("Description:")
                 ->setRequired()
                 ->setAttrib("cols", "30")
                 ->setAttrib("rows", "5")
