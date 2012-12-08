@@ -29,7 +29,7 @@ class Category
      * @Column(type="string",length=64)
      * @var string
      */
-    protected $desc;
+    protected $descrip;
 
     /**
      *
@@ -49,7 +49,7 @@ class Category
     public function  __construct(array $options = null)
     {
         $this->created = \date("Y-m-d H:i:s");
-        $this->desc = "---";
+        $this->descrip = "---";
         $this->isactive = true;
         
         if(is_array($options)) {

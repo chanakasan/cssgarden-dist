@@ -36,7 +36,7 @@ class Admin_CatController extends Zend_Controller_Action
             {
                 $cat = new \App\Entity\Category();
                 $cat->name = $formData['cat_name'];
-                $cat->desc = $formData['cat_desc'];
+                $cat->descrip = $formData['cat_desc'];
                 $cat->isactive = $formData['isactive'];
 
                 $em = $this->_doctrineContainer->getEntityManager();

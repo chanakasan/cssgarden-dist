@@ -1,8 +1,5 @@
 # IDE metadata
 nbproject/
-library/Doctrine/
-library/Bisna/
-library/Symfony/
 tests/log/
 tests/log/report
 tests/data/
