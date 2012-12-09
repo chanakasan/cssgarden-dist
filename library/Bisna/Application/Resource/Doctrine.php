@@ -75,5 +75,9 @@ class Bisna_Application_Resource_Doctrine extends \Zend_Application_Resource_Res
 
         $doctrineAutoloader = new \Doctrine\Common\ClassLoader('Doctrine');
         $autoloader->pushAutoloader(array($doctrineAutoloader, 'loadClass'), 'Doctrine');
+
+        $migrationsAutoloader = new \Doctrine\Common\ClassLoader('Migrations');
+        $autoloader->pushAutoloader(array($migrationsAutoloader, 'loadClass'), 'Migrations');
     }
+    
 }
