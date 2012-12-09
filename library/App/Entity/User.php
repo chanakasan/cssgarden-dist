@@ -123,6 +123,11 @@ class User
         return $this->$method();
     }
 
+    public function toArray()
+    {
+        return get_object_vars($this);
+    }
+
     public function setId($id)
     {
         $this->id = (int) $id;

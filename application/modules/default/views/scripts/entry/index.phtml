@@ -33,9 +33,7 @@ $this->headTitle($this->title);
     <td><?php echo $this->escape($entry->remarks);?></td>
     <td>       
         <a href="<?php echo $this->url(array('controller'=>'entry',
-            'action'=>'update', 'id'=>$entry->id));?>">Update</a>
-         <a href="<?php echo $this->url(array('controller'=>'entry',
-            'action'=>'edit', 'id'=>$entry->id));?>">Edit</a>
+            'action'=>'update', 'id'=>$entry->id));?>">Update</a>         
         <a href="<?php echo $this->url(array('controller'=>'entry',
             'action'=>'delete', 'id'=>$entry->id));?>">Remove</a>
     </td>

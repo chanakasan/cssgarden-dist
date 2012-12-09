@@ -137,6 +137,11 @@ class Entry
         return $this->$method();
     }
 
+    public function toArray()
+    {
+        return get_object_vars($this);
+    }
+
     public function getId()
     {
         return $this->id;

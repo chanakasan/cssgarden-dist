@@ -8,21 +8,25 @@ class Form_Entry extends Zend_Form
         $this->setName("entry-form")
              ->setMethod("post");
 
-        $customer = new Zend_Form_Element_Text("customer");
+        $customer = new Zend_Form_Element_Select("customer");
         $customer->class = "text";
-        $customer->setLabel("Customer Name:")
-                ->setRequired()                
-                ->addFilters(array("StringTrim","StringToLower"))
-                ->addValidator("StringLength", false, array(4, 10));
+        $customer->setLabel("Customer:")
+            ->setValue("doctor")
+            ->setRequired();
         
+        $customer->addMultiOptions(array(
+            "doctor" => "doctor",
+            "pharmacy" => "pharmacy"
+            
+        ));
+      
         $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
         $customerInfo->class = "text";
         $customerInfo->setLabel("Customer Info:")
                 ->setRequired()
                 ->setAttrib("cols", "30")
                 ->setAttrib("rows", "5")
-                ->addFilters(array("StringTrim","StringToLower"));
-                
+                ->addFilters(array("StringTrim","StringToLower"));                
 
 
         $visitTime = new Zend_Form_Element_Text("visitTime");
@@ -74,14 +78,14 @@ class Form_Entry extends Zend_Form
         $result->setValue("incomplete");
         $result->class = "text";
         $result->setLabel("Result:")
-                ->setAttrib("disabled", "disabled");
+                ->setRequired(false);
 
         $remarks = new Zend_Form_Element_Textarea("remarks");
         $remarks->class = "text";
-        $remarks->setLabel("Result:")
+        $remarks->setLabel("Remarks:")
+               ->setRequired(false)
                ->setAttrib("cols", "30")
-               ->setAttrib("rows", "5")
-               ->setAttrib("disabled", "disabled")
+               ->setAttrib("rows", "5")               
                ->addFilter("StringTrim", "StringToLower");
 
         
