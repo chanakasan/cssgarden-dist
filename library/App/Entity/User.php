@@ -116,7 +116,7 @@ class User
     public function  __get($name)
     {
         $method = 'get'.$name;
-        if('mapper' == $name || !method_exists($this, $method))
+        if(!method_exists($this, $method))
         {
             throw new \Exception('Invalid '. \get_class($this) .' property.');
         }

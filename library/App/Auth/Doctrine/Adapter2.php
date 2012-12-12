@@ -7,7 +7,7 @@
 * @subpackage Adapter
 * @author Loïc Frering <loic.frering@gmail.com>
 */
-class LoSo_Zend_Auth_Adapter_Doctrine2 implements Zend_Auth_Adapter_Interface
+class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
 {
     /**
 * Doctrine EntityManager

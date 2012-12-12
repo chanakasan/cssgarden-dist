@@ -196,9 +196,9 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
         }
 
         if (null !== $exception) {
-            /**
-* @see Zend_Auth_Adapter_Exception
-*/
+           /**
+            * @see Zend_Auth_Adapter_Exception
+            */
             require_once 'Zend/Auth/Adapter/Exception.php';
             throw new Zend_Auth_Adapter_Exception($exception);
         }
@@ -212,16 +212,16 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
         return true;
     }
 
-    /**
-* _getQuery() - This method creates a Doctrine\ORM\Query object that
-* is completely configured to be queried against the database.
-*
-* @return Doctrine\ORM\Query
-*/
+   /**
+    * _getQuery() - This method creates a Doctrine\ORM\Query object that
+    * is completely configured to be queried against the database.
+    *
+    * @return Doctrine\ORM\Query
+    */
     protected function _getQuery()
     {
         $dql = 'SELECT u FROM ' . $this->_entityName . ' u
-WHERE u.' . $this->_identityColumn . ' = ?1';
+                WHERE u.' . $this->_identityColumn . ' = ?1';
         
         $query = $this->_em->createQuery($dql)
                             ->setParameter(1, $this->_identity)
@@ -239,13 +239,15 @@ WHERE u.' . $this->_identityColumn . ' = ?1';
 * @return array
 */
     protected function _performQuery(Doctrine\ORM\Query $query)
-    {
-        try {
+    {        
+        try
+        {
             $resultIdentities = $query->execute();
-        } catch (Exception $e) {
-            /**
-* @see Zend_Auth_Adapter_Exception
-*/
+        }
+        catch (Exception $e) {
+           /**
+            * @see Zend_Auth_Adapter_Exception
+            */
             require_once 'Zend/Auth/Adapter/Exception.php';
             throw new Zend_Auth_Adapter_Exception('The supplied parameters to \Doctrine\ORM\EntityManager failed to '
                                                 . 'produce a valid sql statement, please check entity and column names '

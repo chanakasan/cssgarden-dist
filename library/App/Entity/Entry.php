@@ -64,7 +64,7 @@ class Entry
     protected $city;
 
     /**
-     * @Column(type="string",length=128)
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $activity;
@@ -76,7 +76,7 @@ class Entry
     protected $result;
 
     /**
-     * @Column(type="string",length=128)
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $remarks;
