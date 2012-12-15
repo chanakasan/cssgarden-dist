@@ -11,15 +11,13 @@ class App_Controller_Plugin_Auth
 {        
     public function preDispatch (Zend_Controller_Request_Abstract $request)
     {
-        $session = new Zend_Session_Namespace('default');
-
         $moduleName = $request->getModuleName();
         $controllerName = $request->getControllerName();
         
         if (('default' == $moduleName) && ('index' != $controllerName))
         {
             if (Model_Users::isLoggedIn())            
-                return; // user is logged in and allowed to access admin functions
+                return; // user is logged in
             
             if ('auth' != $controllerName)
             {
@@ -29,8 +27,11 @@ class App_Controller_Plugin_Auth
             }
         }
         elseif (('admin' == $moduleName) && ('auth' != $controllerName))
-        {
-            $request->setModuleName('admin')
+        {           
+            if (Model_Users::isLoggedIn() && Model_Users::isAdmin())
+                return; // user is logged in and allowed to access admin functions
+
+             $request->setModuleName('admin')
                     ->setControllerName('auth')
                     ->setDispatched(FALSE);
         }

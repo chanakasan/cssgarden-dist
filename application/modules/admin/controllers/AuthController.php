@@ -27,11 +27,10 @@ class Admin_AuthController extends Zend_Controller_Action
         $auth = Zend_Auth::getInstance();
         $result = $auth->authenticate($adapter);
         
-        //var_dump($result);exit;
-        
         if ($result->isValid())
         {
-            $auth->getStorage()->write($result);
+            $user = $adapter->getResultRowObject();            
+            $auth->getStorage()->write($user);
             return true;
         }        
         return false;
@@ -51,12 +50,8 @@ class Admin_AuthController extends Zend_Controller_Action
 
     public function logoutAction()
     {       
-        //clear auth and user sessions
-        if($session->authenticated)
-        {
-            $session->authenticated = false;
-            $this->_helper->redirector('index', 'login'); // back to login page
-        }
+        Zend_Auth::getInstance()->clearIdentity();
+        $this->_helper->redirector('index'); // back to login page
     }
 
 }

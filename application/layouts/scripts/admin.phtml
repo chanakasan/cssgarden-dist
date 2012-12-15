@@ -13,6 +13,7 @@ echo $this->doctype();
         <?php echo $this->headLink(); ?>
     </head>
     <body>
+        <div id="loggedInAs"><?php echo $this->loggedInAs(); ?></div>
         <div id="topnavi" class="topnavi">
             <ul>
                 <li><a href="/admin">Dashboard</a></li>

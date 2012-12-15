@@ -2,65 +2,72 @@
 
 class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
 {
-/**
-* Doctrine Entity Manager
-*
-* @var \Doctrine\ORM\EntityManager
-*/
-    protected $_em = null;
-    
     /**
-* The entity name to check for an identity.
-*
-* @var string
-*/
+     * Doctrine Entity Manager
+     *
+     * @var \Doctrine\ORM\EntityManager
+     */
+    protected $_em = null;
+
+    /**
+     * The entity name to check for an identity.
+     *
+     * @var string
+     */
     protected $_entityName;
 
     /**
-* $_identityColumn - the column to use as the identity
-*
-* @var string
-*/
+     * $_identityColumn - the column to use as the identity
+     *
+     * @var string
+     */
     protected $_identityColumn = null;
 
     /**
-* $_credentialColumn - columns to be used as the credentials
-*
-* @var string
-*/
+     * $_credentialColumn - columns to be used as the credentials
+     *
+     * @var string
+     */
     protected $_credentialColumn = null;
 
     /**
-* $_identity - Identity value
-*
-* @var string
-*/
+     * $_identity - Identity value
+     *
+     * @var string
+     */
     protected $_identity = null;
 
     /**
-* $_credential - Credential values
-*
-* @var string
-*/
+     * $_credential - Credential values
+     *
+     * @var string
+     */
     protected $_credential = null;
 
     /**
-* $_authenticateResultInfo
-*
-* @var array
-*/
-    protected $_authenticateResultInfo = null;
-    
+     * $_resultRow - Results of database authentication query
+     *
+     * @var array
+     */
+    protected $_resultRow = null;
+
     /**
-* __construct() - Sets configuration options
-*
-* @param \Doctrine\ORM\EntityManager $em
-* @param string $entityName
-* @param string $identityColumn
-* @param string $credentialColumn
-* @param string $credentialTreatment
-* @return void
-*/
+     * $_authenticateResultInfo
+     *
+     * @var array
+     */
+    protected $_authenticateResultInfo = null;
+
+    /**
+     * __construct() - Sets configuration options
+     *
+     * @param \Doctrine\ORM\EntityManager $em
+     * @param string $entityName
+     * @param string $identityColumn
+     * @param string $credentialColumn
+     * @param string $credentialTreatment
+     * @return void
+     */
     public function __construct($em = null, $entityName = null, $identityColumn = null,
                                 $credentialColumn = null)
     {
@@ -265,37 +272,44 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
 */
     protected function _validateResult($resultIdentities)
     {
-        if (count($resultIdentities) < 1) {
-            $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_IDENTITY_NOT_FOUND;
-            $this->_authenticateResultInfo['messages'][] = 'A record with the supplied identity could not be found.';
-            return $this->_authenticateCreateAuthResult();
-        } elseif (count($resultIdentities) > 1) {
-            $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_IDENTITY_AMBIGUOUS;
-            $this->_authenticateResultInfo['messages'][] = 'More than one record matches the supplied identity.';
-            return $this->_authenticateCreateAuthResult();
-        } elseif (count($resultIdentities) == 1) {
-         $resultIdentity = $resultIdentities[0];
-            if ($resultIdentity->{$this->_credentialColumn} != $this->_credential) {
-             $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_CREDENTIAL_INVALID;
-                $this->_authenticateResultInfo['messages'][] = 'Supplied credential is invalid.';
-            } else {
-             $this->_authenticateResultInfo['code'] = Zend_Auth_Result::SUCCESS;
-                $this->_authenticateResultInfo['identity'] = $this->_identity;
-                $this->_authenticateResultInfo['messages'][] = 'Authentication successful.';
-            }
-        } else {
-         $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_UNCATEGORIZED;
-        }
+       if (count($resultIdentities) < 1) {
+           $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_IDENTITY_NOT_FOUND;
+           $this->_authenticateResultInfo['messages'][] = 'A record with the supplied identity could not be found.';
 
-        return $this->_authenticateCreateAuthResult();
+           return $this->_authenticateCreateAuthResult();
+
+       } elseif (count($resultIdentities) > 1) {
+           $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_IDENTITY_AMBIGUOUS;
+           $this->_authenticateResultInfo['messages'][] = 'More than one record matches the supplied identity.';
+
+           return $this->_authenticateCreateAuthResult();
+
+       } elseif (count($resultIdentities) == 1) {
+           $resultIdentity = $resultIdentities[0];
+           
+           if ($resultIdentity->{$this->_credentialColumn} != $this->_credential) {
+               $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_CREDENTIAL_INVALID;
+               $this->_authenticateResultInfo['messages'][] = 'Supplied credential is invalid.';
+           } else {
+               $this->_authenticateResultInfo['code'] = Zend_Auth_Result::SUCCESS;
+               $this->_authenticateResultInfo['identity'] = $this->_identity;
+               $this->_authenticateResultInfo['messages'][] = 'Authentication successful.';
+               $this->_resultRow = $resultIdentity;
+           }
+       } else {
+           $this->_authenticateResultInfo['code'] = Zend_Auth_Result::FAILURE_UNCATEGORIZED;
+       }
+
+       
+       return $this->_authenticateCreateAuthResult();
     }
-    
-    /**
-* _authenticateCreateAuthResult() - This method creates a Zend_Auth_Result object
-* from the information that has been collected during the authenticate() attempt.
-*
-* @return Zend_Auth_Result
-*/
+
+   /**
+    * from the information that has been collected during the authenticate() attempt.
+    *
+    * _authenticateCreateAuthResult() - This method creates a Zend_Auth_Result object
+    * @return Zend_Auth_Result
+    */
     protected function _authenticateCreateAuthResult()
     {
         return new Zend_Auth_Result(
@@ -304,5 +318,21 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
             $this->_authenticateResultInfo['messages']
             );
     }
+
+    /**
+     * getResultRowObject() - Returns the result row as a stdClass object
+     *
+     * @param  string|array $returnColumns
+     * @param  string|array $omitColumns
+     * @return stdClass|boolean
+     */
+    public function getResultRowObject($returnColumns = null, $omitColumns = null)
+    {
+        if (!$this->_resultRow) {
+            return false;
+        }        
+        return $this->_resultRow;        
+    }
+    
 
 }

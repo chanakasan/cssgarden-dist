@@ -36,7 +36,8 @@ class Model_Users
         $name = 'isadmin'; // table column to check
 
         //load user auth details
-        $user = Zend_Auth::getInstance()->getIdentity();
+        $user = Zend_Auth::getInstance()->getStorage();
+        
 
         //if field is defined in auth identity
         if($user && isset($user->$name)) {

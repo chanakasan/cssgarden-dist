@@ -14,10 +14,10 @@ class App_View_Helper_LoggedInAs extends Zend_View_Helper_Abstract
             $username = $auth->getIdentity()->username;
             if('default' == $module)
             {
-                return '<p class="last">Welcome! ' . '<span class="strong">'.$username.',</span>'.' <a href="/auth/logout">Logout</a></p>';
+                return '<p>Welcome! ' . '<span class="strong">'.$username.',</span>'.' <a href="/auth/logout">Logout</a></p>';
             }
             else
-                return '<p class="last">Welcome! ' . '<span class="strong">'.$username.',</span>'.' <a href="/admin/auth/logout">Logout</a></p>';
+                return '<p>Welcome! ' . '<span class="strong">'.$username.',</span>'.' <a href="/admin/auth/logout">Logout</a></p>';
             //$logoutUrl = $this->view->url(array('module'=> $module, 'controller'=>'auth', 'action'=>'logout'));
             //return '<p class="last">Welcome! ' . '<span class="strong">'.$username.',</span>'.' <a href="'.$logoutUrl.'">Logout</a></p>';
             
