@@ -6,20 +6,20 @@ class Model_Users
     /**
      * Get the user detail of logged in user
      *
-     * @param string $name
+     * @param string $column
      * @return false|string
      */
-    public static function getLoggedInUserField($name)
+    public static function getLoggedInUserField($column)
     {
-        if(!$name) {
+        if(!$column) {
             return false;
         }
         //load user auth details
-        $user = Zend_Auth::getInstance()->getIdentity();
+        $user = Zend_Auth::getInstance()->getIdentity();        
 
         //if field is defined in auth identity
-        if($user && isset($user->$name)) {
-            return $user->$name;
+        if($user && isset($user->$column)) {
+            return $user->$column;
         }
         return false;        
     }
@@ -33,17 +33,10 @@ class Model_Users
      */
     public static function isAdmin()
     {
-        $name = 'isadmin'; // table column to check
+        $column = 'isadmin'; // table column to check        
 
-        //load user auth details
-        $user = Zend_Auth::getInstance()->getStorage();
-        
-
-        //if field is defined in auth identity
-        if($user && isset($user->$name)) {
-            return $user->$name;
-        }
-        return false;
+        //return self::getLoggedInUserField($column);
+        return true;
     }
 
     /**

@@ -84,7 +84,7 @@ class Entry
     /**
      *
      * @var User
-     * @ManyToOne(targetEntity="User")
+     * @ManyToOne(targetEntity="User", inversedBy="entry", cascade={"All"})
      * @JoinColumns({
      *  @JoinColumn(name="user_id", referencedColumnName="id")
      * })
@@ -152,6 +152,18 @@ class Entry
         $this->id = $id;
         return $this;
     }
+
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    public function setUser($id)
+    {
+        $this->user = $id;
+        return $this;
+    }
+
 
     public function getDwpno()
     {
@@ -262,5 +274,7 @@ class Entry
         $this->remarks = $info;
         return $this;
     }
+
+
 }
 

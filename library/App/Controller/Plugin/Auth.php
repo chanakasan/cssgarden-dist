@@ -26,14 +26,17 @@ class App_Controller_Plugin_Auth
                         ->setDispatched(FALSE);
             }
         }
-        elseif (('admin' == $moduleName) && ('auth' != $controllerName))
+        elseif ('admin' == $moduleName)
         {           
             if (Model_Users::isLoggedIn() && Model_Users::isAdmin())
                 return; // user is logged in and allowed to access admin functions
 
-             $request->setModuleName('admin')
-                    ->setControllerName('auth')
-                    ->setDispatched(FALSE);
+             if ('auth' != $controllerName)
+             {
+                $request->setModuleName('admin')
+                        ->setControllerName('auth')
+                        ->setDispatched(FALSE);
+             }
         }
         else return;
     }

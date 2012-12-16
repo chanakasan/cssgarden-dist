@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Entity;
 /**
  *
@@ -53,7 +52,7 @@ class User
     protected $email;
 
     /**
-     * @Column(type="integer")
+     * @Column(type="string",length=32)
      * @var integer
      */
     protected $mobile;
@@ -74,7 +73,7 @@ class User
      *
      * @param \Doctrine\Common\Collections\Collection $property
      *
-     * @OneToMany(targetEntity="Entry",mappedBy="user", cascade={"persist","remove"})
+     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist","remove"})
      */
     protected $entries;
 
@@ -83,6 +82,7 @@ class User
     {
         $this->isactive = true;
         $this->isadmin = false;
+        $this->entries = new \Doctrine\Common\Collections\ArrayCollection();
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -126,6 +126,11 @@ class User
     public function toArray()
     {
         return get_object_vars($this);
+    }
+
+    public function getEntries()
+    {
+        return $this->entries;
     }
 
     public function setId($id)

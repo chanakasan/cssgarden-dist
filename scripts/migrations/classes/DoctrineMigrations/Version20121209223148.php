@@ -12,7 +12,7 @@ class Version20121209223148 extends AbstractMigration
 {
     public function up(Schema $schema)
     {
-        
+        $this->addSql($sql, $params);
     }
 
     public function down(Schema $schema)

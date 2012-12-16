@@ -2,7 +2,7 @@
 namespace App\Entity;
 /**
  *
- * @Table(name="city")
+ * @Table(name="cities")
  * @Entity
  * @author CS
  */
@@ -17,13 +17,13 @@ class City
      */
     protected $id;
 
-     /*
+     /**
       * @var string
       * @Column(type="string", length=32, unique=true)
       */
     protected $name;
 
-     /*
+     /**
       * @var boolean
       * @Column(type="boolean")
       */

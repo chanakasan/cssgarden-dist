@@ -1,5 +1,5 @@
 <?php
-
+use Doctrine\ORM\Tools\SchemaValidator;
 /**
  * Description of ModelTestCase
  *
@@ -22,7 +22,7 @@ class ModelTestCase
 
         $em = $this->doctrineContainer->getEntityManager();
         $tool = new \Doctrine\ORM\Tools\SchemaTool($em);
-        $tool->dropDatabase();
+        $tool->dropDatabase();       
         $tool->createSchema($em->getMetadataFactory()->getAllMetadata());
 
         parent::setUp();

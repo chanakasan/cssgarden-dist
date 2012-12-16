@@ -38,6 +38,9 @@ class EntryController extends Zend_Controller_Action
         if($this->getRequest()->isPost())
         {
             $formData = $this->getRequest()->getPost();
+            $user_id = Model_Users::getLoggedInUserField("id");
+            
+
             if($form->isValid($formData))
             {
                 $entry = new \App\Entity\Entry();
@@ -47,10 +50,16 @@ class EntryController extends Zend_Controller_Action
                 $entry->visitTime = $formData["visitTime"];
                 $entry->area = $formData["area"];
                 $entry->city = $formData["city"];
-                $entry->activity = $formData["activity"];                
-
+                $entry->activity = $formData["activity"];
+                $entry->user = $user_id;
+                
                 $em = $this->_doctrineContainer->getEntityManager();
-                $em->persist($entry);
+                $query = $em->createQuery("SELECT u FROM App\Entity\User u WHERE u.id = :id");
+                $query->setParameter("id", $user_id);
+                $result = $query->getResult();
+                $result[0]->entries = array($entry);
+                
+                $em->persist($result[0]);
                 $em->flush();
 
                 $this->_helper->redirector("index");
