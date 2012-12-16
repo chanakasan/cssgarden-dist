@@ -47,6 +47,10 @@ try {
     if (($em = $container->getEntityManager(getenv('EM') ?: $container->defaultEntityManager)) !== null) {
         $helperSet['em'] = new \Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper($em);
     }
+    
+    if (($em = $container->getEntityManager(getenv('DIALOG') ?: $container->defaultEntityManager)) !== null) {
+        $helperSet['dialog'] = new \Symfony\Component\Console\Helper\DialogHelper();        
+    }
 
 } catch (\Exception $e) {
     $cli->renderException($e, new \Symfony\Component\Console\Output\ConsoleOutput());
