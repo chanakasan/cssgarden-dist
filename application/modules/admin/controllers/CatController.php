@@ -35,15 +35,15 @@ class Admin_CatController extends Zend_Controller_Action
             if($form->isValid($formData))
             {
                 $cat = new \App\Entity\Category();
-                $cat->name = $formData['cat_name'];
-                $cat->descrip = $formData['cat_desc'];
+                $cat->name = $formData['name'];
+                $cat->descrip = $formData['descrip'] ? $formData['descrip'] : "---";
                 $cat->isactive = $formData['isactive'];
 
                 $em = $this->_doctrineContainer->getEntityManager();
                 $em->persist($cat);
                 $em->flush();
 
-                return true;
+                $this->_helper->redirector("index");
             }
             else $form->populate($formData);
         }

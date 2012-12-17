@@ -73,7 +73,7 @@ class User
      *
      * @param \Doctrine\Common\Collections\Collection $property
      *
-     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist","remove"})
+     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist"})
      */
     protected $entries;
 

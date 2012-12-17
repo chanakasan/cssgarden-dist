@@ -4,6 +4,23 @@
 class Model_Users
 {
     /**
+     * Get the logged in user
+     *
+     * @param string $column
+     * @return false|string
+     */
+    public static function getLoggedInUser()
+    {
+        //load user auth details
+        $user = Zend_Auth::getInstance()->getIdentity();
+
+        if($user)
+            return $user;
+        else
+            return false;
+    }
+
+    /**
      * Get the user detail of logged in user
      *
      * @param string $column

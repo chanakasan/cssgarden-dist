@@ -2,20 +2,20 @@
 $this->title = "Customer Categories";
 $this->headTitle($this->title);
 ?>
+<br/>
+<h2>Customer Categories</h2>
 <p><a href="/admin/cat/add">Add new category</a></p>
 <table>
 <tr>
-    <th>Category Name</th>
-    <th>Description</th>
-    <th>Date Created</th>
+    <th>Category-Name</th>
+    <th>Description</th>    
     <th>Active</th>   
     <th>&nbsp;</th>
 </tr>
 <?php foreach($this->cats as $cat) : ?>
 <tr>    
     <td><?php echo $this->escape($cat->name);?></td>
-    <td><?php echo $this->escape($cat->desc);?></td>
-    <td><?php echo $this->escape($cat->created);?></td>
+    <td><?php echo $this->escape($cat->descrip);?></td>    
     <td><?php echo $this->escape($cat->isactive);?></td>
     <td>
         <a href="<?php echo $this->url(array('controller'=>'cat',

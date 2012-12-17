@@ -2,7 +2,7 @@
 
 class Form_Category extends Zend_Form
 {
-
+    
     public function init()
     {
         $this->setName("cat-form")
@@ -11,15 +11,15 @@ class Form_Category extends Zend_Form
         $catName = new Zend_Form_Element_Text("name");
         $catName->class = "text";
         $catName->setLabel("Category Name:")
+                ->setValue(false)
                 ->setRequired()                
                 ->addFilters(array("StringTrim","StringToLower"));
                 
         
         $desc = new Zend_Form_Element_Textarea("descrip");
         $desc->class = "text";
-        $desc->setLabel("Description:")
-                ->setRequired()
-                ->setAttrib("cols", "30")
+        $desc->setLabel("Description:")                
+                ->setAttrib("cols", "18")
                 ->setAttrib("rows", "5")
                 ->addFilters(array("StringTrim","StringToLower"));
 

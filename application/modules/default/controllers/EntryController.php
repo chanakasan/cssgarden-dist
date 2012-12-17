@@ -20,7 +20,7 @@ class EntryController extends Zend_Controller_Action
 
     public function addAction()
     {
-        $timeLimit ="16:00:00";
+        $timeLimit ="20:00:00";
         if (time() < strtotime($timeLimit))
         {
             $form = new Form_Entry();
@@ -31,35 +31,45 @@ class EntryController extends Zend_Controller_Action
 
             $remarks = $form->getElement('remarks');
             $remarks->setAttrib("disabled", true);
-            
+
+            $category = $form->getElement('category');
+
+            //retrieve sustomer categories
+            $em = $this->_doctrineContainer->getEntityManager();
+            $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Category u")->execute();
+            //var_dump($result);exit;
+
+            if(!empty($result))
+            {
+                foreach($result as $cat)
+                {
+                    $category->addMultiOptions(array(
+                        $cat['id'] => $cat['name']
+                    ));
+                }
+            }
             $this->view->form = $form;
         }
 
         if($this->getRequest()->isPost())
         {
             $formData = $this->getRequest()->getPost();
-            $user_id = Model_Users::getLoggedInUserField("id");
+            $user = Model_Users::getLoggedInUser();
             
 
             if($form->isValid($formData))
             {
                 $entry = new \App\Entity\Entry();
                 $entry->dwpno = date("dmY");
-                $entry->customer = $formData["customer"];
+                $entry->category = $formData["category"];
                 $entry->customerInfo = $formData["customerInfo"];
                 $entry->visitTime = $formData["visitTime"];
                 $entry->area = $formData["area"];
                 $entry->city = $formData["city"];
                 $entry->activity = $formData["activity"];
-                $entry->user = $user_id;
-                
-                $em = $this->_doctrineContainer->getEntityManager();
-                $query = $em->createQuery("SELECT u FROM App\Entity\User u WHERE u.id = :id");
-                $query->setParameter("id", $user_id);
-                $result = $query->getResult();
-                $result[0]->entries = array($entry);
-                
-                $em->persist($result[0]);
+                $entry->user = $user;
+
+                $em->persist($entry);
                 $em->flush();
 
                 $this->_helper->redirector("index");

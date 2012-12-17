@@ -34,12 +34,6 @@ class Entry
     protected $date;
 
     /**
-     * @Column(type="string",length=32)
-     * @var string
-     */
-    protected $customer;
-
-    /**
      * @Column(type="string",length=128)
      * @var string
      */
@@ -84,12 +78,22 @@ class Entry
     /**
      *
      * @var User
-     * @ManyToOne(targetEntity="User", inversedBy="entry", cascade={"All"})
+     * @ManyToOne(targetEntity="User", inversedBy="entry", cascade={"persist"})
      * @JoinColumns({
      *  @JoinColumn(name="user_id", referencedColumnName="id")
      * })
      */
     protected $user;
+
+    /**
+     *
+     * @var User
+     * @ManyToOne(targetEntity="Category", inversedBy="entry", cascade={"persist"})
+     * @JoinColumns({
+     *  @JoinColumn(name="cat_id", referencedColumnName="id")
+     * })
+     */
+    protected $category;
 
     
     public function  __construct(array $options = null)
@@ -164,6 +168,16 @@ class Entry
         return $this;
     }
 
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    public function setCategory($name)
+    {
+        $this->category = $name;
+        return $this;
+    }
 
     public function getDwpno()
     {
@@ -186,18 +200,7 @@ class Entry
         $this->date = $date;
         return $this;
     }
-
-    public function getCustomer()
-    {
-        return $this->customer;
-    }
-
-    public function setCustomer($customer)
-    {
-        $this->customer = $customer;
-        return $this;
-    }
-
+    
     public function getArea()
     {
         return $this->area;

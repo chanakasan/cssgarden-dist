@@ -1,0 +1,8160 @@
+%YAML 1.1
+---
+# dcr_dev.cities
+-
+  id: 1
+  area_id: 1
+  name: "Akarawita"
+-
+  id: 2
+  area_id: 1
+  name: "Akuregoda"
+-
+  id: 3
+  area_id: 1
+  name: "Angoda"
+-
+  id: 4
+  area_id: 1
+  name: "Athurugiriya"
+-
+  id: 5
+  area_id: 1
+  name: "Avissawella"
+-
+  id: 6
+  area_id: 1
+  name: "Batawala"
+-
+  id: 7
+  area_id: 1
+  name: "Battaramulla"
+-
+  id: 8
+  area_id: 1
+  name: "Batugampola"
+-
+  id: 9
+  area_id: 1
+  name: "Bellanwila"
+-
+  id: 10
+  area_id: 1
+  name: "Bope"
+-
+  id: 11
+  area_id: 1
+  name: "Boralesgamuwa"
+-
+  id: 12
+  area_id: 1
+  name: "Colombo 1"
+-
+  id: 13
+  area_id: 1
+  name: "Colombo 10"
+-
+  id: 14
+  area_id: 1
+  name: "Colombo 11"
+-
+  id: 15
+  area_id: 1
+  name: "Colombo 12"
+-
+  id: 16
+  area_id: 1
+  name: "Colombo 13"
+-
+  id: 17
+  area_id: 1
+  name: "Colombo 14"
+-
+  id: 18
+  area_id: 1
+  name: "Colombo 15"
+-
+  id: 19
+  area_id: 1
+  name: "Colombo 2"
+-
+  id: 20
+  area_id: 1
+  name: "Colombo 3"
+-
+  id: 21
+  area_id: 1
+  name: "Colombo 4"
+-
+  id: 22
+  area_id: 1
+  name: "Colombo 5"
+-
+  id: 23
+  area_id: 1
+  name: "Colombo 6"
+-
+  id: 24
+  area_id: 1
+  name: "Colombo 7"
+-
+  id: 25
+  area_id: 1
+  name: "Colombo 8"
+-
+  id: 26
+  area_id: 1
+  name: "Colombo 9"
+-
+  id: 27
+  area_id: 1
+  name: "Dedigamuwa"
+-
+  id: 28
+  area_id: 1
+  name: "Dehiwala"
+-
+  id: 29
+  area_id: 1
+  name: "Deltara"
+-
+  id: 30
+  area_id: 1
+  name: "Ethul Kotte"
+-
+  id: 31
+  area_id: 1
+  name: "Godagama"
+-
+  id: 32
+  area_id: 1
+  name: "Gothatuwa"
+-
+  id: 33
+  area_id: 1
+  name: "Habarakada"
+-
+  id: 34
+  area_id: 1
+  name: "Handapangoda"
+-
+  id: 35
+  area_id: 1
+  name: "Hanwella"
+-
+  id: 36
+  area_id: 1
+  name: "Hewainna"
+-
+  id: 37
+  area_id: 1
+  name: "Hiripitya"
+-
+  id: 38
+  area_id: 1
+  name: "Hokandara"
+-
+  id: 39
+  area_id: 1
+  name: "Homagama"
+-
+  id: 40
+  area_id: 1
+  name: "Horagala"
+-
+  id: 41
+  area_id: 1
+  name: "Ingiriya"
+-
+  id: 42
+  area_id: 1
+  name: "Kaduwela"
+-
+  id: 43
+  area_id: 1
+  name: "Kahathuduwa"
+-
+  id: 44
+  area_id: 1
+  name: "Kahawala"
+-
+  id: 45
+  area_id: 1
+  name: "Kalatuwawa"
+-
+  id: 46
+  area_id: 1
+  name: "Kaluaggala"
+-
+  id: 47
+  area_id: 1
+  name: "Kalubowila"
+-
+  id: 48
+  area_id: 1
+  name: "Kesbewa"
+-
+  id: 49
+  area_id: 1
+  name: "Kiriwattuduwa"
+-
+  id: 50
+  area_id: 1
+  name: "Kohuwala"
+-
+  id: 51
+  area_id: 1
+  name: "Kolonnawa"
+-
+  id: 52
+  area_id: 1
+  name: "Kosgama"
+-
+  id: 53
+  area_id: 1
+  name: "Kotikawatta"
+-
+  id: 54
+  area_id: 1
+  name: "Kottawa"
+-
+  id: 55
+  area_id: 1
+  name: "Kotte"
+-
+  id: 56
+  area_id: 1
+  name: "Madapatha"
+-
+  id: 57
+  area_id: 1
+  name: "Madiwela"
+-
+  id: 58
+  area_id: 1
+  name: "Maharagama"
+-
+  id: 59
+  area_id: 1
+  name: "Malabe"
+-
+  id: 60
+  area_id: 1
+  name: "Mattegoda"
+-
+  id: 61
+  area_id: 1
+  name: "Meegoda"
+-
+  id: 62
+  area_id: 1
+  name: "Meepe"
+-
+  id: 63
+  area_id: 1
+  name: "Moragahahena"
+-
+  id: 64
+  area_id: 1
+  name: "Moratuwa"
+-
+  id: 65
+  area_id: 1
+  name: "Mount Lavinia"
+-
+  id: 66
+  area_id: 1
+  name: "Mullegama"
+-
+  id: 67
+  area_id: 1
+  name: "Mulleriyawa New Town"
+-
+  id: 68
+  area_id: 1
+  name: "Napawela"
+-
+  id: 69
+  area_id: 1
+  name: "Navagamuwa"
+-
+  id: 70
+  area_id: 1
+  name: "Nawala"
+-
+  id: 71
+  area_id: 1
+  name: "Nugegoda"
+-
+  id: 72
+  area_id: 1
+  name: "Padukka"
+-
+  id: 73
+  area_id: 1
+  name: "Pannipitiya"
+-
+  id: 74
+  area_id: 1
+  name: "Pelawatta"
+-
+  id: 75
+  area_id: 1
+  name: "Peliyagoda"
+-
+  id: 76
+  area_id: 1
+  name: "Pepiliyana"
+-
+  id: 77
+  area_id: 1
+  name: "Piliyandala"
+-
+  id: 78
+  area_id: 1
+  name: "Pita Kotte"
+-
+  id: 79
+  area_id: 1
+  name: "Pitipana Homagama"
+-
+  id: 80
+  area_id: 1
+  name: "Polgasowita"
+-
+  id: 81
+  area_id: 1
+  name: "Puwakpitiya"
+-
+  id: 82
+  area_id: 1
+  name: "Rajagiriya"
+-
+  id: 83
+  area_id: 1
+  name: "Ranala"
+-
+  id: 84
+  area_id: 1
+  name: "Ratmalana"
+-
+  id: 85
+  area_id: 1
+  name: "Siddamulla"
+-
+  id: 86
+  area_id: 1
+  name: "Sri Jayawardenepura Kotte"
+-
+  id: 87
+  area_id: 1
+  name: "Talawatugoda"
+-
+  id: 88
+  area_id: 1
+  name: "Thalapathpitiya"
+-
+  id: 89
+  area_id: 1
+  name: "Tummodara"
+-
+  id: 90
+  area_id: 1
+  name: "Waga"
+-
+  id: 91
+  area_id: 1
+  name: "Watareka"
+-
+  id: 92
+  area_id: 1
+  name: "Wellampitiya"
+-
+  id: 93
+  area_id: 2
+  name: "Akaragama"
+-
+  id: 94
+  area_id: 2
+  name: "Alawala"
+-
+  id: 95
+  area_id: 2
+  name: "Ambagaspitiya"
+-
+  id: 96
+  area_id: 2
+  name: "Ambepussa"
+-
+  id: 97
+  area_id: 2
+  name: "Andiambalama"
+-
+  id: 98
+  area_id: 2
+  name: "Attanagalla"
+-
+  id: 99
+  area_id: 2
+  name: "Badalgama"
+-
+  id: 100
+  area_id: 2
+  name: "Balabowa"
+-
+  id: 101
+  area_id: 2
+  name: "Banduragoda"
+-
+  id: 102
+  area_id: 2
+  name: "Batuwatta"
+-
+  id: 103
+  area_id: 2
+  name: "Bemmulla"
+-
+  id: 104
+  area_id: 2
+  name: "Biyagama"
+-
+  id: 105
+  area_id: 2
+  name: "Biyagama IPZ"
+-
+  id: 106
+  area_id: 2
+  name: "Bokalagama"
+-
+  id: 107
+  area_id: 2
+  name: "Bollete (WP)"
+-
+  id: 108
+  area_id: 2
+  name: "Bopagama"
+-
+  id: 109
+  area_id: 2
+  name: "Buthpitiya"
+-
+  id: 110
+  area_id: 2
+  name: "Dagonna"
+-
+  id: 111
+  area_id: 2
+  name: "Dalugama"
+-
+  id: 112
+  area_id: 2
+  name: "Danowita"
+-
+  id: 113
+  area_id: 2
+  name: "Debahera"
+-
+  id: 114
+  area_id: 2
+  name: "Dekatana"
+-
+  id: 115
+  area_id: 2
+  name: "Delgoda"
+-
+  id: 116
+  area_id: 2
+  name: "Delwagura"
+-
+  id: 117
+  area_id: 2
+  name: "Demalagama"
+-
+  id: 118
+  area_id: 2
+  name: "Demanhandiya"
+-
+  id: 119
+  area_id: 2
+  name: "Dewalapola"
+-
+  id: 120
+  area_id: 2
+  name: "Divulapitiya"
+-
+  id: 121
+  area_id: 2
+  name: "Divuldeniya"
+-
+  id: 122
+  area_id: 2
+  name: "Dompe"
+-
+  id: 123
+  area_id: 2
+  name: "Dunagaha"
+-
+  id: 124
+  area_id: 2
+  name: "Ekala"
+-
+  id: 125
+  area_id: 2
+  name: "Ellakkala"
+-
+  id: 126
+  area_id: 2
+  name: "Essella"
+-
+  id: 127
+  area_id: 2
+  name: "Gampaha"
+-
+  id: 128
+  area_id: 2
+  name: "Ganemulla"
+-
+  id: 129
+  area_id: 2
+  name: "GonawalaWP"
+-
+  id: 130
+  area_id: 2
+  name: "Heiyanthuduwa"
+-
+  id: 131
+  area_id: 2
+  name: "Hendala"
+-
+  id: 132
+  area_id: 2
+  name: "Henegama"
+-
+  id: 133
+  area_id: 2
+  name: "Hinatiyana Madawala"
+-
+  id: 134
+  area_id: 2
+  name: "Hiswella"
+-
+  id: 135
+  area_id: 2
+  name: "Horampella"
+-
+  id: 136
+  area_id: 2
+  name: "Hunumulla"
+-
+  id: 137
+  area_id: 2
+  name: "Ihala Madampella"
+-
+  id: 138
+  area_id: 2
+  name: "Imbulgoda"
+-
+  id: 139
+  area_id: 2
+  name: "Ja-Ela"
+-
+  id: 140
+  area_id: 2
+  name: "Kadawatha"
+-
+  id: 141
+  area_id: 2
+  name: "Kadirana"
+-
+  id: 142
+  area_id: 2
+  name: "Kahatowita"
+-
+  id: 143
+  area_id: 2
+  name: "Kalagedihena"
+-
+  id: 144
+  area_id: 2
+  name: "Kaleliya"
+-
+  id: 145
+  area_id: 2
+  name: "Kandana"
+-
+  id: 146
+  area_id: 2
+  name: "Kapugoda"
+-
+  id: 147
+  area_id: 2
+  name: "Katana"
+-
+  id: 148
+  area_id: 2
+  name: "Kattuwa"
+-
+  id: 149
+  area_id: 2
+  name: "Katunayake"
+-
+  id: 150
+  area_id: 2
+  name: "Katunayake Air Force Camp"
+-
+  id: 151
+  area_id: 2
+  name: "Katunayake(FTZ)"
+-
+  id: 152
+  area_id: 2
+  name: "Katuwellegama"
+-
+  id: 153
+  area_id: 2
+  name: "Kelaniya"
+-
+  id: 154
+  area_id: 2
+  name: "Kimbulapitiya"
+-
+  id: 155
+  area_id: 2
+  name: "Kiribathgoda"
+-
+  id: 156
+  area_id: 2
+  name: "Kirillawala"
+-
+  id: 157
+  area_id: 2
+  name: "Kirindiwela"
+-
+  id: 158
+  area_id: 2
+  name: "Kitalawalana"
+-
+  id: 159
+  area_id: 2
+  name: "Kitulwala"
+-
+  id: 160
+  area_id: 2
+  name: "Kochchikade"
+-
+  id: 161
+  area_id: 2
+  name: "Kotadeniyawa"
+-
+  id: 162
+  area_id: 2
+  name: "Kotugoda"
+-
+  id: 163
+  area_id: 2
+  name: "Kumbaloluwa"
+-
+  id: 164
+  area_id: 2
+  name: "Loluwagoda"
+-
+  id: 165
+  area_id: 2
+  name: "Lunugama"
+-
+  id: 166
+  area_id: 2
+  name: "Mabodale"
+-
+  id: 167
+  area_id: 2
+  name: "Madelgamuwa"
+-
+  id: 168
+  area_id: 2
+  name: "Mahabage"
+-
+  id: 169
+  area_id: 2
+  name: "Makewita"
+-
+  id: 170
+  area_id: 2
+  name: "Makola"
+-
+  id: 171
+  area_id: 2
+  name: "Malwana"
+-
+  id: 172
+  area_id: 2
+  name: "Mandawala"
+-
+  id: 173
+  area_id: 2
+  name: "Marandagahamula"
+-
+  id: 174
+  area_id: 2
+  name: "Mellawagedara"
+-
+  id: 175
+  area_id: 2
+  name: "Minuwangoda"
+-
+  id: 176
+  area_id: 2
+  name: "Mirigama"
+-
+  id: 177
+  area_id: 2
+  name: "Mithirigala"
+-
+  id: 178
+  area_id: 2
+  name: "Muddaragama"
+-
+  id: 179
+  area_id: 2
+  name: "Mudungoda"
+-
+  id: 180
+  area_id: 2
+  name: "Naranwala"
+-
+  id: 181
+  area_id: 2
+  name: "Nawana"
+-
+  id: 182
+  area_id: 2
+  name: "Nedungamuwa"
+-
+  id: 183
+  area_id: 2
+  name: "Negombo"
+-
+  id: 184
+  area_id: 2
+  name: "Nikahetikanda"
+-
+  id: 185
+  area_id: 2
+  name: "Nittambuwa"
+-
+  id: 186
+  area_id: 2
+  name: "Niwandama"
+-
+  id: 187
+  area_id: 2
+  name: "Pallewela"
+-
+  id: 188
+  area_id: 2
+  name: "Pamunugama"
+-
+  id: 189
+  area_id: 2
+  name: "Pamunuwatta"
+-
+  id: 190
+  area_id: 2
+  name: "Pasyala"
+-
+  id: 191
+  area_id: 2
+  name: "Peliyagoda"
+-
+  id: 192
+  area_id: 2
+  name: "Pepiliyawala"
+-
+  id: 193
+  area_id: 2
+  name: "Pethiyagoda"
+-
+  id: 194
+  area_id: 2
+  name: "Polpithimukulana"
+-
+  id: 195
+  area_id: 2
+  name: "Pugoda"
+-
+  id: 196
+  area_id: 2
+  name: "Radawadunna"
+-
+  id: 197
+  area_id: 2
+  name: "Radawana"
+-
+  id: 198
+  area_id: 2
+  name: "Raddolugama"
+-
+  id: 199
+  area_id: 2
+  name: "Ragama"
+-
+  id: 200
+  area_id: 2
+  name: "Ruggahawila"
+-
+  id: 201
+  area_id: 2
+  name: "Rukmale"
+-
+  id: 202
+  area_id: 2
+  name: "Seeduwa"
+-
+  id: 203
+  area_id: 2
+  name: "Siyambalape"
+-
+  id: 204
+  area_id: 2
+  name: "Talahena"
+-
+  id: 205
+  area_id: 2
+  name: "Thihariya"
+-
+  id: 206
+  area_id: 2
+  name: "Thimbirigaskatuwa"
+-
+  id: 207
+  area_id: 2
+  name: "Tittapattara"
+-
+  id: 208
+  area_id: 2
+  name: "Udathuthiripitiya"
+-
+  id: 209
+  area_id: 2
+  name: "Udugampola"
+-
+  id: 210
+  area_id: 2
+  name: "Uggalboda"
+-
+  id: 211
+  area_id: 2
+  name: "Urapola"
+-
+  id: 212
+  area_id: 2
+  name: "Uswetakeiyawa"
+-
+  id: 213
+  area_id: 2
+  name: "Veyangoda"
+-
+  id: 214
+  area_id: 2
+  name: "Walgammulla"
+-
+  id: 215
+  area_id: 2
+  name: "Walpita"
+-
+  id: 216
+  area_id: 2
+  name: "Walpola (WP)"
+-
+  id: 217
+  area_id: 2
+  name: "Wanaluwewa"
+-
+  id: 218
+  area_id: 2
+  name: "Wathurugama"
+-
+  id: 219
+  area_id: 2
+  name: "Watinapaha"
+-
+  id: 220
+  area_id: 2
+  name: "Wattala"
+-
+  id: 221
+  area_id: 2
+  name: "Weboda"
+-
+  id: 222
+  area_id: 2
+  name: "Wegowwa"
+-
+  id: 223
+  area_id: 2
+  name: "Welisara"
+-
+  id: 224
+  area_id: 2
+  name: "Weliveriya"
+-
+  id: 225
+  area_id: 2
+  name: "Weweldeniya"
+-
+  id: 226
+  area_id: 2
+  name: "Yakkala"
+-
+  id: 227
+  area_id: 2
+  name: "Yatiyana(WP)"
+-
+  id: 228
+  area_id: 3
+  name: "Agalawatta"
+-
+  id: 229
+  area_id: 3
+  name: "Alubomulla"
+-
+  id: 230
+  area_id: 3
+  name: "Alutgama"
+-
+  id: 231
+  area_id: 3
+  name: "Anguruwatota"
+-
+  id: 232
+  area_id: 3
+  name: "Baduraliya"
+-
+  id: 233
+  area_id: 3
+  name: "Bandaragama"
+-
+  id: 234
+  area_id: 3
+  name: "Bellana"
+-
+  id: 235
+  area_id: 3
+  name: "Benthara"
+-
+  id: 236
+  area_id: 3
+  name: "Beruwala"
+-
+  id: 237
+  area_id: 3
+  name: "Bolossagama"
+-
+  id: 238
+  area_id: 3
+  name: "Bombuwala"
+-
+  id: 239
+  area_id: 3
+  name: "Boralugoda"
+-
+  id: 240
+  area_id: 3
+  name: "Bulathsinhala"
+-
+  id: 241
+  area_id: 3
+  name: "Danawala Thiniyawala"
+-
+  id: 242
+  area_id: 3
+  name: "Delmella"
+-
+  id: 243
+  area_id: 3
+  name: "Dharga Town"
+-
+  id: 244
+  area_id: 3
+  name: "Diwalakada"
+-
+  id: 245
+  area_id: 3
+  name: "Dodangoda"
+-
+  id: 246
+  area_id: 3
+  name: "Dombagoda"
+-
+  id: 247
+  area_id: 3
+  name: "Galpatha"
+-
+  id: 248
+  area_id: 3
+  name: "Gamagoda"
+-
+  id: 249
+  area_id: 3
+  name: "Gonapola Junction"
+-
+  id: 250
+  area_id: 3
+  name: "Govinna"
+-
+  id: 251
+  area_id: 3
+  name: "Gurulubadda"
+-
+  id: 252
+  area_id: 3
+  name: "Halkandawila"
+-
+  id: 253
+  area_id: 3
+  name: "Haltota"
+-
+  id: 254
+  area_id: 3
+  name: "Halwala"
+-
+  id: 255
+  area_id: 3
+  name: "Halwatura"
+-
+  id: 256
+  area_id: 3
+  name: "Hedigalla Colony"
+-
+  id: 257
+  area_id: 3
+  name: "Horana"
+-
+  id: 258
+  area_id: 3
+  name: "Ittapana"
+-
+  id: 259
+  area_id: 3
+  name: "Kalawila Kiranthidiya"
+-
+  id: 260
+  area_id: 3
+  name: "Kalutara"
+-
+  id: 261
+  area_id: 3
+  name: "Kananwila"
+-
+  id: 262
+  area_id: 3
+  name: "Kandanagama"
+-
+  id: 263
+  area_id: 3
+  name: "Kehelwatta"
+-
+  id: 264
+  area_id: 3
+  name: "Kelinkanda"
+-
+  id: 265
+  area_id: 3
+  name: "Kitulgoda"
+-
+  id: 266
+  area_id: 3
+  name: "Koholana"
+-
+  id: 267
+  area_id: 3
+  name: "Kuda Uduwa"
+-
+  id: 268
+  area_id: 3
+  name: "Kumbuka"
+-
+  id: 269
+  area_id: 3
+  name: "lngiriya"
+-
+  id: 270
+  area_id: 3
+  name: "Maggona"
+-
+  id: 271
+  area_id: 3
+  name: "Mahagama"
+-
+  id: 272
+  area_id: 3
+  name: "Mahakalupahana"
+-
+  id: 273
+  area_id: 3
+  name: "Matugama"
+-
+  id: 274
+  area_id: 3
+  name: "Meegahatenna"
+-
+  id: 275
+  area_id: 3
+  name: "Meegama"
+-
+  id: 276
+  area_id: 3
+  name: "Millaniya"
+-
+  id: 277
+  area_id: 3
+  name: "Millewa"
+-
+  id: 278
+  area_id: 3
+  name: "Miwanapalana"
+-
+  id: 279
+  area_id: 3
+  name: "Molkawa"
+-
+  id: 280
+  area_id: 3
+  name: "Morapitiya"
+-
+  id: 281
+  area_id: 3
+  name: "Morontuduwa"
+-
+  id: 282
+  area_id: 3
+  name: "Nawattuduwa"
+-
+  id: 283
+  area_id: 3
+  name: "Neboda"
+-
+  id: 284
+  area_id: 3
+  name: "Padagoda"
+-
+  id: 285
+  area_id: 3
+  name: "Pahalahewessa"
+-
+  id: 286
+  area_id: 3
+  name: "Paiyagala"
+-
+  id: 287
+  area_id: 3
+  name: "Panadura"
+-
+  id: 288
+  area_id: 3
+  name: "Pannila"
+-
+  id: 289
+  area_id: 3
+  name: "Paragastota"
+-
+  id: 290
+  area_id: 3
+  name: "Paragoda"
+-
+  id: 291
+  area_id: 3
+  name: "Paraigama"
+-
+  id: 292
+  area_id: 3
+  name: "Pelanda"
+-
+  id: 293
+  area_id: 3
+  name: "Pelawatta"
+-
+  id: 294
+  area_id: 3
+  name: "Pokunuwita"
+-
+  id: 295
+  area_id: 3
+  name: "Polgampola"
+-
+  id: 296
+  area_id: 3
+  name: "Poruwedanda"
+-
+  id: 297
+  area_id: 3
+  name: "Remunagoda"
+-
+  id: 298
+  area_id: 3
+  name: "Tebuwana"
+-
+  id: 299
+  area_id: 3
+  name: "Uduwara"
+-
+  id: 300
+  area_id: 3
+  name: "Utumgama"
+-
+  id: 301
+  area_id: 3
+  name: "Veyangalla"
+-
+  id: 302
+  area_id: 3
+  name: "Wadduwa"
+-
+  id: 303
+  area_id: 3
+  name: "Walagedara"
+-
+  id: 304
+  area_id: 3
+  name: "Walallawita"
+-
+  id: 305
+  area_id: 3
+  name: "Waskaduwa"
+-
+  id: 306
+  area_id: 3
+  name: "Welipenna"
+-
+  id: 307
+  area_id: 3
+  name: "Welmilla Junction"
+-
+  id: 308
+  area_id: 3
+  name: "Yagirala"
+-
+  id: 309
+  area_id: 3
+  name: "Yatadolawatta"
+-
+  id: 310
+  area_id: 3
+  name: "Yatawara Junction"
+-
+  id: 311
+  area_id: 4
+  name: "Akurana"
+-
+  id: 312
+  area_id: 4
+  name: "Alawatugoda"
+-
+  id: 313
+  area_id: 4
+  name: "Aludeniya"
+-
+  id: 314
+  area_id: 4
+  name: "Ambagahapelessa"
+-
+  id: 315
+  area_id: 4
+  name: "Ambatenna"
+-
+  id: 316
+  area_id: 4
+  name: "Ampitiya"
+-
+  id: 317
+  area_id: 4
+  name: "Aniwatta"
+-
+  id: 318
+  area_id: 4
+  name: "Ankumbura"
+-
+  id: 319
+  area_id: 4
+  name: "Asgiriya"
+-
+  id: 320
+  area_id: 4
+  name: "Atabage"
+-
+  id: 321
+  area_id: 4
+  name: "Balagolla"
+-
+  id: 322
+  area_id: 4
+  name: "Balana"
+-
+  id: 323
+  area_id: 4
+  name: "Bambaragahaela"
+-
+  id: 324
+  area_id: 4
+  name: "Barawardhana Oya"
+-
+  id: 325
+  area_id: 4
+  name: "Batagolladeniya"
+-
+  id: 326
+  area_id: 4
+  name: "Batugoda"
+-
+  id: 327
+  area_id: 4
+  name: "Batumulla"
+-
+  id: 328
+  area_id: 4
+  name: "Bawlana"
+-
+  id: 329
+  area_id: 4
+  name: "Bopana"
+-
+  id: 330
+  area_id: 4
+  name: "Dangolla"
+-
+  id: 331
+  area_id: 4
+  name: "Danture"
+-
+  id: 332
+  area_id: 4
+  name: "Dedunupitiya"
+-
+  id: 333
+  area_id: 4
+  name: "Dekinda"
+-
+  id: 334
+  area_id: 4
+  name: "Deltota"
+-
+  id: 335
+  area_id: 4
+  name: "Digana"
+-
+  id: 336
+  area_id: 4
+  name: "Dolapihilla"
+-
+  id: 337
+  area_id: 4
+  name: "Dolosbage"
+-
+  id: 338
+  area_id: 4
+  name: "Doluwa"
+-
+  id: 339
+  area_id: 4
+  name: "Doragamuwa"
+-
+  id: 340
+  area_id: 4
+  name: "Dunuwila"
+-
+  id: 341
+  area_id: 4
+  name: "Ekiriya"
+-
+  id: 342
+  area_id: 4
+  name: "Elamulla"
+-
+  id: 343
+  area_id: 4
+  name: "Elkaduwa"
+-
+  id: 344
+  area_id: 4
+  name: "Etulgama"
+-
+  id: 345
+  area_id: 4
+  name: "Galaboda"
+-
+  id: 346
+  area_id: 4
+  name: "Galagedara"
+-
+  id: 347
+  area_id: 4
+  name: "Galaha"
+-
+  id: 348
+  area_id: 4
+  name: "Galhinna"
+-
+  id: 349
+  area_id: 4
+  name: "Gallellagama"
+-
+  id: 350
+  area_id: 4
+  name: "Gampola"
+-
+  id: 351
+  area_id: 4
+  name: "Gelioya"
+-
+  id: 352
+  area_id: 4
+  name: "Godamunna"
+-
+  id: 353
+  area_id: 4
+  name: "Gomagoda"
+-
+  id: 354
+  area_id: 4
+  name: "Gonagantenna"
+-
+  id: 355
+  area_id: 4
+  name: "Gonawalapatana"
+-
+  id: 356
+  area_id: 4
+  name: "Gunnepana"
+-
+  id: 357
+  area_id: 4
+  name: "Gurudeniya"
+-
+  id: 358
+  area_id: 4
+  name: "Halloluwa"
+-
+  id: 359
+  area_id: 4
+  name: "Handaganawa"
+-
+  id: 360
+  area_id: 4
+  name: "Handawalapitiya"
+-
+  id: 361
+  area_id: 4
+  name: "Handessa"
+-
+  id: 362
+  area_id: 4
+  name: "Hanguranketha"
+-
+  id: 363
+  area_id: 4
+  name: "Hantane"
+-
+  id: 364
+  area_id: 4
+  name: "Haragama"
+-
+  id: 365
+  area_id: 4
+  name: "Harankahawa"
+-
+  id: 366
+  area_id: 4
+  name: "Hasalaka"
+-
+  id: 367
+  area_id: 4
+  name: "Hataraliyadda"
+-
+  id: 368
+  area_id: 4
+  name: "Heerassagala"
+-
+  id: 369
+  area_id: 4
+  name: "Hewaheta"
+-
+  id: 370
+  area_id: 4
+  name: "Hindagala"
+-
+  id: 371
+  area_id: 4
+  name: "Hondiyadeniya"
+-
+  id: 372
+  area_id: 4
+  name: "Hunnasgiriya"
+-
+  id: 373
+  area_id: 4
+  name: "Jambugahapitiya"
+-
+  id: 374
+  area_id: 4
+  name: "Kadugannawa"
+-
+  id: 375
+  area_id: 4
+  name: "Kahataliyadda"
+-
+  id: 376
+  area_id: 4
+  name: "Kalugala"
+-
+  id: 377
+  area_id: 4
+  name: "Kandy"
+-
+  id: 378
+  area_id: 4
+  name: "Kapuliyadde"
+-
+  id: 379
+  area_id: 4
+  name: "Karandagolla"
+-
+  id: 380
+  area_id: 4
+  name: "Katugastota"
+-
+  id: 381
+  area_id: 4
+  name: "Kengalla"
+-
+  id: 382
+  area_id: 4
+  name: "Ketakumbura"
+-
+  id: 383
+  area_id: 4
+  name: "Ketawala Leula"
+-
+  id: 384
+  area_id: 4
+  name: "Kiribathkumbura"
+-
+  id: 385
+  area_id: 4
+  name: "Kobonila"
+-
+  id: 386
+  area_id: 4
+  name: "Kolabissa"
+-
+  id: 387
+  area_id: 4
+  name: "Kolongoda"
+-
+  id: 388
+  area_id: 4
+  name: "Kulugammana"
+-
+  id: 389
+  area_id: 4
+  name: "Kumbukkandura"
+-
+  id: 390
+  area_id: 4
+  name: "Kumburegama"
+-
+  id: 391
+  area_id: 4
+  name: "Kundasale"
+-
+  id: 392
+  area_id: 4
+  name: "Leemagahakotuwa"
+-
+  id: 393
+  area_id: 4
+  name: "Lewella"
+-
+  id: 394
+  area_id: 4
+  name: "lhala Kobbekaduwa"
+-
+  id: 395
+  area_id: 4
+  name: "lllagolla"
+-
+  id: 396
+  area_id: 4
+  name: "Lunuketiya Maditta"
+-
+  id: 397
+  area_id: 4
+  name: "Madawala Bazaar"
+-
+  id: 398
+  area_id: 4
+  name: "Madugalla"
+-
+  id: 399
+  area_id: 4
+  name: "Madulkele"
+-
+  id: 400
+  area_id: 4
+  name: "Mahadoraliyadda"
+-
+  id: 401
+  area_id: 4
+  name: "Mahamedagama"
+-
+  id: 402
+  area_id: 4
+  name: "Mailapitiya"
+-
+  id: 403
+  area_id: 4
+  name: "Makkanigama"
+-
+  id: 404
+  area_id: 4
+  name: "Makuldeniya"
+-
+  id: 405
+  area_id: 4
+  name: "Mandaram Nuwara"
+-
+  id: 406
+  area_id: 4
+  name: "Mapakanda"
+-
+  id: 407
+  area_id: 4
+  name: "Marassana"
+-
+  id: 408
+  area_id: 4
+  name: "Marymount Colony"
+-
+  id: 409
+  area_id: 4
+  name: "Maturata"
+-
+  id: 410
+  area_id: 4
+  name: "Mawatura"
+-
+  id: 411
+  area_id: 4
+  name: "Mawilmada"
+-
+  id: 412
+  area_id: 4
+  name: "Medamahanuwara"
+-
+  id: 413
+  area_id: 4
+  name: "Medawala Harispattuwa"
+-
+  id: 414
+  area_id: 4
+  name: "Meetalawa"
+-
+  id: 415
+  area_id: 4
+  name: "Megoda Kalugamuwa"
+-
+  id: 416
+  area_id: 4
+  name: "Menikdiwela"
+-
+  id: 417
+  area_id: 4
+  name: "Menikhinna"
+-
+  id: 418
+  area_id: 4
+  name: "Mimure"
+-
+  id: 419
+  area_id: 4
+  name: "Minigamuwa"
+-
+  id: 420
+  area_id: 4
+  name: "Minipe"
+-
+  id: 421
+  area_id: 4
+  name: "Murutalawa"
+-
+  id: 422
+  area_id: 4
+  name: "Muruthagahamulla"
+-
+  id: 423
+  area_id: 4
+  name: "Naranpanawa"
+-
+  id: 424
+  area_id: 4
+  name: "Nattarampotha"
+-
+  id: 425
+  area_id: 4
+  name: "Nawalapitiya"
+-
+  id: 426
+  area_id: 4
+  name: "Nillambe"
+-
+  id: 427
+  area_id: 4
+  name: "Nugaliyadda"
+-
+  id: 428
+  area_id: 4
+  name: "Nugawela"
+-
+  id: 429
+  area_id: 4
+  name: "Pallebowala"
+-
+  id: 430
+  area_id: 4
+  name: "Pallekelle"
+-
+  id: 431
+  area_id: 4
+  name: "Pallekotuwa"
+-
+  id: 432
+  area_id: 4
+  name: "Panvila"
+-
+  id: 433
+  area_id: 4
+  name: "Panwilatenna"
+-
+  id: 434
+  area_id: 4
+  name: "Paradeka"
+-
+  id: 435
+  area_id: 4
+  name: "Pasbage"
+-
+  id: 436
+  area_id: 4
+  name: "Pattitalawa"
+-
+  id: 437
+  area_id: 4
+  name: "Pattiya Watta"
+-
+  id: 438
+  area_id: 4
+  name: "Peradeniya"
+-
+  id: 439
+  area_id: 4
+  name: "Pilawala"
+-
+  id: 440
+  area_id: 4
+  name: "Pilimatalawa"
+-
+  id: 441
+  area_id: 4
+  name: "Poholiyadda"
+-
+  id: 442
+  area_id: 4
+  name: "Polgolla"
+-
+  id: 443
+  area_id: 4
+  name: "Pujapitiya"
+-
+  id: 444
+  area_id: 4
+  name: "Pupuressa"
+-
+  id: 445
+  area_id: 4
+  name: "Pussellawa"
+-
+  id: 446
+  area_id: 4
+  name: "Putuhapuwa"
+-
+  id: 447
+  area_id: 4
+  name: "Rajawella"
+-
+  id: 448
+  area_id: 4
+  name: "Rambukpitiya"
+-
+  id: 449
+  area_id: 4
+  name: "Rambukwella"
+-
+  id: 450
+  area_id: 4
+  name: "Rangala"
+-
+  id: 451
+  area_id: 4
+  name: "Rantembe"
+-
+  id: 452
+  area_id: 4
+  name: "Rathukohodigala"
+-
+  id: 453
+  area_id: 4
+  name: "Rikillagaskada"
+-
+  id: 454
+  area_id: 4
+  name: "Sangarajapura"
+-
+  id: 455
+  area_id: 4
+  name: "Senarathwela"
+-
+  id: 456
+  area_id: 4
+  name: "Talatuoya"
+-
+  id: 457
+  area_id: 4
+  name: "Tawalantenna"
+-
+  id: 458
+  area_id: 4
+  name: "Teldeniya"
+-
+  id: 459
+  area_id: 4
+  name: "Tennekumbura"
+-
+  id: 460
+  area_id: 4
+  name: "Uda Peradeniya"
+-
+  id: 461
+  area_id: 4
+  name: "Udahentenna"
+-
+  id: 462
+  area_id: 4
+  name: "Udahingulwala"
+-
+  id: 463
+  area_id: 4
+  name: "Udatalawinna"
+-
+  id: 464
+  area_id: 4
+  name: "Udawatta"
+-
+  id: 465
+  area_id: 4
+  name: "Udispattuwa"
+-
+  id: 466
+  area_id: 4
+  name: "Ududumbara"
+-
+  id: 467
+  area_id: 4
+  name: "Uduwa"
+-
+  id: 468
+  area_id: 4
+  name: "Uduwahinna"
+-
+  id: 469
+  area_id: 4
+  name: "Uduwela"
+-
+  id: 470
+  area_id: 4
+  name: "Ulapane"
+-
+  id: 471
+  area_id: 4
+  name: "Ulpothagama"
+-
+  id: 472
+  area_id: 4
+  name: "Unuwinna"
+-
+  id: 473
+  area_id: 4
+  name: "Velamboda"
+-
+  id: 474
+  area_id: 4
+  name: "Watagoda Harispattuwa"
+-
+  id: 475
+  area_id: 4
+  name: "Watapuluwa"
+-
+  id: 476
+  area_id: 4
+  name: "Wattappola"
+-
+  id: 477
+  area_id: 4
+  name: "Wattegama"
+-
+  id: 478
+  area_id: 4
+  name: "Weligalla"
+-
+  id: 479
+  area_id: 4
+  name: "Weligampola"
+-
+  id: 480
+  area_id: 4
+  name: "Wendaruwa"
+-
+  id: 481
+  area_id: 4
+  name: "Weragantota"
+-
+  id: 482
+  area_id: 4
+  name: "Werapitya"
+-
+  id: 483
+  area_id: 4
+  name: "Werellagama"
+-
+  id: 484
+  area_id: 4
+  name: "Wettawa"
+-
+  id: 485
+  area_id: 4
+  name: "Wilanagama"
+-
+  id: 486
+  area_id: 4
+  name: "Yahalatenna"
+-
+  id: 487
+  area_id: 4
+  name: "Yatihalagala"
+-
+  id: 488
+  area_id: 5
+  name: "Akuramboda"
+-
+  id: 489
+  area_id: 5
+  name: "Alwatta"
+-
+  id: 490
+  area_id: 5
+  name: "Ambana"
+-
+  id: 491
+  area_id: 5
+  name: "Ataragallewa"
+-
+  id: 492
+  area_id: 5
+  name: "Bambaragaswewa"
+-
+  id: 493
+  area_id: 5
+  name: "Beligamuwa"
+-
+  id: 494
+  area_id: 5
+  name: "Dambulla"
+-
+  id: 495
+  area_id: 5
+  name: "Dankanda"
+-
+  id: 496
+  area_id: 5
+  name: "Devagiriya"
+-
+  id: 497
+  area_id: 5
+  name: "Dewahuwa"
+-
+  id: 498
+  area_id: 5
+  name: "Dullewa"
+-
+  id: 499
+  area_id: 5
+  name: "Dunkolawatta"
+-
+  id: 500
+  area_id: 5
+  name: "Dunuwilapitiya"
+-
+  id: 501
+  area_id: 5
+  name: "Elkaduwa"
+-
+  id: 502
+  area_id: 5
+  name: "Erawula Junction"
+-
+  id: 503
+  area_id: 5
+  name: "Etanawala"
+-
+  id: 504
+  area_id: 5
+  name: "Galewela"
+-
+  id: 505
+  area_id: 5
+  name: "Gammaduwa"
+-
+  id: 506
+  area_id: 5
+  name: "Gangala Puwakpitiya"
+-
+  id: 507
+  area_id: 5
+  name: "Handungamuwa"
+-
+  id: 508
+  area_id: 5
+  name: "Hattota Amuna"
+-
+  id: 509
+  area_id: 5
+  name: "Imbulgolla"
+-
+  id: 510
+  area_id: 5
+  name: "Inamaluwa"
+-
+  id: 511
+  area_id: 5
+  name: "Kaikawala"
+-
+  id: 512
+  area_id: 5
+  name: "Kalundawa"
+-
+  id: 513
+  area_id: 5
+  name: "Kandalama"
+-
+  id: 514
+  area_id: 5
+  name: "Karagahinna"
+-
+  id: 515
+  area_id: 5
+  name: "Katudeniya"
+-
+  id: 516
+  area_id: 5
+  name: "Kavudupelella"
+-
+  id: 517
+  area_id: 5
+  name: "Kibissa"
+-
+  id: 518
+  area_id: 5
+  name: "Kiwula"
+-
+  id: 519
+  area_id: 5
+  name: "Kongahawela"
+-
+  id: 520
+  area_id: 5
+  name: "Laggala Pallegama"
+-
+  id: 521
+  area_id: 5
+  name: "Leliambe"
+-
+  id: 522
+  area_id: 5
+  name: "Lenadora"
+-
+  id: 523
+  area_id: 5
+  name: "lllukkumbura"
+-
+  id: 524
+  area_id: 5
+  name: "Madawala Ulpotha"
+-
+  id: 525
+  area_id: 5
+  name: "Madipola"
+-
+  id: 526
+  area_id: 5
+  name: "Mahawela"
+-
+  id: 527
+  area_id: 5
+  name: "Mananwatta"
+-
+  id: 528
+  area_id: 5
+  name: "Maraka"
+-
+  id: 529
+  area_id: 5
+  name: "Matale"
+-
+  id: 530
+  area_id: 5
+  name: "Melipitiya"
+-
+  id: 531
+  area_id: 5
+  name: "Metihakka"
+-
+  id: 532
+  area_id: 5
+  name: "Millawana"
+-
+  id: 533
+  area_id: 5
+  name: "Muwandeniya"
+-
+  id: 534
+  area_id: 5
+  name: "Nalanda"
+-
+  id: 535
+  area_id: 5
+  name: "Naula"
+-
+  id: 536
+  area_id: 5
+  name: "Nugagolla"
+-
+  id: 537
+  area_id: 5
+  name: "Opalgala"
+-
+  id: 538
+  area_id: 5
+  name: "Ovilikanda"
+-
+  id: 539
+  area_id: 5
+  name: "Palapathwela"
+-
+  id: 540
+  area_id: 5
+  name: "Pallepola"
+-
+  id: 541
+  area_id: 5
+  name: "Perakanatta"
+-
+  id: 542
+  area_id: 5
+  name: "Pubbiliya"
+-
+  id: 543
+  area_id: 5
+  name: "Ranamuregama"
+-
+  id: 544
+  area_id: 5
+  name: "Rattota"
+-
+  id: 545
+  area_id: 5
+  name: "Selagama"
+-
+  id: 546
+  area_id: 5
+  name: "Sigiriya"
+-
+  id: 547
+  area_id: 5
+  name: "Talagoda Junction"
+-
+  id: 548
+  area_id: 5
+  name: "Talakiriyagama"
+-
+  id: 549
+  area_id: 5
+  name: "Udasgiriya"
+-
+  id: 550
+  area_id: 5
+  name: "Udatenna"
+-
+  id: 551
+  area_id: 5
+  name: "Ukuwela"
+-
+  id: 552
+  area_id: 5
+  name: "Wahacotte"
+-
+  id: 553
+  area_id: 5
+  name: "Walawela"
+-
+  id: 554
+  area_id: 5
+  name: "Wehigala"
+-
+  id: 555
+  area_id: 5
+  name: "Welangahawatte"
+-
+  id: 556
+  area_id: 5
+  name: "Wewalawewa"
+-
+  id: 557
+  area_id: 5
+  name: "Wilgamuwa"
+-
+  id: 558
+  area_id: 5
+  name: "Yatawatta"
+-
+  id: 559
+  area_id: 6
+  name: "Agarapathana"
+-
+  id: 560
+  area_id: 6
+  name: "Ambagamuwa Udabulathgama"
+-
+  id: 561
+  area_id: 6
+  name: "Ambatalawa"
+-
+  id: 562
+  area_id: 6
+  name: "Ambewela"
+-
+  id: 563
+  area_id: 6
+  name: "Bogawantalawa"
+-
+  id: 564
+  area_id: 6
+  name: "Bopattalawa"
+-
+  id: 565
+  area_id: 6
+  name: "Dagampitiya"
+-
+  id: 566
+  area_id: 6
+  name: "Dayagama Bazaar"
+-
+  id: 567
+  area_id: 6
+  name: "Dikoya"
+-
+  id: 568
+  area_id: 6
+  name: "Doragala"
+-
+  id: 569
+  area_id: 6
+  name: "Dunukedeniya"
+-
+  id: 570
+  area_id: 6
+  name: "Ginigathena"
+-
+  id: 571
+  area_id: 6
+  name: "Gonakele"
+-
+  id: 572
+  area_id: 6
+  name: "Haggala"
+-
+  id: 573
+  area_id: 6
+  name: "Halgranoya"
+-
+  id: 574
+  area_id: 6
+  name: "Hangarapitiya"
+-
+  id: 575
+  area_id: 6
+  name: "Hapugastalawa"
+-
+  id: 576
+  area_id: 6
+  name: "Harangalagama"
+-
+  id: 577
+  area_id: 6
+  name: "Harasbedda"
+-
+  id: 578
+  area_id: 6
+  name: "Hatton"
+-
+  id: 579
+  area_id: 6
+  name: "Hedunuwewa"
+-
+  id: 580
+  area_id: 6
+  name: "Hitigegama"
+-
+  id: 581
+  area_id: 6
+  name: "Kalaganwatta"
+-
+  id: 582
+  area_id: 6
+  name: "Kandapola"
+-
+  id: 583
+  area_id: 6
+  name: "Katukitula"
+-
+  id: 584
+  area_id: 6
+  name: "Keerthi Bandarapura"
+-
+  id: 585
+  area_id: 6
+  name: "Kelanigama"
+-
+  id: 586
+  area_id: 6
+  name: "Ketaboola"
+-
+  id: 587
+  area_id: 6
+  name: "Kotagala"
+-
+  id: 588
+  area_id: 6
+  name: "Kotmale"
+-
+  id: 589
+  area_id: 6
+  name: "Kottellena"
+-
+  id: 590
+  area_id: 6
+  name: "Kumbalgamuwa"
+-
+  id: 591
+  area_id: 6
+  name: "Kumbukwela"
+-
+  id: 592
+  area_id: 6
+  name: "Kurupanawela"
+-
+  id: 593
+  area_id: 6
+  name: "Labukele"
+-
+  id: 594
+  area_id: 6
+  name: "Laxapana"
+-
+  id: 595
+  area_id: 6
+  name: "Lindula"
+-
+  id: 596
+  area_id: 6
+  name: "Madulla"
+-
+  id: 597
+  area_id: 6
+  name: "Maldeniya"
+-
+  id: 598
+  area_id: 6
+  name: "Maskeliya"
+-
+  id: 599
+  area_id: 6
+  name: "Maswela"
+-
+  id: 600
+  area_id: 6
+  name: "Mipanawa"
+-
+  id: 601
+  area_id: 6
+  name: "Mipilimana"
+-
+  id: 602
+  area_id: 6
+  name: "Morahenagama"
+-
+  id: 603
+  area_id: 6
+  name: "Munwatta"
+-
+  id: 604
+  area_id: 6
+  name: "Nanuoya"
+-
+  id: 605
+  area_id: 6
+  name: "Nawathispane"
+-
+  id: 606
+  area_id: 6
+  name: "Nayapana Janapadaya"
+-
+  id: 607
+  area_id: 6
+  name: "Nildandahinna"
+-
+  id: 608
+  area_id: 6
+  name: "Nissanka Uyana"
+-
+  id: 609
+  area_id: 6
+  name: "Norwood"
+-
+  id: 610
+  area_id: 6
+  name: "Nuwara Eliya"
+-
+  id: 611
+  area_id: 6
+  name: "Padiyapelella"
+-
+  id: 612
+  area_id: 6
+  name: "Patana"
+-
+  id: 613
+  area_id: 6
+  name: "Pattipola"
+-
+  id: 614
+  area_id: 6
+  name: "Pitawala"
+-
+  id: 615
+  area_id: 6
+  name: "Pundaluoya"
+-
+  id: 616
+  area_id: 6
+  name: "Ramboda"
+-
+  id: 617
+  area_id: 6
+  name: "Rozella"
+-
+  id: 618
+  area_id: 6
+  name: "Rupaha"
+-
+  id: 619
+  area_id: 6
+  name: "Ruwaneliya"
+-
+  id: 620
+  area_id: 6
+  name: "Santhipura"
+-
+  id: 621
+  area_id: 6
+  name: "Talawakele"
+-
+  id: 622
+  area_id: 6
+  name: "Teripeha"
+-
+  id: 623
+  area_id: 6
+  name: "Udamadura"
+-
+  id: 624
+  area_id: 6
+  name: "Udapussallawa"
+-
+  id: 625
+  area_id: 6
+  name: "Walapane"
+-
+  id: 626
+  area_id: 6
+  name: "Watagoda"
+-
+  id: 627
+  area_id: 6
+  name: "Watawala"
+-
+  id: 628
+  area_id: 6
+  name: "Widulipura"
+-
+  id: 629
+  area_id: 6
+  name: "Wijebahukanda"
+-
+  id: 630
+  area_id: 7
+  name: "Ampilanthurai"
+-
+  id: 631
+  area_id: 7
+  name: "Araipattai"
+-
+  id: 632
+  area_id: 7
+  name: "Ayithiyamalai"
+-
+  id: 633
+  area_id: 7
+  name: "Bakiella"
+-
+  id: 634
+  area_id: 7
+  name: "Batticaloa"
+-
+  id: 635
+  area_id: 7
+  name: "Cheddipalayam"
+-
+  id: 636
+  area_id: 7
+  name: "Chenkaladi"
+-
+  id: 637
+  area_id: 7
+  name: "Eravur"
+-
+  id: 638
+  area_id: 7
+  name: "Kalkudah"
+-
+  id: 639
+  area_id: 7
+  name: "Kallar"
+-
+  id: 640
+  area_id: 7
+  name: "Kaluwanchikudi"
+-
+  id: 641
+  area_id: 7
+  name: "Kaluwankemy"
+-
+  id: 642
+  area_id: 7
+  name: "Kannankudah"
+-
+  id: 643
+  area_id: 7
+  name: "Karadiyanaru"
+-
+  id: 644
+  area_id: 7
+  name: "Kathiraveli"
+-
+  id: 645
+  area_id: 7
+  name: "Kattankudi"
+-
+  id: 646
+  area_id: 7
+  name: "Kiran"
+-
+  id: 647
+  area_id: 7
+  name: "Kirankulam"
+-
+  id: 648
+  area_id: 7
+  name: "Koddaikallar"
+-
+  id: 649
+  area_id: 7
+  name: "Kokkaddichcholai"
+-
+  id: 650
+  area_id: 7
+  name: "Kurukkalmadam"
+-
+  id: 651
+  area_id: 7
+  name: "Mandur"
+-
+  id: 652
+  area_id: 7
+  name: "Mankemi"
+-
+  id: 653
+  area_id: 7
+  name: "Miravodai"
+-
+  id: 654
+  area_id: 7
+  name: "Murakottanchanai"
+-
+  id: 655
+  area_id: 7
+  name: "Navagirinagar"
+-
+  id: 656
+  area_id: 7
+  name: "Navatkadu"
+-
+  id: 657
+  area_id: 7
+  name: "Oddamavadi"
+-
+  id: 658
+  area_id: 7
+  name: "Panichankemi"
+-
+  id: 659
+  area_id: 7
+  name: "Pankudavely"
+-
+  id: 660
+  area_id: 7
+  name: "Periyaporativu"
+-
+  id: 661
+  area_id: 7
+  name: "Periyapullumalai"
+-
+  id: 662
+  area_id: 7
+  name: "Pillaiyaradi"
+-
+  id: 663
+  area_id: 7
+  name: "Punanai"
+-
+  id: 664
+  area_id: 7
+  name: "Puthukudiyiruppu"
+-
+  id: 665
+  area_id: 7
+  name: "Thannamunai"
+-
+  id: 666
+  area_id: 7
+  name: "Thettativu"
+-
+  id: 667
+  area_id: 7
+  name: "Thikkodai"
+-
+  id: 668
+  area_id: 7
+  name: "Thirupalugamam"
+-
+  id: 669
+  area_id: 7
+  name: "Thuraineelavanai"
+-
+  id: 670
+  area_id: 7
+  name: "Unnichchai"
+-
+  id: 671
+  area_id: 7
+  name: "Vakaneri"
+-
+  id: 672
+  area_id: 7
+  name: "Vakarai"
+-
+  id: 673
+  area_id: 7
+  name: "Valaichenai"
+-
+  id: 674
+  area_id: 7
+  name: "Vantharumoolai"
+-
+  id: 675
+  area_id: 7
+  name: "Vellavely"
+-
+  id: 676
+  area_id: 8
+  name: "Agbopura"
+-
+  id: 677
+  area_id: 8
+  name: "Buckmigama"
+-
+  id: 678
+  area_id: 8
+  name: "Chinabay"
+-
+  id: 679
+  area_id: 8
+  name: "Dehiwatte"
+-
+  id: 680
+  area_id: 8
+  name: "Echchilampattai"
+-
+  id: 681
+  area_id: 8
+  name: "Galmetiyawa"
+-
+  id: 682
+  area_id: 8
+  name: "Gomarankadawala"
+-
+  id: 683
+  area_id: 8
+  name: "Kaddaiparichchan"
+-
+  id: 684
+  area_id: 8
+  name: "Kanniya"
+-
+  id: 685
+  area_id: 8
+  name: "Kantalai"
+-
+  id: 686
+  area_id: 8
+  name: "Kantalai Sugar Factory"
+-
+  id: 687
+  area_id: 8
+  name: "Kiliveddy"
+-
+  id: 688
+  area_id: 8
+  name: "Kinniya"
+-
+  id: 689
+  area_id: 8
+  name: "Kuchchaveli"
+-
+  id: 690
+  area_id: 8
+  name: "Kumburupiddy"
+-
+  id: 691
+  area_id: 8
+  name: "Kurinchakemy"
+-
+  id: 692
+  area_id: 8
+  name: "Lankapatuna"
+-
+  id: 693
+  area_id: 8
+  name: "Mahadivulwewa"
+-
+  id: 694
+  area_id: 8
+  name: "Maharugiramam"
+-
+  id: 695
+  area_id: 8
+  name: "Mallikativu"
+-
+  id: 696
+  area_id: 8
+  name: "Mawadichenai"
+-
+  id: 697
+  area_id: 8
+  name: "Mullipothana"
+-
+  id: 698
+  area_id: 8
+  name: "Mutur"
+-
+  id: 699
+  area_id: 8
+  name: "Neelapola"
+-
+  id: 700
+  area_id: 8
+  name: "Nilaveli"
+-
+  id: 701
+  area_id: 8
+  name: "Pankulam"
+-
+  id: 702
+  area_id: 8
+  name: "Rottawewa"
+-
+  id: 703
+  area_id: 8
+  name: "Sampaltivu"
+-
+  id: 704
+  area_id: 8
+  name: "Sampur"
+-
+  id: 705
+  area_id: 8
+  name: "Serunuwara"
+-
+  id: 706
+  area_id: 8
+  name: "Seruwila"
+-
+  id: 707
+  area_id: 8
+  name: "Sirajnagar"
+-
+  id: 708
+  area_id: 8
+  name: "Somapura"
+-
+  id: 709
+  area_id: 8
+  name: "Tampalakamam"
+-
+  id: 710
+  area_id: 8
+  name: "Tiriyayi"
+-
+  id: 711
+  area_id: 8
+  name: "Toppur"
+-
+  id: 712
+  area_id: 8
+  name: "Trincomalee"
+-
+  id: 713
+  area_id: 8
+  name: "Vellamanal"
+-
+  id: 714
+  area_id: 8
+  name: "Wanela"
+-
+  id: 715
+  area_id: 9
+  name: "Addalaichenai"
+-
+  id: 716
+  area_id: 9
+  name: "Akkaraipattu"
+-
+  id: 717
+  area_id: 9
+  name: "Ampara"
+-
+  id: 718
+  area_id: 9
+  name: "Bakmitiyawa"
+-
+  id: 719
+  area_id: 9
+  name: "Central Camp"
+-
+  id: 720
+  area_id: 9
+  name: "Dadayamtalawa"
+-
+  id: 721
+  area_id: 9
+  name: "Damana"
+-
+  id: 722
+  area_id: 9
+  name: "Damanewela"
+-
+  id: 723
+  area_id: 9
+  name: "Deegawapiya"
+-
+  id: 724
+  area_id: 9
+  name: "Dehiattakandiya"
+-
+  id: 725
+  area_id: 9
+  name: "Devalahinda"
+-
+  id: 726
+  area_id: 9
+  name: "Digamadulla Weeragoda"
+-
+  id: 727
+  area_id: 9
+  name: "Dorakumbura"
+-
+  id: 728
+  area_id: 9
+  name: "Galapitagala"
+-
+  id: 729
+  area_id: 9
+  name: "Gonagolla"
+-
+  id: 730
+  area_id: 9
+  name: "Hingurana"
+-
+  id: 731
+  area_id: 9
+  name: "Hulannuge"
+-
+  id: 732
+  area_id: 9
+  name: "Kalmunai"
+-
+  id: 733
+  area_id: 9
+  name: "Kannakipuram"
+-
+  id: 734
+  area_id: 9
+  name: "Karativu"
+-
+  id: 735
+  area_id: 9
+  name: "Kekirihena"
+-
+  id: 736
+  area_id: 9
+  name: "Koknahara"
+-
+  id: 737
+  area_id: 9
+  name: "Kolamanthalawa"
+-
+  id: 738
+  area_id: 9
+  name: "Komari"
+-
+  id: 739
+  area_id: 9
+  name: "Lahugala"
+-
+  id: 740
+  area_id: 9
+  name: "lmkkamam"
+-
+  id: 741
+  area_id: 9
+  name: "Madawalalanda"
+-
+  id: 742
+  area_id: 9
+  name: "Mahanagapura"
+-
+  id: 743
+  area_id: 9
+  name: "Mahaoya"
+-
+  id: 744
+  area_id: 9
+  name: "Malwatta"
+-
+  id: 745
+  area_id: 9
+  name: "Mangalagama"
+-
+  id: 746
+  area_id: 9
+  name: "Marathamune"
+-
+  id: 747
+  area_id: 9
+  name: "Mawanagama"
+-
+  id: 748
+  area_id: 9
+  name: "Moragahapallama"
+-
+  id: 749
+  area_id: 9
+  name: "Namaloya"
+-
+  id: 750
+  area_id: 9
+  name: "Navithanveli"
+-
+  id: 751
+  area_id: 9
+  name: "Nawamedagama"
+-
+  id: 752
+  area_id: 9
+  name: "Nintavur"
+-
+  id: 753
+  area_id: 9
+  name: "Oluvil"
+-
+  id: 754
+  area_id: 9
+  name: "Padiyatalawa"
+-
+  id: 755
+  area_id: 9
+  name: "Pahalalanda"
+-
+  id: 756
+  area_id: 9
+  name: "Palamunai"
+-
+  id: 757
+  area_id: 9
+  name: "Panama"
+-
+  id: 758
+  area_id: 9
+  name: "Pannalagama"
+-
+  id: 759
+  area_id: 9
+  name: "Paragahakele"
+-
+  id: 760
+  area_id: 9
+  name: "Periyaneelavanai"
+-
+  id: 761
+  area_id: 9
+  name: "Polwaga Janapadaya"
+-
+  id: 762
+  area_id: 9
+  name: "Pottuvil"
+-
+  id: 763
+  area_id: 9
+  name: "Rajagalatenna"
+-
+  id: 764
+  area_id: 9
+  name: "Sainthamaruthu"
+-
+  id: 765
+  area_id: 9
+  name: "Samanthurai"
+-
+  id: 766
+  area_id: 9
+  name: "Serankada"
+-
+  id: 767
+  area_id: 9
+  name: "Siripura"
+-
+  id: 768
+  area_id: 9
+  name: "Siyambalawewa"
+-
+  id: 769
+  area_id: 9
+  name: "Tempitiya"
+-
+  id: 770
+  area_id: 9
+  name: "Thambiluvil"
+-
+  id: 771
+  area_id: 9
+  name: "Tirukovil"
+-
+  id: 772
+  area_id: 9
+  name: "Uhana"
+-
+  id: 773
+  area_id: 9
+  name: "Wadinagala"
+-
+  id: 774
+  area_id: 9
+  name: "Wanagamuwa"
+-
+  id: 775
+  area_id: 9
+  name: "Werunketagoda"
+-
+  id: 776
+  area_id: 10
+  name: "Allaipiddi"
+-
+  id: 777
+  area_id: 10
+  name: "Allaveddi"
+-
+  id: 778
+  area_id: 10
+  name: "Alvai"
+-
+  id: 779
+  area_id: 10
+  name: "Anaicoddai"
+-
+  id: 780
+  area_id: 10
+  name: "Analaitivu"
+-
+  id: 781
+  area_id: 10
+  name: "Atchuveli"
+-
+  id: 782
+  area_id: 10
+  name: "Chankanai"
+-
+  id: 783
+  area_id: 10
+  name: "Chavakachcheri"
+-
+  id: 784
+  area_id: 10
+  name: "Chullipuram"
+-
+  id: 785
+  area_id: 10
+  name: "Chundikuli"
+-
+  id: 786
+  area_id: 10
+  name: "Chunnakam"
+-
+  id: 787
+  area_id: 10
+  name: "Delft"
+-
+  id: 788
+  area_id: 10
+  name: "DelftWest"
+-
+  id: 789
+  area_id: 10
+  name: "Eluvaitivu"
+-
+  id: 790
+  area_id: 10
+  name: "Erlalai"
+-
+  id: 791
+  area_id: 10
+  name: "Jaffna"
+-
+  id: 792
+  area_id: 10
+  name: "Kaitadi"
+-
+  id: 793
+  area_id: 10
+  name: "Kankesanthurai"
+-
+  id: 794
+  area_id: 10
+  name: "Karainagar"
+-
+  id: 795
+  area_id: 10
+  name: "Karaveddi"
+-
+  id: 796
+  area_id: 10
+  name: "Kayts"
+-
+  id: 797
+  area_id: 10
+  name: "Kodikamam"
+-
+  id: 798
+  area_id: 10
+  name: "Kokuvil"
+-
+  id: 799
+  area_id: 10
+  name: "Kondavil"
+-
+  id: 800
+  area_id: 10
+  name: "Kopay"
+-
+  id: 801
+  area_id: 10
+  name: "Kudatanai"
+-
+  id: 802
+  area_id: 10
+  name: "llavalai"
+-
+  id: 803
+  area_id: 10
+  name: "Mallakam"
+-
+  id: 804
+  area_id: 10
+  name: "Manipay"
+-
+  id: 805
+  area_id: 10
+  name: "Mathagal"
+-
+  id: 806
+  area_id: 10
+  name: "Meesalai"
+-
+  id: 807
+  area_id: 10
+  name: "Mirusuvil"
+-
+  id: 808
+  area_id: 10
+  name: "Nagar Kovil"
+-
+  id: 809
+  area_id: 10
+  name: "Nainathivu"
+-
+  id: 810
+  area_id: 10
+  name: "Neervely"
+-
+  id: 811
+  area_id: 10
+  name: "Pandaterippu"
+-
+  id: 812
+  area_id: 10
+  name: "Point Pedro"
+-
+  id: 813
+  area_id: 10
+  name: "Pungudutivu"
+-
+  id: 814
+  area_id: 10
+  name: "Putur"
+-
+  id: 815
+  area_id: 10
+  name: "Sandilipay"
+-
+  id: 816
+  area_id: 10
+  name: "Sithankemy"
+-
+  id: 817
+  area_id: 10
+  name: "Tellippallai"
+-
+  id: 818
+  area_id: 10
+  name: "Thondamanaru"
+-
+  id: 819
+  area_id: 10
+  name: "Urumpirai"
+-
+  id: 820
+  area_id: 10
+  name: "Vaddukoddai"
+-
+  id: 821
+  area_id: 10
+  name: "Valvettithurai"
+-
+  id: 822
+  area_id: 10
+  name: "Vannarponnai"
+-
+  id: 823
+  area_id: 10
+  name: "Varany"
+-
+  id: 824
+  area_id: 10
+  name: "Vasavilan"
+-
+  id: 825
+  area_id: 10
+  name: "Velanai"
+-
+  id: 827
+  area_id: 11
+  name: "Adampan"
+-
+  id: 828
+  area_id: 11
+  name: "Arippu"
+-
+  id: 829
+  area_id: 11
+  name: "Athimottai"
+-
+  id: 830
+  area_id: 11
+  name: "Chilavathurai"
+-
+  id: 831
+  area_id: 11
+  name: "Erukkalampiddy"
+-
+  id: 832
+  area_id: 11
+  name: "llluppaikadavai"
+-
+  id: 833
+  area_id: 11
+  name: "Madhu Church"
+-
+  id: 834
+  area_id: 11
+  name: "Madhu Road"
+-
+  id: 835
+  area_id: 11
+  name: "Mannar"
+-
+  id: 836
+  area_id: 11
+  name: "Marichchi Kaddi"
+-
+  id: 837
+  area_id: 11
+  name: "Murunkan"
+-
+  id: 838
+  area_id: 11
+  name: "Nanattan"
+-
+  id: 839
+  area_id: 11
+  name: "P.P.Potkemy"
+-
+  id: 840
+  area_id: 11
+  name: "Palampiddy"
+-
+  id: 841
+  area_id: 11
+  name: "Periyakunchikulam"
+-
+  id: 842
+  area_id: 11
+  name: "Periyamadhu"
+-
+  id: 843
+  area_id: 11
+  name: "Pesalai"
+-
+  id: 844
+  area_id: 11
+  name: "Talaimannar"
+-
+  id: 845
+  area_id: 11
+  name: "Temple"
+-
+  id: 846
+  area_id: 11
+  name: "Tharapuram"
+-
+  id: 847
+  area_id: 11
+  name: "Thiruketheeswaram Temple"
+-
+  id: 848
+  area_id: 11
+  name: "Uyilankulam"
+-
+  id: 849
+  area_id: 11
+  name: "Vaddakandal"
+-
+  id: 850
+  area_id: 11
+  name: "Vankalai"
+-
+  id: 851
+  area_id: 11
+  name: "Vellan Kulam"
+-
+  id: 852
+  area_id: 11
+  name: "Vidataltivu"
+-
+  id: 853
+  area_id: 12
+  name: "Alampil"
+-
+  id: 854
+  area_id: 12
+  name: "Karuppaddamurippu"
+-
+  id: 855
+  area_id: 12
+  name: "Kokkilai"
+-
+  id: 856
+  area_id: 12
+  name: "Kokkuthuoduvai"
+-
+  id: 857
+  area_id: 12
+  name: "Mankulam"
+-
+  id: 858
+  area_id: 12
+  name: "Mullativu"
+-
+  id: 859
+  area_id: 12
+  name: "Mullivaikkal"
+-
+  id: 860
+  area_id: 12
+  name: "Mulliyawalai"
+-
+  id: 861
+  area_id: 12
+  name: "Muthauyan Kaddakulam"
+-
+  id: 862
+  area_id: 12
+  name: "Naddan Kandal"
+-
+  id: 863
+  area_id: 12
+  name: "Odduchudan"
+-
+  id: 864
+  area_id: 12
+  name: "Puthuvedduvan"
+-
+  id: 865
+  area_id: 12
+  name: "Thunukkai"
+-
+  id: 866
+  area_id: 12
+  name: "Udayarkaddu"
+-
+  id: 867
+  area_id: 12
+  name: "Vavunakkulam"
+-
+  id: 868
+  area_id: 12
+  name: "Visvamadukulam"
+-
+  id: 869
+  area_id: 12
+  name: "Yogapuram"
+-
+  id: 870
+  area_id: 13
+  name: "Akkarayankulam"
+-
+  id: 871
+  area_id: 13
+  name: "Cheddikulam"
+-
+  id: 872
+  area_id: 13
+  name: "Chemamadukkulam"
+-
+  id: 873
+  area_id: 13
+  name: "Elephant Pass"
+-
+  id: 874
+  area_id: 13
+  name: "Eluthumadduval"
+-
+  id: 875
+  area_id: 13
+  name: "Iranai lluppaikulam"
+-
+  id: 876
+  area_id: 13
+  name: "Iranaitiv"
+-
+  id: 877
+  area_id: 13
+  name: "Kanagarayankulam"
+-
+  id: 878
+  area_id: 13
+  name: "Kanavil"
+-
+  id: 879
+  area_id: 13
+  name: "Kandavalai"
+-
+  id: 880
+  area_id: 13
+  name: "Kavutharimunai"
+-
+  id: 881
+  area_id: 13
+  name: "Kilinochchi"
+-
+  id: 882
+  area_id: 13
+  name: "lyakachchi"
+-
+  id: 883
+  area_id: 13
+  name: "Mahakachchakodiya"
+-
+  id: 884
+  area_id: 13
+  name: "Mamaduwa"
+-
+  id: 885
+  area_id: 13
+  name: "Maraiyadithakulam"
+-
+  id: 886
+  area_id: 13
+  name: "Mulliyan"
+-
+  id: 887
+  area_id: 13
+  name: "Murasumoddai"
+-
+  id: 888
+  area_id: 13
+  name: "Nedunkemy"
+-
+  id: 889
+  area_id: 13
+  name: "Neriyakulam"
+-
+  id: 890
+  area_id: 13
+  name: "Omanthai"
+-
+  id: 891
+  area_id: 13
+  name: "Palamoddai"
+-
+  id: 892
+  area_id: 13
+  name: "Pallai"
+-
+  id: 893
+  area_id: 13
+  name: "Pallavarayankaddu"
+-
+  id: 894
+  area_id: 13
+  name: "Pampaimadu"
+-
+  id: 895
+  area_id: 13
+  name: "Paranthan"
+-
+  id: 896
+  area_id: 13
+  name: "Pavaikulam"
+-
+  id: 897
+  area_id: 13
+  name: "Periyathambanai"
+-
+  id: 898
+  area_id: 13
+  name: "Periyaulukkulam"
+-
+  id: 899
+  area_id: 13
+  name: "Purakari Nallur"
+-
+  id: 900
+  area_id: 13
+  name: "Ramanathapuram"
+-
+  id: 901
+  area_id: 13
+  name: "Sasthrikulankulam"
+-
+  id: 902
+  area_id: 13
+  name: "Sivapuram"
+-
+  id: 903
+  area_id: 13
+  name: "Skanthapuram"
+-
+  id: 904
+  area_id: 13
+  name: "Thalayadi"
+-
+  id: 905
+  area_id: 13
+  name: "Tharmapuram"
+-
+  id: 906
+  area_id: 13
+  name: "Uruthirapuram"
+-
+  id: 907
+  area_id: 13
+  name: "Vaddakachchi"
+-
+  id: 908
+  area_id: 13
+  name: "Vannerikkulam"
+-
+  id: 909
+  area_id: 13
+  name: "Varikkuttiyoor"
+-
+  id: 910
+  area_id: 13
+  name: "Vavuniya"
+-
+  id: 911
+  area_id: 13
+  name: "Veravil"
+-
+  id: 912
+  area_id: 13
+  name: "Vinayagapuram"
+-
+  id: 956
+  area_id: 14
+  name: "Andiyagala"
+-
+  id: 957
+  area_id: 14
+  name: "Angamuwa"
+-
+  id: 958
+  area_id: 14
+  name: "Anuradhapura"
+-
+  id: 959
+  area_id: 14
+  name: "Awukana"
+-
+  id: 960
+  area_id: 14
+  name: "Bogahawewa"
+-
+  id: 961
+  area_id: 14
+  name: "Dematawewa"
+-
+  id: 962
+  area_id: 14
+  name: "Dunumadalawa"
+-
+  id: 963
+  area_id: 14
+  name: "Dutuwewa"
+-
+  id: 964
+  area_id: 14
+  name: "Elayapattuwa"
+-
+  id: 965
+  area_id: 14
+  name: "Eppawala"
+-
+  id: 966
+  area_id: 14
+  name: "Etawatunuwewa"
+-
+  id: 967
+  area_id: 14
+  name: "Etaweeragollewa"
+-
+  id: 968
+  area_id: 14
+  name: "Galadivulwewa"
+-
+  id: 969
+  area_id: 14
+  name: "Galenbindunuwewa"
+-
+  id: 970
+  area_id: 14
+  name: "Galkadawala"
+-
+  id: 971
+  area_id: 14
+  name: "Galkiriyagama"
+-
+  id: 972
+  area_id: 14
+  name: "Galkulama"
+-
+  id: 973
+  area_id: 14
+  name: "Galnewa"
+-
+  id: 974
+  area_id: 14
+  name: "Gambirigaswewa"
+-
+  id: 975
+  area_id: 14
+  name: "Ganewalpola"
+-
+  id: 976
+  area_id: 14
+  name: "Gemunupura"
+-
+  id: 977
+  area_id: 14
+  name: "Getalawa"
+-
+  id: 978
+  area_id: 14
+  name: "Gnanikulama"
+-
+  id: 979
+  area_id: 14
+  name: "Gonahaddenawa"
+-
+  id: 980
+  area_id: 14
+  name: "Habarana"
+-
+  id: 981
+  area_id: 14
+  name: "Halmillawa Dambulla"
+-
+  id: 982
+  area_id: 14
+  name: "Halmillawetiya"
+-
+  id: 983
+  area_id: 14
+  name: "Hidogama"
+-
+  id: 984
+  area_id: 14
+  name: "Horawpatana"
+-
+  id: 985
+  area_id: 14
+  name: "Horiwila"
+-
+  id: 986
+  area_id: 14
+  name: "Hurigaswewa"
+-
+  id: 987
+  area_id: 14
+  name: "Hurulunikawewa"
+-
+  id: 988
+  area_id: 14
+  name: "Kagama"
+-
+  id: 989
+  area_id: 14
+  name: "Kahatagasdigiliya"
+-
+  id: 990
+  area_id: 14
+  name: "Kahatagollewa"
+-
+  id: 991
+  area_id: 14
+  name: "Kalakarambewa"
+-
+  id: 992
+  area_id: 14
+  name: "Kalankuttiya"
+-
+  id: 993
+  area_id: 14
+  name: "Kalaoya"
+-
+  id: 994
+  area_id: 14
+  name: "Kalawedi Ulpotha"
+-
+  id: 995
+  area_id: 14
+  name: "Kallanchiya"
+-
+  id: 996
+  area_id: 14
+  name: "Kapugallawa"
+-
+  id: 997
+  area_id: 14
+  name: "Karagahawewa"
+-
+  id: 998
+  area_id: 14
+  name: "Katiyawa"
+-
+  id: 999
+  area_id: 14
+  name: "Kebithigollewa"
+-
+  id: 1000
+  area_id: 14
+  name: "Kekirawa"
+-
+  id: 1001
+  area_id: 14
+  name: "Kendewa"
+-
+  id: 1002
+  area_id: 14
+  name: "Kiralogama"
+-
+  id: 1003
+  area_id: 14
+  name: "Kirigalwewa"
+-
+  id: 1004
+  area_id: 14
+  name: "Kitulhitiyawa"
+-
+  id: 1005
+  area_id: 14
+  name: "Kurundankulama"
+-
+  id: 1006
+  area_id: 14
+  name: "Labunoruwa"
+-
+  id: 1007
+  area_id: 14
+  name: "lhala Halmillewa"
+-
+  id: 1008
+  area_id: 14
+  name: "lhalagama"
+-
+  id: 1009
+  area_id: 14
+  name: "lpologama"
+-
+  id: 1010
+  area_id: 14
+  name: "Madatugama"
+-
+  id: 1011
+  area_id: 14
+  name: "Maha Elagamuwa"
+-
+  id: 1012
+  area_id: 14
+  name: "Mahabulankulama"
+-
+  id: 1013
+  area_id: 14
+  name: "Mahailluppallama"
+-
+  id: 1014
+  area_id: 14
+  name: "Mahakanadarawa"
+-
+  id: 1015
+  area_id: 14
+  name: "Mahapothana"
+-
+  id: 1016
+  area_id: 14
+  name: "Mahasenpura"
+-
+  id: 1017
+  area_id: 14
+  name: "Mahawilachchiya"
+-
+  id: 1018
+  area_id: 14
+  name: "Mailagaswewa"
+-
+  id: 1019
+  area_id: 14
+  name: "Malwanagama"
+-
+  id: 1020
+  area_id: 14
+  name: "Maneruwa"
+-
+  id: 1021
+  area_id: 14
+  name: "Maradankadawala"
+-
+  id: 1022
+  area_id: 14
+  name: "Maradankalla"
+-
+  id: 1023
+  area_id: 14
+  name: "Medawachchiya"
+-
+  id: 1024
+  area_id: 14
+  name: "Megodawewa"
+-
+  id: 1025
+  area_id: 14
+  name: "Mihintale"
+-
+  id: 1026
+  area_id: 14
+  name: "Morakewa"
+-
+  id: 1027
+  area_id: 14
+  name: "Mulkiriyawa"
+-
+  id: 1028
+  area_id: 14
+  name: "Muriyakadawala"
+-
+  id: 1029
+  area_id: 14
+  name: "Nachchaduwa"
+-
+  id: 1030
+  area_id: 14
+  name: "Namalpura"
+-
+  id: 1031
+  area_id: 14
+  name: "Negampaha"
+-
+  id: 1032
+  area_id: 14
+  name: "Nochchiyagama"
+-
+  id: 1033
+  area_id: 14
+  name: "Padavi Maithripura"
+-
+  id: 1034
+  area_id: 14
+  name: "Padavi Parakramapura"
+-
+  id: 1035
+  area_id: 14
+  name: "Padavi Sripura"
+-
+  id: 1036
+  area_id: 14
+  name: "Padavi Sritissapura"
+-
+  id: 1037
+  area_id: 14
+  name: "Padaviya"
+-
+  id: 1038
+  area_id: 14
+  name: "Padikaramaduwa"
+-
+  id: 1039
+  area_id: 14
+  name: "Pahala Halmillewa"
+-
+  id: 1040
+  area_id: 14
+  name: "Pahala Maragahawe"
+-
+  id: 1041
+  area_id: 14
+  name: "Pahalagama"
+-
+  id: 1042
+  area_id: 14
+  name: "Palagala"
+-
+  id: 1043
+  area_id: 14
+  name: "Palugaswewa"
+-
+  id: 1044
+  area_id: 14
+  name: "Pandukabayapura"
+-
+  id: 1045
+  area_id: 14
+  name: "Pandulagama"
+-
+  id: 1046
+  area_id: 14
+  name: "Parakumpura"
+-
+  id: 1047
+  area_id: 14
+  name: "Parangiyawadiya"
+-
+  id: 1048
+  area_id: 14
+  name: "Parasangahawewa"
+-
+  id: 1049
+  area_id: 14
+  name: "Pemaduwa"
+-
+  id: 1050
+  area_id: 14
+  name: "Perimiyankulama"
+-
+  id: 1051
+  area_id: 14
+  name: "Pihimbiyagolewa"
+-
+  id: 1052
+  area_id: 14
+  name: "Pubbogama"
+-
+  id: 1053
+  area_id: 14
+  name: "Puliyankulama"
+-
+  id: 1054
+  area_id: 14
+  name: "Pulmoddai"
+-
+  id: 1055
+  area_id: 14
+  name: "Punewa"
+-
+  id: 1056
+  area_id: 14
+  name: "Rajanganaya"
+-
+  id: 1057
+  area_id: 14
+  name: "Rambewa"
+-
+  id: 1058
+  area_id: 14
+  name: "Rampathwila"
+-
+  id: 1059
+  area_id: 14
+  name: "Ranorawa"
+-
+  id: 1060
+  area_id: 14
+  name: "Rathmalgahawewa"
+-
+  id: 1061
+  area_id: 14
+  name: "Saliyapura"
+-
+  id: 1062
+  area_id: 14
+  name: "Seeppukulama"
+-
+  id: 1063
+  area_id: 14
+  name: "Senapura"
+-
+  id: 1064
+  area_id: 14
+  name: "Sivalakulama"
+-
+  id: 1065
+  area_id: 14
+  name: "Siyambalewa"
+-
+  id: 1066
+  area_id: 14
+  name: "Sravasthipura"
+-
+  id: 1067
+  area_id: 14
+  name: "Talawa"
+-
+  id: 1068
+  area_id: 14
+  name: "Tambuttegama"
+-
+  id: 1069
+  area_id: 14
+  name: "Tammennawa"
+-
+  id: 1070
+  area_id: 14
+  name: "Tantirimale"
+-
+  id: 1071
+  area_id: 14
+  name: "Telhiriyawa"
+-
+  id: 1072
+  area_id: 14
+  name: "Tennamarawadiya"
+-
+  id: 1073
+  area_id: 14
+  name: "Tirappane"
+-
+  id: 1074
+  area_id: 14
+  name: "Tittagonewa"
+-
+  id: 1075
+  area_id: 14
+  name: "Udunuwara Colony"
+-
+  id: 1076
+  area_id: 14
+  name: "Upuldeniya"
+-
+  id: 1077
+  area_id: 14
+  name: "Uttimaduwa"
+-
+  id: 1078
+  area_id: 14
+  name: "Viharapalugama"
+-
+  id: 1079
+  area_id: 14
+  name: "Vijithapura"
+-
+  id: 1080
+  area_id: 14
+  name: "Wahalkada"
+-
+  id: 1081
+  area_id: 14
+  name: "Wahamalgollewa"
+-
+  id: 1082
+  area_id: 14
+  name: "Walagambahuwa"
+-
+  id: 1083
+  area_id: 14
+  name: "Walahaviddawewa"
+-
+  id: 1084
+  area_id: 14
+  name: "Welimuwapotana"
+-
+  id: 1085
+  area_id: 14
+  name: "Welioya Project"
+-
+  id: 1086
+  area_id: 15
+  name: "Alutwewa"
+-
+  id: 1087
+  area_id: 15
+  name: "Aralaganwila"
+-
+  id: 1088
+  area_id: 15
+  name: "Aselapura"
+-
+  id: 1089
+  area_id: 15
+  name: "Attanakadawala"
+-
+  id: 1090
+  area_id: 15
+  name: "Bakamuna"
+-
+  id: 1091
+  area_id: 15
+  name: "Dalukana"
+-
+  id: 1092
+  area_id: 15
+  name: "Damminna"
+-
+  id: 1093
+  area_id: 15
+  name: "Dewagala"
+-
+  id: 1094
+  area_id: 15
+  name: "Dimbulagala"
+-
+  id: 1095
+  area_id: 15
+  name: "Divulankadawala"
+-
+  id: 1096
+  area_id: 15
+  name: "Divuldamana"
+-
+  id: 1097
+  area_id: 15
+  name: "Diyabeduma"
+-
+  id: 1098
+  area_id: 15
+  name: "Diyasenpura"
+-
+  id: 1099
+  area_id: 15
+  name: "Elahera"
+-
+  id: 1100
+  area_id: 15
+  name: "Ellewewa"
+-
+  id: 1101
+  area_id: 15
+  name: "Galamuna"
+-
+  id: 1102
+  area_id: 15
+  name: "Galoya Junction"
+-
+  id: 1103
+  area_id: 15
+  name: "Giritale"
+-
+  id: 1104
+  area_id: 15
+  name: "Hansayapalama"
+-
+  id: 1105
+  area_id: 15
+  name: "Hingurakdamana"
+-
+  id: 1106
+  area_id: 15
+  name: "Hingurakgoda"
+-
+  id: 1107
+  area_id: 15
+  name: "Jayanthipura"
+-
+  id: 1108
+  area_id: 15
+  name: "Jayasiripura"
+-
+  id: 1109
+  area_id: 15
+  name: "Kaduruwela"
+-
+  id: 1110
+  area_id: 15
+  name: "Kalingaela"
+-
+  id: 1111
+  area_id: 15
+  name: "Kalukele Badanagala"
+-
+  id: 1112
+  area_id: 15
+  name: "Kashyapapura"
+-
+  id: 1113
+  area_id: 15
+  name: "Kawudulla"
+-
+  id: 1114
+  area_id: 15
+  name: "Kawuduluwewa Stagell"
+-
+  id: 1115
+  area_id: 15
+  name: "Kottapitiya"
+-
+  id: 1116
+  area_id: 15
+  name: "Kumaragama"
+-
+  id: 1117
+  area_id: 15
+  name: "Lakshauyana"
+-
+  id: 1118
+  area_id: 15
+  name: "Maduruoya"
+-
+  id: 1119
+  area_id: 15
+  name: "Maha Ambagaswewa"
+-
+  id: 1120
+  area_id: 15
+  name: "Mahatalakolawewa"
+-
+  id: 1121
+  area_id: 15
+  name: "Mahawela Sinhapura"
+-
+  id: 1122
+  area_id: 15
+  name: "Mampitiya"
+-
+  id: 1123
+  area_id: 15
+  name: "Medirigiriya"
+-
+  id: 1124
+  area_id: 15
+  name: "Meegaswewa"
+-
+  id: 1125
+  area_id: 15
+  name: "Minneriya"
+-
+  id: 1126
+  area_id: 15
+  name: "Mutugala"
+-
+  id: 1127
+  area_id: 15
+  name: "Nawasenapura"
+-
+  id: 1128
+  area_id: 15
+  name: "Nelumwewa"
+-
+  id: 1129
+  area_id: 15
+  name: "Nuwaragala"
+-
+  id: 1130
+  area_id: 15
+  name: "Onegama"
+-
+  id: 1131
+  area_id: 15
+  name: "Orubendi Siyambalawa"
+-
+  id: 1132
+  area_id: 15
+  name: "Palugasdamana"
+-
+  id: 1133
+  area_id: 15
+  name: "Parakramasamudraya"
+-
+  id: 1134
+  area_id: 15
+  name: "Pelatiyawa"
+-
+  id: 1135
+  area_id: 15
+  name: "Pimburattewa"
+-
+  id: 1136
+  area_id: 15
+  name: "Polonnaruwa"
+-
+  id: 1137
+  area_id: 15
+  name: "Pulastigama"
+-
+  id: 1138
+  area_id: 15
+  name: "Sevanapitiya"
+-
+  id: 1139
+  area_id: 15
+  name: "Sinhagama"
+-
+  id: 1140
+  area_id: 15
+  name: "Sungavila"
+-
+  id: 1141
+  area_id: 15
+  name: "Talpotha"
+-
+  id: 1142
+  area_id: 15
+  name: "Tamankaduwa"
+-
+  id: 1143
+  area_id: 15
+  name: "Tambala"
+-
+  id: 1144
+  area_id: 15
+  name: "Unagalavehera"
+-
+  id: 1145
+  area_id: 15
+  name: "Welikanda"
+-
+  id: 1146
+  area_id: 15
+  name: "Wijayabapura"
+-
+  id: 1147
+  area_id: 15
+  name: "Yodaela"
+-
+  id: 1148
+  area_id: 16
+  name: "Alahengama"
+-
+  id: 1149
+  area_id: 16
+  name: "Alahitiyawa"
+-
+  id: 1150
+  area_id: 16
+  name: "Alawatuwala"
+-
+  id: 1151
+  area_id: 16
+  name: "Alawwa"
+-
+  id: 1152
+  area_id: 16
+  name: "Ambakote"
+-
+  id: 1153
+  area_id: 16
+  name: "Ambanpola"
+-
+  id: 1154
+  area_id: 16
+  name: "Anhandiya"
+-
+  id: 1155
+  area_id: 16
+  name: "Anukkane"
+-
+  id: 1156
+  area_id: 16
+  name: "Aragoda"
+-
+  id: 1157
+  area_id: 16
+  name: "Ataragalla"
+-
+  id: 1158
+  area_id: 16
+  name: "Awulegama"
+-
+  id: 1159
+  area_id: 16
+  name: "Balalla"
+-
+  id: 1160
+  area_id: 16
+  name: "Bamunukotuwa"
+-
+  id: 1161
+  area_id: 16
+  name: "Bandara Koswatta"
+-
+  id: 1162
+  area_id: 16
+  name: "Bingiriya"
+-
+  id: 1163
+  area_id: 16
+  name: "Bogamulla"
+-
+  id: 1164
+  area_id: 16
+  name: "Bopitiya"
+-
+  id: 1165
+  area_id: 16
+  name: "Boraluwewa"
+-
+  id: 1166
+  area_id: 16
+  name: "Boyagane"
+-
+  id: 1167
+  area_id: 16
+  name: "Bujjomuwa"
+-
+  id: 1168
+  area_id: 16
+  name: "Buluwala"
+-
+  id: 1169
+  area_id: 16
+  name: "Dambadeniya"
+-
+  id: 1170
+  area_id: 16
+  name: "Daraluwa"
+-
+  id: 1171
+  area_id: 16
+  name: "Deegalla"
+-
+  id: 1172
+  area_id: 16
+  name: "Delwite"
+-
+  id: 1173
+  area_id: 16
+  name: "Demataluwa"
+-
+  id: 1174
+  area_id: 16
+  name: "area_iddeniya"
+-
+  id: 1175
+  area_id: 16
+  name: "Digannewa"
+-
+  id: 1176
+  area_id: 16
+  name: "Divullegoda"
+-
+  id: 1177
+  area_id: 16
+  name: "Dodangaslanda"
+-
+  id: 1178
+  area_id: 16
+  name: "Doratiyawa"
+-
+  id: 1179
+  area_id: 16
+  name: "Dummalasuriya"
+-
+  id: 1180
+  area_id: 16
+  name: "Ehetuwewa"
+-
+  id: 1181
+  area_id: 16
+  name: "Elibichchiya"
+-
+  id: 1182
+  area_id: 16
+  name: "Embogama"
+-
+  id: 1183
+  area_id: 16
+  name: "Etungahakotuwa"
+-
+  id: 1184
+  area_id: 16
+  name: "Galgamuwa"
+-
+  id: 1185
+  area_id: 16
+  name: "Gallewa"
+-
+  id: 1186
+  area_id: 16
+  name: "Girathalana"
+-
+  id: 1187
+  area_id: 16
+  name: "Giriulla"
+-
+  id: 1188
+  area_id: 16
+  name: "Gokaralla"
+-
+  id: 1189
+  area_id: 16
+  name: "Gonawila"
+-
+  id: 1190
+  area_id: 16
+  name: "Halmillawewa"
+-
+  id: 1191
+  area_id: 16
+  name: "Hengamuwa"
+-
+  id: 1192
+  area_id: 16
+  name: "Hettipola"
+-
+  id: 1193
+  area_id: 16
+  name: "Hilogama"
+-
+  id: 1194
+  area_id: 16
+  name: "Hindagolla"
+-
+  id: 1195
+  area_id: 16
+  name: "Hiriyala Lenawa"
+-
+  id: 1196
+  area_id: 16
+  name: "Hiruwalpola"
+-
+  id: 1197
+  area_id: 16
+  name: "Horambawa"
+-
+  id: 1198
+  area_id: 16
+  name: "Hulogedara"
+-
+  id: 1199
+  area_id: 16
+  name: "Hulugalla"
+-
+  id: 1200
+  area_id: 16
+  name: "Hunupola"
+-
+  id: 1201
+  area_id: 16
+  name: "Ihala Gomugomuwa"
+-
+  id: 1202
+  area_id: 16
+  name: "Ihala Katugampala"
+-
+  id: 1203
+  area_id: 16
+  name: "Indulgodakanda"
+-
+  id: 1204
+  area_id: 16
+  name: "Inguruwatta"
+-
+  id: 1205
+  area_id: 16
+  name: "Iriyagolla"
+-
+  id: 1206
+  area_id: 16
+  name: "Ithanawatta"
+-
+  id: 1207
+  area_id: 16
+  name: "Kadigawa"
+-
+  id: 1208
+  area_id: 16
+  name: "Kahapathwala"
+-
+  id: 1209
+  area_id: 16
+  name: "Kalugamuwa"
+-
+  id: 1210
+  area_id: 16
+  name: "Kanadeniyawala"
+-
+  id: 1211
+  area_id: 16
+  name: "Kanattewewa"
+-
+  id: 1212
+  area_id: 16
+  name: "Karagahagedara"
+-
+  id: 1213
+  area_id: 16
+  name: "Karambe"
+-
+  id: 1214
+  area_id: 16
+  name: "Katupota"
+-
+  id: 1215
+  area_id: 16
+  name: "Kekunagolla"
+-
+  id: 1216
+  area_id: 16
+  name: "Keppitiwalana"
+-
+  id: 1217
+  area_id: 16
+  name: "Kimbulwanaoya"
+-
+  id: 1218
+  area_id: 16
+  name: "Kirimetiyawa"
+-
+  id: 1219
+  area_id: 16
+  name: "Kirindawa"
+-
+  id: 1220
+  area_id: 16
+  name: "Kirindigalla"
+-
+  id: 1221
+  area_id: 16
+  name: "Kithalawa"
+-
+  id: 1222
+  area_id: 16
+  name: "Kobeigane"
+-
+  id: 1223
+  area_id: 16
+  name: "Kohilagedara"
+-
+  id: 1224
+  area_id: 16
+  name: "Konwewa"
+-
+  id: 1225
+  area_id: 16
+  name: "Kosdeniya"
+-
+  id: 1226
+  area_id: 16
+  name: "Kosgolla"
+-
+  id: 1227
+  area_id: 16
+  name: "Kotawehera"
+-
+  id: 1228
+  area_id: 16
+  name: "Kudagalgamuwa"
+-
+  id: 1229
+  area_id: 16
+  name: "Kudakatnoruwa"
+-
+  id: 1230
+  area_id: 16
+  name: "Kuliyapitiya"
+-
+  id: 1231
+  area_id: 16
+  name: "Kumbukgeta"
+-
+  id: 1232
+  area_id: 16
+  name: "Kumbukwewa"
+-
+  id: 1233
+  area_id: 16
+  name: "Kuratihena"
+-
+  id: 1234
+  area_id: 16
+  name: "Kurunegala"
+-
+  id: 1235
+  area_id: 16
+  name: "Labbala"
+-
+  id: 1236
+  area_id: 16
+  name: "lbbagamuwa"
+-
+  id: 1237
+  area_id: 16
+  name: "lhala Kadigamuwa"
+-
+  id: 1238
+  area_id: 16
+  name: "llukhena"
+-
+  id: 1239
+  area_id: 16
+  name: "Lonahettiya"
+-
+  id: 1240
+  area_id: 16
+  name: "Madahapola"
+-
+  id: 1241
+  area_id: 16
+  name: "Madakumburumulla"
+-
+  id: 1242
+  area_id: 16
+  name: "Maduragoda"
+-
+  id: 1243
+  area_id: 16
+  name: "Maeliya"
+-
+  id: 1244
+  area_id: 16
+  name: "Magulagama"
+-
+  id: 1245
+  area_id: 16
+  name: "Mahagalkadawala"
+-
+  id: 1246
+  area_id: 16
+  name: "Mahagirilla"
+-
+  id: 1247
+  area_id: 16
+  name: "Mahamukalanyaya"
+-
+  id: 1248
+  area_id: 16
+  name: "Mahananneriya"
+-
+  id: 1249
+  area_id: 16
+  name: "Maharachchimulla"
+-
+  id: 1250
+  area_id: 16
+  name: "Maho"
+-
+  id: 1251
+  area_id: 16
+  name: "Makulewa"
+-
+  id: 1252
+  area_id: 16
+  name: "Makulpotha"
+-
+  id: 1253
+  area_id: 16
+  name: "Makulwewa"
+-
+  id: 1254
+  area_id: 16
+  name: "Malagane"
+-
+  id: 1255
+  area_id: 16
+  name: "Mandapola"
+-
+  id: 1256
+  area_id: 16
+  name: "Maspotha"
+-
+  id: 1257
+  area_id: 16
+  name: "Mawathagama"
+-
+  id: 1258
+  area_id: 16
+  name: "Medivawa"
+-
+  id: 1259
+  area_id: 16
+  name: "Meegalawa"
+-
+  id: 1260
+  area_id: 16
+  name: "Meetanwala"
+-
+  id: 1261
+  area_id: 16
+  name: "Meewellawa"
+-
+  id: 1262
+  area_id: 16
+  name: "Melsiripura"
+-
+  id: 1263
+  area_id: 16
+  name: "Metikumbura"
+-
+  id: 1264
+  area_id: 16
+  name: "Metiyagane"
+-
+  id: 1265
+  area_id: 16
+  name: "Minhettiya"
+-
+  id: 1266
+  area_id: 16
+  name: "Minuwangete"
+-
+  id: 1267
+  area_id: 16
+  name: "Mirihanagama"
+-
+  id: 1268
+  area_id: 16
+  name: "Monnekulama"
+-
+  id: 1269
+  area_id: 16
+  name: "Moragane"
+-
+  id: 1270
+  area_id: 16
+  name: "Moragollagama"
+-
+  id: 1271
+  area_id: 16
+  name: "Morathiha"
+-
+  id: 1272
+  area_id: 16
+  name: "Munamaldeniya"
+-
+  id: 1273
+  area_id: 16
+  name: "Muruthenge"
+-
+  id: 1274
+  area_id: 16
+  name: "Nabadewa"
+-
+  id: 1275
+  area_id: 16
+  name: "Nagollagama"
+-
+  id: 1276
+  area_id: 16
+  name: "Nagollagoda"
+-
+  id: 1277
+  area_id: 16
+  name: "Nakkawatta"
+-
+  id: 1278
+  area_id: 16
+  name: "Narammala"
+-
+  id: 1279
+  area_id: 16
+  name: "Narangoda"
+-
+  id: 1280
+  area_id: 16
+  name: "Nawatalwatta"
+-
+  id: 1281
+  area_id: 16
+  name: "Nelliya"
+-
+  id: 1282
+  area_id: 16
+  name: "Nikadalupotha"
+-
+  id: 1283
+  area_id: 16
+  name: "Nikaweratiya"
+-
+  id: 1284
+  area_id: 16
+  name: "Padeniya"
+-
+  id: 1285
+  area_id: 16
+  name: "Padiwela"
+-
+  id: 1286
+  area_id: 16
+  name: "Pahalagiribawa"
+-
+  id: 1287
+  area_id: 16
+  name: "Pahamune"
+-
+  id: 1288
+  area_id: 16
+  name: "Palukadawala"
+-
+  id: 1289
+  area_id: 16
+  name: "Panadaragama"
+-
+  id: 1290
+  area_id: 16
+  name: "Panagamuwa"
+-
+  id: 1291
+  area_id: 16
+  name: "Panaliya"
+-
+  id: 1292
+  area_id: 16
+  name: "Panliyadda"
+-
+  id: 1293
+  area_id: 16
+  name: "Pannala"
+-
+  id: 1294
+  area_id: 16
+  name: "Pansiyagama"
+-
+  id: 1295
+  area_id: 16
+  name: "Periyakadneluwa"
+-
+  id: 1296
+  area_id: 16
+  name: "Pihimbiya Ratmale"
+-
+  id: 1297
+  area_id: 16
+  name: "Pihimbuwa"
+-
+  id: 1298
+  area_id: 16
+  name: "Pilessa"
+-
+  id: 1299
+  area_id: 16
+  name: "Polgahawela"
+-
+  id: 1300
+  area_id: 16
+  name: "Polpitigama"
+-
+  id: 1301
+  area_id: 16
+  name: "Pothuhera"
+-
+  id: 1302
+  area_id: 16
+  name: "Puswelitenna"
+-
+  id: 1303
+  area_id: 16
+  name: "Ridibendiella"
+-
+  id: 1304
+  area_id: 16
+  name: "Ridigama"
+-
+  id: 1305
+  area_id: 16
+  name: "Saliya Asokapura"
+-
+  id: 1306
+  area_id: 16
+  name: "Sandalankawa"
+-
+  id: 1307
+  area_id: 16
+  name: "Sirisetagama"
+-
+  id: 1308
+  area_id: 16
+  name: "Siyambalangamuwa"
+-
+  id: 1309
+  area_id: 16
+  name: "Solepura"
+-
+  id: 1310
+  area_id: 16
+  name: "Solewewa"
+-
+  id: 1311
+  area_id: 16
+  name: "Sunandapura"
+-
+  id: 1312
+  area_id: 16
+  name: "Talawattegedara"
+-
+  id: 1313
+  area_id: 16
+  name: "Tambutta"
+-
+  id: 1314
+  area_id: 16
+  name: "Thalahitimulla"
+-
+  id: 1315
+  area_id: 16
+  name: "Thalakolawewa"
+-
+  id: 1316
+  area_id: 16
+  name: "Thalwita"
+-
+  id: 1317
+  area_id: 16
+  name: "Thambagalla"
+-
+  id: 1318
+  area_id: 16
+  name: "Tharana Udawela"
+-
+  id: 1319
+  area_id: 16
+  name: "Thimbiriyawa"
+-
+  id: 1320
+  area_id: 16
+  name: "Tisogama"
+-
+  id: 1321
+  area_id: 16
+  name: "Torayaya"
+-
+  id: 1322
+  area_id: 16
+  name: "Tuttiripitigama"
+-
+  id: 1323
+  area_id: 16
+  name: "Udubaddawa"
+-
+  id: 1324
+  area_id: 16
+  name: "Uhumiya"
+-
+  id: 1325
+  area_id: 16
+  name: "Ulpotha Pallekele"
+-
+  id: 1326
+  area_id: 16
+  name: "Usgala Siyabmalangamuwa"
+-
+  id: 1327
+  area_id: 16
+  name: "Wadakada"
+-
+  id: 1328
+  area_id: 16
+  name: "Wadumunnegedara"
+-
+  id: 1329
+  area_id: 16
+  name: "Walakumburumulla"
+-
+  id: 1330
+  area_id: 16
+  name: "Wannigama"
+-
+  id: 1331
+  area_id: 16
+  name: "Wannikudawewa"
+-
+  id: 1332
+  area_id: 16
+  name: "Wannilhalagama"
+-
+  id: 1333
+  area_id: 16
+  name: "Wannirasnayakapura"
+-
+  id: 1334
+  area_id: 16
+  name: "Warawewa"
+-
+  id: 1335
+  area_id: 16
+  name: "Wariyapola"
+-
+  id: 1336
+  area_id: 16
+  name: "Watuwatta"
+-
+  id: 1337
+  area_id: 16
+  name: "Weerapokuna"
+-
+  id: 1338
+  area_id: 16
+  name: "Welawa Juncton"
+-
+  id: 1339
+  area_id: 16
+  name: "Welipennagahamulla"
+-
+  id: 1340
+  area_id: 16
+  name: "Wellagala"
+-
+  id: 1341
+  area_id: 16
+  name: "Wellarawa"
+-
+  id: 1342
+  area_id: 16
+  name: "Wellawa"
+-
+  id: 1343
+  area_id: 16
+  name: "Welpalla"
+-
+  id: 1344
+  area_id: 16
+  name: "Wennoruwa"
+-
+  id: 1345
+  area_id: 16
+  name: "Weuda"
+-
+  id: 1346
+  area_id: 16
+  name: "Wewagama"
+-
+  id: 1347
+  area_id: 16
+  name: "Yakwila"
+-
+  id: 1348
+  area_id: 16
+  name: "Yatigaloluwa"
+-
+  id: 1349
+  area_id: 17
+  name: "Adippala"
+-
+  id: 1350
+  area_id: 17
+  name: "Ambakandawila"
+-
+  id: 1351
+  area_id: 17
+  name: "Anamaduwa"
+-
+  id: 1352
+  area_id: 17
+  name: "Andigama"
+-
+  id: 1353
+  area_id: 17
+  name: "Angunawila"
+-
+  id: 1354
+  area_id: 17
+  name: "Arachchikattuwa"
+-
+  id: 1355
+  area_id: 17
+  name: "Attawilluwa"
+-
+  id: 1356
+  area_id: 17
+  name: "Bangadeniya"
+-
+  id: 1357
+  area_id: 17
+  name: "Baranankattuwa"
+-
+  id: 1358
+  area_id: 17
+  name: "Battuluoya"
+-
+  id: 1359
+  area_id: 17
+  name: "Bujjampola"
+-
+  id: 1360
+  area_id: 17
+  name: "Chilaw"
+-
+  id: 1361
+  area_id: 17
+  name: "Dankotuwa"
+-
+  id: 1362
+  area_id: 17
+  name: "Dunkannawa"
+-
+  id: 1363
+  area_id: 17
+  name: "Eluwankulama"
+-
+  id: 1364
+  area_id: 17
+  name: "Ettale"
+-
+  id: 1365
+  area_id: 17
+  name: "Galmuruwa"
+-
+  id: 1366
+  area_id: 17
+  name: "Ihala Kottaramulla"
+-
+  id: 1367
+  area_id: 17
+  name: "Ihala Puliyankulama"
+-
+  id: 1368
+  area_id: 17
+  name: "Ilippadeniya"
+-
+  id: 1369
+  area_id: 17
+  name: "Inginimitiya"
+-
+  id: 1370
+  area_id: 17
+  name: "Ismailpuram"
+-
+  id: 1371
+  area_id: 17
+  name: "Kakkapalliya"
+-
+  id: 1372
+  area_id: 17
+  name: "Kalladiya"
+-
+  id: 1373
+  area_id: 17
+  name: "Kalpitiya"
+-
+  id: 1374
+  area_id: 17
+  name: "Kandakuliya"
+-
+  id: 1375
+  area_id: 17
+  name: "Karativponparappi"
+-
+  id: 1376
+  area_id: 17
+  name: "Karawitagara"
+-
+  id: 1377
+  area_id: 17
+  name: "Karuwalagaswewa"
+-
+  id: 1378
+  area_id: 17
+  name: "Katuneriya"
+-
+  id: 1379
+  area_id: 17
+  name: "Kirimundalama"
+-
+  id: 1380
+  area_id: 17
+  name: "Koswatta"
+-
+  id: 1381
+  area_id: 17
+  name: "Kottantivu"
+-
+  id: 1382
+  area_id: 17
+  name: "Kottukachchiya"
+-
+  id: 1383
+  area_id: 17
+  name: "Kudawewa"
+-
+  id: 1384
+  area_id: 17
+  name: "Kumarakattuwa"
+-
+  id: 1385
+  area_id: 17
+  name: "Kurinjanpitiya"
+-
+  id: 1386
+  area_id: 17
+  name: "Kuruketiyawa"
+-
+  id: 1387
+  area_id: 17
+  name: "Lihiriyagama"
+-
+  id: 1388
+  area_id: 17
+  name: "Lunuwila"
+-
+  id: 1389
+  area_id: 17
+  name: "Madampe"
+-
+  id: 1390
+  area_id: 17
+  name: "Madurankuliya"
+-
+  id: 1391
+  area_id: 17
+  name: "Mahakumbukkadawala"
+-
+  id: 1392
+  area_id: 17
+  name: "Mahauswewa"
+-
+  id: 1393
+  area_id: 17
+  name: "Mahawewa"
+-
+  id: 1394
+  area_id: 17
+  name: "Mampuri"
+-
+  id: 1395
+  area_id: 17
+  name: "Mangalaeliya"
+-
+  id: 1396
+  area_id: 17
+  name: "Marawila"
+-
+  id: 1397
+  area_id: 17
+  name: "Mudalakkuliya"
+-
+  id: 1398
+  area_id: 17
+  name: "Mugunuwatawana"
+-
+  id: 1399
+  area_id: 17
+  name: "Mukkutoduwawa"
+-
+  id: 1400
+  area_id: 17
+  name: "Mundel"
+-
+  id: 1401
+  area_id: 17
+  name: "Muttibendiwila"
+-
+  id: 1402
+  area_id: 17
+  name: "Nainamadama"
+-
+  id: 1403
+  area_id: 17
+  name: "Nalladarankattuwa"
+-
+  id: 1404
+  area_id: 17
+  name: "Nattandiya"
+-
+  id: 1405
+  area_id: 17
+  name: "Nawagattegama"
+-
+  id: 1406
+  area_id: 17
+  name: "Norachcholai"
+-
+  id: 1407
+  area_id: 17
+  name: "Palaviya"
+-
+  id: 1408
+  area_id: 17
+  name: "Pallama"
+-
+  id: 1409
+  area_id: 17
+  name: "Palliwasalturai"
+-
+  id: 1410
+  area_id: 17
+  name: "Panirendawa"
+-
+  id: 1411
+  area_id: 17
+  name: "Pothuwatawana"
+-
+  id: 1412
+  area_id: 17
+  name: "Puttalam"
+-
+  id: 1413
+  area_id: 17
+  name: "Puttalam Cement Factory"
+-
+  id: 1414
+  area_id: 17
+  name: "Rajakadaluwa"
+-
+  id: 1415
+  area_id: 17
+  name: "Saliyawewa Junction"
+-
+  id: 1416
+  area_id: 17
+  name: "Serukele"
+-
+  id: 1417
+  area_id: 17
+  name: "Sirambiadiya"
+-
+  id: 1418
+  area_id: 17
+  name: "Siyambalagashene"
+-
+  id: 1419
+  area_id: 17
+  name: "Tabbowa"
+-
+  id: 1420
+  area_id: 17
+  name: "Talawila Church"
+-
+  id: 1421
+  area_id: 17
+  name: "Toduwawa"
+-
+  id: 1422
+  area_id: 17
+  name: "Udappuwa"
+-
+  id: 1423
+  area_id: 17
+  name: "Uridyawa"
+-
+  id: 1424
+  area_id: 17
+  name: "Vanathawilluwa"
+-
+  id: 1425
+  area_id: 17
+  name: "Waikkal"
+-
+  id: 1426
+  area_id: 17
+  name: "Watugahamulla"
+-
+  id: 1427
+  area_id: 17
+  name: "Wennappuwa"
+-
+  id: 1428
+  area_id: 17
+  name: "Wijeyakatupotha"
+-
+  id: 1429
+  area_id: 17
+  name: "Wilpotha"
+-
+  id: 1430
+  area_id: 17
+  name: "Yogiyana"
+-
+  id: 1431
+  area_id: 18
+  name: "Akarella"
+-
+  id: 1432
+  area_id: 18
+  name: "Atakalanpanna"
+-
+  id: 1433
+  area_id: 18
+  name: "Ayagama"
+-
+  id: 1434
+  area_id: 18
+  name: "Balangoda"
+-
+  id: 1435
+  area_id: 18
+  name: "Batatota"
+-
+  id: 1436
+  area_id: 18
+  name: "Belihuloya"
+-
+  id: 1437
+  area_id: 18
+  name: "Bolthumbe"
+-
+  id: 1438
+  area_id: 18
+  name: "Bomluwageaina"
+-
+  id: 1439
+  area_id: 18
+  name: "Bulutota"
+-
+  id: 1440
+  area_id: 18
+  name: "Dambuluwana"
+-
+  id: 1441
+  area_id: 18
+  name: "Daugala"
+-
+  id: 1442
+  area_id: 18
+  name: "Dela"
+-
+  id: 1443
+  area_id: 18
+  name: "Delwala"
+-
+  id: 1444
+  area_id: 18
+  name: "Demuwatha"
+-
+  id: 1445
+  area_id: 18
+  name: "Dodampe"
+-
+  id: 1446
+  area_id: 18
+  name: "Doloswalakanda"
+-
+  id: 1447
+  area_id: 18
+  name: "Dumbara Manana"
+-
+  id: 1448
+  area_id: 18
+  name: "Eheliyagoda"
+-
+  id: 1449
+  area_id: 18
+  name: "Elapatha"
+-
+  id: 1450
+  area_id: 18
+  name: "Ellagawa"
+-
+  id: 1451
+  area_id: 18
+  name: "Ellaulla"
+-
+  id: 1452
+  area_id: 18
+  name: "Ellawala"
+-
+  id: 1453
+  area_id: 18
+  name: "Embilipitiya"
+-
+  id: 1454
+  area_id: 18
+  name: "Eratna"
+-
+  id: 1455
+  area_id: 18
+  name: "Erepola"
+-
+  id: 1456
+  area_id: 18
+  name: "Gabbela"
+-
+  id: 1457
+  area_id: 18
+  name: "Gallella"
+-
+  id: 1458
+  area_id: 18
+  name: "Gangeyaya"
+-
+  id: 1459
+  area_id: 18
+  name: "Gawaragiriya"
+-
+  id: 1460
+  area_id: 18
+  name: "Getahetta"
+-
+  id: 1461
+  area_id: 18
+  name: "Gillimale"
+-
+  id: 1462
+  area_id: 18
+  name: "Godagampola"
+-
+  id: 1463
+  area_id: 18
+  name: "Godakawela"
+-
+  id: 1464
+  area_id: 18
+  name: "Gurubewilagama"
+-
+  id: 1465
+  area_id: 18
+  name: "Halpe"
+-
+  id: 1466
+  area_id: 18
+  name: "Halwinna"
+-
+  id: 1467
+  area_id: 18
+  name: "Handagiriya"
+-
+  id: 1468
+  area_id: 18
+  name: "Hapugastenna"
+-
+  id: 1469
+  area_id: 18
+  name: "Hatangala"
+-
+  id: 1470
+  area_id: 18
+  name: "Hatarabage"
+-
+  id: 1471
+  area_id: 18
+  name: "Hidellana"
+-
+  id: 1472
+  area_id: 18
+  name: "Hiramadagama"
+-
+  id: 1473
+  area_id: 18
+  name: "Ihalagama"
+-
+  id: 1474
+  area_id: 18
+  name: "Ittakanda"
+-
+  id: 1475
+  area_id: 18
+  name: "Kahangama"
+-
+  id: 1476
+  area_id: 18
+  name: "Kahawatta"
+-
+  id: 1477
+  area_id: 18
+  name: "Kalawana"
+-
+  id: 1478
+  area_id: 18
+  name: "Kaltota"
+-
+  id: 1479
+  area_id: 18
+  name: "Karandana"
+-
+  id: 1480
+  area_id: 18
+  name: "Karangoda"
+-
+  id: 1481
+  area_id: 18
+  name: "Kella Junction"
+-
+  id: 1482
+  area_id: 18
+  name: "Kiriella"
+-
+  id: 1483
+  area_id: 18
+  name: "Kolambageara"
+-
+  id: 1484
+  area_id: 18
+  name: "Kolombugama"
+-
+  id: 1485
+  area_id: 18
+  name: "Kolonna"
+-
+  id: 1486
+  area_id: 18
+  name: "Kudawa"
+-
+  id: 1487
+  area_id: 18
+  name: "Kuruwita"
+-
+  id: 1488
+  area_id: 18
+  name: "Lellopitiya"
+-
+  id: 1489
+  area_id: 18
+  name: "lmbulpe"
+-
+  id: 1490
+  area_id: 18
+  name: "Madalagama"
+-
+  id: 1491
+  area_id: 18
+  name: "Mahawalatenna"
+-
+  id: 1492
+  area_id: 18
+  name: "Makandura Sabara"
+-
+  id: 1493
+  area_id: 18
+  name: "Malwala Junction"
+-
+  id: 1494
+  area_id: 18
+  name: "Marapana"
+-
+  id: 1495
+  area_id: 18
+  name: "Matuwagalagama"
+-
+  id: 1496
+  area_id: 18
+  name: "Medagalatur"
+-
+  id: 1497
+  area_id: 18
+  name: "Meddekanda"
+-
+  id: 1498
+  area_id: 18
+  name: "Minipura Dumbara"
+-
+  id: 1499
+  area_id: 18
+  name: "Mitipola"
+-
+  id: 1500
+  area_id: 18
+  name: "Morahela"
+-
+  id: 1501
+  area_id: 18
+  name: "Mulendiyawala"
+-
+  id: 1502
+  area_id: 18
+  name: "Mulgama"
+-
+  id: 1503
+  area_id: 18
+  name: "Nawalakanda"
+-
+  id: 1504
+  area_id: 18
+  name: "NawinnaPinnakanda"
+-
+  id: 1505
+  area_id: 18
+  name: "Niralagama"
+-
+  id: 1506
+  area_id: 18
+  name: "Nivitigala"
+-
+  id: 1507
+  area_id: 18
+  name: "Omalpe"
+-
+  id: 1508
+  area_id: 18
+  name: "Opanayaka"
+-
+  id: 1509
+  area_id: 18
+  name: "Padalangala"
+-
+  id: 1510
+  area_id: 18
+  name: "Pallebedda"
+-
+  id: 1511
+  area_id: 18
+  name: "Pambagolla"
+-
+  id: 1512
+  area_id: 18
+  name: "Panamura"
+-
+  id: 1513
+  area_id: 18
+  name: "Panapitiya"
+-
+  id: 1514
+  area_id: 18
+  name: "Panapola"
+-
+  id: 1515
+  area_id: 18
+  name: "Panawala"
+-
+  id: 1516
+  area_id: 18
+  name: "Parakaduwa"
+-
+  id: 1517
+  area_id: 18
+  name: "Pebotuwa"
+-
+  id: 1518
+  area_id: 18
+  name: "Pelmadulla"
+-
+  id: 1519
+  area_id: 18
+  name: "Pimbura"
+-
+  id: 1520
+  area_id: 18
+  name: "Pinnawala"
+-
+  id: 1521
+  area_id: 18
+  name: "Pothupitiya"
+-
+  id: 1522
+  area_id: 18
+  name: "Rajawaka"
+-
+  id: 1523
+  area_id: 18
+  name: "Rakwana"
+-
+  id: 1524
+  area_id: 18
+  name: "Ranwala"
+-
+  id: 1525
+  area_id: 18
+  name: "Rassagala"
+-
+  id: 1526
+  area_id: 18
+  name: "Ratna Hangamuwa"
+-
+  id: 1527
+  area_id: 18
+  name: "Ratnapura"
+-
+  id: 1528
+  area_id: 18
+  name: "Samanalawewa"
+-
+  id: 1529
+  area_id: 18
+  name: "Sri Palabaddala"
+-
+  id: 1530
+  area_id: 18
+  name: "Sudagala"
+-
+  id: 1531
+  area_id: 18
+  name: "Talakolahinna"
+-
+  id: 1532
+  area_id: 18
+  name: "Tanjantenna"
+-
+  id: 1533
+  area_id: 18
+  name: "Teppanawa"
+-
+  id: 1534
+  area_id: 18
+  name: "Tunkama"
+-
+  id: 1535
+  area_id: 18
+  name: "Udaha Hawupe"
+-
+  id: 1536
+  area_id: 18
+  name: "Udakarawita"
+-
+  id: 1537
+  area_id: 18
+  name: "Udaniriella"
+-
+  id: 1538
+  area_id: 18
+  name: "Udawalawe"
+-
+  id: 1539
+  area_id: 18
+  name: "Ullinduwawa"
+-
+  id: 1540
+  area_id: 18
+  name: "Veddagala"
+-
+  id: 1541
+  area_id: 18
+  name: "Vijeriya"
+-
+  id: 1542
+  area_id: 18
+  name: "Waleboda"
+-
+  id: 1543
+  area_id: 18
+  name: "Watapotha"
+-
+  id: 1544
+  area_id: 18
+  name: "Waturawa"
+-
+  id: 1545
+  area_id: 18
+  name: "Weligepola"
+-
+  id: 1546
+  area_id: 18
+  name: "Welipathayaya"
+-
+  id: 1547
+  area_id: 18
+  name: "Wewelwatta"
+-
+  id: 1548
+  area_id: 18
+  name: "Wikiliya"
+-
+  id: 1549
+  area_id: 19
+  name: "Alawatura"
+-
+  id: 1550
+  area_id: 19
+  name: "Algama"
+-
+  id: 1551
+  area_id: 19
+  name: "Alutnuwara"
+-
+  id: 1552
+  area_id: 19
+  name: "Ambalakanda"
+-
+  id: 1553
+  area_id: 19
+  name: "Ambulugala"
+-
+  id: 1554
+  area_id: 19
+  name: "Amitirigala"
+-
+  id: 1555
+  area_id: 19
+  name: "Ampagala"
+-
+  id: 1556
+  area_id: 19
+  name: "Anhettigama"
+-
+  id: 1557
+  area_id: 19
+  name: "Aranayaka"
+-
+  id: 1558
+  area_id: 19
+  name: "Aruggammana"
+-
+  id: 1559
+  area_id: 19
+  name: "Atale"
+-
+  id: 1560
+  area_id: 19
+  name: "Batuwita"
+-
+  id: 1561
+  area_id: 19
+  name: "Beligala(Sab)"
+-
+  id: 1562
+  area_id: 19
+  name: "Berannawa"
+-
+  id: 1563
+  area_id: 19
+  name: "Bopitiya (SAB)"
+-
+  id: 1564
+  area_id: 19
+  name: "Boralankada"
+-
+  id: 1565
+  area_id: 19
+  name: "Bossella"
+-
+  id: 1566
+  area_id: 19
+  name: "Bulathkohupitiya"
+-
+  id: 1567
+  area_id: 19
+  name: "Damunupola"
+-
+  id: 1568
+  area_id: 19
+  name: "Debathgama"
+-
+  id: 1569
+  area_id: 19
+  name: "Dedugala"
+-
+  id: 1570
+  area_id: 19
+  name: "Deewala Pallegama"
+-
+  id: 1571
+  area_id: 19
+  name: "Dehiowita"
+-
+  id: 1572
+  area_id: 19
+  name: "Deldeniya"
+-
+  id: 1573
+  area_id: 19
+  name: "Deloluwa"
+-
+  id: 1574
+  area_id: 19
+  name: "Deraniyagala"
+-
+  id: 1575
+  area_id: 19
+  name: "Dewalegama"
+-
+  id: 1576
+  area_id: 19
+  name: "Dewanagala"
+-
+  id: 1577
+  area_id: 19
+  name: "Dombemada"
+-
+  id: 1578
+  area_id: 19
+  name: "Dorawaka"
+-
+  id: 1579
+  area_id: 19
+  name: "Dunumala"
+-
+  id: 1580
+  area_id: 19
+  name: "Galapitamada"
+-
+  id: 1581
+  area_id: 19
+  name: "Galatara"
+-
+  id: 1582
+  area_id: 19
+  name: "Galigamuwa Town"
+-
+  id: 1583
+  area_id: 19
+  name: "Galpatha(Sab)"
+-
+  id: 1584
+  area_id: 19
+  name: "Gantuna"
+-
+  id: 1585
+  area_id: 19
+  name: "Gonagala"
+-
+  id: 1586
+  area_id: 19
+  name: "Hakahinna"
+-
+  id: 1587
+  area_id: 19
+  name: "Hakbellawaka"
+-
+  id: 1588
+  area_id: 19
+  name: "Helamada"
+-
+  id: 1589
+  area_id: 19
+  name: "Hemmatagama"
+-
+  id: 1590
+  area_id: 19
+  name: "Hettimulla"
+-
+  id: 1591
+  area_id: 19
+  name: "Hewadiwela"
+-
+  id: 1592
+  area_id: 19
+  name: "Hingula"
+-
+  id: 1593
+  area_id: 19
+  name: "Hinguralakanda"
+-
+  id: 1594
+  area_id: 19
+  name: "Hiriwadunna"
+-
+  id: 1595
+  area_id: 19
+  name: "Imbulana"
+-
+  id: 1596
+  area_id: 19
+  name: "Imbulgasdeniya"
+-
+  id: 1597
+  area_id: 19
+  name: "Kabagamuwa"
+-
+  id: 1598
+  area_id: 19
+  name: "Kannattota"
+-
+  id: 1599
+  area_id: 19
+  name: "Kegalle"
+-
+  id: 1600
+  area_id: 19
+  name: "Kehelpannala"
+-
+  id: 1601
+  area_id: 19
+  name: "Kitulgala"
+-
+  id: 1602
+  area_id: 19
+  name: "Kondeniya"
+-
+  id: 1603
+  area_id: 19
+  name: "Kotiyakumbura"
+-
+  id: 1604
+  area_id: 19
+  name: "Lewangama"
+-
+  id: 1605
+  area_id: 19
+  name: "Mahabage"
+-
+  id: 1606
+  area_id: 19
+  name: "Mahapallegama"
+-
+  id: 1607
+  area_id: 19
+  name: "Maharangalla"
+-
+  id: 1608
+  area_id: 19
+  name: "Makehelwala"
+-
+  id: 1609
+  area_id: 19
+  name: "Malalpola"
+-
+  id: 1610
+  area_id: 19
+  name: "Maliboda"
+-
+  id: 1611
+  area_id: 19
+  name: "Malmaduwa"
+-
+  id: 1612
+  area_id: 19
+  name: "Mawanella"
+-
+  id: 1613
+  area_id: 19
+  name: "Migastenna Sabara"
+-
+  id: 1614
+  area_id: 19
+  name: "Miyanawita"
+-
+  id: 1615
+  area_id: 19
+  name: "Molagoda"
+-
+  id: 1616
+  area_id: 19
+  name: "Morontota"
+-
+  id: 1617
+  area_id: 19
+  name: "Nelundeniya"
+-
+  id: 1618
+  area_id: 19
+  name: "Niyadurupola"
+-
+  id: 1619
+  area_id: 19
+  name: "Noori"
+-
+  id: 1620
+  area_id: 19
+  name: "Parape"
+-
+  id: 1621
+  area_id: 19
+  name: "Pattampitiya"
+-
+  id: 1622
+  area_id: 19
+  name: "Pinnawala"
+-
+  id: 1623
+  area_id: 19
+  name: "Pitagaldeniya"
+-
+  id: 1624
+  area_id: 19
+  name: "Pothukoladeniya"
+-
+  id: 1625
+  area_id: 19
+  name: "Rambukkana"
+-
+  id: 1626
+  area_id: 19
+  name: "Ruwanwella"
+-
+  id: 1627
+  area_id: 19
+  name: "Seaforth Colony"
+-
+  id: 1628
+  area_id: 19
+  name: "Talgaspitiya"
+-
+  id: 1629
+  area_id: 19
+  name: "Teligama"
+-
+  id: 1630
+  area_id: 19
+  name: "Tholangamuwa"
+-
+  id: 1631
+  area_id: 19
+  name: "Thotawella"
+-
+  id: 1632
+  area_id: 19
+  name: "Tulhiriya"
+-
+  id: 1633
+  area_id: 19
+  name: "Tuntota"
+-
+  id: 1634
+  area_id: 19
+  name: "Udagaldeniya"
+-
+  id: 1635
+  area_id: 19
+  name: "Udapotha"
+-
+  id: 1636
+  area_id: 19
+  name: "Udumulla"
+-
+  id: 1637
+  area_id: 19
+  name: "Undugoda"
+-
+  id: 1638
+  area_id: 19
+  name: "Ussapitiya"
+-
+  id: 1639
+  area_id: 19
+  name: "Wahakula"
+-
+  id: 1640
+  area_id: 19
+  name: "Waharaka"
+-
+  id: 1641
+  area_id: 19
+  name: "Warakapola"
+-
+  id: 1642
+  area_id: 19
+  name: "Watura"
+-
+  id: 1643
+  area_id: 19
+  name: "Weeoya"
+-
+  id: 1644
+  area_id: 19
+  name: "Wegalla"
+-
+  id: 1645
+  area_id: 19
+  name: "Welihelatenna"
+-
+  id: 1646
+  area_id: 19
+  name: "Weragala"
+-
+  id: 1647
+  area_id: 19
+  name: "Yatagama"
+-
+  id: 1648
+  area_id: 19
+  name: "Yatapana"
+-
+  id: 1649
+  area_id: 19
+  name: "Yatiyantota"
+-
+  id: 1650
+  area_id: 19
+  name: "Yattogoda"
+-
+  id: 1651
+  area_id: 20
+  name: "Agaliya"
+-
+  id: 1652
+  area_id: 20
+  name: "Ahangama"
+-
+  id: 1653
+  area_id: 20
+  name: "Ahungalla"
+-
+  id: 1654
+  area_id: 20
+  name: "Akmeemana"
+-
+  id: 1655
+  area_id: 20
+  name: "Aluthwala"
+-
+  id: 1656
+  area_id: 20
+  name: "Ambalangoda"
+-
+  id: 1657
+  area_id: 20
+  name: "Ampegama"
+-
+  id: 1658
+  area_id: 20
+  name: "Amugoda"
+-
+  id: 1659
+  area_id: 20
+  name: "Anangoda"
+-
+  id: 1660
+  area_id: 20
+  name: "Angulugaha"
+-
+  id: 1661
+  area_id: 20
+  name: "Ankokkawala"
+-
+  id: 1662
+  area_id: 20
+  name: "Baddegama"
+-
+  id: 1663
+  area_id: 20
+  name: "Balapitiya"
+-
+  id: 1664
+  area_id: 20
+  name: "Banagala"
+-
+  id: 1665
+  area_id: 20
+  name: "Batapola"
+-
+  id: 1666
+  area_id: 20
+  name: "Bentota"
+-
+  id: 1667
+  area_id: 20
+  name: "Boossa"
+-
+  id: 1668
+  area_id: 20
+  name: "Dikkumbura"
+-
+  id: 1669
+  area_id: 20
+  name: "Dodanduwa"
+-
+  id: 1670
+  area_id: 20
+  name: "Ella Tanabaddegama"
+-
+  id: 1671
+  area_id: 20
+  name: "Elpitiya"
+-
+  id: 1672
+  area_id: 20
+  name: "Ethkandura"
+-
+  id: 1673
+  area_id: 20
+  name: "Galle"
+-
+  id: 1674
+  area_id: 20
+  name: "Ganegoda"
+-
+  id: 1675
+  area_id: 20
+  name: "Ginimellagaha"
+-
+  id: 1676
+  area_id: 20
+  name: "Gintota"
+-
+  id: 1677
+  area_id: 20
+  name: "Godahena"
+-
+  id: 1678
+  area_id: 20
+  name: "Gonagalpura"
+-
+  id: 1679
+  area_id: 20
+  name: "Gonamulla Junction"
+-
+  id: 1680
+  area_id: 20
+  name: "Gonapinuwala"
+-
+  id: 1681
+  area_id: 20
+  name: "Habaraduwa"
+-
+  id: 1682
+  area_id: 20
+  name: "Haburugala"
+-
+  id: 1683
+  area_id: 20
+  name: "Halvitigala Colony"
+-
+  id: 1684
+  area_id: 20
+  name: "Hapugala"
+-
+  id: 1685
+  area_id: 20
+  name: "Hawpe"
+-
+  id: 1686
+  area_id: 20
+  name: "Hikkaduwa"
+-
+  id: 1687
+  area_id: 20
+  name: "Hinatigala"
+-
+  id: 1688
+  area_id: 20
+  name: "Hiniduma"
+-
+  id: 1689
+  area_id: 20
+  name: "Hiyare"
+-
+  id: 1690
+  area_id: 20
+  name: "Ihala Walpola"
+-
+  id: 1691
+  area_id: 20
+  name: "Induruwa"
+-
+  id: 1692
+  area_id: 20
+  name: "Kahaduwa"
+-
+  id: 1693
+  area_id: 20
+  name: "Kahawa"
+-
+  id: 1694
+  area_id: 20
+  name: "Kananke Bazaar"
+-
+  id: 1695
+  area_id: 20
+  name: "Karagoda"
+-
+  id: 1696
+  area_id: 20
+  name: "Karandeniya"
+-
+  id: 1697
+  area_id: 20
+  name: "Karapitiya"
+-
+  id: 1698
+  area_id: 20
+  name: "Koggala"
+-
+  id: 1699
+  area_id: 20
+  name: "Kosgoda"
+-
+  id: 1700
+  area_id: 20
+  name: "Kottawagama"
+-
+  id: 1701
+  area_id: 20
+  name: "Kuleegoda"
+-
+  id: 1702
+  area_id: 20
+  name: "lhalahewessa"
+-
+  id: 1703
+  area_id: 20
+  name: "lmaduwa"
+-
+  id: 1704
+  area_id: 20
+  name: "lnduruwa"
+-
+  id: 1705
+  area_id: 20
+  name: "Magedara"
+-
+  id: 1706
+  area_id: 20
+  name: "Malgalla Talangalla"
+-
+  id: 1707
+  area_id: 20
+  name: "Mapalagama"
+-
+  id: 1708
+  area_id: 20
+  name: "Mapalagama Central"
+-
+  id: 1709
+  area_id: 20
+  name: "Mattaka"
+-
+  id: 1710
+  area_id: 20
+  name: "Meda-Keembiya"
+-
+  id: 1711
+  area_id: 20
+  name: "Meetiyagoda"
+-
+  id: 1712
+  area_id: 20
+  name: "Miriswatta"
+-
+  id: 1713
+  area_id: 20
+  name: "Nagoda"
+-
+  id: 1714
+  area_id: 20
+  name: "Nakiyadeniya"
+-
+  id: 1715
+  area_id: 20
+  name: "Nawadagala"
+-
+  id: 1716
+  area_id: 20
+  name: "Neluwa"
+-
+  id: 1717
+  area_id: 20
+  name: "Nindana"
+-
+  id: 1718
+  area_id: 20
+  name: "Opatha"
+-
+  id: 1719
+  area_id: 20
+  name: "Panangala"
+-
+  id: 1720
+  area_id: 20
+  name: "Pannimulla Panagoda"
+-
+  id: 1721
+  area_id: 20
+  name: "Parana ThanaYamgoda"
+-
+  id: 1722
+  area_id: 20
+  name: "Pitigala"
+-
+  id: 1723
+  area_id: 20
+  name: "Poddala"
+-
+  id: 1724
+  area_id: 20
+  name: "Porawagama"
+-
+  id: 1725
+  area_id: 20
+  name: "Rantotuwila"
+-
+  id: 1726
+  area_id: 20
+  name: "Ratgama"
+-
+  id: 1727
+  area_id: 20
+  name: "Talagampola"
+-
+  id: 1728
+  area_id: 20
+  name: "Talgaspe"
+-
+  id: 1729
+  area_id: 20
+  name: "Talgaswela"
+-
+  id: 1730
+  area_id: 20
+  name: "Talpe"
+-
+  id: 1731
+  area_id: 20
+  name: "Tawalama"
+-
+  id: 1732
+  area_id: 20
+  name: "Tiranagama"
+-
+  id: 1733
+  area_id: 20
+  name: "Udalamatta"
+-
+  id: 1734
+  area_id: 20
+  name: "Udugama"
+-
+  id: 1735
+  area_id: 20
+  name: "Uluvitike"
+-
+  id: 1736
+  area_id: 20
+  name: "Unawatuna"
+-
+  id: 1737
+  area_id: 20
+  name: "Unenwitiya"
+-
+  id: 1738
+  area_id: 20
+  name: "Uragaha"
+-
+  id: 1739
+  area_id: 20
+  name: "Uragasmanhandiya"
+-
+  id: 1740
+  area_id: 20
+  name: "Wakwella"
+-
+  id: 1741
+  area_id: 20
+  name: "Walahanduwa"
+-
+  id: 1742
+  area_id: 20
+  name: "Wanchawela"
+-
+  id: 1743
+  area_id: 20
+  name: "Wanduramba"
+-
+  id: 1744
+  area_id: 20
+  name: "Warukandeniya"
+-
+  id: 1745
+  area_id: 20
+  name: "Watugedara"
+-
+  id: 1746
+  area_id: 20
+  name: "Weihena"
+-
+  id: 1747
+  area_id: 20
+  name: "Yakkalamulla"
+-
+  id: 1748
+  area_id: 20
+  name: "Yatalamatta"
+-
+  id: 1749
+  area_id: 21
+  name: "Akuressa"
+-
+  id: 1750
+  area_id: 21
+  name: "Alapaladeniya"
+-
+  id: 1751
+  area_id: 21
+  name: "Aparekka"
+-
+  id: 1752
+  area_id: 21
+  name: "Athuraliya"
+-
+  id: 1753
+  area_id: 21
+  name: "Bengamuwa"
+-
+  id: 1754
+  area_id: 21
+  name: "Beralapanathara"
+-
+  id: 1755
+  area_id: 21
+  name: "Bopagoda"
+-
+  id: 1756
+  area_id: 21
+  name: "Dampahala"
+-
+  id: 1757
+  area_id: 21
+  name: "Deegala Lenama"
+-
+  id: 1758
+  area_id: 21
+  name: "Deiyandara"
+-
+  id: 1759
+  area_id: 21
+  name: "Dellawa"
+-
+  id: 1760
+  area_id: 21
+  name: "Denagama"
+-
+  id: 1761
+  area_id: 21
+  name: "Denipitiya"
+-
+  id: 1762
+  area_id: 21
+  name: "Deniyaya"
+-
+  id: 1763
+  area_id: 21
+  name: "Derangala"
+-
+  id: 1764
+  area_id: 21
+  name: "Devinuwara (Dondra)"
+-
+  id: 1765
+  area_id: 21
+  name: "Dikwella"
+-
+  id: 1766
+  area_id: 21
+  name: "Diyagaha"
+-
+  id: 1767
+  area_id: 21
+  name: "Diyalape"
+-
+  id: 1768
+  area_id: 21
+  name: "Gandara"
+-
+  id: 1769
+  area_id: 21
+  name: "Godapitiya"
+-
+  id: 1770
+  area_id: 21
+  name: "Gomilamawarala"
+-
+  id: 1771
+  area_id: 21
+  name: "Hakmana"
+-
+  id: 1772
+  area_id: 21
+  name: "Handugala"
+-
+  id: 1773
+  area_id: 21
+  name: "Horapawita"
+-
+  id: 1774
+  area_id: 21
+  name: "Kalubowitiyana"
+-
+  id: 1775
+  area_id: 21
+  name: "Kamburugamuwa"
+-
+  id: 1776
+  area_id: 21
+  name: "Kamburupitiya"
+-
+  id: 1777
+  area_id: 21
+  name: "Karagoda Uyangoda"
+-
+  id: 1778
+  area_id: 21
+  name: "Karaputugala"
+-
+  id: 1779
+  area_id: 21
+  name: "Karatota"
+-
+  id: 1780
+  area_id: 21
+  name: "Kekanadurra"
+-
+  id: 1781
+  area_id: 21
+  name: "Kiriweldola"
+-
+  id: 1782
+  area_id: 21
+  name: "Kiriwelkele"
+-
+  id: 1783
+  area_id: 21
+  name: "Kolawenigama"
+-
+  id: 1784
+  area_id: 21
+  name: "Kotapola"
+-
+  id: 1785
+  area_id: 21
+  name: "Kottegoda"
+-
+  id: 1786
+  area_id: 21
+  name: "Lankagama"
+-
+  id: 1787
+  area_id: 21
+  name: "Makandura"
+-
+  id: 1788
+  area_id: 21
+  name: "Maliduwa"
+-
+  id: 1789
+  area_id: 21
+  name: "Maramba"
+-
+  id: 1790
+  area_id: 21
+  name: "Matara"
+-
+  id: 1791
+  area_id: 21
+  name: "Mediripitiya"
+-
+  id: 1792
+  area_id: 21
+  name: "Miella"
+-
+  id: 1793
+  area_id: 21
+  name: "Mirissa"
+-
+  id: 1794
+  area_id: 21
+  name: "Moragala Kirillapone"
+-
+  id: 1795
+  area_id: 21
+  name: "Morawaka"
+-
+  id: 1796
+  area_id: 21
+  name: "Mulatiyana Junction"
+-
+  id: 1797
+  area_id: 21
+  name: "Nadugala"
+-
+  id: 1798
+  area_id: 21
+  name: "Naimana"
+-
+  id: 1799
+  area_id: 21
+  name: "Narawelpita"
+-
+  id: 1800
+  area_id: 21
+  name: "Pahala Millawa"
+-
+  id: 1801
+  area_id: 21
+  name: "Palatuwa"
+-
+  id: 1802
+  area_id: 21
+  name: "Paragala"
+-
+  id: 1803
+  area_id: 21
+  name: "Parapamulla"
+-
+  id: 1804
+  area_id: 21
+  name: "Pasgoda"
+-
+  id: 1805
+  area_id: 21
+  name: "Penetiyana"
+-
+  id: 1806
+  area_id: 21
+  name: "Pitabeddara"
+-
+  id: 1807
+  area_id: 21
+  name: "Polhena"
+-
+  id: 1808
+  area_id: 21
+  name: "Pothdeniya"
+-
+  id: 1809
+  area_id: 21
+  name: "Puhulwella"
+-
+  id: 1810
+  area_id: 21
+  name: "Radawela"
+-
+  id: 1811
+  area_id: 21
+  name: "Ransegoda"
+-
+  id: 1812
+  area_id: 21
+  name: "Ratmale"
+-
+  id: 1813
+  area_id: 21
+  name: "Rotumba"
+-
+  id: 1814
+  area_id: 21
+  name: "Siyambalagoda"
+-
+  id: 1815
+  area_id: 21
+  name: "Sultanagoda"
+-
+  id: 1816
+  area_id: 21
+  name: "Telijjawila"
+-
+  id: 1817
+  area_id: 21
+  name: "Thihagoda"
+-
+  id: 1818
+  area_id: 21
+  name: "Urubokka"
+-
+  id: 1819
+  area_id: 21
+  name: "Urugamuwa"
+-
+  id: 1820
+  area_id: 21
+  name: "Urumutta"
+-
+  id: 1821
+  area_id: 21
+  name: "Viharahena"
+-
+  id: 1822
+  area_id: 21
+  name: "Walakanda"
+-
+  id: 1823
+  area_id: 21
+  name: "Walasgala"
+-
+  id: 1824
+  area_id: 21
+  name: "Walpola"
+-
+  id: 1825
+  area_id: 21
+  name: "Waralla"
+-
+  id: 1826
+  area_id: 21
+  name: "Weligama"
+-
+  id: 1827
+  area_id: 21
+  name: "Wilpita"
+-
+  id: 1828
+  area_id: 21
+  name: "Yatiyana"
+-
+  id: 1829
+  area_id: 22
+  name: "Ambalantota"
+-
+  id: 1830
+  area_id: 22
+  name: "Angunakolapelessa"
+-
+  id: 1831
+  area_id: 22
+  name: "Bandagiriya Colony"
+-
+  id: 1832
+  area_id: 22
+  name: "Barawakumbuka"
+-
+  id: 1833
+  area_id: 22
+  name: "Beliatta"
+-
+  id: 1834
+  area_id: 22
+  name: "Beragama"
+-
+  id: 1835
+  area_id: 22
+  name: "Beralihela"
+-
+  id: 1836
+  area_id: 22
+  name: "Bowalagama"
+-
+  id: 1837
+  area_id: 22
+  name: "Bundala"
+-
+  id: 1838
+  area_id: 22
+  name: "Ellagala"
+-
+  id: 1839
+  area_id: 22
+  name: "Gangulandeniya"
+-
+  id: 1840
+  area_id: 22
+  name: "Getamanna"
+-
+  id: 1841
+  area_id: 22
+  name: "Goda Koggalla"
+-
+  id: 1842
+  area_id: 22
+  name: "Gonagamuwa Uduwila"
+-
+  id: 1843
+  area_id: 22
+  name: "Gonnoruwa"
+-
+  id: 1844
+  area_id: 22
+  name: "Hakuruwela"
+-
+  id: 1845
+  area_id: 22
+  name: "Hambantota"
+-
+  id: 1846
+  area_id: 22
+  name: "Horewelagoda"
+-
+  id: 1847
+  area_id: 22
+  name: "Hungama"
+-
+  id: 1848
+  area_id: 22
+  name: "Ihala Beligalla"
+-
+  id: 1849
+  area_id: 22
+  name: "Ittademaliya"
+-
+  id: 1850
+  area_id: 22
+  name: "Julampitiya"
+-
+  id: 1851
+  area_id: 22
+  name: "Kahandamodara"
+-
+  id: 1852
+  area_id: 22
+  name: "Kariyamaditta"
+-
+  id: 1853
+  area_id: 22
+  name: "Katuwana"
+-
+  id: 1854
+  area_id: 22
+  name: "Kawantissapura"
+-
+  id: 1855
+  area_id: 22
+  name: "Kirama"
+-
+  id: 1856
+  area_id: 22
+  name: "Kirinda"
+-
+  id: 1857
+  area_id: 22
+  name: "Lunama"
+-
+  id: 1858
+  area_id: 22
+  name: "Lunugamwehera"
+-
+  id: 1859
+  area_id: 22
+  name: "Magama"
+-
+  id: 1860
+  area_id: 22
+  name: "Mahagalwewa"
+-
+  id: 1861
+  area_id: 22
+  name: "Mamadala"
+-
+  id: 1862
+  area_id: 22
+  name: "Medamulana"
+-
+  id: 1863
+  area_id: 22
+  name: "Middeniya"
+-
+  id: 1864
+  area_id: 22
+  name: "Migahajandur"
+-
+  id: 1865
+  area_id: 22
+  name: "Modarawana"
+-
+  id: 1866
+  area_id: 22
+  name: "Mulkirigala"
+-
+  id: 1867
+  area_id: 22
+  name: "Nakulugamuwa"
+-
+  id: 1868
+  area_id: 22
+  name: "Netolpitiya"
+-
+  id: 1869
+  area_id: 22
+  name: "Nihiluwa"
+-
+  id: 1870
+  area_id: 22
+  name: "Padawkema"
+-
+  id: 1871
+  area_id: 22
+  name: "Pahala Andarawewa"
+-
+  id: 1872
+  area_id: 22
+  name: "Pallekanda"
+-
+  id: 1873
+  area_id: 22
+  name: "Rammalawarapitiya"
+-
+  id: 1874
+  area_id: 22
+  name: "Ranakeliya"
+-
+  id: 1875
+  area_id: 22
+  name: "Ranmuduwewa"
+-
+  id: 1876
+  area_id: 22
+  name: "Ranna"
+-
+  id: 1877
+  area_id: 22
+  name: "Ratmalwala"
+-
+  id: 1878
+  area_id: 22
+  name: "RU/Ridiyagama"
+-
+  id: 1879
+  area_id: 22
+  name: "Sooriyawewa Town"
+-
+  id: 1880
+  area_id: 22
+  name: "Tangalla"
+-
+  id: 1881
+  area_id: 22
+  name: "Tissamaharama"
+-
+  id: 1882
+  area_id: 22
+  name: "Uda Gomadiya"
+-
+  id: 1883
+  area_id: 22
+  name: "Udamattala"
+-
+  id: 1884
+  area_id: 22
+  name: "Uswewa"
+-
+  id: 1885
+  area_id: 22
+  name: "Vitharandeniya"
+-
+  id: 1886
+  area_id: 22
+  name: "Walasmulla"
+-
+  id: 1887
+  area_id: 22
+  name: "Weeraketiya"
+-
+  id: 1888
+  area_id: 22
+  name: "Weerawila"
+-
+  id: 1889
+  area_id: 22
+  name: "Weerawila NewTown"
+-
+  id: 1890
+  area_id: 22
+  name: "Wekandawela"
+-
+  id: 1891
+  area_id: 22
+  name: "Weligatta"
+-
+  id: 1892
+  area_id: 22
+  name: "Yala"
+-
+  id: 1893
+  area_id: 22
+  name: "Yatigala"
+-
+  id: 1894
+  area_id: 23
+  name: "Akkarasiyaya"
+-
+  id: 1895
+  area_id: 23
+  name: "Aluketiyawa"
+-
+  id: 1896
+  area_id: 23
+  name: "Aluttaramma"
+-
+  id: 1897
+  area_id: 23
+  name: "Ambadandegama"
+-
+  id: 1898
+  area_id: 23
+  name: "Ambagahawatta"
+-
+  id: 1899
+  area_id: 23
+  name: "Ambagasdowa"
+-
+  id: 1900
+  area_id: 23
+  name: "Amunumulla"
+-
+  id: 1901
+  area_id: 23
+  name: "Arawa"
+-
+  id: 1902
+  area_id: 23
+  name: "Arawakumbura"
+-
+  id: 1903
+  area_id: 23
+  name: "Arawatta"
+-
+  id: 1904
+  area_id: 23
+  name: "Atakiriya"
+-
+  id: 1905
+  area_id: 23
+  name: "Badulla"
+-
+  id: 1906
+  area_id: 23
+  name: "Baduluoya"
+-
+  id: 1907
+  area_id: 23
+  name: "Ballaketuwa"
+-
+  id: 1908
+  area_id: 23
+  name: "Bambarapana"
+-
+  id: 1909
+  area_id: 23
+  name: "Bandarawela"
+-
+  id: 1910
+  area_id: 23
+  name: "Beramada"
+-
+  id: 1911
+  area_id: 23
+  name: "Bibilegama"
+-
+  id: 1912
+  area_id: 23
+  name: "Bogahakumbura"
+-
+  id: 1913
+  area_id: 23
+  name: "Boralanda"
+-
+  id: 1914
+  area_id: 23
+  name: "Bowela"
+-
+  id: 1915
+  area_id: 23
+  name: "Dambana"
+-
+  id: 1916
+  area_id: 23
+  name: "Demodara"
+-
+  id: 1917
+  area_id: 23
+  name: "Diganatenna"
+-
+  id: 1918
+  area_id: 23
+  name: "Dikkapitiya"
+-
+  id: 1919
+  area_id: 23
+  name: "Dimbulana"
+-
+  id: 1920
+  area_id: 23
+  name: "Divulapelessa"
+-
+  id: 1921
+  area_id: 23
+  name: "Diyatalawa"
+-
+  id: 1922
+  area_id: 23
+  name: "Dulgolla"
+-
+  id: 1923
+  area_id: 23
+  name: "Egodawela"
+-
+  id: 1924
+  area_id: 23
+  name: "Ella"
+-
+  id: 1925
+  area_id: 23
+  name: "Ettampitiya"
+-
+  id: 1926
+  area_id: 23
+  name: "Galauda"
+-
+  id: 1927
+  area_id: 23
+  name: "Galedanda"
+-
+  id: 1928
+  area_id: 23
+  name: "Galporuyaya"
+-
+  id: 1929
+  area_id: 23
+  name: "Gamewela"
+-
+  id: 1930
+  area_id: 23
+  name: "Gawarawela"
+-
+  id: 1931
+  area_id: 23
+  name: "Girandurukotte"
+-
+  id: 1932
+  area_id: 23
+  name: "Godunna"
+-
+  id: 1933
+  area_id: 23
+  name: "Gurutalawa"
+-
+  id: 1934
+  area_id: 23
+  name: "Haldummulla"
+-
+  id: 1935
+  area_id: 23
+  name: "Hali Ela"
+-
+  id: 1936
+  area_id: 23
+  name: "Hangunnawa"
+-
+  id: 1937
+  area_id: 23
+  name: "Haputale"
+-
+  id: 1938
+  area_id: 23
+  name: "Hebarawa"
+-
+  id: 1939
+  area_id: 23
+  name: "Heeloya"
+-
+  id: 1940
+  area_id: 23
+  name: "Helahalpe"
+-
+  id: 1941
+  area_id: 23
+  name: "Helapupula"
+-
+  id: 1942
+  area_id: 23
+  name: "Hewanakumbura"
+-
+  id: 1943
+  area_id: 23
+  name: "Hingurukaduwa"
+-
+  id: 1944
+  area_id: 23
+  name: "Hopton"
+-
+  id: 1945
+  area_id: 23
+  name: "Idalgashinna"
+-
+  id: 1946
+  area_id: 23
+  name: "Jangulla"
+-
+  id: 1947
+  area_id: 23
+  name: "Kahataruppa"
+-
+  id: 1948
+  area_id: 23
+  name: "Kalubululanda"
+-
+  id: 1949
+  area_id: 23
+  name: "Kalugahakandura"
+-
+  id: 1950
+  area_id: 23
+  name: "Kalupahana"
+-
+  id: 1951
+  area_id: 23
+  name: "Kandaketya"
+-
+  id: 1952
+  area_id: 23
+  name: "Kandegedara"
+-
+  id: 1953
+  area_id: 23
+  name: "Kandepuhulpola"
+-
+  id: 1954
+  area_id: 23
+  name: "Kebillawela"
+-
+  id: 1955
+  area_id: 23
+  name: "Kendagolla"
+-
+  id: 1956
+  area_id: 23
+  name: "Keppetipola"
+-
+  id: 1957
+  area_id: 23
+  name: "Keselpotha"
+-
+  id: 1958
+  area_id: 23
+  name: "Ketawatta"
+-
+  id: 1959
+  area_id: 23
+  name: "Kiriwanagama"
+-
+  id: 1960
+  area_id: 23
+  name: "Koslanda"
+-
+  id: 1961
+  area_id: 23
+  name: "Kotamuduna"
+-
+  id: 1962
+  area_id: 23
+  name: "Kuruwitenna"
+-
+  id: 1963
+  area_id: 23
+  name: "Kuttiyagolla"
+-
+  id: 1964
+  area_id: 23
+  name: "Landewela"
+-
+  id: 1965
+  area_id: 23
+  name: "Liyangahawela"
+-
+  id: 1966
+  area_id: 23
+  name: "Lunugala"
+-
+  id: 1967
+  area_id: 23
+  name: "Lunuwatta"
+-
+  id: 1968
+  area_id: 23
+  name: "Madulsima"
+-
+  id: 1969
+  area_id: 23
+  name: "Mahiyanganaya"
+-
+  id: 1970
+  area_id: 23
+  name: "Makulella"
+-
+  id: 1971
+  area_id: 23
+  name: "Malgoda"
+-
+  id: 1972
+  area_id: 23
+  name: "Maliyadda"
+-
+  id: 1973
+  area_id: 23
+  name: "Mapakadawewa"
+-
+  id: 1974
+  area_id: 23
+  name: "Maspanna"
+-
+  id: 1975
+  area_id: 23
+  name: "Maussagolla"
+-
+  id: 1976
+  area_id: 23
+  name: "Medawela Udukinda"
+-
+  id: 1977
+  area_id: 23
+  name: "Medawelagama"
+-
+  id: 1978
+  area_id: 23
+  name: "Meegahakiula"
+-
+  id: 1979
+  area_id: 23
+  name: "Metigahatenna"
+-
+  id: 1980
+  area_id: 23
+  name: "Mirahawatta"
+-
+  id: 1981
+  area_id: 23
+  name: "Miriyabedda"
+-
+  id: 1982
+  area_id: 23
+  name: "Miyanakandura"
+-
+  id: 1983
+  area_id: 23
+  name: "Namunukula"
+-
+  id: 1984
+  area_id: 23
+  name: "Narangala"
+-
+  id: 1985
+  area_id: 23
+  name: "Nelumgama"
+-
+  id: 1986
+  area_id: 23
+  name: "Nikapotha"
+-
+  id: 1987
+  area_id: 23
+  name: "Nugatalawa"
+-
+  id: 1988
+  area_id: 23
+  name: "Ohiya"
+-
+  id: 1989
+  area_id: 23
+  name: "Pahalarathkinda"
+-
+  id: 1990
+  area_id: 23
+  name: "Pallekiruwa"
+-
+  id: 1991
+  area_id: 23
+  name: "Passara"
+-
+  id: 1992
+  area_id: 23
+  name: "Pathanewatta"
+-
+  id: 1993
+  area_id: 23
+  name: "Pattiyagedara"
+-
+  id: 1994
+  area_id: 23
+  name: "Pelagahatenna"
+-
+  id: 1995
+  area_id: 23
+  name: "Perawella"
+-
+  id: 1996
+  area_id: 23
+  name: "Pitamaruwa"
+-
+  id: 1997
+  area_id: 23
+  name: "Pitapola"
+-
+  id: 1998
+  area_id: 23
+  name: "Puhulpola"
+-
+  id: 1999
+  area_id: 23
+  name: "Ratkarawwa"
+-
+  id: 2000
+  area_id: 23
+  name: "Ridimaliyadda"
+-
+  id: 2001
+  area_id: 23
+  name: "Rilpola"
+-
+  id: 2002
+  area_id: 23
+  name: "Silmiyapura"
+-
+  id: 2003
+  area_id: 23
+  name: "Sirimalgoda"
+-
+  id: 2004
+  area_id: 23
+  name: "Sorabora Colony"
+-
+  id: 2005
+  area_id: 23
+  name: "Soragune"
+-
+  id: 2006
+  area_id: 23
+  name: "Soranatota"
+-
+  id: 2007
+  area_id: 23
+  name: "Spring Valley"
+-
+  id: 2008
+  area_id: 23
+  name: "Taldena"
+-
+  id: 2009
+  area_id: 23
+  name: "Tennepanguwa"
+-
+  id: 2010
+  area_id: 23
+  name: "Timbirigaspitiya"
+-
+  id: 2011
+  area_id: 23
+  name: "Uduhawara"
+-
+  id: 2012
+  area_id: 23
+  name: "Uraniya"
+-
+  id: 2013
+  area_id: 23
+  name: "Uva Deegalla"
+-
+  id: 2014
+  area_id: 23
+  name: "Uva Karandagolla"
+-
+  id: 2015
+  area_id: 23
+  name: "Uva Mawelagama"
+-
+  id: 2016
+  area_id: 23
+  name: "Uva Tenna"
+-
+  id: 2017
+  area_id: 23
+  name: "Uva Tissapura"
+-
+  id: 2018
+  area_id: 23
+  name: "Uva Uduwara"
+-
+  id: 2019
+  area_id: 23
+  name: "Uvaparanagama"
+-
+  id: 2020
+  area_id: 23
+  name: "Welimada"
+-
+  id: 2021
+  area_id: 23
+  name: "Wewatta"
+-
+  id: 2022
+  area_id: 23
+  name: "Wineethagama"
+-
+  id: 2023
+  area_id: 23
+  name: "Yalagamuwa"
+-
+  id: 2024
+  area_id: 23
+  name: "Yalwela"
+-
+  id: 2025
+  area_id: 24
+  name: "Angunakolawewa"
+-
+  id: 2026
+  area_id: 24
+  name: "Ayiwela"
+-
+  id: 2027
+  area_id: 24
+  name: "Badalkumbura"
+-
+  id: 2028
+  area_id: 24
+  name: "Baduluwela"
+-
+  id: 2029
+  area_id: 24
+  name: "Bakinigahawela"
+-
+  id: 2030
+  area_id: 24
+  name: "Balaharuwa"
+-
+  id: 2031
+  area_id: 24
+  name: "Bibile"
+-
+  id: 2032
+  area_id: 24
+  name: "Boragas"
+-
+  id: 2033
+  area_id: 24
+  name: "Buddama"
+-
+  id: 2034
+  area_id: 24
+  name: "Buttala"
+-
+  id: 2035
+  area_id: 24
+  name: "Dambagalla"
+-
+  id: 2036
+  area_id: 24
+  name: "Diyakobala"
+-
+  id: 2037
+  area_id: 24
+  name: "Dombagahawela"
+-
+  id: 2038
+  area_id: 24
+  name: "Ekamutugama"
+-
+  id: 2039
+  area_id: 24
+  name: "Ekiriyankumbura"
+-
+  id: 2040
+  area_id: 24
+  name: "Ethimalewewa"
+-
+  id: 2041
+  area_id: 24
+  name: "Ettiliwewa"
+-
+  id: 2042
+  area_id: 24
+  name: "Galabedda"
+-
+  id: 2043
+  area_id: 24
+  name: "Hambegamuwa"
+-
+  id: 2044
+  area_id: 24
+  name: "Hulandawa"
+-
+  id: 2045
+  area_id: 24
+  name: "Inginiyagala"
+-
+  id: 2046
+  area_id: 24
+  name: "Kandaudapanguwa"
+-
+  id: 2047
+  area_id: 24
+  name: "Kandawinna"
+-
+  id: 2048
+  area_id: 24
+  name: "Kataragama"
+-
+  id: 2049
+  area_id: 24
+  name: "Kiriibbanwewa"
+-
+  id: 2050
+  area_id: 24
+  name: "Kotagama"
+-
+  id: 2051
+  area_id: 24
+  name: "Kotawehera Mankada"
+-
+  id: 2052
+  area_id: 24
+  name: "Kotiyagala"
+-
+  id: 2053
+  area_id: 24
+  name: "Kumbukkana"
+-
+  id: 2054
+  area_id: 24
+  name: "Mahagama Colony"
+-
+  id: 2055
+  area_id: 24
+  name: "Marawa"
+-
+  id: 2056
+  area_id: 24
+  name: "Mariarawa"
+-
+  id: 2057
+  area_id: 24
+  name: "Medagana"
+-
+  id: 2058
+  area_id: 24
+  name: "Monaragala"
+-
+  id: 2059
+  area_id: 24
+  name: "Moretuwegama"
+-
+  id: 2060
+  area_id: 24
+  name: "Nakkala"
+-
+  id: 2061
+  area_id: 24
+  name: "Nannapurawa"
+-
+  id: 2062
+  area_id: 24
+  name: "Nelliyadda"
+-
+  id: 2063
+  area_id: 24
+  name: "Nilgala"
+-
+  id: 2064
+  area_id: 24
+  name: "Obbegoda"
+-
+  id: 2065
+  area_id: 24
+  name: "Okkampitiya"
+-
+  id: 2066
+  area_id: 24
+  name: "Pangura"
+-
+  id: 2067
+  area_id: 24
+  name: "Pitakumbura"
+-
+  id: 2068
+  area_id: 24
+  name: "Randeniya"
+-
+  id: 2069
+  area_id: 24
+  name: "Ruwalwela"
+-
+  id: 2070
+  area_id: 24
+  name: "Sella Kataragama"
+-
+  id: 2071
+  area_id: 24
+  name: "Sewanagala"
+-
+  id: 2072
+  area_id: 24
+  name: "Siyambalagune"
+-
+  id: 2073
+  area_id: 24
+  name: "Siyambalanduwa"
+-
+  id: 2074
+  area_id: 24
+  name: "Suriara"
+-
+  id: 2075
+  area_id: 24
+  name: "Tanamalwila"
+-
+  id: 2076
+  area_id: 24
+  name: "Uva Gangodagama"
+-
+  id: 2077
+  area_id: 24
+  name: "Uva Kudaoya"
+-
+  id: 2078
+  area_id: 24
+  name: "Uva Pelwatta"
+-
+  id: 2079
+  area_id: 24
+  name: "Warunagama"
+-
+  id: 2080
+  area_id: 24
+  name: "Wedikumbura"
+-
+  id: 2081
+  area_id: 24
+  name: "Weherayaya Handapanagala"
+-
+  id: 2082
+  area_id: 24
+  name: "Wellawaya"
+-
+  id: 2083
+  area_id: 24
+  name: "Wilaoya"
+...

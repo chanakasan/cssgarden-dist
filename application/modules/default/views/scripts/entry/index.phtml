@@ -9,7 +9,7 @@ $this->headTitle($this->title);
 <tr>
     <th>DWP No.</th>
     <th>Date</th>
-    <th>Customer Name</th>
+    <th>Category</th>
     <th>Customer Info</th>
     <th>Visiting Time</th>
     <th>Area</th>
@@ -23,7 +23,7 @@ $this->headTitle($this->title);
 <tr>
     <td><?php echo $this->escape($entry->dwpno);?></td>
     <td><?php echo $this->escape($entry->date);?></td>
-    <td><?php echo $this->escape($entry->customer);?></td>
+    <td><?php echo $this->escape($entry->category);?></td>
     <td><?php echo $this->escape($entry->customerInfo);?></td>
     <td><?php echo $this->escape($entry->visitTime);?></td>
     <td><?php echo $this->escape($entry->area);?></td>

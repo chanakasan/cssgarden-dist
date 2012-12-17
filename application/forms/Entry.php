@@ -8,17 +8,15 @@ class Form_Entry extends Zend_Form
         $this->setName("entry-form")
              ->setMethod("post");
 
-        $customer = new Zend_Form_Element_Select("customer");
-        $customer->class = "text";
-        $customer->setLabel("Customer:")
-            ->setValue("doctor")
+        $category = new Zend_Form_Element_Select("category");
+        $category->class = "text";
+        $category->setLabel("Customer:") 
             ->setRequired();
-        
-        $customer->addMultiOptions(array(
-            "doctor" => "doctor",
-            "pharmacy" => "pharmacy"
-            
-        ));
+
+        $category->addMultiOptions(array(
+                    0 => "Select"
+                ));
+                
       
         $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
         $customerInfo->class = "text";
@@ -99,7 +97,7 @@ class Form_Entry extends Zend_Form
         ));
 
         $elements = array(
-            $customer,
+            $category,
             $customerInfo,
             $visitTime,
             $area,

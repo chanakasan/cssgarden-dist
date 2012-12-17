@@ -60,6 +60,7 @@ class UserTest
     public function testCanAddEntry()
     {
         $this->_addUser();
+        $this->_addCategory("Doctor");
         $em = $this->doctrineContainer->getEntityManager();
         $resultAfter = $em->createQuery('select u from App\Entity\User u')->execute();
         //var_dump($resultAfter);exit;
@@ -67,9 +68,12 @@ class UserTest
         $users = $em->createQuery('select u from App\Entity\User u')->execute();
         $loggedInUser = $users[0];
 
+        $result = $em->createQuery('select u from App\Entity\Category u')->execute();
+        $cat = $result[0];
+
         $entry = new Entry();
         $entry->dwpno = \date('Ymd').$loggedInUser->id+100;
-        $entry->customer = "doctor";
+        $entry->category = $cat;
         $entry->customerInfo = "Mr.Sunil";
         $entry->visitTime = "10 am";
         $entry->area = "Colombo";
@@ -80,7 +84,7 @@ class UserTest
         $em->persist($entry);
         $em->flush();
         $entries = $em->createQuery('select entry from App\Entity\Entry entry')->execute();
-            var_dump($entries);exit;
+        var_dump($entries);exit;
     }
 
     protected function _addUser()
@@ -98,5 +102,16 @@ class UserTest
         $em->persist($u);
         $em->flush();
     }
+
+    protected function _addCategory($name)
+    {
+        $u = new Category();
+        $u->name = $name;        
+
+        $em = $this->doctrineContainer->getEntityManager();
+        $em->persist($u);
+        $em->flush();
+    }
+
 }
 

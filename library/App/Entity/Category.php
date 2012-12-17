@@ -20,7 +20,7 @@ class Category
     protected $id;
 
     /**
-     * @Column(type="string",length=32)
+     * @Column(type="string", length=32, unique=true)
      * @var string
      */
     protected $name;
@@ -33,19 +33,23 @@ class Category
 
     /**
      *
-     * @var string
-     * @Column(type="string", length=32)
-     */
-    protected $created;
-
-    /**
-     *
      * @var boolean
      * @Column(type="boolean")
      */
     protected $isactive;
+
+    /**
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Entry", mappedBy="category", cascade={"persist"})
+     *
+     */
+    protected $entries;
     
-    
+    /**
+     *
+     * @param array $options
+     */
     public function  __construct(array $options = null)
     {
         $this->created = \date("Y-m-d H:i:s");
@@ -102,25 +106,14 @@ class Category
         return $this;
     }
 
-    public function getCreated()
+    public function getDescrip()
     {
-        return $this->created;
+        return $this->descrip;
     }
 
-    public function setCreated($date)
+    public function setDescrip($info)
     {
-        $this->created = $date;
-        return $this;
-    }
-
-    public function getDesc()
-    {
-        return $this->desc;
-    }
-
-    public function setDesc($info)
-    {
-        $this->desc = $info;
+        $this->descrip = $info;
         return $this;
     }
 
