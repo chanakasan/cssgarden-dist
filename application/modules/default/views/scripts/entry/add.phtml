@@ -29,19 +29,28 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
     $(document).ready(function(){
         //alert("hi");
 	$('#area').change(function(){
-		var area_id = $('#area').val();
+		var id = $('#area').val();
 		$('#loading-img').fadeIn("slow");
 		$('#city').css("display", "none");
 
 		$.ajax({
 			type:'POST',
-			url: '/async/loadcity',
-			data: {sel_area: area_id},
-                        async:false,
+			dataType: 'json',
+                        url: '/async/loadcity',
+			async:false,
+                        data: {sel_area: id},
                         cache: false,
-			success: function(data){
+
+			success: function(result){
 				$('#loading-img').css("display", "none");
 				$('#city').fadeIn("slow");
+
+                                var options = $("#city");
+                                options.empty();
+                                $.each(result, function() {
+                                    options.append($("<option />").val(this.id).text(this.name));
+                                });
+
 			}
 		});
 	});
