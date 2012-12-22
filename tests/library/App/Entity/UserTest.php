@@ -61,28 +61,27 @@ class UserTest
     {
         $this->_addUser();
         $this->_addCategory("Doctor");
-        $em = $this->doctrineContainer->getEntityManager();
-        $resultAfter = $em->createQuery('select u from App\Entity\User u')->execute();
-        //var_dump($resultAfter);exit;
         
+        $em = $this->doctrineContainer->getEntityManager();
         $users = $em->createQuery('select u from App\Entity\User u')->execute();
-        $loggedInUser = $users[0];
-
+        $user = $users[0];
         $result = $em->createQuery('select u from App\Entity\Category u')->execute();
         $cat = $result[0];
 
         $entry = new Entry();
-        $entry->dwpno = \date('Ymd').$loggedInUser->id+100;
-        $entry->category = $cat;
+        $entry->dwpno = \date('Ymd').$user->id+100;
         $entry->customerInfo = "Mr.Sunil";
         $entry->visitTime = "10 am";
         $entry->area = "Colombo";
         $entry->city = "Colombo 10";
         $entry->activity = "meeting";
-        $entry->user = $users[0];
-
-        $em->persist($entry);
+        
+        $user->entries = array($entry);
+        $cat->entries = array($entry);
+        $em->persist($user);
+        $em->persist($cat);
         $em->flush();
+        
         $entries = $em->createQuery('select entry from App\Entity\Entry entry')->execute();
         var_dump($entries);exit;
     }

@@ -78,7 +78,7 @@ class Entry
     /**
      *
      * @var User
-     * @ManyToOne(targetEntity="User", inversedBy="entry", cascade={"persist"})
+     * @ManyToOne(targetEntity="User")
      * @JoinColumns({
      *  @JoinColumn(name="user_id", referencedColumnName="id")
      * })
@@ -88,7 +88,7 @@ class Entry
     /**
      *
      * @var User
-     * @ManyToOne(targetEntity="Category", inversedBy="entry", cascade={"persist"})
+     * @ManyToOne(targetEntity="Category")
      * @JoinColumns({
      *  @JoinColumn(name="cat_id", referencedColumnName="id")
      * })

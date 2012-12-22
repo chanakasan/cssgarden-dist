@@ -20,7 +20,7 @@ class App_Controller_Plugin_LayoutPicker
             elseif('entry' == $controllerName && 'index' != $actionName)
                 Zend_Layout::getMvcInstance()->setLayout('form');            
             else
-                Zend_Layout::getMvcInstance()->setLayout($request->getModuleName());
+                Zend_Layout::getMvcInstance()->setLayout('template');
 
         }
         else {
@@ -31,7 +31,7 @@ class App_Controller_Plugin_LayoutPicker
             elseif('cat' == $controllerName && 'index' != $actionName)
                 Zend_Layout::getMvcInstance()->setLayout('form');
             else
-                Zend_Layout::getMvcInstance()->setLayout($request->getModuleName());
+                Zend_Layout::getMvcInstance()->setLayout("admin-template");
         }
 
     }

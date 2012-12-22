@@ -12,11 +12,10 @@ class Form_Entry extends Zend_Form
         $category->class = "text";
         $category->setLabel("Customer:") 
             ->setRequired();
-
         $category->addMultiOptions(array(
                     0 => "Select"
                 ));
-                
+
       
         $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
         $customerInfo->class = "text";
@@ -35,28 +34,22 @@ class Form_Entry extends Zend_Form
 
 
         $area = new Zend_Form_Element_Select("area");
-        $area->addMultiOptions(array(
-            "Colombo" => "Colombo",
-            "Gampaha" => "Gampaha",
-            "Kaluthara" => "Kaluthara",
-        ));
-        $area->setValue("colombo");
         $area->class = "text";
         $area->setLabel("Area:")
                 ->setRequired();
-
+        $area->addMultiOptions(array(
+             0 => "Select"
+        ));
+        $area->setValue(0);
 
         $city = new Zend_Form_Element_Select("city");
-        $city->addMultiOptions(array(
-            "Colombo 10" => "Colombo 10",
-            "Colombo 11" => "Colombo 11",
-            "Colombo 12" => "Colombo 12",
-        ));
-        $city->setValue("colombo 10");
         $city->class = "text";
         $city->setLabel("City:")
                 ->setRequired();
-
+        $city->addMultiOptions(array(
+             0 => "Select"
+        ));
+        $city->setValue(0);
         
         $activity = new Zend_Form_Element_Textarea("activity");
         $activity->class = "text";
@@ -68,15 +61,16 @@ class Form_Entry extends Zend_Form
 
 
         $result = new Zend_Form_Element_Select("result");
+        $result->class = "text";
+        $result->setLabel("Result:")
+                ->setRequired(false);
         $result->addMultiOptions(array(
             "incomplete" => "incomplete",
             "success" => "success",
             "fail" => "fail",
         ));
         $result->setValue("incomplete");
-        $result->class = "text";
-        $result->setLabel("Result:")
-                ->setRequired(false);
+        
 
         $remarks = new Zend_Form_Element_Textarea("remarks");
         $remarks->class = "text";

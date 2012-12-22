@@ -1,8 +1,6 @@
 <?php
-
-
 /**
- * Description of pkgService
+ * Description
  *
  * @author Chanaka
  */
@@ -13,6 +11,7 @@ class App_Controller_Plugin_Auth
     {
         $moduleName = $request->getModuleName();
         $controllerName = $request->getControllerName();
+        $actionName = $request->getActionName();
         
         if (('default' == $moduleName) && ('index' != $controllerName))
         {

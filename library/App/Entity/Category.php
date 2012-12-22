@@ -51,10 +51,10 @@ class Category
      * @param array $options
      */
     public function  __construct(array $options = null)
-    {
-        $this->created = \date("Y-m-d H:i:s");
+    {        
         $this->descrip = "---";
         $this->isactive = true;
+        $this->entries = new \Doctrine\Common\Collections\ArrayCollection();
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -136,6 +136,17 @@ class Category
     public function setIsactive($state)
     {
         $this->isactive = $state;
+        return $this;
+    }
+
+    public function getEntries()
+    {
+        return $this->entries;
+    }
+
+    public function setEntries($data)
+    {
+        $this->entries = $data;
         return $this;
     }
 

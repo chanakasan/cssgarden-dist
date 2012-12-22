@@ -14,9 +14,38 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
 <!-- Content -->
 <div id="content" class="colM">
     <div id="content-main">
+       <img style="display:none;" id="loading-img" src="/images/loading.gif" />
        <?php echo $this->form; ?>
         <br/><div><a href="/entry">Cancel</a></div>
     </div>
     <br class="clear" />
 </div>
 <!-- END Content -->
+
+<!-- JavaScript -->
+
+<script type="text/javascript" src="/js/jquery/1.8.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        //alert("hi");
+	$('#area').change(function(){
+		var area_id = $('#area').val();
+		$('#loading-img').fadeIn("slow");
+		$('#city').css("display", "none");
+
+		$.ajax({
+			type:'POST',
+			url: '/async/loadcity',
+			data: {sel_area: area_id},
+                        async:false,
+                        cache: false,
+			success: function(data){
+				$('#loading-img').css("display", "none");
+				$('#city').fadeIn("slow");
+			}
+		});
+	});
+    });
+</script>
+
+<!-- -->

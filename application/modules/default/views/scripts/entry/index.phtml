@@ -2,7 +2,9 @@
 $this->title = "Customer Entries";
 $this->headTitle($this->title);
 ?>
-<h2>Today's Customer Entries</h2>
+<p><?php echo date('d-m-Y'); ?></p>
+<h3>Today's Entries</h3>
+<br/>
 <p><a href="<?php echo $this->url(array('controller'=>'entry',
         'action'=>'add'));?>">Add new entry</a></p>
 <table style="padding: 2px;" border="2px solid red" >

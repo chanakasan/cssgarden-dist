@@ -40,6 +40,7 @@ class Area
     public function  __construct(array $options = null)
     {
         $this->isactive = true;        
+        $this->cities = new \Doctrine\Common\Collections\ArrayCollection();
 
         if(is_array($options)) {
             $this->setOptions($oprions);

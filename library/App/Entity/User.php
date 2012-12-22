@@ -73,7 +73,7 @@ class User
      *
      * @param \Doctrine\Common\Collections\Collection $property
      *
-     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist"})
+     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist","remove"})
      */
     protected $entries;
 
@@ -131,6 +131,12 @@ class User
     public function getEntries()
     {
         return $this->entries;
+    }
+
+    public function setEntries($data)
+    {
+        $this->entries = $data;
+        return $this;
     }
 
     public function setId($id)

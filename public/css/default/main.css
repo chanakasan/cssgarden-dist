@@ -27,8 +27,8 @@ div#welcome
     margin:0 2em;
     color: #91BE3F;
     background: url(http://framework.zend.com/images/bkg_header.jpg);
-    height: 550px;
-    width:800px;
+    height: 300px;
+    width: 600px;
     border: 2px solid #444444;
     overflow: hidden;
     text-align: center;

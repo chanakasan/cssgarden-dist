@@ -45,6 +45,13 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
     protected $_credential = null;
 
     /**
+     * $_credentialTreatment - Treatment applied to the credential, such as MD5() or PASSWORD()
+     *
+     * @var string
+     */
+    protected $_credentialTreatment = null;
+
+    /**
      * $_resultRow - Results of database authentication query
      *
      * @var array
@@ -159,6 +166,29 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
         return $this;
     }
 
+/**
+     * setCredentialTreatment() - allows the developer to pass a parameterized string that is
+     * used to transform or treat the input credential data.
+     *
+     * In many cases, passwords and other sensitive data are encrypted, hashed, encoded,
+     * obscured, or otherwise treated through some function or algorithm. By specifying a
+     * parameterized treatment string with this method, a developer may apply arbitrary SQL
+     * upon input credential data.
+     *
+     * Examples:
+     *
+     *  'PASSWORD(?)'
+     *  'MD5(?)'
+     *
+     * @param  string $treatment
+     * @return Zend_Auth_Adapter_DbTable Provides a fluent interface
+     */
+    public function setCredentialTreatment($treatment)
+    {
+        $this->_credentialTreatment = $treatment;
+        return $this;
+    }
+    
     /**
 * authenticate() - defined by Zend_Auth_Adapter_Interface. This method is called to
 * attempt an authentication. Previous to this call, this adapter would have already

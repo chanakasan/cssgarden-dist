@@ -15,105 +15,65 @@ class EntryController extends Zend_Controller_Action
         $em = $this->_doctrineContainer->getEntityManager();
 
         $entries = $em->createQuery("SELECT u FROM App\Entity\Entry u")->execute();
+        //var_dump($entries);exit;
         $this->view->entries = $entries;                
     }
 
     public function addAction()
     {
-        $timeLimit ="20:00:00";
-        if (time() < strtotime($timeLimit))
-        {
-            $form = new Form_Entry();
-            $form->submit->setLabel("Add");
+            $temp_form = new Form_Entry();
+            $temp_form->submit->setLabel("Add");
+            $timelimit = "19:00:00";
+            $form = $this->_fixForm($temp_form, $timelimit);           
 
-            $result = $form->getElement('result');
-            $result->setAttrib("disabled", true);
-
-            $remarks = $form->getElement('remarks');
-            $remarks->setAttrib("disabled", true);
-
-            $category = $form->getElement('category');
-
-            //retrieve sustomer categories
-            $em = $this->_doctrineContainer->getEntityManager();
-            $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Category u")->execute();
-            //var_dump($result);exit;
-
-            if(!empty($result))
+            // POST for submitting form
+            if($this->getRequest()->isPost())
             {
-                foreach($result as $cat)
+                $formData = $this->getRequest()->getPost();
+                $user = Model_Users::getLoggedInUser(); // current user object
+                $cat_id = $formData["category"]; // selected category
+                //var_dump($cat_id);exit;
+                //var_dump($formData);exit;
+
+                if($form->isValid($formData))
                 {
-                    $category->addMultiOptions(array(
-                        $cat['id'] => $cat['name']
-                    ));
+                    $entry = new \App\Entity\Entry();
+                    $entry->dwpno = date("dmY");
+                    $entry->customerInfo = $formData["customerInfo"];
+                    $entry->visitTime = $formData["visitTime"];
+                    $entry->area = $formData["area"];
+                    $entry->city = $formData["city"];
+                    $entry->activity = $formData["activity"];
+
+                    // retrieve selected category object
+                    $em = $this->_doctrineContainer->getEntityManager();
+                    $query = $em->createQuery("SELECT u FROM App\Entity\Category u WHERE u.id = :id");
+                    $query->setParameter("id", $cat_id);
+                    $result = $query->getResult();
+                    if(!empty($result))
+                        $cat = $result[0];
+                    //var_dump($result[0);exit;
+                                        
+                    
+                    $user->entries = array($entry);
+                    $cat->entries = array($entry);
+
+                    $em = $this->_doctrineContainer->getEntityManager();
+                    $em->persist($user);
+                    $em->persist($cat);
+                    $em->flush();                    
+
+                    $this->_helper->redirector("index");
                 }
-            }
-            $this->view->form = $form;
-        }
-
-        if($this->getRequest()->isPost())
-        {
-            $formData = $this->getRequest()->getPost();
-            $user = Model_Users::getLoggedInUser();
-            
-
-            if($form->isValid($formData))
-            {
-                $entry = new \App\Entity\Entry();
-                $entry->dwpno = date("dmY");
-                $entry->category = $formData["category"];
-                $entry->customerInfo = $formData["customerInfo"];
-                $entry->visitTime = $formData["visitTime"];
-                $entry->area = $formData["area"];
-                $entry->city = $formData["city"];
-                $entry->activity = $formData["activity"];
-                $entry->user = $user;
-
-                $em->persist($entry);
-                $em->flush();
-
-                $this->_helper->redirector("index");
-            }
-            else $form->populate($formData);
-        }
+                else $form->populate($formData);
+            }            
     }
 
 
     public function updateAction()
     {
         $form = new Form_Entry();
-        $form->submit->setLabel('Save');
-        
-        //$result = $form->getElement('result');
-        //$result->setAttrib("disabled", true);
-
-        //$remarks = $form->getElement('remarks');
-        //$remarks->setAttrib("disabled", true);
-
-        $timeLimit ="16:00:00";
-        if (time() >= strtotime($timeLimit))
-        {
-            
-            //$result->setAttrib("disabled", false);
-            //$remarks->setAttrib("disabled", false);
-
-            $elements = array(
-                $form->getElement('customer'),
-                $form->getElement('customerInfo'),
-                $form->getElement('visitTime'),
-                $form->getElement('area'),
-                $form->getElement('city'),
-                $form->getElement('activity'),
-                );
-
-            foreach($elements as $element)
-            {
-                $element->setAttrib("disabled", true)
-                        ->setRequired(false);
-            }
-        }
-
-        $this->view->form = $form;
+        $form->submit->setLabel('Save');               
 
         if($this->getRequest()->isPost() && $this->_getParam('id'))
         {
@@ -155,6 +115,7 @@ class EntryController extends Zend_Controller_Action
                 $this->_helper->redirector('index');
             }
             else $form->populate($formData);
+            
         }
         else {
             $id = $this->getRequest()->getParam('id',0);
@@ -168,6 +129,7 @@ class EntryController extends Zend_Controller_Action
                 $form->populate($result[0]->toArray());
             }
         }
+        $this->view->form = $form;
     }
 
     public function deleteAction()
@@ -186,4 +148,92 @@ class EntryController extends Zend_Controller_Action
         }
     }
 
+    private function _fixForm($temp_form, $timelimit)
+    {
+        if(time() >= strtotime($timelimit)) // update result mode
+        {
+            $form = $this->_initUpdateForm($temp_form);
+        }
+        else // add entry mode
+        {
+            $form = $this->_initEntryForm($temp_form);
+
+        }
+        return $form;
+    }
+
+    private function _initEntryForm($form)
+    {
+        $result = $form->getElement('result');
+        $result->setAttrib("disabled", true);
+
+        $remarks = $form->getElement('remarks');
+        $remarks->setAttrib("disabled", true);
+
+        // retrieve customer categories list
+        $em = $this->_doctrineContainer->getEntityManager();
+        $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Category u")->getResult();
+        // populate form
+        $catElement = $form->getElement('category');
+        if(!empty($result))
+        {
+            foreach($result as $cat)
+            {
+                $catElement->addMultiOptions(array(
+                    $cat['id'] => $cat['name']
+                ));
+            }
+        }
+
+        // retrieve areas list
+        $result = array(
+            array("id" => "1", "name" => "Colombo"),
+            array("id" => "2", "name" => "Gampaha")
+
+        );
+        // populate form
+        $areaElement = $form->getElement('area');
+        if(!empty($result))
+        {
+            foreach($result as $area)
+            {
+                $areaElement->addMultiOptions(array(
+                    $area['id'] => $area['name']
+                ));
+            }
+        }
+        $this->view->form = $form;
+        return $form;
+    }
+
+    private function _initUpdateForm($form)
+    {
+        $result = $form->getElement('result');
+        $remarks = $form->getElement('remarks');
+
+        $result->setAttrib("disabled", false);
+        $remarks->setAttrib("disabled", false);
+
+        $elements = array(
+            $form->getElement('category'),
+            $form->getElement('customerInfo'),
+            $form->getElement('visitTime'),
+            $form->getElement('area'),
+            $form->getElement('city'),
+            $form->getElement('activity'),
+        );
+
+        foreach($elements as $element)
+        {
+            $element->setAttrib("disabled", true)
+                    ->setRequired(false);
+        }
+
+        return $form;
+    }
+
+ 
+    
+
 }
+

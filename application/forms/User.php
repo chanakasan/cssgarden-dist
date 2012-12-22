@@ -72,8 +72,7 @@ class Form_User extends Zend_Form
         $mobile = new Zend_Form_Element_Text('mobile');
         $mobile->setLabel('Mobile No.:')
                  ->setRequired()
-                 ->setAttrib('size', '30')                 
-                 ->addValidator(new Zend_Validator_Int())
+                 ->setAttrib('size', '30')                                  
                  ->addValidator('StringLength', false, array(9, 10));
         $mobile->class = "text";
 
