@@ -13,11 +13,15 @@ class AsyncController extends Zend_Controller_Action
     */
     private $_session;
 
+    protected $_doctrineContainer;
+
 
     public function init()
     {
         $this->_helper->viewRenderer->setNoRender();
         $this->_helper->getHelper('layout')->disableLayout();
+
+        $this->_doctrineContainer = Zend_Registry::get("doctrine");
     }
 
     public function preDisptch()
@@ -54,7 +58,7 @@ class AsyncController extends Zend_Controller_Action
             {
                 // retrieve cities list
                 $em = $this->_doctrineContainer->getEntityManager();
-                $query = $em->createQuery("SELECT u FROM App\Entity\City u WHERE u.area_id = :id");
+                $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
                 $query->setParameter("id", $id);
                 $result = $query->getResult();
                 // send result to browser

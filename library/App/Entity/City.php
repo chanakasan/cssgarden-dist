@@ -19,7 +19,7 @@ class City
 
      /**
       * @var string
-      * @Column(type="string", length=32, unique=true)
+      * @Column(type="string", length=32)
       */
     protected $name;
 
@@ -106,6 +106,17 @@ class City
     public function setIsactive($isactive)
     {
         $this->isactive = $isactive;
+        return $this;
+    }
+    
+    public function getArea()
+    {
+        return $this->area;
+    }
+
+    public function setArea($data)
+    {
+        $this->area = $data;
         return $this;
     }
 

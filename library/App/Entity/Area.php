@@ -108,6 +108,16 @@ class Area
         return $this;
     }
 
+    public function getCities()
+    {
+        return $this->cities;
+    }
+
+    public function setCities($data)
+    {
+        $this->cities = $data;
+        return $this;
+    }
 
 
 }

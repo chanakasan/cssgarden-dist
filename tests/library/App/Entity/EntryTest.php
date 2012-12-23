@@ -17,9 +17,22 @@ class EntryTest
     protected $_mobile = 0777123456;
     protected $_isadmin = true;
 
-    public function testCanCreateEntry()
+        public function xtestCanCreateEntry()
     {
         $this->assertInstanceOf('App\Entity\Entry', new Entry());
+    }
+
+    public function testGetCityList()
+    {
+        $id = 1;
+        // retrieve cities list
+        $em = $this->doctrineContainer->getEntityManager();
+        $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
+        $query->setParameter("id", $id);
+        $area = $query->getResult();
+        //var_dump($area);exit;
+        echo PHP_EOL.count($area[0]->cities)." cities in ".$area[0]->name;
+
     }
 
     protected function _addUser()
