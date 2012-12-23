@@ -2,12 +2,17 @@
 
 class EntryController extends Zend_Controller_Action
 {
-    protected $_doctrineContainer;  
+
+    protected $_doctrineContainer;
+    protected $_timelimit;
+
+    
     
     public function init()
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
+       $this->_timelimit = "19:00:00";
     }
 
     public function indexAction()
@@ -22,9 +27,8 @@ class EntryController extends Zend_Controller_Action
     public function addAction()
     {
             $temp_form = new Form_Entry();
-            $temp_form->submit->setLabel("Add");
-            $timelimit = "19:00:00";
-            $form = $this->_fixForm($temp_form, $timelimit);           
+            $temp_form->submit->setLabel("Add");            
+            $form = $this->_fixForm($temp_form, $this->_timelimit);
 
             // POST for submitting form
             if($this->getRequest()->isPost())
@@ -72,8 +76,10 @@ class EntryController extends Zend_Controller_Action
 
     public function updateAction()
     {
-        $form = new Form_Entry();
-        $form->submit->setLabel('Save');               
+        $temp_form = new Form_Entry();
+        $temp_form->submit->setLabel('Save');
+
+        $form->_fixForm($temp_form, $this->_time_limit);
 
         if($this->getRequest()->isPost() && $this->_getParam('id'))
         {
@@ -86,33 +92,8 @@ class EntryController extends Zend_Controller_Action
 
             if($form->isValid($formData))
             {
-                $em = $this->_doctrineContainer->getEntityManager();
-                $queryString = "UPDATE App\Entity\Entry u
-                                    SET u.customer = :customer,
-                                        u.customerInfo = :customerInfo,
-                                        u.visitTime = :visitTime,
-                                        u.area = :area,
-                                        u.city = :city,                                        
-                                        u.activity = :activity,
-                                        u.result = :result,
-                                        u.remarks = :remarks
-                                    WHERE u.id = :id";
-
-                $query = $em->createQuery($queryString);
-                $query->setParameters( array(
-                        'id' => $this->_getParam('id'),
-                        'customer' => $formData['customer'],
-                        'customerInfo' => $formData['customerInfo'],
-                        'visitTime' => $formData['visitTime'],
-                        'area' => $formData['area'],
-                        'city' => $formData['city'],
-                        'activity' => $formData['activity'],
-                        'result' => $formData['result'],
-                        'remarks' => $formData['remarks'],
-                    ));
-                $query->getResult();
-
-                $this->_helper->redirector('index');
+                $form->update($formData); // update with new data
+                $this->_helper->redirector('index'); // redirect to index
             }
             else $form->populate($formData);
             
@@ -164,56 +145,32 @@ class EntryController extends Zend_Controller_Action
 
     private function _initEntryForm($form)
     {
+        $form->populateCategoryList()
+             ->populateAreaList();
+
+        // disable result list
         $result = $form->getElement('result');
         $result->setAttrib("disabled", true);
 
+        // disable remarks box
         $remarks = $form->getElement('remarks');
         $remarks->setAttrib("disabled", true);
 
-        // retrieve customer categories list
-        $em = $this->_doctrineContainer->getEntityManager();
-        $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Category u")->getResult();
-        // populate form
-        $catElement = $form->getElement('category');
-        if(!empty($result))
-        {
-            foreach($result as $cat)
-            {
-                $catElement->addMultiOptions(array(
-                    $cat['id'] => $cat['name']
-                ));
-            }
-        }
-
-        // retrieve areas list
-        $result = array(
-            array("id" => "1", "name" => "Colombo"),
-            array("id" => "2", "name" => "Gampaha")
-
-        );
-        // populate form
-        $areaElement = $form->getElement('area');
-        if(!empty($result))
-        {
-            foreach($result as $area)
-            {
-                $areaElement->addMultiOptions(array(
-                    $area['id'] => $area['name']
-                ));
-            }
-        }
         $this->view->form = $form;
         return $form;
     }
 
     private function _initUpdateForm($form)
-    {
+    {   
+        // enable result list
         $result = $form->getElement('result');
-        $remarks = $form->getElement('remarks');
-
         $result->setAttrib("disabled", false);
+
+        // enable remarks box
+        $remarks = $form->getElement('remarks');
         $remarks->setAttrib("disabled", false);
 
+        // get other form elements
         $elements = array(
             $form->getElement('category'),
             $form->getElement('customerInfo'),
@@ -222,13 +179,11 @@ class EntryController extends Zend_Controller_Action
             $form->getElement('city'),
             $form->getElement('activity'),
         );
-
-        foreach($elements as $element)
+        foreach($elements as $element)// disable other form elements
         {
             $element->setAttrib("disabled", true)
                     ->setRequired(false);
         }
-
         return $form;
     }
 

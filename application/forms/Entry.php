@@ -2,9 +2,12 @@
 
 class Form_Entry extends Zend_Form
 {
+    protected $_doctrineContainer;
 
     public function init()
     {
+        $this->_doctrineContainer = Zend_Registry::get("doctrine");
+
         $this->setName("entry-form")
              ->setMethod("post");
 
@@ -123,6 +126,76 @@ class Form_Entry extends Zend_Form
             "Form"
         ));
         
+    }
+
+    public function populateCategoryList()
+    {
+        // retrieve customer categories list
+        $em = $this->_doctrineContainer->getEntityManager();
+        $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Category u")->getResult();
+        
+        $catElement = $this->getElement('category');
+        if(!empty($result)) // populate category select element
+        {
+            foreach($result as $cat)
+            {
+                $catElement->addMultiOptions(array(
+                    $cat['id'] => $cat['name']
+                ));
+            }
+        }
+
+        return $this;
+    }
+
+    public function populateAreaList()
+    {
+        // retrieve areas list
+        $result = array(
+            array("id" => "1", "name" => "Colombo"),
+            array("id" => "2", "name" => "Gampaha")
+
+        );        
+        $areaElement = $this->getElement('area');
+        if(!empty($result)) // populate area select element
+        {
+            foreach($result as $area)
+            {
+                $areaElement->addMultiOptions(array(
+                    $area['id'] => $area['name']
+                ));
+            }
+        }
+        return $this;
+    }
+
+    public function update($formData)
+    {
+        $em = $this->_doctrineContainer->getEntityManager();
+        $queryString = "UPDATE App\Entity\Entry u
+                            SET u.customer = :customer,
+                                u.customerInfo = :customerInfo,
+                                u.visitTime = :visitTime,
+                                u.area = :area,
+                                u.city = :city,
+                                u.activity = :activity,
+                                u.result = :result,
+                                u.remarks = :remarks
+                            WHERE u.id = :id";
+
+        $query = $em->createQuery($queryString);
+        $query->setParameters( array(
+                'id' => $this->_getParam('id'),
+                'customer' => $formData['customer'],
+                'customerInfo' => $formData['customerInfo'],
+                'visitTime' => $formData['visitTime'],
+                'area' => $formData['area'],
+                'city' => $formData['city'],
+                'activity' => $formData['activity'],
+                'result' => $formData['result'],
+                'remarks' => $formData['remarks'],
+            ));
+        $query->getResult();
     }
 
 }
