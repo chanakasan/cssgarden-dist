@@ -150,12 +150,10 @@ class Form_Entry extends Zend_Form
 
     public function populateAreaList()
     {
-        // retrieve areas list
-        $result = array(
-            array("id" => "1", "name" => "Colombo"),
-            array("id" => "2", "name" => "Gampaha")
-
-        );        
+        // retrieve areas list        
+        $em = $this->_doctrineContainer->getEntityManager();
+        $result = $em->createQuery("SELECT u.id, u.name FROM App\Entity\Area u")->getResult();
+        
         $areaElement = $this->getElement('area');
         if(!empty($result)) // populate area select element
         {
