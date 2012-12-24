@@ -47,8 +47,8 @@ class Form_Entry extends Zend_Form
 
         $city = new Zend_Form_Element_Select("city");
         $city->class = "text";
-        $city->setLabel("City:")
-                ->setRequired();
+        $city->setLabel("City:");
+                //->setRequired();
         $city->addMultiOptions(array(
              0 => "Select"
         ));

@@ -8,12 +8,11 @@ namespace App\Entity;
 class UserTest
     extends \ModelTestCase
 {
-    
-    protected $_username = "chan89";
+
     protected $_password = "pass123";
-    protected $_fname = "chanaka";
-    protected $_lname = "sandaruwan";
-    protected $_email = "chan@my.com";
+    protected $_fname = "john";
+    protected $_lname = "smith";
+    protected $_email = "john@my.com";
     protected $_mobile = "0777123456";
     protected $_isadmin = true;
 
@@ -29,7 +28,7 @@ class UserTest
         $this->assertEquals(0,count($resultBefore));
         //var_dump($resultBefore);exit;
 
-        $this->_addUser();       
+        $this->_addUser("ajith55");
 
         $resultAfter = $em->createQuery('select u from App\Entity\User u')->execute();
         $this->assertEquals(1,count($resultAfter));
@@ -41,7 +40,7 @@ class UserTest
      */
     public function xtestCanGetSavedUserData()
     {
-        $this->_addUser();        
+        $this->_addUser("kamal54");
         $em = $this->doctrineContainer->getEntityManager();
         $resultAfter = $em->createQuery('select u from App\Entity\User u')->execute();
         //var_dump($resultAfter);exit;
@@ -59,37 +58,52 @@ class UserTest
      */
     public function testCanAddEntry()
     {
-        $this->_addUser();
+        $this->_addUser("chan89");
+        $this->_addUser("nimal67");
         $this->_addCategory("Doctor");
+        $this->_addCategory("Super Market");
+        $this->_addCategory("Pharmacy");
         
         $em = $this->doctrineContainer->getEntityManager();
         $users = $em->createQuery('select u from App\Entity\User u')->execute();
-        $user = $users[0];
-        $result = $em->createQuery('select u from App\Entity\Category u')->execute();
-        $cat = $result[0];
+        $user1 = $users[0];
+        $user2 = $users[1];
+        $cats = $em->createQuery('select u from App\Entity\Category u')->execute();
+        $cat1 = $cats[0];
+        $cat2 = $cats[1];
 
-        $entry = new Entry();
-        $entry->dwpno = \date('Ymd').$user->id+100;
-        $entry->customerInfo = "Mr.Sunil";
-        $entry->visitTime = "10 am";
-        $entry->area = "Colombo";
-        $entry->city = "Colombo 10";
-        $entry->activity = "meeting";
-        
-        $user->entries = array($entry);
-        $cat->entries = array($entry);
-        $em->persist($user);
-        $em->persist($cat);
+        $entry1 = new Entry();
+        $entry1->dwpno = \date('Ymd').$user1->id+100;
+        $entry1->category = "Doctor";
+        $entry1->customerInfo = "Mr.Sunil";
+        $entry1->visitTime = "10 am";
+        $entry1->area = "Colombo";
+        $entry1->city = "Colombo 10";
+        $entry1->activity = "meeting";
+        $entry1->user = $user1;
+
+        $entry2 = new Entry();
+        $entry2->dwpno = \date('Ymd').$user1->id+100;
+        $entry2->category = "Super Market";
+        $entry2->customerInfo = "Mr.Sunil";
+        $entry2->visitTime = "10 am";
+        $entry2->area = "Colombo";
+        $entry2->city = "Colombo 10";
+        $entry2->activity = "meeting";
+        $entry2->user = $user1;
+
+        $em->persist($entry1);
+        $em->persist($entry2);
         $em->flush();
         
         $entries = $em->createQuery('select entry from App\Entity\Entry entry')->execute();
         var_dump($entries);exit;
     }
 
-    protected function _addUser()
+    protected function _addUser($username)
     {
         $u = new User();
-        $u->username = $this->_username;
+        $u->username = $username;
         $u->password = $this->_password;
         $u->fname = $this->_fname;
         $u->lname = $this->_lname;

@@ -23,9 +23,9 @@ class ModelTestCase
         $this->doctrineContainer = Zend_Registry::get('doctrine');
 
         $em = $this->doctrineContainer->getEntityManager();
-        //$tool = new \Doctrine\ORM\Tools\SchemaTool($em);
-        //$tool->dropDatabase();
-        //$tool->createSchema($em->getMetadataFactory()->getAllMetadata());
+        $tool = new \Doctrine\ORM\Tools\SchemaTool($em);
+        $tool->dropDatabase();
+        $tool->createSchema($em->getMetadataFactory()->getAllMetadata());
 
         parent::setUp();
     }
@@ -34,8 +34,8 @@ class ModelTestCase
     {
         $this->doctrineContainer->getConnection()->close();
         $em = $this->doctrineContainer->getEntityManager();
-        //$tool = new \Doctrine\ORM\Tools\SchemaTool($em);
-        //$tool->dropDatabase();
+        $tool = new \Doctrine\ORM\Tools\SchemaTool($em);
+        $tool->dropDatabase();
         parent::tearDown();
     }
 }

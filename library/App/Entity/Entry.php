@@ -34,7 +34,14 @@ class Entry
     protected $date;
 
     /**
-     * @Column(type="string",length=128)
+     *
+     * @var category
+     * @Column(type="string", length=32)
+     */
+    protected $category;
+
+    /**
+     * @Column(type="string",length=64)
      * @var string
      */
     protected $customerInfo;
@@ -78,23 +85,13 @@ class Entry
     /**
      *
      * @var User
-     * @ManyToOne(targetEntity="User")
+     * @ManyToOne(targetEntity="User", inversedBy="entries", cascade={"update"})
      * @JoinColumns({
      *  @JoinColumn(name="user_id", referencedColumnName="id")
      * })
      */
     protected $user;
-
-    /**
-     *
-     * @var User
-     * @ManyToOne(targetEntity="Category")
-     * @JoinColumns({
-     *  @JoinColumn(name="cat_id", referencedColumnName="id")
-     * })
-     */
-    protected $category;
-
+    
     
     public function  __construct(array $options = null)
     {

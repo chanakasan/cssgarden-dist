@@ -19,9 +19,9 @@ class EntryController extends Zend_Controller_Action
     {
         $em = $this->_doctrineContainer->getEntityManager();
 
-        $entries = $em->createQuery("SELECT u FROM App\Entity\Entry u")->execute();
+        //$entries = $em->createQuery("SELECT u FROM App\Entity\Entry u")->execute();
         //var_dump($entries);exit;
-        $this->view->entries = $entries;                
+       // $this->view->entries = $entries;
     }
 
     public function addAction()
@@ -34,39 +34,33 @@ class EntryController extends Zend_Controller_Action
             if($this->getRequest()->isPost())
             {
                 $formData = $this->getRequest()->getPost();
-                $user = Model_Users::getLoggedInUser(); // current user object
-                $cat_id = $formData["category"]; // selected category
-                //var_dump($cat_id);exit;
+                $user = Model_Users::getLoggedInUser(); // current user object               
+                
                 //var_dump($formData);exit;
-
                 if($form->isValid($formData))
                 {
                     $entry = new \App\Entity\Entry();
                     $entry->dwpno = date("dmY");
+                    $entry->category = $formData["category"];
                     $entry->customerInfo = $formData["customerInfo"];
                     $entry->visitTime = $formData["visitTime"];
                     $entry->area = $formData["area"];
                     $entry->city = $formData["city"];
                     $entry->activity = $formData["activity"];
-
-                    // retrieve selected category object
-                    $em = $this->_doctrineContainer->getEntityManager();
-                    $query = $em->createQuery("SELECT u FROM App\Entity\Category u WHERE u.id = :id");
-                    $query->setParameter("id", $cat_id);
-                    $result = $query->getResult();
-                    if(!empty($result))
-                        $cat = $result[0];
-                    //var_dump($result[0);exit;
-                                        
+                    $entry->user = $user;
                     
-                    $user->entries = array($entry);
-                    $cat->entries = array($entry);
-
                     $em = $this->_doctrineContainer->getEntityManager();
-                    $em->persist($user);
-                    $em->persist($cat);
-                    $em->flush();                    
+                    $em->persist($entry);
+                    //var_dump($entry);exit;
+                    
+                    try {
+                        $em->flush();
+                    }
+                    catch(Exception $e) {
 
+                        $m = $e->getMessage();
+                        echo $m . "<br />\n";
+                    }
                     $this->_helper->redirector("index");
                 }
                 else $form->populate($formData);

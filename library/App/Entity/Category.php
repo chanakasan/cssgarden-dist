@@ -36,15 +36,7 @@ class Category
      * @var boolean
      * @Column(type="boolean")
      */
-    protected $isactive;
-
-    /**
-     * @param \Doctrine\Common\Collections\Collection $property
-     *
-     * @OneToMany(targetEntity="Entry", mappedBy="category", cascade={"persist"})
-     *
-     */
-    protected $entries;
+    protected $isactive;    
     
     /**
      *
@@ -53,8 +45,7 @@ class Category
     public function  __construct(array $options = null)
     {        
         $this->descrip = "---";
-        $this->isactive = true;
-        $this->entries = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->isactive = true;        
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -138,17 +129,7 @@ class Category
         $this->isactive = $state;
         return $this;
     }
-
-    public function getEntries()
-    {
-        return $this->entries;
-    }
-
-    public function setEntries($data)
-    {
-        $this->entries = $data;
-        return $this;
-    }
+    
 
 }
 
