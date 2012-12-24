@@ -17,7 +17,7 @@ class EntryTest
     protected $_mobile = 0777123456;
     protected $_isadmin = true;
 
-        public function xtestCanCreateEntry()
+    public function xtestCanCreateEntry()
     {
         $this->assertInstanceOf('App\Entity\Entry', new Entry());
     }

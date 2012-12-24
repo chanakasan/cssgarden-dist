@@ -74,30 +74,29 @@ class UserTest
 
         $entry1 = new Entry();
         $entry1->dwpno = \date('Ymd').$user1->id+100;
-        $entry1->category = "Doctor";
+        $entry1->category = $cat1->name;
         $entry1->customerInfo = "Mr.Sunil";
         $entry1->visitTime = "10 am";
         $entry1->area = "Colombo";
         $entry1->city = "Colombo 10";
         $entry1->activity = "meeting";
-        $entry1->user = $user1;
+        $entry1->userid = $user1->id;
 
         $entry2 = new Entry();
-        $entry2->dwpno = \date('Ymd').$user1->id+100;
-        $entry2->category = "Super Market";
+        $entry2->dwpno = \date('Ymd').$user2->id+100;
+        $entry2->category = $cat2->name;
         $entry2->customerInfo = "Mr.Sunil";
         $entry2->visitTime = "10 am";
         $entry2->area = "Colombo";
         $entry2->city = "Colombo 10";
         $entry2->activity = "meeting";
-        $entry2->user = $user1;
+        $entry2->userid = $user2->id;
 
         $em->persist($entry1);
         $em->persist($entry2);
         $em->flush();
+        exit;// prevent dropping the database
         
-        $entries = $em->createQuery('select entry from App\Entity\Entry entry')->execute();
-        var_dump($entries);exit;
     }
 
     protected function _addUser($username)

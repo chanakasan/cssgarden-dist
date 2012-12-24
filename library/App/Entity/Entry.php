@@ -21,6 +21,12 @@ class Entry
 
     /**
      *
+     *  @Column(type="integer")
+     */
+    protected $userid;
+
+    /**
+     *
      * @var integer
      * @Column(type="integer")
      */
@@ -81,17 +87,7 @@ class Entry
      * @var string
      */
     protected $remarks;
-
-    /**
-     *
-     * @var User
-     * @ManyToOne(targetEntity="User", inversedBy="entries", cascade={"update"})
-     * @JoinColumns({
-     *  @JoinColumn(name="user_id", referencedColumnName="id")
-     * })
-     */
-    protected $user;
-    
+       
     
     public function  __construct(array $options = null)
     {
@@ -154,14 +150,14 @@ class Entry
         return $this;
     }
 
-    public function getUser()
+    public function getUserid()
     {
-        return $this->user;
+        return $this->userid;
     }
 
-    public function setUser($id)
+    public function setUserid($id)
     {
-        $this->user = $id;
+        $this->userid = $id;
         return $this;
     }
 

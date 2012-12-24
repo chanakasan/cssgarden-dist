@@ -69,20 +69,11 @@ class User
      */
     protected $isadmin;
 
-    /**
-     *
-     * @param \Doctrine\Common\Collections\Collection $property
-     *
-     * @OneToMany(targetEntity="Entry", mappedBy="user", cascade={"persist"})
-     */
-    protected $entries;
-
     
     public function  __construct(array $options = null)
     {
         $this->isactive = true;
-        $this->isadmin = false;
-        $this->entries = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->isadmin = false;        
         
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -126,18 +117,7 @@ class User
     public function toArray()
     {
         return get_object_vars($this);
-    }
-
-    public function getEntries()
-    {
-        return $this->entries;
-    }
-
-    public function setEntries($data)
-    {
-        $this->entries = $data;
-        return $this;
-    }
+    }   
 
     public function setId($id)
     {
