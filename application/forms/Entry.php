@@ -15,9 +15,9 @@ class Form_Entry extends Zend_Form
         $category->class = "text";
         $category->setLabel("Customer:") 
             ->setRequired();
-        $category->addMultiOptions(array(
-                    0 => "Select"
-                ));
+//        $category->addMultiOptions(array(
+//                    0 => "Select"
+//                ));
 
       
         $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
@@ -40,10 +40,9 @@ class Form_Entry extends Zend_Form
         $area->class = "text";
         $area->setLabel("Area:")
                 ->setRequired();
-        $area->addMultiOptions(array(
-             0 => "Select"
-        ));
-        $area->setValue(0);
+//        $area->addMultiOptions(array(
+//             0 => "Select"
+//        ));
 
         $city = new Zend_Form_Element_Select("city");
         $city->class = "text";
@@ -52,7 +51,6 @@ class Form_Entry extends Zend_Form
         $city->addMultiOptions(array(
              0 => "Select"
         ));
-        $city->setValue(0);
         
         $activity = new Zend_Form_Element_Textarea("activity");
         $activity->class = "text";

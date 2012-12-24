@@ -12,18 +12,7 @@ class Admin_UserController extends Zend_Controller_Action
 
     public function indexAction()
     {
-//        $u = new \App\Entity\User();
-//        $u->username = "chan89";
-//        $u->password = "pass123";
-//        $u->fname = "chanaka";
-//        $u->lname = "sandaruwan";
-//        $u->isadmin = true;
-//        $u->email = "chan@my.com";
-//        $u->mobile = "0789123456";
-
         $em = $this->_doctrineContainer->getEntityManager();
-        //$em->persist($u);
-        //$em->flush();
         
         $users = $em->createQuery('SELECT u FROM App\Entity\User u')->execute();
         $this->view->users = $users;

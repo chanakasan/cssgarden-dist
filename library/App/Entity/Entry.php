@@ -21,9 +21,10 @@ class Entry
 
     /**
      *
-     *  @Column(type="integer")
+     * @var integer
+     * @Column(type="integer")
      */
-    protected $userid;
+    protected $user_id;
 
     /**
      *
@@ -41,10 +42,10 @@ class Entry
 
     /**
      *
-     * @var category
-     * @Column(type="string", length=32)
+     * @var integer
+     * @Column(type="integer")
      */
-    protected $category;
+    protected $cat_id;
 
     /**
      * @Column(type="string",length=64)
@@ -59,16 +60,18 @@ class Entry
     protected $visitTime;
 
     /**
-     * @Column(type="string",length=32)
-     * @var string
+     *
+     * @var integer
+     * @Column(type="integer")
      */
-    protected $area;
+    protected $area_id;
 
     /**
-     * @Column(type="string",length=32)
-     * @var string
+     *
+     * @var integer
+     * @Column(type="integer")
      */
-    protected $city;
+    protected $city_id;
 
     /**
      * @Column(type="string",length=64)
@@ -150,25 +153,25 @@ class Entry
         return $this;
     }
 
-    public function getUserid()
+    public function getUser_id()
     {
-        return $this->userid;
+        return $this->user_id;
     }
 
-    public function setUserid($id)
+    public function setUser_id($id)
     {
-        $this->userid = $id;
+        $this->user_id = $id;
         return $this;
     }
 
-    public function getCategory()
+    public function getCat_id()
     {
-        return $this->category;
+        return $this->cat_id;
     }
 
-    public function setCategory($name)
+    public function setCat_id($id)
     {
-        $this->category = $name;
+        $this->cat_id = $id;
         return $this;
     }
 
@@ -194,25 +197,25 @@ class Entry
         return $this;
     }
     
-    public function getArea()
+    public function getArea_id()
     {
-        return $this->area;
+        return $this->area_id;
     }
 
-    public function setArea($area)
+    public function setArea_id($id)
     {
-        $this->area = $area;
+        $this->area_id = $id;
         return $this;
     }
 
-    public function getCity()
+    public function getCity_id()
     {
-        return $this->city;
+        return $this->city_id;
     }
 
-    public function setCity($city)
+    public function setCity_id($id)
     {
-        $this->city = $city;
+        $this->city_id = $id;
         return $this;
     }
 
