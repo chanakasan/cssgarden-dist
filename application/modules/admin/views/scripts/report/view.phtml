@@ -1,0 +1,46 @@
+<?php
+$this->title = "View Reports";
+$this->headTitle($this->title);
+?>
+<div id="notice" class="warning">
+    <?php if(isset($this->nouser)) echo $this->escape($this->nouser); ?>
+</div>
+<br/>
+<h3>Showing entries of user: <?php if(isset($this->user)) echo $this->escape($this->user->username); ?></h3>
+
+
+<br/>
+<table>
+    <tr>
+        <th>DWP No.</th>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Customer Info</th>
+        <th>Area</th>
+        <th>City</th>
+        <th>Visiting Time</th>
+        <th>Activity</th>
+        <th>Result</th>
+        <th>Remarks</th>
+        <th>&nbsp;</th>
+    </tr>
+    <?php foreach($this->entries as $entry) : ?>
+    <tr>
+        <td><?php echo $this->escape($entry->dwpno);?></td>
+        <td><?php echo $this->escape($entry->date);?></td>
+        <td><?php echo $this->escape($entry->cat);?></td>
+        <td><?php echo $this->escape($entry->customerInfo);?></td>
+        <td><?php echo $this->escape($entry->area);?></td>
+        <td><?php echo $this->escape($entry->city);?></td>
+        <td><?php echo $this->escape($entry->visitTime);?></td>
+        <td><?php echo $this->escape($entry->activity);?></td>
+        <td><?php echo $this->escape($entry->result);?></td>
+        <td><?php echo $this->escape($entry->remarks);?></td>
+        <td>
+            <a href="<?php echo $this->url(array('controller'=>'entry',
+                   'action'=>'view', 'id'=>$entry->id));?>">View details</a>
+        </td>
+
+    </tr>
+    <?php endforeach; ?>
+</table>

@@ -48,7 +48,7 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
                                 var options = $("#city");
                                 options.empty();
                                 $.each(result, function() {
-                                    options.append($("<option />").val(this.id).text(this.name));
+                                    options.append($("<option />").val(this.name).text(this.name));
                                 });
 
 			}

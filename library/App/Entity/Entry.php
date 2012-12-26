@@ -41,11 +41,10 @@ class Entry
     protected $date;
 
     /**
-     *
-     * @var integer
-     * @Column(type="integer")
+     * @Column(type="string",length=32)
+     * @var string
      */
-    protected $cat_id;
+    protected $cat;
 
     /**
      * @Column(type="string",length=64)
@@ -60,18 +59,16 @@ class Entry
     protected $visitTime;
 
     /**
-     *
-     * @var integer
-     * @Column(type="integer")
+     * @Column(type="string",length=32)
+     * @var string
      */
-    protected $area_id;
+    protected $area;
 
     /**
-     *
-     * @var integer
-     * @Column(type="integer")
+     * @Column(type="string",length=32)
+     * @var string
      */
-    protected $city_id;
+    protected $city;
 
     /**
      * @Column(type="string",length=64)
@@ -164,14 +161,14 @@ class Entry
         return $this;
     }
 
-    public function getCat_id()
+    public function getCat()
     {
-        return $this->cat_id;
+        return $this->cat;
     }
 
-    public function setCat_id($id)
+    public function setCat($id)
     {
-        $this->cat_id = $id;
+        $this->cat = $id;
         return $this;
     }
 
@@ -197,25 +194,25 @@ class Entry
         return $this;
     }
     
-    public function getArea_id()
+    public function getArea()
     {
-        return $this->area_id;
+        return $this->area;
     }
 
-    public function setArea_id($id)
+    public function setArea($id)
     {
-        $this->area_id = $id;
+        $this->area = $id;
         return $this;
     }
 
-    public function getCity_id()
+    public function getCity()
     {
-        return $this->city_id;
+        return $this->city;
     }
 
-    public function setCity_id($id)
+    public function setCity($id)
     {
-        $this->city_id = $id;
+        $this->city = $id;
         return $this;
     }
 

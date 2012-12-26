@@ -15,10 +15,10 @@ class Form_Entry extends Zend_Form
         $category->class = "text";
         $category->setLabel("Customer:") 
             ->setRequired();
-//        $category->addMultiOptions(array(
-//                    0 => "Select"
-//                ));
-
+        $category->addMultiOptions(array(
+                    "Select" => "Select"
+        ));
+        
       
         $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
         $customerInfo->class = "text";
@@ -40,16 +40,16 @@ class Form_Entry extends Zend_Form
         $area->class = "text";
         $area->setLabel("Area:")
                 ->setRequired();
-//        $area->addMultiOptions(array(
-//             0 => "Select"
-//        ));
+        $area->addMultiOptions(array(
+             "Select" => "Select"
+        ));
 
         $city = new Zend_Form_Element_Select("city");
         $city->class = "text";
-        $city->setLabel("City:");
-                //->setRequired();
+        $city->setLabel("City:")
+              ->setRequired();
         $city->addMultiOptions(array(
-             0 => "Select"
+             "Select" => "Select"
         ));
         
         $activity = new Zend_Form_Element_Textarea("activity");
@@ -138,7 +138,7 @@ class Form_Entry extends Zend_Form
             foreach($result as $cat)
             {
                 $catElement->addMultiOptions(array(
-                    $cat['id'] => $cat['name']
+                    $cat['name'] => $cat['name']
                 ));
             }
         }
@@ -158,7 +158,7 @@ class Form_Entry extends Zend_Form
             foreach($result as $area)
             {
                 $areaElement->addMultiOptions(array(
-                    $area['id'] => $area['name']
+                    $area['name'] => $area['name']
                 ));
             }
         }

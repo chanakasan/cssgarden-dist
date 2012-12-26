@@ -15,6 +15,11 @@ class Admin_ReportController extends Zend_Controller_Action
     }
 
     public function indexAction()
+    {        
+        
+    }
+
+    public function viewAction()
     {
         if($this->_getParam('id') > 0)
         {
@@ -28,15 +33,18 @@ class Admin_ReportController extends Zend_Controller_Action
             $query->setParameter("id", $user_id);
             $user = $query->getResult();
 
-            $this->view->user = $user[0];
-            $this->view->entries = $entries;
-        }
-        else {
-            $this->view->user = "Not selected";
-            $this->view->entries = array();
-        }
-        
+            if(!empty($entries) && !empty($user))
+            {
+                $this->view->user = $user[0];
+                $this->view->entries = $entries;
+            }
+            else {
+                $this->view->nouser = "not selected";
+                $this->view->entries = array();
+            }            
+        }     
     }
+
     
 }
 

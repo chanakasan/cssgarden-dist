@@ -2,33 +2,15 @@
 $this->title = "DCR Reports";
 $this->headTitle($this->title);
 ?>
-<h3>Showing entries of user: <?php echo $this->user->username; ?></h3>
+<h3>Select Options for Viewing Reports:</h3>
 <br/>
-<table style="padding: 2px;" border="2px solid red" >
-<tr>
-    <th>DWP No.</th>
-    <th>Date</th>
-    <th>Customer Info</th>
-    <th>Visiting Time</th>
-    <th>Activity</th>
-    <th>Result</th>
-    <th>Remarks</th>
-    <th>&nbsp;</th>
-</tr>
-<?php foreach($this->entries as $entry) : ?>
-<tr>
-    <td><?php echo $this->escape($entry->dwpno);?></td>
-    <td><?php echo $this->escape($entry->date);?></td>
-    <td><?php echo $this->escape($entry->customerInfo);?></td>
-    <td><?php echo $this->escape($entry->visitTime);?></td>
-    <td><?php echo $this->escape($entry->activity);?></td>
-    <td><?php echo $this->escape($entry->result);?></td>
-    <td><?php echo $this->escape($entry->remarks);?></td>
-    <td>        
-        <a href="<?php echo $this->url(array('controller'=>'entry',
-            'action'=>'view', 'id'=>$entry->id));?>">View details</a>
-    </td>
-
-</tr>
-<?php endforeach; ?>
-</table>
+<ul>
+    <li>By DWP No.</li>
+    <li>By User</li>
+    <li>By Date</li>
+    <li>By Category</li>
+    <li>By Area</li>
+    <li>By City</li>
+    <li>By Activity</li>
+    <li>By Result</li>    
+</ul>

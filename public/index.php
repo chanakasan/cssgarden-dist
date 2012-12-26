@@ -23,6 +23,9 @@ $application = new Zend_Application(
     APPLICATION_PATH . '/configs/application.ini'
 );
 
+/* Configure Routes */
+
+// user login
 $userlogin = new Zend_Controller_Router_Route(
     'login',
     array(
@@ -31,6 +34,7 @@ $userlogin = new Zend_Controller_Router_Route(
         'module' => 'default'
     )
 );
+// admin login
 $adminlogin = new Zend_Controller_Router_Route(
     'admin/login',
     array(
@@ -39,9 +43,20 @@ $adminlogin = new Zend_Controller_Router_Route(
         'module' => 'admin'
     )
 );
+//admin reports
+$adminreports = new Zend_Controller_Router_Route(
+    'admin/report/u/:id/view',
+    array(
+        'controller' => 'report',
+        'action' => 'view',
+        'module' => 'admin',
+        'id' => 0
+    )
+);
 $front = Zend_Controller_Front::getInstance();
-$front->getRouter()->addRoute('userlogin', $userlogin);
-$front->getRouter()->addRoute('adminlogin', $adminlogin);
+$front->getRouter()->addRoute('user-login', $userlogin);
+$front->getRouter()->addRoute('admin-login', $adminlogin);
+$front->getRouter()->addRoute('admin-reports', $adminreports);
 
 unset($front);
 

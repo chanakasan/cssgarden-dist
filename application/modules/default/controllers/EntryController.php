@@ -12,7 +12,7 @@ class EntryController extends Zend_Controller_Action
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "13:00:00";
+       $this->_timelimit = "16:00:00";
     }
 
     public function indexAction()
@@ -46,11 +46,11 @@ class EntryController extends Zend_Controller_Action
                 {
                     $entry = new \App\Entity\Entry();
                     $entry->dwpno = date("dmY").($user->id+100);
-                    $entry->cat_id = $formData["category"];
+                    $entry->cat = $formData["category"];
                     $entry->customerInfo = $formData["customerInfo"];
                     $entry->visitTime = $formData["visitTime"];
-                    $entry->area_id = $formData["area"];
-                    $entry->city_id = $formData["city"];
+                    $entry->area = $formData["area"];
+                    $entry->city = $formData["city"];
                     $entry->activity = $formData["activity"];
                     $entry->user_id = $user->id;
                     

@@ -10,27 +10,32 @@ use \Doctrine\DBAL\Migrations\AbstractMigration,
 class Version20121209223148 extends AbstractMigration
 {
     public function up(Schema $schema)
-    {        
+    {
         // create test table
 	$table = $schema->createTable('test');
         $table->addColumn('username', 'string');
         $table->addColumn('password', 'string');
+
         // insert admin user
         $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'chan89', 'pass123', 'chanaka', 'sandaruwan', 'chan@my.com', '0777123456', '1', '1')");
         // insert customer category
         $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`) VALUES (NULL, 'Doctor', '---', '1')");
         $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`) VALUES (NULL, 'Super Market', '---', '1')");
         $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`) VALUES (NULL, 'Pharmacy', '---', '1')");
-        // load areas list
-        $this->addSql("LOAD DATA INFILE '/Users/CS/Sites/dcr-proj/scripts/data/area.csv'
+
+        $realpath = realpath(__FILE__);
+        // load areas list        
+        $this->addSql("LOAD DATA INFILE '$realpath/../../../data/area.csv'
                         INTO TABLE areas
                             FIELDS TERMINATED BY ','
                                 OPTIONALLY ENCLOSED BY '\"'");
-        // load cities list
-        $this->addSql("LOAD DATA INFILE '/Users/CS/Sites/dcr-proj/scripts/data/city.csv'
+        // load cities list        
+        $this->addSql("LOAD DATA INFILE '$realpath/../../../data/city.csv'
                         INTO TABLE cities
                             FIELDS TERMINATED BY ','
                                 OPTIONALLY ENCLOSED BY '\"'");
+        // add INDEX to city names
+        $this->addSql("ALTER TABLE `cities` ADD INDEX ( `name` )");
     }
 
     public function down(Schema $schema)
