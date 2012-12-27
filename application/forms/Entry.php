@@ -16,7 +16,7 @@ class Form_Entry extends Zend_Form
         $category->setLabel("Customer:") 
             ->setRequired();
         $category->addMultiOptions(array(
-                    "Select" => "Select"
+                    0 => "Select"
         ));
         
       
@@ -41,16 +41,17 @@ class Form_Entry extends Zend_Form
         $area->setLabel("Area:")
                 ->setRequired();
         $area->addMultiOptions(array(
-             "Select" => "Select"
+             0 => "Select"
         ));
 
         $city = new Zend_Form_Element_Select("city");
         $city->class = "text";
         $city->setLabel("City:")
-              ->setRequired();
+              ->setRequired()              
+              ->setRegisterInArrayValidator(false);
         $city->addMultiOptions(array(
-             "Select" => "Select"
-        ));
+             0 => "Select"
+        ));        
         
         $activity = new Zend_Form_Element_Textarea("activity");
         $activity->class = "text";
@@ -138,7 +139,7 @@ class Form_Entry extends Zend_Form
             foreach($result as $cat)
             {
                 $catElement->addMultiOptions(array(
-                    $cat['name'] => $cat['name']
+                    $cat['id'] => $cat['name']
                 ));
             }
         }
@@ -158,7 +159,7 @@ class Form_Entry extends Zend_Form
             foreach($result as $area)
             {
                 $areaElement->addMultiOptions(array(
-                    $area['name'] => $area['name']
+                    $area['id'] => $area['name']
                 ));
             }
         }

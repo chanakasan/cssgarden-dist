@@ -30,25 +30,23 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
         //alert("hi");
 	$('#area').change(function(){
 		var id = $('#area').val();
-		$('#loading-img').fadeIn("slow");
-		$('#city').css("display", "none");
+		$('#loading-img').fadeIn("slow");		
 
 		$.ajax({
 			type:'POST',
 			dataType: 'json',
                         url: '/async/loadcity',
-			async:false,
+			async:true,
                         data: {sel_area: id},
                         cache: false,
 
 			success: function(result){
-				$('#loading-img').css("display", "none");
-				$('#city').fadeIn("slow");
+				$('#loading-img').css("display", "none");				
 
                                 var options = $("#city");
                                 options.empty();
                                 $.each(result, function() {
-                                    options.append($("<option />").val(this.name).text(this.name));
+                                    options.append($("<option/>").val(this.id).text(this.name));
                                 });
 
 			}

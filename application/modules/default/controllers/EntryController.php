@@ -2,17 +2,15 @@
 
 class EntryController extends Zend_Controller_Action
 {
-
     protected $_doctrineContainer;
     protected $_timelimit;
-
     
     
     public function init()
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "16:00:00";
+       $this->_timelimit = "20:00:00";
     }
 
     public function indexAction()
@@ -38,23 +36,42 @@ class EntryController extends Zend_Controller_Action
             if($this->getRequest()->isPost())
             {
                 $formData = $this->getRequest()->getPost();
-                //var_dump($formData);exit;
 
-                $user = Model_Users::getLoggedInUser(); // current user object
-                
-                if($form->isValid($formData) && $user)
+                $cat_id = $formData["category"];
+                $area_id = $formData["area"];
+                $city_id = $formData["city"];
+      
+                if($form->isValid($formData) && ($cat_id > 0) && ($area_id > 0) && ($city_id > 0))
                 {
+                    $em = $this->_doctrineContainer->getEntityManager();
+
+                    // get category name from database table
+                    $query = $em->createQuery("SELECT c FROM App\Entity\Category c WHERE c.id = :id");
+                    $query->setParameter("id", $cat_id);
+                    $cats = $query->getResult();
+                    
+                    // get area name from database table
+                    $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
+                    $query->setParameter("id", $area_id);
+                    $areas = $query->getResult();
+                    
+                    // get city name from database table
+                    $query = $em->createQuery("SELECT c FROM App\Entity\City c WHERE c.id = :id");
+                    $query->setParameter("id", $city_id);
+                    $cities = $query->getResult();
+
+                    $user = Model_Users::getLoggedInUser(); // current user object
+
                     $entry = new \App\Entity\Entry();
                     $entry->dwpno = date("dmY").($user->id+100);
-                    $entry->cat = $formData["category"];
+                    $entry->cat = $cats[0]->name;
                     $entry->customerInfo = $formData["customerInfo"];
                     $entry->visitTime = $formData["visitTime"];
-                    $entry->area = $formData["area"];
-                    $entry->city = $formData["city"];
+                    $entry->area = $areas[0]->name;
+                    $entry->city = $cities[0]->name;
                     $entry->activity = $formData["activity"];
                     $entry->user_id = $user->id;
-                    
-                    $em = $this->_doctrineContainer->getEntityManager();
+                                        
                     $em->persist($entry);
                     //var_dump($entry);exit;                                     
                     $em->flush();

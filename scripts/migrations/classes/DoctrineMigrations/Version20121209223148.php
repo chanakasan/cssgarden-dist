@@ -50,6 +50,8 @@ class Version20121209223148 extends AbstractMigration
         $this->addSql("TRUNCATE TABLE `cities`");
         // truncate areas table
         $this->addSql("TRUNCATE TABLE `areas`");
+        // truncate entries table
+        $this->addSql("TRUNCATE TABLE `entries`");
 
     }
     

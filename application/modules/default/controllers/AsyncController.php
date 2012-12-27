@@ -34,7 +34,7 @@ class AsyncController extends Zend_Controller_Action
 
     public function loadcityAction()
     {
-        $nocity = array("id" => "0" , "name" => "Select an area");
+        $nocity = array("id" => "0" , "name" => "Select");
 
         if($this->getRequest()->isPost())
         {
