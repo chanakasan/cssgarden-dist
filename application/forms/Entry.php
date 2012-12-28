@@ -11,6 +11,8 @@ class Form_Entry extends Zend_Form
         $this->setName("entry-form")
              ->setMethod("post");
 
+        $hidden_id = new Zend_Form_Element_Hidden("hidden_id");
+
         $category = new Zend_Form_Element_Select("category");
         $category->class = "text";
         $category->setLabel("Customer:") 
@@ -116,6 +118,8 @@ class Form_Entry extends Zend_Form
 
         // add data elements
         $this->addElements($elements);
+        // add hidden_id
+        $this->addElement($hidden_id);
         // add submit buttons
         $this->addElement($submit);
 
@@ -166,7 +170,24 @@ class Form_Entry extends Zend_Form
         return $this;
     }
 
-    public function update($formData)
+    public function updateResult($formData)
+    {
+        $em = $this->_doctrineContainer->getEntityManager();
+        $queryString = "UPDATE App\Entity\Entry u
+                            SET u.result = :result,
+                                u.remarks = :remarks
+                            WHERE u.id = :id";
+
+        $query = $em->createQuery($queryString);
+        $query->setParameters( array(
+                'id' => $formData["hidden_id"],                
+                'result' => $formData['result'],
+                'remarks' => $formData['remarks'],
+            ));
+        $query->getResult();
+    }
+
+    private function updateAll($formData)
     {
         $em = $this->_doctrineContainer->getEntityManager();
         $queryString = "UPDATE App\Entity\Entry u
@@ -182,7 +203,7 @@ class Form_Entry extends Zend_Form
 
         $query = $em->createQuery($queryString);
         $query->setParameters( array(
-                'id' => $this->_getParam('id'),
+                'id' => $formData["hidden_id"],
                 'customer' => $formData['customer'],
                 'customerInfo' => $formData['customerInfo'],
                 'visitTime' => $formData['visitTime'],

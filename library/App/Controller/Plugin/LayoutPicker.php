@@ -13,6 +13,7 @@ class App_Controller_Plugin_LayoutPicker
         $controllerName = $request->getControllerName();
         $actionName = $request->getActionName();
         
+        //echo "LayoutPicker".PHP_EOL;
         if ('default' == $moduleName)
         {
             if('auth' == $controllerName)

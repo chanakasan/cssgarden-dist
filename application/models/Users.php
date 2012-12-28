@@ -31,14 +31,15 @@ class Model_Users
         if(!$column) {
             return false;
         }
-        //load user auth details
+        // load user auth details
         $user = Zend_Auth::getInstance()->getIdentity();        
 
-        //if field is defined in auth identity
-        if($user && isset($user->$column)) {
+        // if field is defined in auth identity
+        if($user) {
             return $user->$column;
         }
-        return false;        
+        else
+            return false;
     }
 
 
@@ -52,8 +53,7 @@ class Model_Users
     {
         $column = 'isadmin'; // table column to check        
 
-        //return self::getLoggedInUserField($column);
-        return true;
+        return self::getLoggedInUserField($column);
     }
 
     /**

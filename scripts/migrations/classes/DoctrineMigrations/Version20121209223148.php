@@ -36,6 +36,11 @@ class Version20121209223148 extends AbstractMigration
                                 OPTIONALLY ENCLOSED BY '\"'");
         // add INDEX to city names
         $this->addSql("ALTER TABLE `cities` ADD INDEX ( `name` )");
+        // add INDEXes to entries table
+        $this->addSql("ALTER TABLE `entries` ADD INDEX ( `category` )");
+        $this->addSql("ALTER TABLE `entries` ADD INDEX ( `area` )");
+        $this->addSql("ALTER TABLE `entries` ADD INDEX ( `city` )");
+
     }
 
     public function down(Schema $schema)

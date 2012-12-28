@@ -25,8 +25,7 @@ span#site-name
 div#welcome
 {
     margin:0 2em;
-    color: #91BE3F;
-    background: url(http://framework.zend.com/images/bkg_header.jpg);
+    color: #91BE3F;    
     height: 300px;
     width: 600px;
     border: 2px solid #444444;
@@ -35,8 +34,7 @@ div#welcome
 }
 
 div#task-list
-{
-    background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
+{    
     height: 100%;
 }
 

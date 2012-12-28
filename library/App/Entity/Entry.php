@@ -28,14 +28,14 @@ class Entry
 
     /**
      *
-     * @var integer
-     * @Column(type="integer")
+     * @var string
+     * @Column(type="string", length=32)
      */
     protected $dwpno;
 
     /**
      *
-     * @var datetime
+     * @var string
      * @Column(type="string", length=32)
      */
     protected $date;

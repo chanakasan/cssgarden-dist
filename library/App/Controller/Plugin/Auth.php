@@ -12,30 +12,39 @@ class App_Controller_Plugin_Auth
         $moduleName = $request->getModuleName();
         $controllerName = $request->getControllerName();
         $actionName = $request->getActionName();
-        
-        if (('default' == $moduleName) && ('index' != $controllerName))
-        {
-            if (Model_Users::isLoggedIn())            
-                return; // user is logged in
-            
-            if ('auth' != $controllerName)
-            {
-                $request->setModuleName('default')
-                        ->setControllerName('auth')
-                        ->setDispatched(FALSE);
-            }
-        }
-        elseif ('admin' == $moduleName)
-        {           
-            if (Model_Users::isLoggedIn() && Model_Users::isAdmin())
-                return; // user is logged in and allowed to access admin functions
 
-             if ('auth' != $controllerName)
-             {
-                $request->setModuleName('admin')
-                        ->setControllerName('auth')
-                        ->setDispatched(FALSE);
-             }
+        //echo "Auth_Plugin".PHP_EOL;
+        if (("default" == $moduleName) && ("index" != $controllerName))
+        {
+            if (Model_Users::isLoggedIn())
+            {
+                return; // user is logged in
+            }            
+            elseif (!($request->getControllerName() == 'auth' && $request->getActionName()=='index' && $request->getModuleName() == 'default'))
+            {
+                $request->setControllerName('auth')
+                        ->setActionName('index')
+                        ->setModuleName('default');
+                return;
+            }
+            
+        }
+        if ("admin" == $moduleName)
+        {
+            if (Model_Users::isLoggedIn() && Model_Users::isAdmin())
+            {
+                
+                return; // user is logged in and has admin privileges
+            }
+            elseif (!($request->getControllerName() == 'auth' && $request->getActionName()=='index' && $request->getModuleName() == 'admin'))
+            {
+                $request->setControllerName('auth')
+                        ->setActionName('index')
+                        ->setModuleName('admin');
+                
+                return;
+            }
+
         }
         else return;
     }

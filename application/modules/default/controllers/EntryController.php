@@ -10,7 +10,7 @@ class EntryController extends Zend_Controller_Action
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "20:00:00";
+       $this->_timelimit = "13:00:00";
     }
 
     public function indexAction()
@@ -26,6 +26,7 @@ class EntryController extends Zend_Controller_Action
     {
             $temp_form = new Form_Entry();
             $temp_form->submit->setLabel("Add");
+            
             if(time() < strtotime($this->_timelimit)) // new entry mode
             {
                $form = $this->_initNewEntry($temp_form);
@@ -46,8 +47,9 @@ class EntryController extends Zend_Controller_Action
                     $em = $this->_doctrineContainer->getEntityManager();
 
                     // get category name from database table
-                    $query = $em->createQuery("SELECT c FROM App\Entity\Category c WHERE c.id = :id");
+                    $query = $em->createQuery("SELECT c FROM App\Entity\Category c WHERE c.id = :id AND c.isactive = :isactive");
                     $query->setParameter("id", $cat_id);
+                    $query->setParameter("isactive", 1);
                     $cats = $query->getResult();
                     
                     // get area name from database table
@@ -86,44 +88,40 @@ class EntryController extends Zend_Controller_Action
     public function updateAction()
     {
         $temp_form = new Form_Entry();
-        $temp_form->submit->setLabel('Save');
-        $form = $temp_form;
-        
+        $temp_form->submit->setLabel('Update');
+        //$form = $temp_form;
+                
         if(time() >= strtotime($this->_timelimit)) // update result mode
         {
             $form = $this->_initUpdateResult($temp_form);
             $this->view->form = $form;
         }
 
-        if($this->getRequest()->isPost() && $this->_getParam('id'))
+        if($this->getRequest()->isPost() && $this->_getParam('id')) // submit form
         {
             $formData = $this->getRequest()->getPost();
-
-            if($formData['result'] === null)
-                $formData['result'] = "incomplete";
-            if($formData['remarks'] === null)
-                $formData['remarks'] = "---";
+            $formData["hidden_id"] = $this->_getParam('id');
 
             if($form->isValid($formData))
             {
-                $form->update($formData); // update with new data
+                $form->updateResult($formData); // update with new data
                 $this->_helper->redirector('index'); // redirect to index
             }
             else $form->populate($formData);
             
         }
         else {
-            $id = $this->getRequest()->getParam('id',0);
-            if($id > 0)
+            $entry_id = $this->_getParam('id',0); // display form
+            if($entry_id > 0)
             {
                 $em = $this->_doctrineContainer->getEntityManager();
                 $query = $em->createQuery("SELECT u FROM App\Entity\Entry u WHERE u.id = :id");
-                $query->setParameter("id", $id);
+                $query->setParameter("id", $entry_id);
                 $result = $query->getResult();
 
                 $form->populate($result[0]->toArray());
             }
-        }
+        }        
         
     }
 
@@ -163,11 +161,11 @@ class EntryController extends Zend_Controller_Action
     {   
         // enable result list
         $result = $form->getElement('result');
-        $result->setAttrib("disabled", false);
+        $result->setAttrib("disabled", 0);
 
         // enable remarks box
         $remarks = $form->getElement('remarks');
-        $remarks->setAttrib("disabled", false);
+        $remarks->setAttrib("disabled", 0);
 
         // get other form elements
         $elements = array(
