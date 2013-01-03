@@ -112,36 +112,11 @@ class Admin_UserController extends Zend_Controller_Action
 
     public function deleteAction()
     {
-        $this->_perform();
-    }
-
-    private function _perform()
-    {
-        $actionName = $this->getRequest()->getActionName();
-
-        $controllerName = $this->getRequest()->getControllerName();
-        $result = $this->_helper->entities->$actionName($controllerName);
+        $result = $this->_helper->entities->delete("Entry");
         if($result === true)
         {
             $this->_helper->redirector("index");
         }
-
     }
     
 }
-
-/*
-     * update query
-     * $user = \Doctrine\Query::create()
-                    ->update('Customer')
-                    ->set('username', '?', $formData['username'])
-                    ->set('password', '?', $formData['password'])
-                    ->set('fname', '?', $formData['fname'])
-                    ->set('lname', '?', $formData['lname'])
-                    ->set('isactive', '?', $formData['isactive'])
-                    ->set('isadmin', '?', $formData['isadmin'])
-                    ->set('email', '?', $formData['email'])
-                    ->set('mobile', '?', $formData['mobile'])
-                    ->where('id = ?', $this->_getParam('id'))
-                    ->execute();
-     */

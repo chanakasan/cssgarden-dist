@@ -19,6 +19,13 @@ class Version20121209223148 extends AbstractMigration
         // insert admin user
         $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'chan89', 'pass123', 'chanaka', 'sandaruwan', 'chan@my.com', '0777123456', '1', '1')");
 
+        // insert customer category
+        $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`, `entityName`) VALUES (NULL, 'Doctor', '---', '1', 'Doctor')");
+//        $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`, 'entityName') VALUES (NULL, 'Super Market', '---', '1', 'SuperMarket')");
+//        $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`, 'entityName') VALUES (NULL, 'Pharmacy', '---', '1', 'Pharmacy')");
+//        $this->addSql("INSERT INTO `Categories` (`id`, `name`, `descrip`, `isactive`, 'entityName') VALUES (NULL, 'Salon', '---', '1', 'Salon')");
+        
+
         /* Load Fixtures from file */
         $realpath = realpath(__FILE__);
         // load areas list        
@@ -33,11 +40,7 @@ class Version20121209223148 extends AbstractMigration
                                 OPTIONALLY ENCLOSED BY '\"'");
 
         // insert data to table doctors
-        $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '1', 'Dr. Fernando 1', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
-        $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '2', 'Dr. Fernando 2', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
-        $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '3', 'Dr. Fernando 3', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
-        $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '4', 'Dr. Fernando 4', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
-        $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '5', 'Dr. Fernando 5', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
+        $this->addSql("INSERT INTO `doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '1', 'Dr. Nimal Fernando', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
 
         
         /* Add indexes */
@@ -55,19 +58,18 @@ class Version20121209223148 extends AbstractMigration
     {
         //drop test table
 	$schema->dropTable('test');
-
         // truncate users table
-        $this->addSql("TRUNCATE TABLE `users`");               
+        $this->addSql("TRUNCATE TABLE `users`");
+        // truncate category table
+        $this->addSql("TRUNCATE TABLE `categories`");
         
         // truncate doctors table
-        $this->addSql("TRUNCATE TABLE `tbl_doctors`");
+        $this->addSql("TRUNCATE TABLE `doctors`");
 
         // truncate cities table
         $this->addSql("TRUNCATE TABLE `cities`");
-
         // truncate areas table
         $this->addSql("TRUNCATE TABLE `areas`");
-        
         // truncate entries table
         $this->addSql("TRUNCATE TABLE `entries`");
 

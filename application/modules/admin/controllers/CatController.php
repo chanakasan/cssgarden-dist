@@ -5,7 +5,7 @@
  *
  * @author CS
  */
-class Admin_CatController extends Zend_Controller_Action
+class xxAdmin_CatController extends Zend_Controller_Action
 {
     protected $_doctrineContainer;
 
@@ -51,19 +51,12 @@ class Admin_CatController extends Zend_Controller_Action
 
     public function deleteAction()
     {
-        $this->_perform();
-    }
-
-    private function _perform()
-    {
-        $actionName = $this->getRequest()->getActionName();
-        
-        $result = $this->_helper->entities->$actionName("Category");
+        $result = $this->_helper->entities->delete("Cat");
         if($result === true)
         {
             $this->_helper->redirector("index");
         }
-
     }
+    
 }
 

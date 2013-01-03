@@ -1,15 +1,13 @@
 <?php
-
 namespace App\Entity;
+
 /**
- *
- * Table(name="categories")
- * Entity
+ * @Table(name="tbl_doctors")
+ * @Entity
  * @author CS
  */
-class Category
+class Doctor
 {
-    
     /**
      *
      * @var integer $id
@@ -26,10 +24,22 @@ class Category
     protected $name;
 
     /**
+     * @Column(type="string", length=64)
+     * @var string
+     */
+    protected $address;
+
+    /**
+     * @Column(type="string", length=64)
+     * @var string
+     */
+    protected $phones;
+
+    /**
      * @Column(type="string",length=64)
      * @var string
      */
-    protected $descrip;
+    protected $details;
 
     /**
      *
@@ -39,20 +49,27 @@ class Category
     protected $isactive;
 
     /**
-     * @Column(type="string", length=32, unique=true)
-     * @var string
+     *
+     * @var City
+     * @ManyToOne(targetEntity="City")
+     * @JoinColumns({
+     *  @JoinColumn(name="city_id", referencedColumnName="id")
+     * })
      */
-    protected $entityName;
+    protected $city;
+    
     
     /**
      *
      * @param array $options
      */
     public function  __construct(array $options = null)
-    {        
-        $this->descrip = "---";
-        $this->isactive = true;        
-        
+    {
+        $this->address = "---";
+        $this->phones = "---";
+        $this->details = "---";
+        $this->isactive = true;
+
         if(is_array($options)) {
             $this->setOptions($oprions);
         }
@@ -76,7 +93,7 @@ class Category
     {
         $method = 'set'.$name;
         if('mapper' == $name || !method_exists($this, $method))
-        {            
+        {
             throw new \Exception('Invalid '. \get_class($this) .' property.');
         }
         return $this->$method($value);
@@ -92,6 +109,11 @@ class Category
         return $this->$method();
     }
 
+    public function toArray()
+    {
+       return get_object_vars($this);
+    }
+
     public function getId()
     {
         return $this->id;
@@ -103,20 +125,9 @@ class Category
         return $this;
     }
 
-    public function getDescrip()
-    {
-        return $this->descrip;
-    }
-
-    public function setDescrip($info)
-    {
-        $this->descrip = $info;
-        return $this;
-    }
-
     public function getName()
     {
-        return $this->name;
+       return $this->name;
     }
 
     public function setName($name)
@@ -125,14 +136,36 @@ class Category
         return $this;
     }
 
-    public function getEntityName()
+    public function getAddress()
     {
-        return $this->entityName;
+        return $this->address;
     }
 
-    public function setEntityName($name)
+    public function setAddress($address)
     {
-        $this->entityName = $name;
+        $this->address = $address;
+        return $this;
+    }
+
+    public function getPhones()
+    {
+        return $this->phones;
+    }
+
+    public function setPhones($phones)
+    {
+        $this->phones = $phones;
+        return $this;
+    }
+
+    public function getDetails()
+    {
+        return $this->details;
+    }
+
+    public function setDetails($details)
+    {
+        $this->details = $details;
         return $this;
     }
 
@@ -141,12 +174,22 @@ class Category
         return $this->isactive;
     }
 
-    public function setIsactive($state)
+    public function setIsactive($isactive)
     {
-        $this->isactive = $state;
+        $this->isactive = $isactive;
+        return $this;
+    }
+
+    public function getCity()
+    {
+        return $this->city;
+    }
+
+    public function setCity($details)
+    {
+        $this->city = $details;
         return $this;
     }
     
-
 }
 

@@ -10,7 +10,7 @@ class EntryController extends Zend_Controller_Action
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "13:00:00";
+       $this->_timelimit = "14:10:00";
     }
 
     public function indexAction()
@@ -39,18 +39,22 @@ class EntryController extends Zend_Controller_Action
                 $formData = $this->getRequest()->getPost();
 
                 $cat_id = $formData["category"];
+                $custmr_id = $formData["customer"];
                 $area_id = $formData["area"];
                 $city_id = $formData["city"];
       
-                if($form->isValid($formData) && ($cat_id > 0) && ($area_id > 0) && ($city_id > 0))
+                if($form->isValid($formData) && ($cat_id > 0) && ($custmr_id > 0) && ($area_id > 0) && ($city_id > 0))
                 {
                     $em = $this->_doctrineContainer->getEntityManager();
 
-                    // get category name from database table
-                    $query = $em->createQuery("SELECT c FROM App\Entity\Category c WHERE c.id = :id AND c.isactive = :isactive");
-                    $query->setParameter("id", $cat_id);
-                    $query->setParameter("isactive", 1);
-                    $cats = $query->getResult();
+                    // get category name
+                    $catname = Model_Categories::getCategoryName($cat_id);
+
+                    $custmr_entity = Model_Categories::getEntityName($cat_id);
+                    // get customer name from database table
+                    $query = $em->createQuery("SELECT c FROM App\Entity\\$custmr_entity c WHERE c.id = :id");
+                    $query->setParameter("id", $custmr_id);
+                    $custmrs = $query->getResult();
                     
                     // get area name from database table
                     $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
@@ -66,7 +70,8 @@ class EntryController extends Zend_Controller_Action
 
                     $entry = new \App\Entity\Entry();
                     $entry->dwpno = date("dmY").($user->id+100);
-                    $entry->cat = $cats[0]->name;
+                    $entry->cat = $catname;
+                    $entry->customer = $custmrs[0]->name;
                     $entry->customerInfo = $formData["customerInfo"];
                     $entry->visitTime = $formData["visitTime"];
                     $entry->area = $areas[0]->name;
@@ -95,51 +100,44 @@ class EntryController extends Zend_Controller_Action
         {
             $form = $this->_initUpdateResult($temp_form);
             $this->view->form = $form;
-        }
+        
 
-        if($this->getRequest()->isPost() && $this->_getParam('id')) // submit form
-        {
-            $formData = $this->getRequest()->getPost();
-            $formData["hidden_id"] = $this->_getParam('id');
-
-            if($form->isValid($formData))
+            if($this->getRequest()->isPost() && $this->_getParam('id')) // submit form
             {
-                $form->updateResult($formData); // update with new data
-                $this->_helper->redirector('index'); // redirect to index
+                $formData = $this->getRequest()->getPost();
+                $formData["hidden_id"] = $this->_getParam('id');
+
+                if($form->isValid($formData))
+                {
+                    $form->updateResult($formData); // update with new data
+                    $this->_helper->redirector('index'); // redirect to index
+                }
+                else $form->populate($formData);
+
             }
-            else $form->populate($formData);
-            
-        }
-        else {
-            $entry_id = $this->_getParam('id',0); // display form
-            if($entry_id > 0)
-            {
-                $em = $this->_doctrineContainer->getEntityManager();
-                $query = $em->createQuery("SELECT u FROM App\Entity\Entry u WHERE u.id = :id");
-                $query->setParameter("id", $entry_id);
-                $result = $query->getResult();
+            else {
+                $entry_id = $this->_getParam('id',0); // display form
+                if($entry_id > 0)
+                {
+                    $em = $this->_doctrineContainer->getEntityManager();
+                    $query = $em->createQuery("SELECT u FROM App\Entity\Entry u WHERE u.id = :id");
+                    $query->setParameter("id", $entry_id);
+                    $result = $query->getResult();
 
-                $form->populate($result[0]->toArray());
+                    $form->populate($result[0]->toArray());
+                }
             }
         }        
-        
     }
 
     public function deleteAction()
     {
-        $this->_perform();
-    }
-
-    private function _perform()
-    {
-        $actionName = $this->getRequest()->getActionName();
-        $controllerName = $this->getRequest()->getControllerName();
-        $result = $this->_helper->entities->$actionName($controllerName);
+        $result = $this->_helper->entities->delete("Entry");
         if($result === true)
         {
             $this->_helper->redirector("index");
         }
-    }
+    }    
     
     private function _initNewEntry($form)
     {
@@ -170,10 +168,11 @@ class EntryController extends Zend_Controller_Action
         // get other form elements
         $elements = array(
             $form->getElement('category'),
-            $form->getElement('customerInfo'),
-            $form->getElement('visitTime'),
             $form->getElement('area'),
             $form->getElement('city'),
+            $form->getElement('customer'),
+            $form->getElement('customerInfo'),
+            $form->getElement('visitTime'),            
             $form->getElement('activity'),
         );
         foreach($elements as $element)// disable other form elements

@@ -1,0 +1,23 @@
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="SuperMarket", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $supermarkets;
+
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Salon", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $salons;
+
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Pharmacy", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $pharmacies;

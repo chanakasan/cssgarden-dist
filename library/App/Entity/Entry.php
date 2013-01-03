@@ -8,8 +8,7 @@ namespace App\Entity;
  * @author CS
  */
 class Entry
-{
-    
+{    
     /**
      *
      * @var integer $id
@@ -45,6 +44,12 @@ class Entry
      * @var string
      */
     protected $cat;
+
+    /**
+     * @Column(type="string",length=32)
+     * @var string
+     */
+    protected $customer;
 
     /**
      * @Column(type="string",length=64)
@@ -169,6 +174,17 @@ class Entry
     public function setCat($id)
     {
         $this->cat = $id;
+        return $this;
+    }
+
+    public function getCustomer()
+    {
+        return $this->customer;
+    }
+
+    public function setCustomer($id)
+    {
+        $this->customer = $id;
         return $this;
     }
 

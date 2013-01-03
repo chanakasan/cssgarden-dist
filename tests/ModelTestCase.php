@@ -24,8 +24,8 @@ class ModelTestCase
 
         $em = $this->doctrineContainer->getEntityManager();
         $tool = new \Doctrine\ORM\Tools\SchemaTool($em);
-        $tool->dropDatabase();
-        $tool->createSchema($em->getMetadataFactory()->getAllMetadata());
+        //$tool->dropDatabase();
+        //$tool->createSchema($em->getMetadataFactory()->getAllMetadata());
 
         parent::setUp();
     }
@@ -35,7 +35,7 @@ class ModelTestCase
         $this->doctrineContainer->getConnection()->close();
         $em = $this->doctrineContainer->getEntityManager();
         $tool = new \Doctrine\ORM\Tools\SchemaTool($em);
-        $tool->dropDatabase();
+        //$tool->dropDatabase();
         parent::tearDown();
     }
 }

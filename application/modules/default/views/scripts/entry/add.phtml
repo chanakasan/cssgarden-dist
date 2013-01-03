@@ -25,34 +25,6 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
 <!-- JavaScript -->
 
 <script type="text/javascript" src="/js/jquery/1.8.1.min.js"></script>
-<script>
-    $(document).ready(function(){
-        //alert("hi");
-	$('#area').change(function(){
-		var id = $('#area').val();
-		$('#loading-img').fadeIn("slow");		
-
-		$.ajax({
-			type:'POST',
-			dataType: 'json',
-                        url: '/async/loadcity',
-			async:true,
-                        data: {sel_area: id},
-                        cache: false,
-
-			success: function(result){
-				$('#loading-img').css("display", "none");				
-
-                                var options = $("#city");
-                                options.empty();
-                                $.each(result, function() {
-                                    options.append($("<option/>").val(this.id).text(this.name));
-                                });
-
-			}
-		});
-	});
-    });
-</script>
+<script type="text/javascript" src="/js/ajax/entry-form.js"></script>
 
 <!-- -->

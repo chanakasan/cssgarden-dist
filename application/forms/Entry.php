@@ -15,28 +15,11 @@ class Form_Entry extends Zend_Form
 
         $category = new Zend_Form_Element_Select("category");
         $category->class = "text";
-        $category->setLabel("Customer:") 
+        $category->setLabel("Category:")
             ->setRequired();
         $category->addMultiOptions(array(
-                    0 => "Select"
+            0 => "Select"            
         ));
-        
-      
-        $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
-        $customerInfo->class = "text";
-        $customerInfo->setLabel("Customer Info:")
-                ->setRequired()
-                ->setAttrib("cols", "30")
-                ->setAttrib("rows", "5")
-                ->addFilters(array("StringTrim","StringToLower"));                
-
-
-        $visitTime = new Zend_Form_Element_Text("visitTime");
-        $visitTime->class = "text";
-        $visitTime->setLabel("Visiting TIme:")
-                ->setRequired()
-                ->addFilters(array("StringTrim","StringToLower"));                
-
 
         $area = new Zend_Form_Element_Select("area");
         $area->class = "text";
@@ -53,7 +36,34 @@ class Form_Entry extends Zend_Form
               ->setRegisterInArrayValidator(false);
         $city->addMultiOptions(array(
              0 => "Select"
-        ));        
+        ));
+        
+
+        $customer = new Zend_Form_Element_Select("customer");
+        $customer->class = "text";
+        $customer->setLabel("Customer:")
+            ->setRequired()
+            ->setRegisterInArrayValidator(false);
+        $customer->addMultiOptions(array(
+                    0 => "Select"
+        ));
+
+
+        $customerInfo = new Zend_Form_Element_Textarea("customerInfo");
+        $customerInfo->class = "text";
+        $customerInfo->setLabel("Customer Info:")
+                ->setRequired()
+                ->setAttrib("cols", "30")
+                ->setAttrib("rows", "5")
+                ->addFilters(array("StringTrim","StringToLower"));
+
+
+        $visitTime = new Zend_Form_Element_Text("visitTime");
+        $visitTime->class = "text";
+        $visitTime->setLabel("Visiting TIme:")
+                ->setRequired()
+                ->addFilters(array("StringTrim","StringToLower"));
+        
         
         $activity = new Zend_Form_Element_Textarea("activity");
         $activity->class = "text";
@@ -95,11 +105,12 @@ class Form_Entry extends Zend_Form
         ));
 
         $elements = array(
-            $category,
-            $customerInfo,
-            $visitTime,
+            $category,            
             $area,
             $city,
+            $customer,
+            $customerInfo,
+            $visitTime,
             $activity,
             $result,
             $remarks
@@ -131,7 +142,7 @@ class Form_Entry extends Zend_Form
         
     }
 
-    public function populateCategoryList()
+    public function xpopulateCategoryListx()
     {
         // retrieve customer categories list
         $em = $this->_doctrineContainer->getEntityManager();
@@ -147,7 +158,22 @@ class Form_Entry extends Zend_Form
                 ));
             }
         }
+        return $this;
+    }
 
+    public function populateCategoryList()
+    {
+        $result = Model_Categories::getCatList();
+        $catElement = $this->getElement('category');
+        if(!empty($result)) // populate category select element
+        {
+            foreach($result as $k => $val)
+            {
+                $catElement->addMultiOptions(array(
+                    $k => $val
+                ));
+            }
+        }
         return $this;
     }
 

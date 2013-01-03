@@ -39,9 +39,22 @@ class City
      */
     protected $area;
 
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Doctor", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $doctors;
+
+    
     public function  __construct(array $options = null)
     {
-        $this->isactive = true;        
+        $this->isactive = true;
+        $this->doctors = new \Doctrine\Common\Collections\ArrayCollection();
+//        $this->supermarkets = new \Doctrine\Common\Collections\ArrayCollection();
+//        $this->salons = new \Doctrine\Common\Collections\ArrayCollection();
+//        $this->pharmacies = new \Doctrine\Common\Collections\ArrayCollection();
 
         if(is_array($options)) {
             $this->setOptions($oprions);
@@ -128,6 +141,50 @@ class City
     public function setArea($data)
     {
         $this->area = $data;
+        return $this;
+    }
+
+    public function getDoctors()
+    {
+        return $this->doctors;
+    }
+
+    public function setDoctors($doctors)
+    {
+        $this->doctors = $doctors;
+        return $this;
+    }
+
+    public function getSupermarkets()
+    {
+        return $this->supermarkets;
+    }
+
+    public function setSupermarkets($supermarkets)
+    {
+        $this->supermarkets = $supermarkets;
+        return $this;
+    }
+
+    public function getSalons()
+    {
+        return $this->salons;
+    }
+
+    public function setSalons($salons)
+    {
+        $this->salons = $salons;
+        return $this;
+    }
+
+    public function getPharmacies()
+    {
+        return $this->pharmacies;
+    }
+
+    public function setPharmacies($pharmacies)
+    {
+        $this->pharmacies = $pharmacies;
         return $this;
     }
 
