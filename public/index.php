@@ -25,7 +25,7 @@ $application = new Zend_Application(
 
 /* Configure Routes */
 
-// user login
+/* Default Module */
 $userlogin = new Zend_Controller_Router_Route(
     'login',
     array(
@@ -34,7 +34,11 @@ $userlogin = new Zend_Controller_Router_Route(
         'module' => 'default'
     )
 );
-// admin login
+
+$front = Zend_Controller_Front::getInstance();
+$front->getRouter()->addRoute('user-login', $userlogin);
+
+/* Admin Module */
 $adminlogin = new Zend_Controller_Router_Route(
     'admin/login',
     array(
@@ -43,7 +47,6 @@ $adminlogin = new Zend_Controller_Router_Route(
         'module' => 'admin'
     )
 );
-//admin reports
 $adminreports = new Zend_Controller_Router_Route(
     'admin/report/u/:id/view',
     array(
@@ -53,10 +56,20 @@ $adminreports = new Zend_Controller_Router_Route(
         'id' => 0
     )
 );
-$front = Zend_Controller_Front::getInstance();
-$front->getRouter()->addRoute('user-login', $userlogin);
+$customers = new Zend_Controller_Router_Route(
+    'admin/c/:cat/:action/:id',
+    array(
+        'controller' => 'customer',        
+        'module' => 'admin',
+        'cat' => 0,
+        'id' => 0
+    )
+);
+
 $front->getRouter()->addRoute('admin-login', $adminlogin);
 $front->getRouter()->addRoute('admin-reports', $adminreports);
+$front->getRouter()->addRoute('customers', $customers);
+
 
 unset($front);
 

@@ -10,7 +10,7 @@ class EntryController extends Zend_Controller_Action
     {
        $this->_doctrineContainer = Zend_Registry::get("doctrine");
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "14:10:00";
+       $this->_timelimit = "19:10:00";
     }
 
     public function indexAction()

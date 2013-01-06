@@ -49,7 +49,7 @@ class Model_Categories
             return false;
     }
 
-    public static function getCatList()
+    public static function getEntityList()
     {
         return self::$_cat_entities;
     }

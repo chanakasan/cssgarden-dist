@@ -56,9 +56,11 @@ class App_Action_Helper_Entities
         else
         {
             $id = $this->getRequest()->getParam('id',0);
+            //var_dump($id);exit;
             if($id > 0)
             {
                 $query = $em->createQuery("SELECT u FROM App\Entity\\".ucfirst($entityName)." u WHERE u.id = :id");
+                //var_dump($query);exit;
                 $query->setParameter("id", $id);
                 $result = $query->getResult();
                 $attrib = strtolower($entityName);
@@ -66,6 +68,8 @@ class App_Action_Helper_Entities
                 $view = $this->_getView();
                 $view->$attrib = $result[0];
             }
+            else
+                throw new Exception("invalid user id '$id'");
         }
     }
 

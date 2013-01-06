@@ -17,7 +17,10 @@ class Version20121209223148 extends AbstractMigration
         $table->addColumn('password', 'string');
 
         // insert admin user
-        $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'chan89', 'pass123', 'chanaka', 'sandaruwan', 'chan@my.com', '0777123456', '1', '1')");
+        $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'admin123', 'pass123', 'john', 'smith', 'john@smith.com', '0777123456', '1', '1')");
+        $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'user21', 'pass123', 'bob', 'smith', 'bob@smith.com', '0777123456', '1', '0')");
+        $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'user22', 'pass123', 'bob', 'smith', 'bob@smith.com', '0777123456', '1', '0')");
+        $this->addSql("INSERT INTO `users` (`id`, `username`, `password`, `fname`, `lname`, `email`, `mobile`, `isactive`, `isadmin`) VALUES (NULL, 'user23', 'pass123', 'bob', 'smith', 'bob@smith.com', '0777123456', '1', '0')");
 
         /* Load Fixtures from file */
         $realpath = realpath(__FILE__);
@@ -39,12 +42,14 @@ class Version20121209223148 extends AbstractMigration
         $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '4', 'Dr. Fernando 4', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
         $this->addSql("INSERT INTO `tbl_doctors` (`id`, `city_id`, `name`, `address`, `phones`, `details`, `isactive`) VALUES (NULL, '5', 'Dr. Fernando 5', '42, Temple Rd, New Town.', '0776123456, 0112456789', '---', '1')");
 
-        
-        /* Add indexes */
+        // load sample entries
+        $this->addSql("LOAD DATA INFILE '$realpath/../../../data/entries.csv'
+                        INTO TABLE entries
+                            FIELDS TERMINATED BY ','
+                                OPTIONALLY ENCLOSED BY '\"'");
 
-        // add INDEX to city names
-        $this->addSql("ALTER TABLE `cities` ADD INDEX ( `name` )");
-        // add INDEXes to entries table
+        /* Add INDEXes */
+        $this->addSql("ALTER TABLE `cities` ADD INDEX ( `name` )");        
         $this->addSql("ALTER TABLE `entries` ADD INDEX ( `cat` )");
         $this->addSql("ALTER TABLE `entries` ADD INDEX ( `area` )");
         $this->addSql("ALTER TABLE `entries` ADD INDEX ( `city` )");

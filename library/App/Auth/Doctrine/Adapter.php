@@ -278,7 +278,7 @@ class App_Auth_Doctrine_Adapter implements Zend_Auth_Adapter_Interface
     protected function _performQuery(Doctrine\ORM\Query $query)
     {        
         try
-        {
+        {            
             $resultIdentities = $query->execute();
         }
         catch (Exception $e) {

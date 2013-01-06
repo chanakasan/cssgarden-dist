@@ -163,7 +163,7 @@ class Form_Entry extends Zend_Form
 
     public function populateCategoryList()
     {
-        $result = Model_Categories::getCatList();
+        $result = Model_Categories::getEntityList();
         $catElement = $this->getElement('category');
         if(!empty($result)) // populate category select element
         {

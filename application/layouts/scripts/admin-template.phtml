@@ -1,7 +1,7 @@
 <?php
 $this->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=utf-8');
 $this->headTitle()->setSeparator(' - ');
-$this->headTitle('DCR Webapp');
+$this->headTitle('DCR Admin');
 echo $this->doctype();
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,7 +10,6 @@ echo $this->doctype();
     <?php echo $this->headTitle(); ?>
 
     <?php echo $this->headLink()->appendStylesheet($this->baseUrl().'/template/style.css'); ?>
-
 </head>
 <body>
     <div id="header-wrapper">
@@ -18,8 +17,16 @@ echo $this->doctype();
             <div class="center-wrapper">
                 <div id="header">
                     <div id="logo">
-                        <h1 id="site-title"><a href="/">Admin <span>Section</span></a></h1>
+                        <div class="right">
+                            <h3><?php echo date('D M j, Y'); ?></h3>
+                        </div>
+                        <div class="clearer">&nbsp;</div>
+                        <div class="right">
+                            <h3><?php echo date('g:i a'); ?></h3>
+                        </div>
+                        <h1 id="site-title"><a href="/admin">Admin <span>Section</span></a></h1>
                         <h2 id="site-slogan">DCR Management</h2>
+                        
                     </div>
                     <div id="help-wrapper">
                         <div id="help">

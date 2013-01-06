@@ -1,0 +1,35 @@
+<?php
+$this->title = $this->entity_name." Category";
+$this->headTitle($this->title);
+$entity_name = $this->entity_name
+?>
+<h3><?php echo $this->escape($entity_name)." "; ?> List</h3>
+<br/>
+<p><a href="<?php echo $this->url(array('controller'=>'customer',
+        'action'=>'add'));?>">Add new</a></p>
+<table style="padding: 2px;" border="2px solid red" >
+<tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phones</th>
+    <th>Details</th>
+    <th>City</th>
+    <th>Active</th>
+    <th>&nbsp;</th>
+</tr>
+<?php foreach($this->customers as $customer) : ?>
+<tr>
+    <td><?php echo $this->escape($customer->name);?></td>
+    <td><?php echo $this->escape($customer->address);?></td>
+    <td><?php echo $this->escape($customer->phones);?></td>
+    <td><?php echo $this->escape($customer->details);?></td>
+    <td><?php echo $this->escape($customer->city->name);?></td>
+    <td><?php echo $this->escape($customer->isactive);?></td>
+    <td>        
+        <a href="<?php echo $this->url(array('controller'=>'customer',
+            'action'=>'delete', 'id'=>$this->escape($customer->id)));?>">Remove</a>
+    </td>
+
+</tr>
+<?php endforeach; ?>
+</table>

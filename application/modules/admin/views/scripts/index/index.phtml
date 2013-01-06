@@ -1,12 +1,15 @@
 <?php $this->headLink()->prependStylesheet($this->baseUrl()."/css/default/main.css"); ?>
-<div id="display-date"><p><b>Date: <?php echo date("d-m-Y"); ?></b></p></div>
 <div id="welcome">
     <br/>
     <h3>This is your Dashboard</h3>
+    <br/>
     <div id="links-list">
-        <p>
-            Helpful Links: <br/><br>
-            <a href="/admin/user">User Management</a> | <a href="/admin/report">View Reports</a>
+        <p>Helpful Links:</p>
+        <p>            
+            <a href="/admin/user">Manage Users</a> | <a href="/admin/report">View Reports</a>
         </p>        
+        <p>
+            <a href="/admin/customer/index">Manage Customer Categories</a> | <a href="#">View PDFs</a>
+        </p>
     </div>
 </div>

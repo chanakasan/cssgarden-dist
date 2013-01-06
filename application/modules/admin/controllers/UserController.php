@@ -112,7 +112,7 @@ class Admin_UserController extends Zend_Controller_Action
 
     public function deleteAction()
     {
-        $result = $this->_helper->entities->delete("Entry");
+        $result = $this->_helper->entities->delete("User");
         if($result === true)
         {
             $this->_helper->redirector("index");

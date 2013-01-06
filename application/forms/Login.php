@@ -47,7 +47,11 @@ class Form_Login extends Zend_Form
                 array('HtmlTag', array('tag' => 'div', 'class' => 'submit-row'))
         ));
 
-
+        // hidden element to save the return url
+        $this->addElement('hidden', 'return', array(
+    	'value' => Zend_Controller_Front::getInstance()->getRequest()->getRequestUri(),
+    		));
+        // add elements
         $this->addElements(array(
             $username,
             $password,

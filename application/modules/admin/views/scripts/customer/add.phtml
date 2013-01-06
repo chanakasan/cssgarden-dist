@@ -1,12 +1,13 @@
 <?php
-$this->title = "New ".$this->entityName;
-$this->headTitle($this->title);
-$this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css');
+$title = "Add ".$this->entity_name;
+$this->headTitle($title);
+$this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/customer-form.css');
 ?>
+
 <!-- Header -->
 <div id="header">
     <div id="branding">
-        <h1 id="site-name">Add new customer entry</h1>
+        <h1 id="site-name">Add New <?php echo $this->escape($this->entity_name) ?></h1>
     </div>
 </div>
 <!-- END Header -->
@@ -16,7 +17,7 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
     <div id="content-main">
        <img style="display:none;" id="loading-img" src="/images/loading.gif" />
        <?php echo $this->form; ?>
-        <br/><div><a href="/entry">Cancel</a></div>
+        <br/><div><a href="/admin">Cancel</a></div>
     </div>
     <br class="clear" />
 </div>
@@ -26,6 +27,6 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
 
 <script type="text/javascript" src="/js/jquery/1.8.1.min.js"></script>
 <script type="text/javascript" src="/js/ajax/form.js"></script>
-<script type="text/javascript" src="/js/entry-form.js"></script>
+<script type="text/javascript" src="/js/customer-form.js"></script>
 
 <!-- -->

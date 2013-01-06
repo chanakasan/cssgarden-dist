@@ -5,7 +5,7 @@
  *
  * @author CS
  */
-class xxAdmin_CatController extends Zend_Controller_Action
+class Admin_CatController extends Zend_Controller_Action
 {
     protected $_doctrineContainer;
 
