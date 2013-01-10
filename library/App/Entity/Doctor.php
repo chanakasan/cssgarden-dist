@@ -49,9 +49,8 @@ class Doctor
     protected $isactive;
 
     /**
-     *
-     * @var City
-     * @ManyToOne(targetEntity="City")
+     *     
+     * @ManyToOne(targetEntity="City", inversedBy="doctors")
      * @JoinColumns({
      *  @JoinColumn(name="city_id", referencedColumnName="id")
      * })

@@ -1,0 +1,64 @@
+Software Requirements:
+======================
+- Apache 2.2 with mod_rewrite enabled
+- PHP 5.3.0 or later
+- MySQL 5.0 or later
+- Zend Framework 1.12.11 or later version of Zend Framework 1.12
+- git client
+
+1) Setting Up Your VHOST
+
+The following is a sample VHOST you might want to consider for your project.
+
+<VirtualHost *:80>
+   DocumentRoot "/Users/CS/Sites/dcr-proj/public"
+   ServerName dcr-proj
+
+   # This should be omitted in the production environment
+   SetEnv APPLICATION_ENV development
+
+   <Directory "/Users/CS/Sites/dcr-proj/public">
+       Options Indexes MultiViews FollowSymLinks
+       AllowOverride All
+       Order allow,deny
+       Allow from all
+   </Directory>
+
+</VirtualHost>
+
+
+2) Downloading the source files
+- clone git repository, https://github.com/dream89/dcr-proj.git
+
+3) Configuration Settings
+- change database name, user, password in application/configs/application.ini.
+
+4) Setting up the Database
+- create the database.
+- go to scripts/ folder and run.
+$php doctrine.php orm:schema-tool:create # creates the database tables
+$php doctrine.php migrations:migrate # load data to tables
+
+# show the generated SQL
+$php doctrine.php orm:schema-tool:create --dump-sql
+
+# drop the complete database and recreate 
+$php doctrine.php orm:schema-tool:drop --force --full-database
+$php doctrine.php orm:schema-tool:create
+
+# reverse migrations
+$php doctrine.php migrations:migrate 0
+
+5) That's it. Now go to your VHOST. e.g. http://dcr-proj/
+
+support
+-------
+https://github.com/dream89/dcr-proj.git
+
+mailto: chanakasan@gmail.com
+subject: [dcr-proj][support][your title]
+body: short description
+
+enjoy!
+
+
