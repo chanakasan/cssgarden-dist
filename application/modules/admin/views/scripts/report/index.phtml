@@ -5,12 +5,27 @@ $this->headTitle($this->title);
 <h3>Select Options for Viewing Reports:</h3>
 <br/>
 <ul>
-    <li>By DWP No.</li>
+    <li>By DWP No.</li><p>(must be 11 digits => date + user id)</p>
+    
+    <form action="<?php echo $this->url(array('action'=>'dwp'))?>" method="get">
+            <div>
+              <input style="border: solid 1px;" type="text" name="dwp_no" value=""/>
+            </div>
+    </form>
+    <br/>
+<!--
     <li>By User</li>
+    <form action="/admin/report/u" method="get">
+            <div>
+              <input style="border: solid 1px;" type="text" name="id" value=""/>
+            </div>
+    </form>
+<!--
     <li>By Date</li>
     <li>By Category</li>
     <li>By Area</li>
     <li>By City</li>
     <li>By Activity</li>
-    <li>By Result</li>    
+    <li>By Result</li>
+-->
 </ul>

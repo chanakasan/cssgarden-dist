@@ -23,9 +23,8 @@ $this->headLink()->appendStylesheet($this->baseUrl().'/css/admin/entry-form.css'
 <!-- END Content -->
 
 <!-- JavaScript -->
-
-<script type="text/javascript" src="/js/jquery/1.8.1.min.js"></script>
-<script type="text/javascript" src="/js/ajax/form.js"></script>
-<script type="text/javascript" src="/js/entry-form.js"></script>
+<?php echo $this->inlineScript()->appendFile($this->baseUrl().'/js/jquery/1.8.1.min.js')
+            ->appendFile($this->baseUrl().'/js/ajax/form.js')
+            ->appendFile($this->baseUrl().'/js/entry-form.js'); ?>
 
 <!-- -->

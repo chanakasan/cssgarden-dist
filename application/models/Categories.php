@@ -8,10 +8,10 @@
 class Model_Categories
 {
     protected static $_cat_entities = array(        
-        1 => "Doctor",
-        2 => "Pharmacy",
-        3 => "Salon",
-        4 => "SuperMarket"
+        1 => 'Doctor',
+        2 => 'Pharmacy',
+        3 => 'Salon',
+        4 => 'Supermarket'
     );
 
     public static function getEntityName($cat_id)
@@ -42,7 +42,7 @@ class Model_Categories
         if($i > 0 && $i < $length)
         {
             $entity = self::$_cat_entities[$i];
-            $str_attrib = \strtolower($entity)."s";
+            $str_attrib = \strtolower($entity).'s';
             return $str_attrib;
         }
         else

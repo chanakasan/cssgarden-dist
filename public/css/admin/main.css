@@ -298,7 +298,7 @@ tfoot td {
     color: #666;
     padding: 2px 5px;
     font-size: 11px;
-    background: #e1e1e1 url(../img/nav-bg.gif) top left repeat-x;
+    background: #e1e1e1 top left repeat-x;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
@@ -462,7 +462,7 @@ input[type=text], input[type=password], textarea, select, .vTextField {
 /* FORM BUTTONS */
 
 .button, input[type=submit], input[type=button], .submit-row input {
-    background: white url(../img/nav-bg.gif) bottom repeat-x;
+    background: white bottom repeat-x;
     padding: 3px 5px;
     color: black;
     border: 1px solid #bbb;
@@ -864,6 +864,6 @@ table#change-history tbody th {
 }
 
 #content-related .module h2 {
-    background: #eee url(../img/nav-bg.gif) bottom left repeat-x;
+    background: #eee bottom left repeat-x;
     color: #666;
 }

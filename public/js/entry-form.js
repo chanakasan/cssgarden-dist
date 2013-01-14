@@ -1,7 +1,7 @@
 $(document).ready(function(){
     //alert("hi");
     $('#area').change(function(){
-        loadcity();
+        loadcity();        
     });
 
     $('#city').change(function(){

@@ -21,7 +21,7 @@ class AsyncController extends Zend_Controller_Action
         $this->_helper->viewRenderer->setNoRender();
         $this->_helper->getHelper('layout')->disableLayout();
 
-        $this->_doctrineContainer = Zend_Registry::get("doctrine");
+        $this->_doctrineContainer = Zend_Registry::get('doctrine');
     }
 
     public function preDisptch()
@@ -34,7 +34,7 @@ class AsyncController extends Zend_Controller_Action
 
     public function loadcityAction()
     {
-        $nocity = array("id" => "0" , "name" => "Select");
+        $nocity = array('id' => '0' , 'name' => 'Select');
 
         if($this->getRequest()->isPost())
         {
@@ -47,8 +47,8 @@ class AsyncController extends Zend_Controller_Action
             {
                 // retrieve cities list
                 $em = $this->_doctrineContainer->getEntityManager();
-                $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
-                $query->setParameter("id", $id);
+                $query = $em->createQuery('SELECT a FROM App\Entity\Area a WHERE a.id = :id');
+                $query->setParameter('id', $id);
                 $area = $query->getResult();
                 if(!empty($area))// send result to browser
                 {
@@ -69,7 +69,7 @@ class AsyncController extends Zend_Controller_Action
     
     public function loadcustomerAction()
     {
-        $no_select = array("id" => "0" , "name" => "Select");
+        $no_select = array('id' => '0' , 'name' => 'Select');
 
         if($this->getRequest()->isPost())
         {
@@ -83,11 +83,11 @@ class AsyncController extends Zend_Controller_Action
             {
                 // get Category name
                 $entityAttrib = Model_Categories::getEntityAttrib($cat_id);
-
+                
                 $em = $this->_doctrineContainer->getEntityManager();               
                 // retrieve customers list                
-                $query = $em->createQuery("SELECT c FROM App\Entity\City c WHERE c.id = :id");
-                $query->setParameter("id", $id);
+                $query = $em->createQuery('SELECT c FROM App\Entity\City c WHERE c.id = :id');
+                $query->setParameter('id', $id);
                 $city = $query->getResult();
                 if($entityAttrib && !empty($city))// send result to browser
                 {

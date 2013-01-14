@@ -47,15 +47,6 @@ $adminlogin = new Zend_Controller_Router_Route(
         'module' => 'admin'
     )
 );
-$adminreports = new Zend_Controller_Router_Route(
-    'admin/report/u/:id/view',
-    array(
-        'controller' => 'report',
-        'action' => 'view',
-        'module' => 'admin',
-        'id' => 0
-    )
-);
 $customers = new Zend_Controller_Router_Route(
     'admin/c/:cat/:action/:id',
     array(
@@ -65,10 +56,26 @@ $customers = new Zend_Controller_Router_Route(
         'id' => 0
     )
 );
-
+$adminreports1 = new Zend_Controller_Router_Route(
+    'admin/report/u/:id',
+    array(
+        'controller' => 'report',
+        'action' => 'u',
+        'module' => 'admin',        
+    )
+);
+$adminreports2 = new Zend_Controller_Router_Route(
+    'admin/report/dwp/:dwp_no',
+    array(
+        'controller' => 'report',
+        'action' => 'dwp',
+        'module' => 'admin',        
+    )
+);
 $front->getRouter()->addRoute('admin-login', $adminlogin);
-$front->getRouter()->addRoute('admin-reports', $adminreports);
 $front->getRouter()->addRoute('customers', $customers);
+$front->getRouter()->addRoute('admin-reports', $adminreports1);
+$front->getRouter()->addRoute('admin-reports2', $adminreports2);
 
 
 unset($front);

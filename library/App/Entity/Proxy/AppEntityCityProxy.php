@@ -129,21 +129,21 @@ class AppEntityCityProxy extends \App\Entity\City implements \Doctrine\ORM\Proxy
         return parent::setSalons($salons);
     }
 
-    public function getPharmacies()
+    public function getPharmacys()
     {
         $this->_load();
-        return parent::getPharmacies();
+        return parent::getPharmacys();
     }
 
-    public function setPharmacies($pharmacies)
+    public function setPharmacys($pharmacies)
     {
         $this->_load();
-        return parent::setPharmacies($pharmacies);
+        return parent::setPharmacys($pharmacies);
     }
 
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'id', 'name', 'isactive', 'area', 'doctors');
+        return array('__isInitialized__', 'id', 'name', 'isactive', 'area', 'doctors', 'pharmacys', 'salons', 'supermarkets');
     }
 }

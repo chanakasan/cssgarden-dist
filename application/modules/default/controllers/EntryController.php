@@ -8,16 +8,21 @@ class EntryController extends Zend_Controller_Action
     
     public function init()
     {
-       $this->_doctrineContainer = Zend_Registry::get("doctrine");
+       $this->_doctrineContainer = Zend_Registry::get('doctrine');
        $this->view->entityName = ucfirst('entry');
-       $this->_timelimit = "19:10:00";
+       
+       $config = new Zend_Config_Ini(APPLICATION_PATH.'/configs/settings.ini', 'production');
+       $settings = $config->entries;
+       $this->_timelimit = $settings->timelimit;
     }
 
     public function indexAction()
     {
         $em = $this->_doctrineContainer->getEntityManager();
-
-        $entries = $em->createQuery("SELECT u FROM App\Entity\Entry u")->execute();
+        $user = Model_Users::getLoggedInUser();
+        $query = $em->createQuery('SELECT e FROM App\Entity\Entry e WHERE e.user_id = :user_id');
+        $query->setParameter('user_id', $user->id);
+        $entries = $query->getResult();
         //var_dump($entries);exit;
         $this->view->entries = $entries;
     }
@@ -25,7 +30,7 @@ class EntryController extends Zend_Controller_Action
     public function addAction()
     {
             $temp_form = new Form_Entry();
-            $temp_form->submit->setLabel("Add");
+            $temp_form->submit->setLabel('Add');
             
             if(time() < strtotime($this->_timelimit)) // new entry mode
             {
@@ -38,10 +43,10 @@ class EntryController extends Zend_Controller_Action
             {
                 $formData = $this->getRequest()->getPost();
 
-                $cat_id = $formData["category"];
-                $custmr_id = $formData["customer"];
-                $area_id = $formData["area"];
-                $city_id = $formData["city"];
+                $cat_id = $formData['category'];
+                $custmr_id = $formData['customer'];
+                $area_id = $formData['area'];
+                $city_id = $formData['city'];
       
                 if($form->isValid($formData) && ($cat_id > 0) && ($custmr_id > 0) && ($area_id > 0) && ($city_id > 0))
                 {
@@ -53,37 +58,37 @@ class EntryController extends Zend_Controller_Action
                     $custmr_entity = Model_Categories::getEntityName($cat_id);
                     // get customer name from database table
                     $query = $em->createQuery("SELECT c FROM App\Entity\\$custmr_entity c WHERE c.id = :id");
-                    $query->setParameter("id", $custmr_id);
+                    $query->setParameter('id', $custmr_id);
                     $custmrs = $query->getResult();
                     
                     // get area name from database table
-                    $query = $em->createQuery("SELECT a FROM App\Entity\Area a WHERE a.id = :id");
-                    $query->setParameter("id", $area_id);
+                    $query = $em->createQuery('SELECT a FROM App\Entity\Area a WHERE a.id = :id');
+                    $query->setParameter('id', $area_id);
                     $areas = $query->getResult();
                     
                     // get city name from database table
-                    $query = $em->createQuery("SELECT c FROM App\Entity\City c WHERE c.id = :id");
-                    $query->setParameter("id", $city_id);
+                    $query = $em->createQuery('SELECT c FROM App\Entity\City c WHERE c.id = :id');
+                    $query->setParameter('id', $city_id);
                     $cities = $query->getResult();
 
                     $user = Model_Users::getLoggedInUser(); // current user object
 
                     $entry = new \App\Entity\Entry();
-                    $entry->dwpno = date("dmY").($user->id+100);
+                    $entry->dwpno = date('Ymd').($user->id+100);
                     $entry->cat = $catname;
                     $entry->customer = $custmrs[0]->name;
-                    $entry->customerInfo = $formData["customerInfo"];
-                    $entry->visitTime = $formData["visitTime"];
+                    $entry->customerInfo = $formData['customerInfo'];
+                    $entry->visitTime = $formData['visitTime'];
                     $entry->area = $areas[0]->name;
                     $entry->city = $cities[0]->name;
-                    $entry->activity = $formData["activity"];
+                    $entry->activity = $formData['activity'];
                     $entry->user_id = $user->id;
                                         
                     $em->persist($entry);
                     //var_dump($entry);exit;                                     
                     $em->flush();
                     
-                    $this->_helper->redirector("index");
+                    $this->_helper->redirector('index');
                 }
                 else $form->populate($formData);
             }            
@@ -105,7 +110,7 @@ class EntryController extends Zend_Controller_Action
             if($this->getRequest()->isPost() && $this->_getParam('id')) // submit form
             {
                 $formData = $this->getRequest()->getPost();
-                $formData["hidden_id"] = $this->_getParam('id');
+                $formData['hidden_id'] = $this->_getParam('id');
 
                 if($form->isValid($formData))
                 {
@@ -120,8 +125,8 @@ class EntryController extends Zend_Controller_Action
                 if($entry_id > 0)
                 {
                     $em = $this->_doctrineContainer->getEntityManager();
-                    $query = $em->createQuery("SELECT u FROM App\Entity\Entry u WHERE u.id = :id");
-                    $query->setParameter("id", $entry_id);
+                    $query = $em->createQuery('SELECT u FROM App\Entity\Entry u WHERE u.id = :id');
+                    $query->setParameter('id', $entry_id);
                     $result = $query->getResult();
 
                     $form->populate($result[0]->toArray());
@@ -132,10 +137,10 @@ class EntryController extends Zend_Controller_Action
 
     public function deleteAction()
     {
-        $result = $this->_helper->entities->delete("Entry");
+        $result = $this->_helper->entities->delete('Entry');
         if($result === true)
         {
-            $this->_helper->redirector("index");
+            $this->_helper->redirector('index');
         }
     }    
     
@@ -146,11 +151,11 @@ class EntryController extends Zend_Controller_Action
 
         // disable result list
         $result = $form->getElement('result');
-        $result->setAttrib("disabled", true);
+        $result->setAttrib('disabled', true);
 
         // disable remarks box
         $remarks = $form->getElement('remarks');
-        $remarks->setAttrib("disabled", true);
+        $remarks->setAttrib('disabled', true);
         
         return $form;
     }
@@ -159,11 +164,11 @@ class EntryController extends Zend_Controller_Action
     {   
         // enable result list
         $result = $form->getElement('result');
-        $result->setAttrib("disabled", 0);
+        $result->setAttrib('disabled', null);
 
         // enable remarks box
         $remarks = $form->getElement('remarks');
-        $remarks->setAttrib("disabled", 0);
+        $remarks->setAttrib('disabled', null);
 
         // get other form elements
         $elements = array(
@@ -177,7 +182,7 @@ class EntryController extends Zend_Controller_Action
         );
         foreach($elements as $element)// disable other form elements
         {
-            $element->setAttrib("disabled", true)
+            $element->setAttrib('disabled', true)
                     ->setRequired(false);
         }
         return $form;

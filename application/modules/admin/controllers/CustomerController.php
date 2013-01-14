@@ -64,8 +64,8 @@ class Admin_CustomerController extends Zend_Controller_Action
                 $query->setParameter("id", $city_id);
                 $city = $query->getResult();
 
-                $entity_class = "\App\Entity\\".$entity_name."()";
-                $customer = new \App\Entity\Doctor();
+                $entity_class = "\App\Entity\\$entity_name";
+                $customer = new $entity_class();
                 $customer->name = $formData['name'];
                 $customer->address = $formData['address'];
                 $customer->phones = $formData['phones'];

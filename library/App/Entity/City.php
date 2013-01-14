@@ -46,16 +46,40 @@ class City
      * @OneToMany(targetEntity="Doctor", mappedBy="city", cascade={"persist","remove"})
      */
     protected $doctors;
+    
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Pharmacy", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $pharmacys;
+
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Salon", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $salons;
+
+    /**
+     *
+     * @param \Doctrine\Common\Collections\Collection $property
+     *
+     * @OneToMany(targetEntity="Supermarket", mappedBy="city", cascade={"persist","remove"})
+     */
+    protected $supermarkets;
 
     
     public function  __construct(array $options = null)
     {
         $this->isactive = true;
         $this->doctors = new \Doctrine\Common\Collections\ArrayCollection();
-//        $this->supermarkets = new \Doctrine\Common\Collections\ArrayCollection();
-//        $this->salons = new \Doctrine\Common\Collections\ArrayCollection();
-//        $this->pharmacies = new \Doctrine\Common\Collections\ArrayCollection();
-
+        $this->pharmacys = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->salons = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->supermarkets = new \Doctrine\Common\Collections\ArrayCollection();
+        
         if(is_array($options)) {
             $this->setOptions($oprions);
         }
@@ -177,14 +201,14 @@ class City
         return $this;
     }
 
-    public function getPharmacies()
+    public function getPharmacys()
     {
-        return $this->pharmacies;
+        return $this->pharmacys;
     }
 
-    public function setPharmacies($pharmacies)
+    public function setPharmacys($pharmacies)
     {
-        $this->pharmacies = $pharmacies;
+        $this->pharmacys = $pharmacies;
         return $this;
     }
 
