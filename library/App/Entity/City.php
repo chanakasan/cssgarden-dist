@@ -212,7 +212,4 @@ class City
         return $this;
     }
 
-
-
 }
-

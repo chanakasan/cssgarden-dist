@@ -25,7 +25,7 @@ class Model_Categories
         $i = (int) $cat_id;
         $length = count(self::$_cat_entities);
 
-        if($i > 0 && $i < $length)
+        if($i > 0 && $i <= $length)
         {
             return self::$_cat_entities[$i];            
         }
@@ -39,7 +39,7 @@ class Model_Categories
         $i = (int) $cat_id;
         $length = count(self::$_cat_entities);
         
-        if($i > 0 && $i < $length)
+        if($i > 0 && $i <= $length)
         {
             $entity = self::$_cat_entities[$i];
             $str_attrib = \strtolower($entity).'s';

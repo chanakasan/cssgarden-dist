@@ -24,17 +24,9 @@ class AsyncController extends Zend_Controller_Action
         $this->_doctrineContainer = Zend_Registry::get('doctrine');
     }
 
-    public function preDisptch()
-    {
-        $this->_session = new Zend_Session_Namespace('default');
-
-        if(!$this->_session->view)
-                $this->_session->view = $this->view;
-    }
-
     public function loadcityAction()
     {
-        $nocity = array('id' => '0' , 'name' => 'Select');
+        $nocity = array("id" => "0" , "name" => "Select");
 
         if($this->getRequest()->isPost())
         {
@@ -69,7 +61,7 @@ class AsyncController extends Zend_Controller_Action
     
     public function loadcustomerAction()
     {
-        $no_select = array('id' => '0' , 'name' => 'Select');
+        $no_select = array("id" => "0" , "name" => "Select");
 
         if($this->getRequest()->isPost())
         {
@@ -96,7 +88,7 @@ class AsyncController extends Zend_Controller_Action
                     foreach($customers as $customer)
                     {
                         $list[] = $customer->toArray();
-                    }
+                    }                    
                     echo Zend_Json::encode($list);
                 }
             }

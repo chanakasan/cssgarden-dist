@@ -1,0 +1,31 @@
+steps
+======
+
+1) delete existing proj folder, if any.
+
+2) extract the downloaded proj folder to web root.
+
+3) go to the proj-folder in git prompt.
+i.e. type below commands
+cd c:/wamp/www/dcr-proj 
+git checkout no-relations
+
+4) change databse password in config file.
+
+5) go to folder in DOS prompt,
+cd c:\wamp\www\dcr-proj\scripts
+
+Note: in windows 
+-first go to dcr-proj/scripts/migrations/classes/DoctrineMigrations folder. -delete the Version20130113192139.php file.
+-rename win_Version20130113192139.php to Version20130113192139.php
+
+type following commands to create tables:-
+php doctrine.php orm:schema-tool:drop --force --full-database
+php doctrine.php orm:schema-tool:create # creates the database tables
+
+php doctrine.php migrations:migrate # load data to tables
+
+
+6) if migrations doesn't work, 
+- go to folder dcr-proj/scripts/migrations/data
+- manually upload all files in the folder to database
