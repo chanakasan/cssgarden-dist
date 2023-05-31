@@ -1,1 +1,100 @@
-<h1>Helo</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Garden</title>
+    <title>CSS Garden</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/holiday.css@0.11.0"
+    />
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body>
+    <header>
+  <h1>CSS Garden</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#" aria-current="page">Home</a></li>
+    <li><a href="#">Page 1</a></li>
+    <li><a href="#">Page 2</a></li>
+    <li><a href="#">Page 3</a></li>
+  </ul>
+</nav>
+<main><h2 id="home">Home</h2>
+
+<p><a href="https://holidaycss.js.org/">holiday.css</a></p>
+
+<div class="section-container">
+  <h2>Buttons</h2>
+  <div class="section">
+    <div class="tag">&lt;button&gt;</div>
+    <div class="ex">
+      <button type="button">Button</button>
+      <button type="button">🙂 emoji-left</button>
+      <button type="button">🙂</button>
+      <button type="button">emoji-right 🙂</button>
+      <button type="reset">Reset</button>
+      <button>Submit</button>
+      <button type="submit">Submit</button>
+      <button type="button" disabled="">Disabled Button</button>
+      <button type="reset" disabled="">Disabled Reset</button>
+      <button disabled="">Disabled Submit</button>
+      <button type="submit" disabled="">Disabled Submit</button>
+    </div>
+  </div>
+  <div class="section">
+    <div class="tag">&lt;input&gt;</div>
+    <div class="ex">
+      <input type="button" value="Button" />
+      <input type="button" value="🙂 emoji-left" />
+      <input type="button" value="🙂" />
+      <input type="button" value="emoji-right 🙂" />
+      <input type="reset" />
+      <input type="submit" />
+      <input type="image" src="https://via.placeholder.com/70x36" alt="Placeholder" />
+      <input type="button" disabled="" value="Disabled" />
+      <input type="reset" disabled="" value="Disabled Reset" />
+      <input type="submit" disabled="" value="Disabled Submit" />
+      <input type="image" disabled="" src="https://via.placeholder.com/70x36" alt="Placeholder" />
+    </div>
+  </div>
+</div>
+</main>
+<footer></footer>
+
+    <!-- dark-mode-toggle -->
+    <dark-mode-toggle
+      permanent
+      style="position: absolute; top: 0; border: 0; left: 1rem"
+    ></dark-mode-toggle>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <script>
+      const toggle = document.querySelector("dark-mode-toggle");
+
+      // Set or remove the mode classes the first time:
+      if (toggle.mode === "dark") {
+        document.documentElement.classList.add("holiday-css-dark");
+      } else if (toggle.mode === "light") {
+        document.documentElement.classList.add("holiday-css-light");
+      }
+
+      // Listen for toggle changes (which includes `prefers-color-scheme`
+      // changes) and toggle the `dark` class accordingly:
+      toggle.addEventListener("colorschemechange", () => {
+        document.documentElement.classList.toggle(
+          "holiday-css-dark",
+          toggle.mode === "dark"
+        );
+        document.documentElement.classList.toggle(
+          "holiday-css-light",
+          toggle.mode === "light"
+        );
+      });
+    </script>
+  </body>
+</html>
