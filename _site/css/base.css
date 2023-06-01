@@ -2,6 +2,10 @@
   margin-bottom: 40px;
 }
 
+.main-container {
+  margin-bottom: 1px;
+}
+
 .section {
   margin: 2rem 0;
   padding: 1rem;
